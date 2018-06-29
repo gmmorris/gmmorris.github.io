@@ -1,0 +1,32 @@
+---
+layout: default
+---
+{% include page-pagination.html %}
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <header> 
+    <h1>{{ page.title | escape }}</h1>
+    
+    <div class="dateline">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+    </div>
+    
+  </header>
+  
+  {{ content }}
+
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script type="application/javascript" >
+  Array.prototype.slice.call(
+    document.querySelectorAll('pre code')
+  ).forEach(function(el){
+    hljs.highlightBlock(el);
+  });
+</script>

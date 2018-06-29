@@ -1,0 +1,34 @@
+
+a.nav {
+  color: black;
+  font-family: 'Noto Serif', serif;
+  display: inline-block;
+
+  i {
+    color: $article-red;
+    display: block;
+    font-size: 2em;
+    font-weight: normal;
+    margin-bottom: 0.2em;
+  }
+  label {
+    display: block;
+    color: grey;
+    line-height: 2em;
+  }
+  
+  &.prev {
+    text-align: left;
+  }
+  
+  &.next {
+    text-align: right;
+    float: right;
+  }
+}
+
+@media (max-width: 520px) {
+  a.nav span {
+    display: none;
+  }
+}

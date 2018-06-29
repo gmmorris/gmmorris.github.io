@@ -1,0 +1,31 @@
+{%- assign default_paths = site.pages | map: "path" -%}
+{%- assign page_paths = site.header_pages | default: default_paths -%}
+<header class="grid">
+  <div class="folio folio-1 f4 tr pt3 pr3">
+    <a class="logo" href="{{ "/" | relative_url }}">
+      <i class="article-red fas fa-sync-alt"></i>
+    </a>  
+  </div>
+  <div class="folio folio-2 ">
+    <p class="f8 ttu sans-serif tracked lh-copy b">
+      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    </p>
+    <p class="f8 ttu sans-serif tracked lh-copy b article-red">Gidi Meir Morris</p>
+  </div>
+  <div class="folio folio-3 ">
+    <p class="f8 ttu sans-serif tracked lh-copy b">Code</p>
+    <p class="f8 ttu sans-serif tracked lh-copy b">
+      <a href="http://www.github.com/gmmorris">
+        <i class="fas fa-code-branch"></i>Github
+      </a>
+    </p>
+  </div>
+  <div class="folio folio-4 ">
+    <p class="f8 ttu sans-serif tracked lh-copy b">All Professional and Shit</p>
+    <p class="f8 ttu sans-serif tracked lh-copy b article-red">
+      <a title="Status: Not Currently On The Market" href="#">
+          <i class="fas fa-user-secret"></i>CV
+      </a>          
+    </p>
+  </div>
+</header>

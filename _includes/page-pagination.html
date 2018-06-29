@@ -1,0 +1,28 @@
+<nav class="page-pagination" role="navigation">
+  {% if page.previous %}
+    <a href="{{ page.previous.url | relative_url }}" class="nav prev">
+      <i class="fas fa-angle-left"></i>
+      <label>PREV</label>
+      <span>{{ page.previous.title | markdownify | strip_html }}</span>
+    </a>
+  {% else %}
+    <a href="{{ "/" | relative_url }}" class="nav prev">
+      <i class="fas fa-angle-left"></i>
+      <label>TOC</label>
+      <span>What Else Have You Written About?</span>
+    </a>
+  {% endif %}
+  {% if page.next %}
+    <a href="{{ page.next.url | relative_url }}" class="nav next">
+        <i class="fa fa-angle-right"></i>
+        <label>NEXT</label>
+        <span>{{ page.next.title | markdownify | strip_html }}</span>
+    </a>
+    {% else %}
+      <a href="{{ "/" | relative_url }}" class="nav next">
+        <i class="fa fa-angle-right"></i>
+        <label>TOC</label>
+        <span>What Else Have You Written About?</span>
+      </a>
+    {% endif %}
+</nav>
