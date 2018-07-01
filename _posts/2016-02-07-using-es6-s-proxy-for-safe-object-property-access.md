@@ -3,6 +3,7 @@ layout: post
 title:  "Using ES6's Proxy for safe Object property access"
 date:   2016-02-07 13:10:00 +0100
 icon: code
+description: "How to use the Javascript ES6 Proxy object to create a safe wrapper around an object in order to prevent an undefined exception"
 ---
 {::options parse_block_html="true" /}
 <section class="cl2">

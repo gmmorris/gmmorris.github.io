@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Simmer.js: A Javascript reverse CSS selector engine"
+description: "How I designed a Javascript library for calculating the CSS selector of an element on an a webpage"
 date:   2015-07-26 14:00:00 +0100
 icon: stream
 ---

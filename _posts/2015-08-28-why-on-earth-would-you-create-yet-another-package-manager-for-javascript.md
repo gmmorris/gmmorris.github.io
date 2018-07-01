@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Why on earth would you create yet another package manager for Javascript?"
+description: "How and why I built a Javascript library for packaging modules"
 date:   2015-08-28 12:06:00 +0100
 icon: stream
 ---

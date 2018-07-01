@@ -16,7 +16,19 @@
 title: Think, Write; Rethink, Rewrite.
 email: blog@gidi.io
 description: >- # this means to ignore newlines until "baseurl:"
-  
+  Gidi Morris is an experienced web developer who has worn many different hats throughout their career. 
+  He has a wide range of experience ranging from Front End to Back End and Infrastructure development.
+author:
+  Gidi Meir Morris
+twitter:
+  username: chekofif
+  card: summary
+social:
+  name: Gidi Meir Morris
+  links:
+    - https://twitter.com/chekofif
+    - https://github.com/gmmorris
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://gidi.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: chekofif
