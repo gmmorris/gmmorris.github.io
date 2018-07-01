@@ -8,5 +8,31 @@
     <main class="page-content" aria-label="Content">
       {{ content }}
     </main>
+    <div style="background: #343434; color: darkorange;">
+      <div id="example"></div>
+    </div>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/textures@1.2.0/dist/textures.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-selection/1.2.0/d3-selection.js"></script> -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <!-- <script type="application/javascript" >
+      var svg = d3.select("#example")
+        .append("svg").attr("width", 100)
+            .attr("height", 100);
+
+      var t = textures.lines()
+        .thicker();
+
+      svg.call(t);
+
+      svg.append("circle")
+        .style("fill", t.url());
+    </script> -->
+    <script type="application/javascript" >
+      Array.prototype.slice.call(
+        document.querySelectorAll('pre code')
+      ).forEach(function(el){
+        hljs.highlightBlock(el);
+      });
+    </script>
   </body>
 </html>

@@ -3,11 +3,18 @@
 article {
   text-align: justify;
   font-family: 'Tajawal', sans-serif;
-  font-size: 1.2em;
-  width: 70%;
+  font-size: 1.4em;
+  width: 90%;
   margin: auto;
-  @media (max-width: 520px) {
-    width: 90%;
+  margin-top: 20px;
+  padding: 20px 50px;
+
+  @media (min-width: 740px) {
+    width: 80%;
+  }
+
+  @media (min-width: 1160px) {
+    width: 60%;
   }
 
   header {
@@ -15,7 +22,7 @@ article {
     margin: 0 0 30px 0;
     text-align: center;
     h1 {
-      font-size: 3em;
+      font-size: 2.5em;
     }
     @media (max-width: 520px) {
       padding: 0px;
@@ -57,7 +64,7 @@ article {
   section {
 
     &.cl2 {
-      columns: 2;
+      columns: 1;
       // margin: 0 0 2rem 0;
       @media (max-width: 520px) {
         columns: 1; 

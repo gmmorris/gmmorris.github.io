@@ -1,6 +1,26 @@
 
 $article-red: #FF4A46;
 
+body {
+  background-color: #fafafb;
+  @function svgbg($opacity) {
+    @return "data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0." + $opacity + "' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E";
+  }
+  background-image: url(svgbg(4));
+  article {
+    background: white;
+    background-image: url(svgbg('08'));
+  }
+  > main, > header {
+    background-color: #fff;
+    background-image: url(svgbg(15));
+    padding-bottom: 20px;
+    nav {
+      padding: 10px 20px 0px;
+    }
+  }
+}
+
 .article-red {
   color: $article-red;
 }
@@ -79,9 +99,6 @@ body {
 
 //tablet
 @media (min-width: 740px) {
-  // .nav {
-  //   padding: 25px;
-  // }
   
   .grid {
     display: grid;
@@ -126,20 +143,6 @@ body {
     grid-column-start: 2;
     grid-column-end: 10;
   }
-
-  // a.nav {
-  //   grid-row-start: 2;
-  
-  //   &.prev {
-  //     grid-column-start: 1;
-  //     grid-column-end: 6;
-  //   }
-    
-  //   &.next {
-  //     grid-column-start: 6;
-  //     grid-column-end: 11;
-  //   }
-  // }
 }
 
 // desktop
@@ -174,21 +177,6 @@ body {
   .folio-4 {
     grid-column: span 2;
   }
-
-  // a.nav {
-  //   grid-row-start: 2;
-  //   &.prev {
-  //     grid-column-start: 1;
-  //     grid-column-end: 6;
-  //     text-align: left;
-  //   }
-    
-  //   &.next {
-  //     grid-column-start: 6;
-  //     grid-column-end: 12;
-  //     text-align: right;
-  //   }
-  // }
 
   .page-content {
     grid-column-start: 2;

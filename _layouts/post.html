@@ -22,11 +22,3 @@ layout: default
   {%- endif -%}
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-<script type="application/javascript" >
-  Array.prototype.slice.call(
-    document.querySelectorAll('pre code')
-  ).forEach(function(el){
-    hljs.highlightBlock(el);
-  });
-</script>
