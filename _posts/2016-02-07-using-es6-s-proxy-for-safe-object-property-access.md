@@ -90,12 +90,14 @@ const either = (val,fallback) => (val === Undefined? fallback : val);
 
 <section class="cl2">
 These helpers are quite straight forward (lodash has equivalents for both):
-**isObject** simply receives a variable and returns true or false, depending on whether it is in fact an Object.
-**hasKey** receives an object and checks whether it has a property under a specific name.
 
-Next we have a a dead simple object, sillily called **Undefined**. This is a ***terrible*** name for a variable, and I’d advise against using it for anything other than a code example like this, but I used it to express a clear idea which is that this object is, logically, equivalent to an *undefined property*.
-The way ***Undefined*** works is that it is a proxy to an empty object, but every property access on that proxy will, in turn, return the proxy itself, so essentially what we have is circular reference from the object to itself, through any property access on it.
-**either** is a small sort of predicate operation which receives a variable, checks wether it is, in fact, an *Undefined Property* value and if it is, returns a fallback value, otherwise it returns the original value and acts sort of like the *[identity](https://lodash.com/docs#identity)* function.
+1. **isObject** simply receives a variable and returns true or false, depending on whether it is in fact an Object.
+
+1. **hasKey** receives an object and checks whether it has a property under a specific name.
+
+1. Next we have a a dead simple object, sillily called **Undefined**. This is a ***terrible*** name for a variable, and I’d advise against using it for anything other than a code example like this, but I used it to express a clear idea which is that this object is, logically, equivalent to an *undefined property*. The way **Undefined** works is that it is a proxy to an empty object, but every property access on that proxy will, in turn, return the proxy itself, so essentially what we have is circular reference from the object to itself, through any property access on it.
+
+1. **either** is a small sort of predicate operation which receives a variable, checks wether it is, in fact, an *Undefined Property* value and if it is, returns a fallback value, otherwise it returns the original value and acts sort of like the *[identity](https://lodash.com/docs#identity)* function.
 
 Now that we have these utilities its a small step towards implementing a proxy which will make our object access safe:
 </section>
@@ -104,8 +106,11 @@ Now that we have these utilities its a small step towards implementing a proxy w
 function safe(obj) {
   return new Proxy(obj, {
     get: function(target, name){
-      return hasKey(target, name) ? 
-        (isObject(target[name]) ? safe(target[name]) : target[name]) : Undefined;
+      return hasKey(target, name)
+        ? isObject(target[name])
+            ? safe(target[name])
+            : target[name]
+        : Undefined;
     }
   });
 }
@@ -134,7 +139,8 @@ console.log(mySafeObj.name);
 // returns "Shmi"
 console.log(mySafeObj.mother.name);
 
-// returns a reference to Undefined (our Undefined, not Javascript's undefined)
+// returns a reference to Undefined
+// (our Undefined, not Javascript's undefined)
 console.log(mySafeObj.father.name);
 
 // returns our fallback value, of false
