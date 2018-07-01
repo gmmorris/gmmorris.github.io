@@ -2,6 +2,7 @@
 layout: post
 title:  "Simmer.js: A Javascript reverse CSS selector engine"
 date:   2015-07-26 14:00:00 +0100
+icon: stream
 ---
 {::options parse_block_html="true" /}
 <section class="cl2">

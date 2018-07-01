@@ -2,6 +2,7 @@
 layout: post
 title:  "Why on earth would you create yet another package manager for Javascript?"
 date:   2015-08-28 12:06:00 +0100
+icon: stream
 ---
 {::options parse_block_html="true" /}
 <section class="cl2">

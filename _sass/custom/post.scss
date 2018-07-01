@@ -4,18 +4,9 @@ article {
   text-align: justify;
   font-family: 'Tajawal', sans-serif;
   font-size: 1.4em;
-  width: 90%;
   margin: auto;
   margin-top: 20px;
   padding: 20px 50px;
-
-  @media (min-width: 740px) {
-    width: 80%;
-  }
-
-  @media (min-width: 1160px) {
-    width: 60%;
-  }
 
   header {
     padding: 0 50px;

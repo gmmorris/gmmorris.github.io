@@ -2,6 +2,7 @@
 layout: post
 title:  "Using ES6's Proxy for safe Object property access"
 date:   2016-02-07 13:10:00 +0100
+icon: code
 ---
 {::options parse_block_html="true" /}
 <section class="cl2">

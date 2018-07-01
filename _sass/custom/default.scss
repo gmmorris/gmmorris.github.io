@@ -1,6 +1,3 @@
-
-$article-red: #FF4A46;
-
 body {
   background-color: #fafafb;
   @function svgbg($opacity) {
@@ -21,11 +18,24 @@ body {
   }
 }
 
+$article-red: #FF4A46;
 .article-red {
   color: $article-red;
 }
 .bg-article-red {
   background-color: $article-red;
+}
+
+article, .catalogue {
+  width: 90%;
+
+  @media (min-width: 740px) {
+    width: 80%;
+  }
+
+  @media (min-width: 1160px) {
+    width: 60%;
+  }
 }
 
 body {
@@ -50,12 +60,6 @@ body {
       }    
     }
   }
-}
-
-.page-content {
-  grid-row-start: 6;
-  grid-column-start: 1;
-  grid-column-end: 12;
 }
 
 .f8 {
@@ -137,12 +141,6 @@ body {
     grid-row-start: 1;
     border-top: none;
   }
-
-  .page-content {
-    grid-row-start: 4;
-    grid-column-start: 2;
-    grid-column-end: 10;
-  }
 }
 
 // desktop
@@ -176,10 +174,5 @@ body {
 
   .folio-4 {
     grid-column: span 2;
-  }
-
-  .page-content {
-    grid-column-start: 2;
-    grid-column-end: 10;
   }
 }

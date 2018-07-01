@@ -2,6 +2,8 @@
 layout: post
 title:  "The magical quest for Componentisation"
 date:   2016-11-28 13:10:00 +0100
+tags: javascript, code-design
+icon: user-astronaut
 ---
 {::options parse_block_html="true" /}
 <section class="cl2">
