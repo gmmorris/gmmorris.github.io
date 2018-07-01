@@ -74,6 +74,9 @@ body {
   margin: 30px auto 20px;
   border-top: 1px solid #000;
   max-width: 950px;
+  @media (max-width: 740px) {
+    margin-top: 5px;
+  }
 }
 
 .folio-1 {
