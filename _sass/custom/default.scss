@@ -43,7 +43,7 @@ body {
   a {
     text-decoration: none;
   }
-  .folio {
+  .header-nav {
     a {
       text-decoration: none;
       color: $article-red;
@@ -62,10 +62,6 @@ body {
   }
 }
 
-.f8 {
-  font-size: .65rem;
-}
-
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -74,30 +70,32 @@ body {
   margin: 30px auto 20px;
   border-top: 1px solid #000;
   max-width: 950px;
+  font-size: .65rem;
+
   @media (max-width: 740px) {
     margin-top: 5px;
   }
 }
 
-.folio-1 {
+.header-nav-logo {  
   grid-column-start: 1;
   grid-column-end: 3;
   border-right: 1px solid #000;
 }
 
-.folio-2 {
+.header-nav-title {
   grid-column-start: 3;
   grid-column-end: 8;
 }
 
-.folio-3 {
+.header-nav-github {
   grid-column-start: 3;
   grid-column-end: 5;
   grid-row-start: 2;
   border-top: 1px solid #000;
 }
 
-.folio-4 {
+.header-nav-cv {
   grid-column-start: 5;
   grid-column-end: 12;
   grid-row-start: 2;
@@ -116,21 +114,21 @@ body {
     max-width: 950px;
   }
 
-  .folio-1 {
+  .header-nav-logo {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     border-right: 1px solid #000;
   }
 
-  .folio-2 {
+  .header-nav-title {
     grid-row-start: 1;
     grid-column-start: 2;
     grid-column-end: 5;
     border-right: 1px solid #000;
   }
 
-  .folio-3 {
+  .header-nav-github {
     grid-column-start: 5;
     grid-column-end: 7;
     grid-row-start: 1;
@@ -138,7 +136,7 @@ body {
     border-top: none;
   }
 
-  .folio-4 {
+  .header-nav-cv {
     grid-column-start: 7;
     grid-column-end: 11;
     grid-row-start: 1;
@@ -158,24 +156,24 @@ body {
     border-top: 1px solid #000;
   }
 
-  .folio-1 {
+  .header-nav-logo {
     grid-column-start: 1;
     grid-column-end: span 2;
     border-right: 1px solid #000;
   }
 
-  .folio-2 {
+  .header-nav-title {
     grid-column-start: 3;
     grid-column-end: span 4;
     border-right: 1px solid #000;
   }
 
-  .folio-3 {
+  .header-nav-github {
     grid-column: span 2;
     border-right: 1px solid #000;
   }
 
-  .folio-4 {
+  .header-nav-cv {
     grid-column: span 2;
   }
 }
