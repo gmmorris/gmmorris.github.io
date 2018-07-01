@@ -77,6 +77,10 @@ article {
       text-indent: 0rem;
       @media (min-width: 520px) {
         text-indent: 2rem;
+        img:first-child {
+          position: relative;
+          left: -2rem;
+        }
       }
       margin: 0;  
       margin-bottom: 1em;
