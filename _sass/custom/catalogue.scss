@@ -4,21 +4,31 @@
   margin: auto;
   .catalogue-item {
     position: relative;
+    @media (min-width: 740px) {
+      width: 80%;
+    }
+
     > i {
-      position: absolute;
-      left: -2.3em;
+      float: right;
+      position: static;
       font-size: 1.8em;
-      background: #eee;
       color: white;
       width: 1.7em;
       line-height: 1.7em;
       text-align: center;
       border-radius: 1em;
-      top: 0.9em;
+      background: lighten($article-red, 10%);
+      @media (min-width: 740px) {
+        position: absolute;
+        left: -2.3em;
+        top: 0.9em;
+        background: #eee;
+      }
     }
     &:hover > i {
       background: $article-red;
     }
+
     > div {
       margin-bottom: 4em;
     }
