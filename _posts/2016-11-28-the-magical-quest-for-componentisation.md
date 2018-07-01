@@ -38,7 +38,7 @@ As a codebase would grow, requirements would change and assumptions would turn o
 
 What we would initially envision as a well thought out and layered Trifle, turned out to be more a mixed up recipe, where layers don’t quite make sense anymore, they end up seeping into the layers above and bellow them and something just doesn’t taste quite right anymore. This in turn makes it harder to reuse code, to test it and to maintain it.
 
-![](https://cdn-images-1.medium.com/max/2000/0*6mWeeYO2BZrgc4nX.gif)
+![](/assets/img/2016/11/trifle.gif)
 
 *Rachel’s Trifle? Good.* ***Code Trifle**? Bad.*
 
@@ -80,7 +80,7 @@ I won’t enumerate all of them, but one answer would show up repeatedly, and th
 </section>
 
 <section>
-![Note the year in which this book, considered a religious tome by many developers, was released. 1994. That’s 22 years ago, that’s it. If anything serves to remind us that we’re still “just figuring out this shit, because it’s bloody new”, it’s that.](https://cdn-images-1.medium.com/max/3892/1*kmFm-UpmGrqkQ83nrmaqHQ.png)
+![Note the year in which this book, considered a religious tome by many developers, was released. 1994. That’s 22 years ago, that’s it. If anything serves to remind us that we’re still “just figuring out this shit, because it’s bloody new”, it’s that.](/assets/img/2016/11/favour.png)
 
 <small>Note the year in which this book, considered a religious tome by many developers, was released. 1994. That’s 22 years ago, that’s it. If anything serves to remind us that we’re still “just figuring out this shit, because it’s bloody new”, it’s that.</small>
 </section>
@@ -92,7 +92,7 @@ The reason I found this quote slightly annoying was that the more I discussed th
 </section>
 
 <section class="no-indent">
-![](https://cdn-images-1.medium.com/max/3908/1*xLbN8aMcuXZ-CYIme_8oWQ.png)
+![](/assets/img/2016/11/theory.png)
 </section>
 
 <section class="cl2">
@@ -256,15 +256,5 @@ So there’s plenty to look forward to!
 <section class="no-indent">
 Following the React core team on Twitter and Github provided true insight into how this API is transforming the way developers are writing code since the library was introduced.
 
-For example, the following thread by Sebastian Markbåge caused my brain to turn inside out at one point.
-</section>
-<div class="tweet-container">
-{::options parse_block_html="false" /}
-{% twitter https://twitter.com/sebmarkbage/status/704737113007259648 %}
-{% twitter https://twitter.com/sebmarkbage/status/704737495448055808 %}
-{% twitter https://twitter.com/sebmarkbage/status/704738517641920512 %}
-{::options parse_block_html="true" /}
-</div>
-<section>
 I [would](https://twitter.com/sebmarkbage) [highly](https://twitter.com/dan_abramov) [recommend](https://twitter.com/_chenglou) [following](https://twitter.com/zpao) [them](https://twitter.com/soprano) and reading the [issues on the GitHub repo](https://github.com/facebook/react/issues). I’ve learned alot from doing just that and I’m sure you will too.
 </section>

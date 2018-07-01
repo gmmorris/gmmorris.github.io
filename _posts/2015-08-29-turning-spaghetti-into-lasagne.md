@@ -78,7 +78,7 @@ Understanding that *quality* is important, in addition to the *revenue* growth a
 <section class="cl2">
 The first stage in rewriting the site was to start turning our Spaghetti into Lasagne.
 To avoid a clash between our new code, which much of it would have to use similar (if not identical) module names and components to the legacy code, we would use [The Modularizer](http://gmmorris.github.io/Modularizer/) which would allow us to sandbox our new architecture and slowly grow it until it effectively takes over the whole site.
-You can read more about this component [here](https://medium.com/@chekofif/why-on-earth-would-you-create-yet-another-package-manager-for-javascript-a5c5a232b3f).
+You can read more about this component [here]({{ site.baseurl }}{% post_url 2015-08-28-why-on-earth-would-you-create-yet-another-package-manager-for-javascript %}).
 
 Once in place we could start building a proper MVC layered architecture to build our site on top of.
 

@@ -50,7 +50,7 @@ That was the idea… its not that relevant to this post, but rather the architec
 </section>
 
 <section style="text-align:center" class="no-indent">
-![Over simplified, but it gives a vague idea of the complexity any module manager would need to handle for our use case](https://cdn-images-1.medium.com/max/2000/1*Pcryv5Y-2KjROGGrQ0MSCw.png)
+![Over simplified, but it gives a vague idea of the complexity any module manager would need to handle for our use case](/assets/img/2015/08/pluralis.png)
 
 *Over simplified, but it gives a vague idea of the complexity any module manager would need to handle for our use case*
 </section>
