@@ -40,12 +40,12 @@ article {
     font-family: 'Noto Serif', serif;
     font-weight: normal;
     font-style: italic;
-    font-size: 2em;
+    font-size: 1.5rem;
   }
 
-  @media (max-width: 740px) {
+  @media (min-width: 740px) {
     h2 {
-      font-size: 1.5rem;
+      font-size: 2em;
     }
   }
   
@@ -54,7 +54,13 @@ article {
   }
 
   code {
-    font-size: 0.7em;
+    font-size: 0.6em;
+    @media (min-width: 630px) {
+      font-size: 0.65em;
+    }
+    @media (min-width: 740px) {
+      font-size: 0.7em;
+    }
   }
     
   section {
@@ -68,9 +74,9 @@ article {
     }
     
     > p {
-      text-indent: 2rem;
-      @media (max-width: 520px) {
-        text-indent: 0rem;
+      text-indent: 0rem;
+      @media (min-width: 520px) {
+        text-indent: 2rem;
       }
       margin: 0;  
       margin-bottom: 1em;
