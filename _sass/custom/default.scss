@@ -60,9 +60,17 @@ body {
       }
     }
     .logo {
+      position: relative;
       i {
         margin: 0em;
+        font-size: 1.5em;
       }    
+      #heart {
+        position: absolute;
+        right: -0.3em;
+        top: -1.8em;
+        font-size: 2em;
+      }
     }
   }
 }
