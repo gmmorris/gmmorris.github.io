@@ -1,25 +1,26 @@
 <nav class="page-pagination" role="navigation">
+  <a id="home" class="ttu sans-serif tracked b" href="{{ "/" | relative_url }}">home</a>
   {% if page.previous %}
-    <a href="{{ page.previous.url | relative_url }}" class="nav prev">
+    <a href="{{ page.previous.url | relative_url }}" class="prev">
       <i class="fas fa-angle-left"></i>
       <label>PREV</label>
       <span>{{ page.previous.title | markdownify | strip_html }}</span>
     </a>
   {% else %}
-    <a href="{{ "/" | relative_url }}" class="nav prev">
+    <a href="{{ "/" | relative_url }}" class="prev">
       <i class="fas fa-angle-left"></i>
       <label>TOC</label>
       <span>What Else Have You Written About?</span>
     </a>
   {% endif %}
   {% if page.next %}
-    <a href="{{ page.next.url | relative_url }}" class="nav next">
+    <a href="{{ page.next.url | relative_url }}" class="next">
         <i class="fa fa-angle-right"></i>
         <label>NEXT</label>
         <span>{{ page.next.title | markdownify | strip_html }}</span>
     </a>
     {% else %}
-      <a href="{{ "/" | relative_url }}" class="nav next">
+      <a href="{{ "/" | relative_url }}" class="next">
         <i class="fa fa-angle-right"></i>
         <label>TOC</label>
         <span>What Else Have You Written About?</span>

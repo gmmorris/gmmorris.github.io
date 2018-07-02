@@ -8,13 +8,18 @@ body {
     background: white;
     background-image: url(svgbg('05'));
   }
-  > main, > header {
+  > main, > header, > footer {
     background-color: #fff;
     background-image: url(svgbg(15));
-    padding-bottom: 20px;
     nav {
       padding: 10px 20px 0px;
     }
+  }
+  > header {
+    padding-bottom: 20px;
+  }
+  > main {
+    padding-bottom: 10px;
   }
 }
 
@@ -66,10 +71,11 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: .75rem;
-  grid-auto-rows: 55px;
+  grid-auto-rows: auto;
+  width: 100%;
+  max-width: none;
   margin: 30px auto 20px;
   border-top: 1px solid #000;
-  max-width: 950px;
   font-size: .65rem;
 
   @media (max-width: 740px) {
@@ -104,14 +110,11 @@ body {
 
 //tablet
 @media (min-width: 740px) {
-  
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr  1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: .75rem;
-    grid-auto-rows: 55px;
     margin: 30px auto 20px;
-    max-width: 950px;
   }
 
   .header-nav-logo {
@@ -150,8 +153,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: .75rem;
-    grid-auto-rows: 55px;
-    max-width: 1100px;
     margin: 30px auto 20px;
     border-top: 1px solid #000;
   }

@@ -1,5 +1,5 @@
 .catalogue {
-  padding: 2em 0em;
+  padding: 2em 0em 0em;
   font-family: 'Tajawal', sans-serif;
   margin: auto;
   .catalogue-item {
@@ -45,8 +45,14 @@
     }
 
     > div {
-      margin: 1em 0 4em;
+      margin: 4em 0 2em;
     }
+    &:first-child {
+      > div {
+        margin-top: 1em;
+      }
+    }
+
     h1, time {
       color: $article-red;
     }
