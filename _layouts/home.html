@@ -4,14 +4,16 @@ layout: default
 <div class="catalogue">
     {% for post in site.posts %}
       <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
-        {% if post.icon %}
-        <i class="fas fa-{{post.icon}}"></i>
-        {% else %}
-        <i class="fas fa-leaf"></i>
-        {% endif %}
         <div>
           <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
-          <h1 class="catalogue-title">{{ post.title }}</h1>  
+          <h1 class="catalogue-title">
+            {% if post.icon %}
+            <i class="fas fa-{{post.icon}}"></i>
+            {% else %}
+            <i class="fas fa-leaf"></i>
+            {% endif %}
+            {{ post.title }}
+          </h1>  
           <p>
             {{ post.content | strip_html | truncatewords: 34 }}
             <!-- {{ post.description }} -->
