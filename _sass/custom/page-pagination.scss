@@ -2,7 +2,6 @@
   position: relative;
   a {
     color: black;
-    font-family: 'Noto Serif', serif;
     display: inline-block;
     max-width: 40%;
   
@@ -28,6 +27,12 @@
       float: right;
     }
   }
+
+   span {
+    font-size: 0.7em;
+    font-weight: bold;
+    color: $article-red;
+   }
   
   #home {
     color: $article-red;
@@ -38,6 +43,9 @@
     left: 0;
     right: 0;
     line-height: 2em;
+    @media (max-width: 740px) {
+      font-size: 0.8em;
+    }
   }
   
   @media (max-width: 520px) {
