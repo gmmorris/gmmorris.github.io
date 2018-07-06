@@ -29,6 +29,11 @@ article {
     .dateline {
       font-size: 1.5em;
       color: rgba(0,0,0,0.54);
+      text-align: center;
+      .read-time {
+        font-size: 0.8em;
+        display: block;
+      }
     }
   }
 

@@ -11,6 +11,12 @@ layout: default
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
       </time>
+      {% capture words %}
+        {{ page.content | number_of_words | minus: 250 }}
+      {% endcapture %}
+      {% unless words contains "-" %}
+      <span class="read-time">{{ words | plus: 250 | divided_by: 180 | append: " min read" }}</span>
+      {% endunless %}
     </div>
     
   </header>
