@@ -3,10 +3,11 @@
 article {
   text-align: justify;
   font-family: 'Tajawal', sans-serif;
-  font-size: 1.4em;
+  font-size: 1.5em;
   margin: auto;
   margin-top: 20px;
   padding: 20px 5%;
+  line-height: 1.25;
 
   @media (min-width: 520px) {
     padding: 20px 50px;
@@ -129,8 +130,6 @@ article {
     }
     > p strong:first-child {
       font-style: italic;
-      
-      letter-spacing: -1px;
       line-height: 0;
     }
   }

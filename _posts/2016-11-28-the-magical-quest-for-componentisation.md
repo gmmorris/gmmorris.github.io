@@ -15,8 +15,11 @@ banner-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/14597
 I would like, if I may, to ask you an existential question.
 
 **What is the core of our job as developers today?**
-It probably **isn’t** *figuring out the next super cool & complex algorithm.*
+
+It probably **isn’t** figuring out the next super cool & complex algorithm.
+
 But rather, what our job probably **is**, is to *take an existing abstraction and compose it with a second abstraction in order to form a third abstraction*.
+
 What we’re still trying to figure out is how best to do that, right?
 For me, that quest began with modularisation.
 </section>
