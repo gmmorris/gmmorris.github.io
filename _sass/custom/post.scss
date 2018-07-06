@@ -31,6 +31,37 @@ article {
     }
   }
 
+  .post-banner{
+    display: block;
+    // height: 250px;
+    margin: 0 auto 2em;
+
+    // @media (min-width: 630px) {
+    //   height: 300px;
+    // }
+    // @media (min-width: 740px) {
+    //   height: 350px;
+    // }
+    // @media (min-width: 950px) {
+    //   height: 400px;
+    // }
+    // @media (min-width: 1160px) {
+    //   height: 500px;
+    // }
+
+    // &.banner-eye {
+    //   background: url(/assets/img/banners/eye.png) no-repeat white;
+    //   background-position-x: center;
+    //   background-size: contain;
+    // }
+
+    // &.banner-electromotor {
+    //   background: url(/assets/img/banners/construct.png) no-repeat white;
+    //   background-position-x: center;
+    //   background-size: contain;
+    // }
+  }
+
   a {
     color: $article-red;
     font-weight: bold;
@@ -76,7 +107,7 @@ article {
     > p {
       text-indent: 0rem;
       @media (min-width: 520px) {
-        text-indent: 2rem;
+        // text-indent: 2rem;
         img:first-child {
           position: relative;
           left: -2rem;

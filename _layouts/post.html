@@ -15,6 +15,16 @@ layout: default
     
   </header>
   
+  {%- if page.banner -%}
+    {%- if page.banner-desc -%}
+      <a title="{{ page.banner-desc }}" target="_blank" href="{{ page.banner-desc-link }}">
+    {%- endif -%}
+        <img src="{{ page.banner-img }}" class="post-banner {{ page.banner }}"></img>
+    {%- if page.banner-desc -%}
+      </a>
+    {%- endif -%}
+  {%- endif -%}
+
   {{ content }}
 
   {%- if site.disqus.shortname -%}

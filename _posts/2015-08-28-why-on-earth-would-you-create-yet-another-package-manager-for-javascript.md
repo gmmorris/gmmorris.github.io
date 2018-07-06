@@ -4,6 +4,10 @@ title:  "Why on earth would you create yet another package manager for Javascrip
 description: "How and why I built a Javascript library for packaging modules"
 date:   2015-08-28 12:06:00 +0100
 icon: stream
+banner: banner-shell
+banner-img: "/assets/img/banners/shell.png"
+banner-desc: "The Shell"
+banner-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/21090105071/"
 ---
 {::options parse_block_html="true" /}
 <section class="cl2">

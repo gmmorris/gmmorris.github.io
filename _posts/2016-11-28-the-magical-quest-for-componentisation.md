@@ -5,6 +5,10 @@ date:   2016-11-28 13:10:00 +0100
 tags: javascript, code-design
 icon: user-astronaut
 description: "My endevour to figure out how to implement complex Object Composition in code"
+banner: banner-cards
+banner-img: "/assets/img/banners/cards.png"
+banner-desc: "The Hand"
+banner-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/14597324427"
 ---
 {::options parse_block_html="true" /}
 <section class="cl2">
