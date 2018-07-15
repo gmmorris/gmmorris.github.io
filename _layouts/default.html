@@ -11,30 +11,30 @@
     {%- include footer.html -%}
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script type="application/javascript" >
-      Array.prototype.slice.call(
-        document.querySelectorAll('pre code')
-      ).forEach(function(el){
-        hljs.highlightBlock(el);
+      function getAll(selector){
+        return Array.prototype.slice.call(
+          document.querySelectorAll(selector)
+        );
+      }
 
-        Array.prototype.slice.call(
-          el.querySelectorAll('.p')
-        ).forEach(function(el){
-          console.log(el.innerText);
-          if(el.innerText === '|>' || el.innerText === '|') {
-            el.className += ' re';
-          }
-        });
+      getAll('pre code')
+        .forEach(function(el){
+          hljs.highlightBlock(el);
 
-        Array.prototype.slice.call(
-          el.querySelectorAll('.o, .o .hljs-function')
-        ).forEach(function(el){
-          console.log(el.innerText);
-          if(el.innerText === '=>') {
-            el.className += ' re';
-          }
-        });
-      });
-      
+          getAll('.p')
+            .forEach(function(el){
+              if(el.innerText === '|>' || el.innerText === '|') {
+                el.className += ' re';
+              }
+            });
+
+          getAll('.o, .o .hljs-function')
+            .forEach(function(el){
+              if(el.innerText === '=>') {
+                el.className += ' re';
+              }
+            });
+        });      
     </script>
   </body>
 </html>
