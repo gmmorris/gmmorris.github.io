@@ -16,9 +16,9 @@ I would like, if I may, to ask you an existential question.
 
 **What is the core of our job as developers today?**
 
-It probably **isn’t** figuring out the next super cool & complex algorithm.
+It probably _isn’t_ figuring out the next super cool & complex algorithm.
 
-But rather, what our job probably **is**, is to *take an existing abstraction and compose it with a second abstraction in order to form a third abstraction*.
+But rather, what our job probably _is_, is to _take an existing abstraction and compose it with a second abstraction in order to form a third abstraction_.
 
 What we’re still trying to figure out is how best to do that, right?
 For me, that quest began with modularisation.
@@ -26,7 +26,7 @@ For me, that quest began with modularisation.
 
 ## Modularisation
 <section class="cl2">
-Predominantly focussed on the Front End over the past decade, I spent several years evangelising *Backbone* as a solution to tackling the challenge of Front End architecture. As a relatively early adopter of Backbone, in early 2011, I found the move from a messy soup of global Javascript objects with complex prototypical hierarchies, to a structured MVC (or rather, MVP) pattern an extremely pleasing step forward.
+Predominantly focussed on the Front End over the past decade, I spent several years evangelising **Backbone.js** as a solution to tackling the challenge of Front End architecture. As a relatively early adopter of Backbone, in early 2011, I found the move from a messy soup of global Javascript objects with complex prototypical hierarchies, to a structured MVC (or rather, MVP) pattern an extremely pleasing step forward.
 
 Backbone allowed us to focus less on how the pieces of our code fit together, and more on what they actually did. This was made possible by abstracting away a lot of the boilerplate and defining a clear API for each piece of our system. This might seem obvious in hindsight, but at the time this felt groundbreaking, mostly because we were so used to our Javascript existing as *a pile of code held together by duct tape* that we accepted our fate and found it hard to see the potential for a better option.
 
@@ -48,7 +48,7 @@ What we would initially envision as a well thought out and layered Trifle, turne
 
 ![](/assets/img/2016/11/trifle.gif)
 
-*Rachel’s Trifle? Good.* ***Code Trifle**? Bad.*
+> _Rachel’s Trifle? Good. **Code Trifle**? Bad._
 
 In other words, our code would develop a smell… the unmistakable smell of a Custard, Jam, Mashed Potatoes and Meat dessert.
 </section>
@@ -80,7 +80,7 @@ Having boiled down my problem to its root causes, the next step would be to figu
 
 Which begged the question:
 
-**How on earth do we reduce our efferent coupling & fragmented State?**
+> _How on earth do we reduce our efferent coupling & fragmented State?_
 
 Searching high and low for an answer I hit the internet, the books, the tech talks, my dad (I didn’t literally hit my dad, I just asked his opinion, as he’s been writing code since the 70s, presumably sporting glorious hippie hair and a spliff) and found that there are in fact many possible answers to this question.
 
@@ -218,7 +218,7 @@ This might seem obvious in hindsight, but by adding a little abstraction and exp
 1. Every piece of your code knows how to talk to every other piece
 1. Every piece of your code can be passed as an argument to any other piece
 
-I tried asking a couple of members of the React core team what they would call this design pattern, but sadly never got an answer. Considering how swamped they must be with issues, emails and life, I decided not to pursue them further and simply named this design pattern thus: C**omponentisation**.
+I tried asking a couple of members of the React core team what they would call this design pattern, but sadly never got an answer. Considering how swamped they must be with issues, emails and life, I decided not to pursue them further and simply named this design pattern thus: **Componentisation**.
 </section>
 
 ## The rules of Componentisation

@@ -129,9 +129,7 @@ I found this to be the best depth simple pages but on our production version for
 ### IDs
 
 <section class="cl2">
-Checking for a ID on an element in the hierarchy seems straight forward enough, but as I mentioned — its a jungle out there. More often than not we fond that people do not adhere to the whole *only one unique element to an ID* *paradigm*.
-
-Checking for a ID on an element in the hierarchy seems straight forward enough, but as I mentioned — it’s a jungle out there. More often than not we fond that people do not adhere to the whole *only one unique element to an ID* *paradigm*.
+Checking for an ID on an element in the hierarchy seems straight forward enough, but as I mentioned — its a jungle out there. More often than not we fond that people do not adhere to the whole *only one unique element to an ID* *paradigm*.
 
 Though that may seem ridiculous it actually is a serious problem, because if you have two elements with the same ID you may think you have a specific selector in hand, but infact, it’s useless. So when using an ID you also need to check it’s uniqueness.
 
@@ -140,12 +138,11 @@ You may have noticed we check for unique attributes before testing for classes. 
 
 ### How far do we go?
 
+<section class="cl2">
 Another thing to note about the algorithm is that, in theory, it could end up with a very complex selector which breaks our need for flexibility and simplicity in our ideal selectors.
 
 To get around this we have specified another configurable property called **specifictyThreshold**. This threshold is esentially the minimum specificity weight we need our selector to reach before we say enough.
 
-
-<section class="cl2">
 If, for example, I find a selector which consists of a unique ID on the page, then I have a specificity of 100 points. This means that if I set my threshold to 100 points, the engine will deem this selector as *specific enough* to quit the parsing process:
 
 ```css
@@ -161,16 +158,16 @@ That is, assuming, that the IDed selector is specific enough to provide us with 
 </section>
 
 ### Sibling relations
-The last point I’d like to point out is sibling relation selectors, such as ***:nth-child(x)*** or ***:nth-of-type(y)***.
-
 <section class="cl2">
+The last point I’d like to point out is sibling relation selectors, such as **:nth-child(x)** or **:nth-of-type(y)**.
+
 These selectors may seem the ideal selectors for this kind of unique selector generation, but in fact, I found these to be severally lacking.
 
-The main reason is that these are actually very unreliable on malformed pages. In fact, so much so, that I had to disable *:nth-of-type* all together!
+The main reason is that these are actually very unreliable on malformed pages. In fact, so much so, that I had to disable **:nth-of-type** all together!
 
 This is why we keep these selectors to the end, as a sort of last resort, and we avoid them when possible.
 
-There are several situations where these selectors break down. These are often browser specific problems, rather than a general rule and you may be surprised to hear that IE is far from being the only culprit, with Safari, and even Firefox, actually giving me much grief as well.
+There are several situations where these selectors break down. These are often browser specific problems, rather than a general rule and you may be surprised to hear that **IE** is far from being the only culprit, with **Safari**, and even **Firefox**, actually giving me much grief as well.
 </section>
 
 Here are several examples:
@@ -200,19 +197,19 @@ At this point there was still one more element to this puzzle. How would this en
 Sure, we can calculate a very specific selector, but that doesn’t mean it really is unique.
 
 To address this issue I built Simmer with an internal mechanism for finding the best possible query engine for it to use.
-We knew that we’d be packaging jQuery with both our AB testing manipulation library and Simmer’s editing environment, so we knew that we could count on the same algorithm being used wherever we used Simmer, but I also wanted the engine to be a comfortable engine to drop-in in other projects.
+We knew that we’d be packaging **jQuery** with both our AB testing manipulation library and Simmer’s editing environment, so we knew that we could count on the same algorithm being used wherever we used Simmer, but I also wanted the engine to be a comfortable engine to drop-in in other projects.
 
-To that end Simmer has been equipped with a “super complex mechanism” — it asks the page what it can use.
-It looks around for a jQuery engine and if it find one — it uses that. If it can’t find jQuery it searches for a stand-alone Sizzle engine. If that can’t be found either it defaults to the browser’s *document.querySelectorAll* implementation.
+To that end **Simmer** has been equipped with a “super complex mechanism” — it asks the page what it can use.
+It looks around for a **jQuery** engine and if it find one — it uses that. If it can’t find jQuery it searches for a stand-alone **Sizzle** engine. If that can’t be found either it defaults to the browser’s **document.querySelectorAll** implementation.
 
 It also provides a configurable callback for querying in case the developer want to use an other DOM querying language.
 </section>
 
 ## Final thoughts
 <section class="cl2">
-I loved writing Simmer. It was a fun and challenging project, but I don’t think it is anywhere near done. I still have so many ideas, such as expanding configuration to give developers a higher level of control over the final selectors and allowing developers to plug in their own parsing functions to expand support for custom doctypes and tags (React module and JSX support, perhaps?).
+I loved writing **Simmer**. It was a fun and challenging project, but I don’t think it is anywhere near done. I still have so many ideas, such as expanding configuration to give developers a higher level of control over the final selectors and allowing developers to plug in their own parsing functions to expand support for custom doctypes and tags (**React** module and **JSX** support, perhaps?).
 
-As CSS3 gains wider adoption (we’re almost there now, aren’t we) additional selectors could be, and should be, added into the mix. Also, as Selector Level 4 (wrongly referred to as CSS4, while in is in fact extensions to CSS3) gains adoption we’ll need to add these too.
+As **CSS3** gains wider adoption (we’re almost there now, aren’t we) additional selectors could be, and should be, added into the mix. Also, as Selector Level 4 (wrongly referred to as **CSS4**, while in is in fact extensions to **CSS3**) gains adoption we’ll need to add these too.
 
 I’ve been involved in two companies that needed this tool, so I have a sneaky suspicion there is more need for Simmer than initially meets the eye. Though legal realities forced me to set Simmer aside for a while, it is now officially Open Sourced and available for usage, so I can finally put the effort into it that it deserves.
 I hope more people find this library useful and find an interest in helping me take this code base to the next level.

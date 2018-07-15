@@ -25,6 +25,7 @@ Just over a year and a half ago I took the role of Lead Front End Architect for 
 
 In essence I was hired because there was a growing feeling in the company that the Front End was becoming the *weakest link* in the company’s codebase, and as the company was in the early stages of a mass expansion (in my time in the company, so far, we have grown from 15 employees to over 180) the CTO wanted to make sure it wasn’t the Front End that caved under the pressure.
 </section>
+
 ### The Challenge
 <section>
 In the year and a half prior I had been working as a freelance consultant for multiple companies, mostly helping them figure out Front End architectures for their greenfield projects.
@@ -42,18 +43,19 @@ I believe it's virtually impossible to find success in business without making s
 Anyway, at the time of my arrival, we were at the point where the company needed to shift from "fast and messy" to "fast and sustainable" and that would mean slowing down abit.
 
 Back to the code.
-When I say Spaghetti, I don’t mean mild problems like “tight coupling”, which would imply a pile ofSpaghetti which fell off the plate.
+
+When I say Spaghetti, I don’t mean mild problems like “tight coupling”, which would imply a pile of Spaghetti which fell off the plate.
 No, when I say Spaghetti, I mean more like *Four different types of Pasta, one of them severally overcooked into a mush, tossed around by your two toddlers and smeared on the walls; sauce and all*.
-OK OK, now I **know** I’m stepping on toes… and stomping on them.. but it really was that bad.
+OK OK, now I **know** I’m stepping on toes... and stomping on them.. sorry about that, I'm just trying to make an exagerated point, but I have nothing but love for y'all.
 </section>
 
 ### The key problems in the Front End code
 <section>
-1. Almost no compartmentalization of the code. Most of the code was in variables on the global scope. That which wasn’t, was defined in two separate package libraries — one being Require.js (and an old outdated version, at that) and the rest was in some kind of in-house attempt at MVC which didn’t do much of a job in separating concerns as the definition functions shared a scope.
+1. **Almost no compartmentalization of the code.** Most of the code was in variables on the global scope. That which wasn’t, was defined in two separate package libraries — one being Require.js (and an old outdated version, at that) and the rest was in some kind of in-house attempt at MVC which didn’t do much of a job in separating concerns as the definition functions shared a scope.
 
-1. Components all communicated through document level event triggers on the document. So you never knew which component was talking to which and when. Try debugging that.
+1. **Global Scoped communication** Components all communicated through document level event triggers on the document. So you never knew which component was talking to which and when. Try debugging that.
 
-1. A rapidly evolving product led to a lot of redundant code which didn’t actually do anything, but was none the less, in the codebase. This also led to a lack of separation of concerns with different code, effectively, doing the same thing.
+1. **Leftovers** A rapidly evolving product led to a lot of redundant code which didn’t actually do anything, but was none the less, in the codebase. This also led to a lack of separation of concerns with different code, effectively, doing the same thing.
 </section>
 
 <section class="cl2">
@@ -64,7 +66,7 @@ And now, a year and a half later, there is (almost) no legacy code left on the s
 
 ## So, what have we learned?
 
-So how did we do it? Well, here are the lesson we learned, which also explain how we did it.
+So how did we do it? Well, here are the lessons we learned, which also explain how we did it.
 
 ### First Lesson: Don’t sell a rewrite, sell a feature
 
@@ -134,7 +136,7 @@ Which leads me to the next lesson.
 <section class="cl2">
 Like most N-Tier architectures, at the bottom, we have a layer of controllers and routers, which provide us with the key logical tiers of the code.
 
-**Thats a lie though**, because it isn’t really the bottom. 
+_Thats a lie though_, because it isn’t really the bottom. 
 Under that layer there is another layer — thats the library layer. The layer of external components we import and use to avoid writing everything from scratch our selves.
 One of the lessons I learned early in my career, obviously the hard way, is that if you use a library it might, very likely, become a hindrance when your functional requirements diverge from the library creators’ assumptions.
 

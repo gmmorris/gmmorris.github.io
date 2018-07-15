@@ -14,7 +14,7 @@ banner-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/14594
 I can’t get over the feeling that ES6 (still refusing to say ES2015 ^_^) is a kind of playground offering me all these new toys and attractions to play around with.
 Currently my focus is on exploring the Proxy object which gives us a new way to intercept fundamental operations on Objects, among them property access, which is something I want to play around with today.
 
-**TL/DR**
+#### TL/DR
 Sick and tired of accessing a nested object under a property in a deep object just to have the ***Uncaught TypeError: Cannot read property ‘foo’ of undefined*** thrown in your face?
 Well, by using a Proxy you can get around those errors without excessive key checking in a reusable manner.
 The code example for doing this is down bellow, an **npm** module is available via ***npm install safeobj***, with the source on [Github](https://github.com/gmmorris/safeobj).
@@ -46,7 +46,7 @@ let darthVadersFather = getFatherName(DarthVader)
 <section class="cl2">
 There are lots of ways to make your object access safe from undefined properties. These have been extensively covered in other articles and usually involve either the approach of describing the deep property access as a string, or by wrapping your object in a “functional” wrapper (Such as a Functor) and abstracting away the access operation that way.
 
-The Functor example is a little complicated to give an example of, so I suggest you read up using my favourite book on the subject, which is [Professor Frisby’s Mostly adequate guide to FP](https://github.com/MostlyAdequate/mostly-adequate-guide) (specifically what you want are **Maybe, Either, Left** and **Right**), but here is an example using a string to make safe deep object property access.
+The Functor example is a little complicated to give an example of, so I suggest you read up using my favourite book on the subject, which is [Professor Frisby’s Mostly adequate guide to FP](https://github.com/MostlyAdequate/mostly-adequate-guide) (specifically what you want are **Maybe**, **Either**, **Left** and **Right**), but here is an example using a string to make safe deep object property access.
 </section>
 
 ```javascript
@@ -97,19 +97,19 @@ const either = (val,fallback) => (val === Undefined? fallback : val);
 <section class="cl2">
 These helpers are quite straight forward (lodash has equivalents for both):
 
-1. **isObject** simply receives a variable and returns true or false, depending on whether it is in fact an Object.
+**isObject** simply receives a variable and returns true or false, depending on whether it is in fact an Object.
 
-1. **hasKey** receives an object and checks whether it has a property under a specific name.
+**hasKey** receives an object and checks whether it has a property under a specific name.
 
-1. Next we have a a dead simple object, sillily called **Undefined**. This is a ***terrible*** name for a variable, and I’d advise against using it for anything other than a code example like this, but I used it to express a clear idea which is that this object is, logically, equivalent to an *undefined property*. The way **Undefined** works is that it is a proxy to an empty object, but every property access on that proxy will, in turn, return the proxy itself, so essentially what we have is circular reference from the object to itself, through any property access on it.
+Next we have a a dead simple object, sillily called **Undefined**. This is a <u>terrible</u> name for a variable, and I’d advise against using it for anything other than a code example like this, but I used it to express a clear idea which is that this object is, logically, equivalent to an *undefined property*. The way **Undefined** works is that it is a proxy to an empty object, but every property access on that proxy will, in turn, return the proxy itself, so essentially what we have is circular reference from the object to itself, through any property access on it.
 
-1. **either** is a small sort of predicate operation which receives a variable, checks wether it is, in fact, an *Undefined Property* value and if it is, returns a fallback value, otherwise it returns the original value and acts sort of like the *[identity](https://lodash.com/docs#identity)* function.
+**either** is a small sort of predicate operation which receives a variable, checks wether it is, in fact, an *Undefined Property* value and if it is, returns a fallback value, otherwise it returns the original value and acts sort of like the *[identity](https://lodash.com/docs#identity)* function.
 
 Now that we have these utilities its a small step towards implementing a proxy which will make our object access safe:
 </section>
 
 ```javascript
-function safe(obj) {
+function safe (obj) {
   return new Proxy(obj, {
     get: function(target, name){
       return hasKey(target, name)

@@ -48,9 +48,7 @@ article {
   }
   
   h2 {
-    font-family: 'Noto Serif', serif;
     font-weight: normal;
-    font-style: italic;
     font-size: 1.5rem;
   }
 
@@ -97,10 +95,26 @@ article {
       text-indent: 0;
     }
 
+    strong {
+      padding: 2px 4px;
+      font-size: 90%;
+      color: #5b5be0;
+      background-color: #d4d4f7;
+      border-radius: 4px;
+    }
+    blockquote strong {
+      background-color: transparent;
+    }
+    
+    em, u {
+      font-size: 90%;
+      color: #5b5be0;
+    }
+
     > p:first-child {
       text-indent: 0;
     }
-    > p strong:first-child {
+    > p strong {
       font-style: italic;
       line-height: 0;
     }
