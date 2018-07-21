@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "When Personal Ethics Clash With Industry Ethics"
+title:  "When Personal Ethics Clash With Industry Norms"
 date:   2018-07-21 23:31:00 +0100
 tags: ethics, tech, google, project maven
 icon: seedling
