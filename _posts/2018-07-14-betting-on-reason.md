@@ -11,8 +11,6 @@ banner-img: "/assets/img/banners/arrowhead.png"
 banner-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/14598153437/"
 ---
 {::options parse_block_html="true" /}
-# Betting on Reason
-
 <section class="cl2">
 Approximately a decade ago I found myself at a sort of crossroads.  
 I was about to reach my notice period and was contemplating my options.
