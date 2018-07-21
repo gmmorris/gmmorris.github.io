@@ -4,6 +4,7 @@
     color: black;
     display: inline-block;
     max-width: 40%;
+    cursor: pointer;
   
     i {
       color: $article-red;
@@ -11,11 +12,13 @@
       font-size: 2em;
       font-weight: normal;
       margin-bottom: 0.2em;
+      cursor: pointer;
     }
     label {
       display: block;
       color: grey;
       line-height: 2em;
+      cursor: pointer;
     }
     
     &.prev {
