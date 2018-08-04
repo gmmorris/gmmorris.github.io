@@ -105,6 +105,15 @@ article {
     blockquote em strong {
       background-color: transparent;
     }
+    blockquote {
+      font-style: italic;
+      background-color: #ececf7;
+      padding: 0.5em;
+      border-radius: 0.5em;
+      p {
+        margin: 0;
+      }
+    }
     
     em, u {
       font-size: 90%;

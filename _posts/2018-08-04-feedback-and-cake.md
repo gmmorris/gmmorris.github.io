@@ -124,8 +124,10 @@ Once every team member has voiced their consent, we go through the team members 
 The format of feedback is that we preface the feedback by declaring who this feedback is for and whether it is meant to _reinforce_ a positive behaviour that the giver has perceived, or _constructive_ feedback meant to correct a behaviour the giver has felt to be unwelcome.
 
 An example would be:
-> This is constructive feedback is for Jennifer.
+> This is **constructive** feedback is for **Jennifer**.
+>
 > When we were pairing on Monday, there were several different occasions during the session when I was driving and you tried to explain something to me which I didn't understand, so you pulled the keyboard away from me and typed the code yourself.
+>
 > This made me feel stupid that I didn't understand and like I was more a burden on you than your pair.
 
 We'll discuss what feedback actually is in the next section, but this example shows you an example of how feedback is directed, specific, balanced and short.
@@ -154,13 +156,17 @@ To encourage balance we ask that team members give _reinforcing_ feedback and _c
 Separating these also allows us to avoid a pattern of behaviour we jokingly refer to as **the shit sandwich**, which is when an individual wraps the constructive feedback in reinforcing feedback.
 
 For example, bellow is an example of a shit sandwich:
-> I have feedback for Nigel.
+> I have feedback for **Nigel**.
+>
 > I think you did a great job rallying people to go vote.
+>
 > I do think you did this by stoking racist prejudice, out right lying and deceiving the poor into thinking their misfortune is the fault of their immigrant neighbours, which made me feel very uncomfortable being an immigrant myself.
+>
 > But you can be proud of the fact that you managed to tap into the feelings of the masses and got them more involved in politics.
 > Then again, so did Hitler.
 
 _That_, is a shit sandwich.
+
 The problem with this pattern is that it contains too many signals for the receiver to process. It makes it hard to focus on the positive aspects of the _reinforcing feedback_ and equally hard to process the _constructive feedback_ and give it the appropriate weight.
 
 In my team we have decided that such situations should be separated into two separate pieces of feedback, each given in their own turn, thereby providing the receiver two opportunities to take in the feedback in the appropriate manner.
