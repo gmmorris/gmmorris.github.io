@@ -70,7 +70,7 @@ Decision making has become far easier, experimentation has become an integral pa
 <section>
 I'd like to delve into each one of these activities, and will be dedicating a blog post to each one of them. Some will be longer, some shorter, but bellow is a list of the posts I intend on writing over the coming weeks.
 
-1. _Feedback & Cake_ A feedback cycle intended to give everyone an opportunity to give and receive feedback. And eat cake.
+1. [_Feedback & Cake_]({% post_url 2018-08-04-feedback-and-cake %}) A feedback cycle intended to give everyone an opportunity to give and receive feedback. And eat cake.
 2. _Pairing checklist_ A foundation for setting mutual expectations during a pair programming session
 3. _Occupy hand signals_ Improving team communication by introducing hand signals
 4. _Experiments as an entity_ When team members fear change, elevate experiments to story card level
