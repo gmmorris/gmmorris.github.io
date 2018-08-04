@@ -171,7 +171,7 @@ If you look at the following example, from some production ReasonML code, I find
 </section>
 
 
-```fsharp
+```reasonml
 let readCacheServiceConfigAndDecode = (configJson) =>
   switch (configJson |> Js.Json.decodeObject) {
   | None => raise(Json.Decode.DecodeError("Invalid Cache Config"))

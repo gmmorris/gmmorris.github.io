@@ -50,7 +50,80 @@ hue-6-2: #e6c07b
     }
   }
 }
+.language-reasonml {
+  .hljs-keyword, .hljs-operator {
+    color:#F92672
+  }
+  .hljs-function {
+    color: #61aeee;
+    .hljs-params {
+      color:#A6E22E;
+      .hljs-typing {
+        color:#FD971F;
+      }
+    }
+  }
+  .hljs-module-access {
+    .hljs-module {
+      color:#7e57c2;      
+    }
+  }
+  .hljs-constructor {
+    color:#e2b93d;     
+    .hljs-string {
+      color:#9CCC65;     
+    }
+  }
+}
 
+.asd {
+  selectionbackground: #4373c2;
+  errorForeground: #EF5350;
+  background: #7e57c2cc;
+  hoverBackground: #7e57c2;
+  dropdownborder: #5f7e97;
+  punctuationdefinitiongenericbeginhtml: #ef5350f2;
+  inputValidationerrorBackground: #ef5350f2;
+  inputValidationerrorBorder: #EF5350;
+  inputValidationinfoBackground: #64b5f6f2;
+  inputValidationinfoBorder: #64B5F6;
+  inputValidationwarningBackground: #ffca28f2;
+  inputValidationwarningBorder: #FFCA28;
+  progressbackground: #7e57c2;
+  listactiveSelectionBackground: #5f7e97;
+  editorOverviewRulerincomingContentForeground: #7e57c2;
+  editorOverviewRulercommonContentForeground: #7e57c2;
+  editorErrorforeground: #EF5350;
+    editorWarningforeground: #b39554;
+  editorGuttermodifiedBackground: #e2b93d;
+  editorGutteraddedBackground: #9CCC65;
+  editorGutterdeletedBackground: #EF5350;
+  diffEditorremovedTextBackground: #ef535033;
+  diffEditorremovedTextBorder: #ef53504d;
+  editorWidgetbackground: #31364a;
+  editorWidgetborder: #262A39;
+  editorMarkerNavigationErrorbackground: #EF5350;
+  editorMarkerNavigationWarningbackground: #FFCA28;
+  peekViewborder: #5f7e97;
+  terminalansiBlue: #82AAFF;
+  terminalansiCyan: #21c7a8;
+  terminalansiGreen: #22da6e;
+  terminalansiMagenta: #C792EA;
+  terminalansiRed: #EF5350;
+  terminalansiYellow: #addb67;
+  terminalansiBrightBlue: #82AAFF;
+  terminalansiBrightCyan: #7fdbca;
+  terminalansiBrightGreen: #22da6e;
+  terminalansiBrightMagenta: #C792EA;
+  terminalansiBrightRed: #EF5350;
+  gitDecorationmodifiedResourceForeground: #a2bffc;
+  gitDecorationdeletedResourceForeground: #EF535090;
+  gitDecorationuntrackedResourceForeground: #addb67ff;
+  gitDecorationignoredResourceForeground: #395a75;
+  gitDecorationconflictingResourceForeground: #ffeb95cc;
+  sourceelm: #5f7e97;
+  metaobjectliteraljs: #82AAFF
+}
 .hljs-comment,
 .hljs-quote {
   color: #b18eb1;

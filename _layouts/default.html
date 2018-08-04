@@ -9,7 +9,8 @@
       {{ content }}
     </main>
     {%- include footer.html -%}
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script> -->
+    <script src="/assets/highlight.js"></script>
     <script type="application/javascript" >
       function getAll(selector){
         return Array.prototype.slice.call(
@@ -20,7 +21,7 @@
       getAll('pre code')
         .forEach(function(el){
           hljs.highlightBlock(el);
-
+/*
           getAll('.p')
             .forEach(function(el){
               if(el.innerText === '|>' || el.innerText === '|') {
@@ -33,7 +34,7 @@
               if(el.innerText === '=>') {
                 el.className += ' re';
               }
-            });
+            });*/
         });      
     </script>
   </body>
