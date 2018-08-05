@@ -128,7 +128,7 @@ An example would be:
 >
 > When we were pairing on Monday, there were several different occasions during the session when I was driving and you tried to explain something to me which I didn't understand, so you pulled the keyboard away from me and typed the code yourself.
 >
-> This made me feel stupid that I didn't understand and like I was more a burden on you than your pair.
+> When you did this I felt stupid that I didn't understand and like I was more a burden on you than your pair.
 
 We'll discuss what feedback actually is in the next section, but this example shows you an example of how feedback is directed, specific, balanced and short.
 
@@ -142,7 +142,7 @@ We continue around the circle both to give individuals breathing time between pi
 <section>
 At its core, the feedback circle is an exercise in building empathy. To that end, the teammates are asked to acknowledge that the feedback they are about to receive is not a fact or truth. Rather, feedback is the perception of the giver and it is up to the recipient to choose whether to accept it, action it and how to go about doing so.
 
-To reinforce this we try to phrase feedback using **I** statements, expressing the perception of the event as being the perspective of the giver. This allows us to express how the event made us feel, which helps avoid a situation where the recipient feels labeled or under attack; and instead engages them on an empathetic level.
+To reinforce this we try to phrase feedback using **I** statements, expressing the perception of the event as being the perspective of the giver. This allows us to express how we felt after or during the event, which helps avoid a situation where the recipient feels labeled or under attack; and instead engages them on an empathetic level.
 </section>
 
 ### balanced
@@ -160,7 +160,7 @@ For example, bellow is an example of a shit sandwich:
 >
 > I think you did a great job rallying people to go vote.
 >
-> I do think you did this by stoking racist prejudice, out right lying and deceiving the poor into thinking their misfortune is the fault of their immigrant neighbours, which made me feel very uncomfortable being an immigrant myself.
+> I have to say though that I felt very uncomfortable, being an immigrant myself, by the way you stoke racist prejudice, out right lie to poeple and deceive the poor into thinking their misfortune is the fault of their immigrant neighbours.
 >
 > But you can be proud of the fact that you managed to tap into the feelings of the masses and got them more involved in politics.
 > Then again, so did Hitler.
@@ -172,7 +172,7 @@ The problem with this pattern is that it contains too many signals for the recei
 In my team we have decided that such situations should be separated into two separate pieces of feedback, each given in their own turn, thereby providing the receiver two opportunities to take in the feedback in the appropriate manner.
 
 In the above example, I'd present Nigel with two separate pieces of feedback:
-1. A _constructive_ piece of feedback expressing how his behaviour made me feel unwelcome as an immigrant and fearful as the member of minority.
+1. A _constructive_ piece of feedback expressing how his I felt unwelcome as an immigrant and fearful as the member of minority when I witnessed his campaign.
 2. A _reinforcing_ piece of feedback expressing how well he has done in achieving fascist status, which I know he has pursued for some time now. **\***
 
 I have seen other teams take a slightly different approach, where they actually prefer to give the _constructive_ and _reinforcing_ feedback together in order to force individuals to always seek both the positive and the negative in a persons' behaviour. I personally don't believe in that approach and believe it discourages people from giving concise constructive feedback and might actually cause individuals to withhold feedback all together.
