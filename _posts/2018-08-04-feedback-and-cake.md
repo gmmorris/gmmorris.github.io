@@ -172,7 +172,7 @@ The problem with this pattern is that it contains too many signals for the recei
 In my team we have decided that such situations should be separated into two separate pieces of feedback, each given in their own turn, thereby providing the receiver two opportunities to take in the feedback in the appropriate manner.
 
 In the above example, I'd present Nigel with two separate pieces of feedback:
-1. A _constructive_ piece of feedback expressing how his I felt unwelcome as an immigrant and fearful as the member of minority when I witnessed his campaign.
+1. A _constructive_ piece of feedback expressing how I felt unwelcome as an immigrant and fearful as the member of minority when I witnessed his campaign.
 2. A _reinforcing_ piece of feedback expressing how well he has done in achieving fascist status, which I know he has pursued for some time now. <i class="fas fa-asterisk"></i>
 
 I have seen other teams take a slightly different approach, where they actually prefer to give the _constructive_ and _reinforcing_ feedback together in order to force individuals to always seek both the positive and the negative in a persons' behaviour. I personally don't believe in that approach and believe it discourages people from giving concise constructive feedback and might actually cause individuals to withhold feedback all together.
