@@ -95,6 +95,26 @@ article {
       text-indent: 0;
     }
 
+    .fa-asterisk {
+      color: #5b5be0;
+      background-color: #d4d4f7;
+      padding: 0.2em;
+      border-radius: 1em;
+      position: relative;
+      top: -0.7em;
+      font-size: 0.4em;
+    }
+    sub {
+      .fa-asterisk {
+        color: #5b5be0;
+        position: static;
+        background-color: #d4d4f7;
+        padding: 0.2em;
+        border-radius: 1em;
+        font-size: 1em;
+      }
+    }
+
     strong {
       padding: 2px 4px;
       font-size: 90%;
