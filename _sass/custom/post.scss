@@ -130,9 +130,11 @@ article {
       background-color: #d4d4f7;
       border-radius: 4px;
     }
+    
     blockquote em strong {
       background-color: transparent;
     }
+
     blockquote {
       font-style: italic;
       background-color: #ececf7;
@@ -161,7 +163,11 @@ article {
       ul {
         list-style: none;
         font-size: 0.9em;
-        padding: 0px 2em;
+
+        @media (min-width: 740px) {
+          padding: 0px 2em;
+        }
+        padding: 0px;
         li {
           margin-bottom: 0.5em;
           i {
