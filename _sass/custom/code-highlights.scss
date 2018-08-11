@@ -28,57 +28,38 @@ hue-6-2: #e6c07b
   border-radius: 5px;
 }
 
-.language-fsharp {
-  .hljs {
-    .p.re, .o.re {
-      color:#F92672
-    }
-    .n {
-      color:#A6E22E;
-      .hljs-attr {
-        color:#A6E22E;
-      }
-    }
-    .nn {
-      color: #61aeee;
-    }
-    .nc {
-      color:#e6c07b;
-      .hljs-params {
-        color:#FD971F
-      }
+.hljs-keyword,
+.hljs-operator {
+  color:#F92672
+}
+
+.hljs-pattern-match {
+  color: #F92672;
+  .hljs-constructor {
+    color: #61aeee;
+  }
+}
+
+.hljs-function {
+  color: #61aeee;
+  .hljs-params {
+    color:#A6E22E;
+    .hljs-typing {
+      color:#FD971F;
     }
   }
 }
-.language-reasonml {
-  .hljs-keyword, .hljs-operator {
-    color:#F92672
+
+.hljs-module-access {
+  .hljs-module {
+    color:#7e57c2;      
   }
-  .hljs-pattern-match {
-    color: #F92672;
-    .hljs-constructor {
-      color: #61aeee;
-    }
-  }
-  .hljs-function {
-    color: #61aeee;
-    .hljs-params {
-      color:#A6E22E;
-      .hljs-typing {
-        color:#FD971F;
-      }
-    }
-  }
-  .hljs-module-access {
-    .hljs-module {
-      color:#7e57c2;      
-    }
-  }
-  .hljs-constructor {
-    color:#e2b93d;     
-    .hljs-string {
-      color:#9CCC65;     
-    }
+}
+
+.hljs-constructor {
+  color:#e2b93d;     
+  .hljs-string {
+    color:#9CCC65;     
   }
 }
 

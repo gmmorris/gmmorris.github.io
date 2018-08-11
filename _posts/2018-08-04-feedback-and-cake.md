@@ -243,5 +243,7 @@ But that doesn't mean my attendance at the sessions any less important. I still 
 </section>
 
 ## Our guidelines document
+<section>
 Feel free to copy it from [here](https://docs.google.com/document/d/13V2Z88zKash_kxQGZCeNMlLqmCK4svhNrXZHzEJZXCY/edit?usp=sharing).
-<iframe style="display:block; width: 80%; min-height: 40em; text-align: center;margin: auto;" src="https://docs.google.com/document/d/e/2PACX-1vS36jC8QhRbimvA5w8VmzqwyNbTIYozWoa9T4RBtA6oi9Q-y8NXEssDvUHyPqfeAQr9rqySutzq7G80/pub?embedded=true"></iframe>
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vS36jC8QhRbimvA5w8VmzqwyNbTIYozWoa9T4RBtA6oi9Q-y8NXEssDvUHyPqfeAQr9rqySutzq7G80/pub?embedded=true"></iframe>
+</section>

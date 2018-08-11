@@ -71,6 +71,14 @@ article {
       font-size: 0.7em;
     }
   }
+
+  iframe {
+    display:block;
+    width: 80%;
+    min-height: 40em;
+    text-align: center;
+    margin: auto;
+  }
     
   section {
     &.cl2 {
@@ -132,6 +140,41 @@ article {
       border-radius: 0.5em;
       p {
         margin: 0;
+      }
+    }
+
+    .flat-document {
+      background-color: #ececf7;
+      padding: 0.5em;
+      border-radius: 0.5em;
+      border: 1px solid #5b5be0;
+      h3 {
+        color: #5b5be0;
+        text-align: center;
+      }
+      p {
+        margin: 0;
+        em {
+          font-size: 0.8em;
+        }
+      }
+      ul {
+        list-style: none;
+        font-size: 0.9em;
+        padding: 0px 2em;
+        li {
+          margin-bottom: 0.5em;
+          i {
+            color: #5b5be0;
+          }
+          ul {
+            li {
+              i {
+                color: #7575e4;
+              }
+            }
+          }
+        }
       }
     }
     
