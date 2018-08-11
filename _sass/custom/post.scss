@@ -160,13 +160,15 @@ article {
           font-size: 0.8em;
         }
       }
+      @media (min-width: 740px) {
+        ul {
+          padding: 0px 2em;
+        }
+      }
       ul {
         list-style: none;
         font-size: 0.9em;
 
-        @media (min-width: 740px) {
-          padding: 0px 2em;
-        }
         padding: 0px;
         li {
           margin-bottom: 0.5em;
@@ -174,6 +176,7 @@ article {
             color: #5b5be0;
           }
           ul {
+            padding-left: 1em;
             li {
               i {
                 color: #7575e4;
