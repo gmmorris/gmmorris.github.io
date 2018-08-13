@@ -33,7 +33,7 @@ What I mean by that that is that many developers feel that in order to be effect
 
 In such an environment, by definition, other people are a detriment to achieving good work, and so while interpersonal challenges are identified as a detriment to effective team work, they seem to be less recognised as a detriment to the coding practice itself.
 
-My personal take on this is that the separation of interpersonal challenges from the challenge of product delivery is actually harmful to the mental health of a team. By separating the two, we're disincentives individuals from raising such conflicts as issues to be addressed, as they are seen as less relevant to the work at hand. This topic as well entirely deserves its own post, so I won't delve into it now, but I would like to express that my feeling is that traditional coding practices often incentivise not just the siloing of knowledge, but the siloing of feelings too, and we all know what happens when we bottle up stressful emotions. The corks burst.
+My personal take on this is that the separation of interpersonal challenges from the challenge of product delivery is actually harmful to the mental health of a team. By separating the two, we're disincentivising individuals from raising such conflicts as issues to be addressed, as they are seen as less relevant to the work at hand. This topic as well entirely deserves its own post, so I won't delve into it now, but I would like to express that my feeling is that traditional coding practices often incentivise not just the siloing of knowledge, but the siloing of feelings too, and we all know what happens when we bottle up stressful emotions. The corks burst.
 </section>
 
 ### In Pair Programming
@@ -92,7 +92,7 @@ _what the virtual workspace feels like_
 
 * <i class="fas fa-check-circle"></i> Should we keep the browser tabs from a previous session or should we close everything and start from scratch?
 
-* <i class="fas fa-check-circle"></i> Would you prefer we use a shared a monitor or should we switch to a dual monitor workstation where the monitors are mirrored?  
+* <i class="fas fa-check-circle"></i> Would you prefer we share a single monitor or should we switch to a workstation with dual mirrored monitors?  
 
 **Keyboard Switching** 
 _how the pair uses the keyboard and prefers to control who's typing at any given time_
@@ -107,9 +107,9 @@ _how the pair uses the keyboard and prefers to control who's typing at any given
 **Knowledge Sharing**
 _when a knowledge gap exists between the individuals in the Pair, how should knowledge be disseminated_
 
-* <i class="fas fa-check-circle"></i> How would the person with less knowledge like the knowledge to be introduced (whiteboard explanations, running through the code, over coffee, etc.)
+* <i class="fas fa-check-circle"></i> How would the person with less knowledge like the knowledge to be introduced? For example: whiteboard explanations? or running through the code? or perhaps over coffee?
 
-* <i class="fas fa-check-circle"></i> How much would the person want to be taught - only things specific to the story or perhaps broader overview of the system as a whole or deeper into language and tech specific details.
+* <i class="fas fa-check-circle"></i> How much would the person want to be taught? Only things specific to the story? or perhaps broader overview of the system as a whole? or deeper into language and tech specific details?
 
 **Goal**
 _what's our goal for the session_
