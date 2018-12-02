@@ -72,8 +72,8 @@ I'd like to delve into each one of these activities, and will be dedicating a bl
 
 1. [_Feedback & Cake_]({% post_url 2018-08-04-feedback-and-cake %}) A feedback cycle intended to give everyone an opportunity to give and receive feedback. And eat cake.
 2. [_Pairing checklist_]({% post_url 2018-08-11-pairing-checklist %}) A foundation for setting mutual expectations during a pair programming session
-3. [_Getting better at **X**_]({ post_url 2018-08-26-getting-better-at }) A foundation for continuous improvement
-4. [_Occupy hand signals_]({ post_url 2018-09-29-occupy-hand-signals }) Improving team communication by introducing hand signals
+3. [_Getting better at **X**_]({% post_url 2018-08-26-getting-better-at %}) A foundation for continuous improvement
+4. [_Occupy hand signals_]({% post_url 2018-09-29-occupy-hand-signals %}) Improving team communication by introducing hand signals
 5. _Experiments as an entity_ When team members fear change, elevate experiments to story card level
 6. _Pairing matrix_ Ensure a balanced opportunity for all team members to mentor and to be mentored
 7. _Weekly Dojos_ Reduce the fog around coding practices by including everyone in the conversation as part of an ubermob
