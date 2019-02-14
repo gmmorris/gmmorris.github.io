@@ -4,7 +4,6 @@ title:  "That One Time When The US Screeched To A Halt"
 date: 2019-02-13 13:53:00 +0100
 tags: support, exchange, on-call, unruly
 icon: fire
-hidden: true
 description: "The story of that one time I was Primary On Call and the entire United States region screeched to a halt"
 banner: banner-occult
 banner-desc: "...And the ruler in the third dungeon... it is called, in its region, Acharoch."
