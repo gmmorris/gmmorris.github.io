@@ -12,6 +12,8 @@ banner-desc-link: "https://www.flickr.com/photos/124724526@N05/14279671351"
 ---
 {::options parse_block_html="true" /}
 <section>
+> This post is part of the series [The secret sauce to an effective team]({% post_url 2018-07-28-the-secret-sauce-to-an-effective-team %}) which describes the steps taken within my team at Unruly in order to facilitate the fostering of _psychological safety_ amongst members of the team.
+
 Having grown up outside of Britain, I am already an odd bird in that, when I speak, my hands play a crucial role in how I express myself.  
 
 Where I grew up we speak with our hands. We use gestures to express a subtext to our spoken words. Being an immigrant though often means that your understanding of a certain gesture is slightly off from that of your counterparts.   

@@ -25,7 +25,6 @@ Even though the team was quite capable of agreeing on what they wanted to achiev
 <section>
 Even though the team was quick to amalgamate around a shared purpose, they had all come from different teams with slightly different ways of working and as individuals they all had very different professional preferences.
 
-
 If I were to write a play about the team (clearly the next **best** thing to hit the West End since **Hamilton**) the character descriptions would be something like this:
 
 1. **teammate #1** The person who has been at Unruly almost since the beginning, worked extensively in the key technologies the team currently uses, likes things the way they are and doesn't see why things should change from how they have always been.
@@ -74,7 +73,7 @@ I'd like to delve into each one of these activities, and will be dedicating a bl
 2. [_Pairing checklist_]({% post_url 2018-08-11-pairing-checklist %}) A foundation for setting mutual expectations during a pair programming session
 3. [_Getting better at **X**_]({% post_url 2018-08-26-getting-better-at %}) A foundation for continuous improvement
 4. [_Occupy hand signals_]({% post_url 2018-09-29-occupy-hand-signals %}) Improving team communication by introducing hand signals
-5. _Experiments as an entity_ When team members fear change, elevate experiments to story card level
+5. [_Experiments as an entity_]({% post_url 2018-10-22-experiments-as-an-entity %}) When team members fear change, elevate experiments to story card level
 6. _Pairing matrix_ Ensure a balanced opportunity for all team members to mentor and to be mentored
 7. _Weekly Dojos_ Reduce the fog around coding practices by including everyone in the conversation as part of an ubermob
 

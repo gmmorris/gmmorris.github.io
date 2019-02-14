@@ -12,6 +12,8 @@ banner-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/19880
 ---
 {::options parse_block_html="true" /}
 <section>
+> This post is part of the series [The secret sauce to an effective team]({% post_url 2018-07-28-the-secret-sauce-to-an-effective-team %}) which describes the steps taken within my team at Unruly in order to facilitate the fostering of _psychological safety_ amongst members of the team.
+
 If you were to ask me what I believe to be the single most effective practice my team has adopted over the past couple of years, hands down, it would be **feedback & cake**.
 </section>
 

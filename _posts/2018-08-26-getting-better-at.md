@@ -11,7 +11,10 @@ banner-img: "/assets/img/banners/parliament.png"
 banner-desc-link: "https://www.flickr.com/photos/britishlibrary/11283075654"
 ---
 {::options parse_block_html="true" /}
-<section>When talking about dynamics within a team we often talk about **Power Dynamics**, which is a term which can mean a slightly different thing to different people. My understanding of the term is that it describes the way two or more individuals interact with each other between whom there exists a power discrepancy.
+<section>
+> This post is part of the series [The secret sauce to an effective team]({% post_url 2018-07-28-the-secret-sauce-to-an-effective-team %}) which describes the steps taken within my team at Unruly in order to facilitate the fostering of _psychological safety_ amongst members of the team.
+
+When talking about dynamics within a team we often talk about **Power Dynamics**, which is a term which can mean a slightly different thing to different people. My understanding of the term is that it describes the way two or more individuals interact with each other between whom there exists a power discrepancy.
 
 There are many examples of these sorts of **Power Dynamics**, such as the interaction between highly experienced individuals and their newcomer colleagues, or those between individuals with academic degrees and those who are self taught.
 

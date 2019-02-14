@@ -149,7 +149,7 @@ The job of _Primary on Call_ ends at the start of the workday, as the team assem
 
 As this post is about how we handle production incidents, I feel it is worth covering how my team approached investigating the incident and presumably, if you have read this far, you're also curious what the issue dragging down our _Ad Exchanges_ actrually was.
 
-As I walked into the office in the morning the team had already assembled at our _Agile Board_, where the team maintains the lifecycle of our *User Story* cards (White), *Technical Development* cards (green), *Research cards* (Blue) and when needed *Incident* cards (Red).
+As I walked into the office in the morning the team had already assembled at our _Agile Board_, where the team maintains the lifecycle of our *User Story* cards (White), *Technical Development* cards (green), *Research* cards (Blue) and when needed *Incident* cards (Red).
 _Ad Exchanges_ that can't stay up for longer than half an hour definitely qualifies as an *incident*, and so the team had already began to write up the suitable *Incident* card.
 
 Usually an incident would require a single *incident* card, but the unique nature of this incident, the lack of any obvious root cause, left us with many questions and very few leads.

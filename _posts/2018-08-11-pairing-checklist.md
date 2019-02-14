@@ -12,6 +12,8 @@ banner-desc-link: "https://www.flickr.com/photos/britishlibrary/11303480125"
 ---
 {::options parse_block_html="true" /}
 <section>
+> This post is part of the series [The secret sauce to an effective team]({% post_url 2018-07-28-the-secret-sauce-to-an-effective-team %}) which describes the steps taken within my team at Unruly in order to facilitate the fostering of _psychological safety_ amongst members of the team.
+
 _Psychological safety_ is undeniably important in every team, but it wasn't until I joined [Unruly](https://unruly.co/about-us/were-hiring/), where we practice **Extreme Programming**, that I felt like _psychological safety_ is essential for me to both produce good work as an individual and to stay mentally healthy.
 </section>
 <section>
