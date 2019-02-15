@@ -37,7 +37,7 @@ Nagios, my old foe, the one unchanged constant for the bulk of my 17 year career
 
 _**Sites Details aren't fresh on one of our United States Ad Exchanges**_, the alert notifies me. To understand what this means you need a basic understanding of what we do and how our system is architected.
 
-At *[Unruly](https://unruly.co)* we work in the online video advertising space and my team is in charge of our *Supply Side Platform*. What that means is that we maintain the system that auctions off space on publishers' websites to the highest bidder, enableing Advertisers the opportunity to use that space. The *Ad Exchange*, one of the services in this platform, runs the actual auction, meaning that it reaches out to bidders around the world, declares a winner based on various auction mechanics and hands off the winning bid to the advertising space.
+At *[Unruly](https://unruly.co)* we work in the online video advertising space and my team is in charge of our *Supply Side Platform*. What that means is that we maintain the system that auctions off space on publishers' websites to the highest bidder, enabling Advertisers the opportunity to use that space. The *Ad Exchange*, one of the services in this platform, runs the actual auction, meaning that it reaches out to bidders around the world, declares a winner based on various auction mechanics and hands off the winning bid to the advertising space.
 
 The **Sites Details** is a list of all the Publisher sites we could potentially serve ads on, and it is provided to each of our *Ad Exchanges* via an automated process which ensures this list is kept up to date.
 </section>
@@ -97,7 +97,7 @@ That said, we did notice a pattern in our monitoring which revealed several thin
 2. The CPU on the offending exchanges was working harder than usual and the number of connections hitting our Nginx servers was climbing.
 3. The exchange was running out of memory. The log revealed that the exchange was suffering from repeated exceptions stating *java.lang.OutOfMemoryError: Java heap space*, meaning our code was allocating space for *something* but was unable to then release this space, eventually running out of memory.
 
-These issues were further evidence of a problem, but none of them revealed the source of the problem. I made several attempts to identify a networking issue, such as an inability to reach the outside world from within the servers hosting the _Ad Exchanges_ themselves, but everything seemed to work as expected. Though the _Ad Exchange_ service was running out of resources, the servers themselves (on which the services run) seemed to be behving correctly, despite doing so under pressure of hosting a distressed service.
+These issues were further evidence of a problem, but none of them revealed the source of the problem. I made several attempts to identify a networking issue, such as an inability to reach the outside world from within the servers hosting the _Ad Exchanges_ themselves, but everything seemed to work as expected. Though the _Ad Exchange_ service was running out of resources, the servers themselves (on which the services run) seemed to be behaving correctly, despite doing so under pressure of hosting a distressed service.
 
 I decided it's time to for a hard restart.
 
@@ -147,7 +147,7 @@ As expected, there's an [XKCD](https://xkcd.com/1495/) for that.
 <section>
 The job of _Primary on Call_ ends at the start of the workday, as the team assemble for morning standup and production issues can be picked up by the team as a whole; but that doesn't mean our story ends here.
 
-As this post is about how we handle production incidents, I feel it is worth covering how my team approached investigating the incident and presumably, if you have read this far, you're also curious what the issue dragging down our _Ad Exchanges_ actrually was.
+As this post is about how we handle production incidents, I feel it is worth covering how my team approached investigating the incident and presumably, if you have read this far, you're also curious what the issue dragging down our _Ad Exchanges_ actually was.
 
 As I walked into the office in the morning the team had already assembled at our _Agile Board_, where the team maintains the lifecycle of our *User Story* cards (White), *Technical Development* cards (green), *Research* cards (Blue) and when needed *Incident* cards (Red).
 _Ad Exchanges_ that can't stay up for longer than half an hour definitely qualifies as an *incident*, and so the team had already began to write up the suitable *Incident* card.
@@ -165,7 +165,7 @@ As you can see on the board, eight different red *incident* cards were written u
 These cards ranged from verifying that this wasn't a *DDOS attack*, to investigating the possibility of an *AWS infrastructure incident* and through to improving the the *cronjob* which was restarting the _Ad Exchanges_ in order to stagger the restarts (rather than restart all _Ad Exchanges_ in parallel) to reduce the commercial impact.
 
 The first thing my team does when a incident kicks off is designate a **Disruption Champion**.
-The champion is a team member who volunteers to coordinate the response effort, acts as a single point of truth for all communication with the rest of the business and acts to ensure the team is responding well to the incident. An exmaple of the kind of thing the **Champion** might take responsibility for is ensuring the team remains commited to our working agreements, as there is always a danger that the added stress of a production incident might cause us to relax our self discipline.
+The champion is a team member who volunteers to coordinate the response effort, acts as a single point of truth for all communication with the rest of the business and acts to ensure the team is responding well to the incident. An example of the kind of thing the **Champion** might take responsibility for is ensuring the team remains committed to our working agreements, as there is always a danger that the added stress of a production incident might cause us to relax our self discipline.
 
 Once a champion was anointed, the team was free to prioritise the different incident cards and divvy up the work. If you look closely you will spot a bunch of magnets with people's faces, and you'll also note they are laid out in pairs. As Unruly practices Pair programming, we mostly assign pairs to the cards we work on, incident cards are no exception.
 </section>
@@ -238,7 +238,7 @@ In order to reduce the amount of state on our _Ad Exchanges_, we migrated from t
 A key difference between these two methods is that when logging to a local file we're dealing with a **synchronous operation** in which we know immediately whether it has succeeded or failed. On the other hand, communicating with an _external service over HTTP_, a very common pattern in _distributed systems_, is an **asynchronous operation** which introduces a new set of potential _**failure modes**_ which we now needed to take into account.
 
 In the case of this incident, it seemed a yet unidentified problem was causing our HTTP connections to stay open despite completing the data transfer.
-It took days to validate that the data transfer to **stats** was completed, that no data loss has occured and that the connection buildup in the _Ad Exchanges_ was of _**stats** connections_, but once we had this confirmed our attention turned to addressing the **failure mode**.
+It took days to validate that the data transfer to **stats** was completed, that no data loss has occurred and that the connection buildup in the _Ad Exchanges_ was of _**stats** connections_, but once we had this confirmed our attention turned to addressing the **failure mode**.
 
 I hate to bore you with the details, but broadly we're talking about ensuring that _an ideal connection pool_ is available within each _Ad Exchange_, that _lingering connection objects are timed-out_ after a suitable duration and that _better observability is in place_ for this kind **failure mode**.
 
