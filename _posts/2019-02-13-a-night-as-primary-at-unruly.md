@@ -17,7 +17,7 @@ The first is that when starting a new job my _impostor syndrome_ promptly kicks 
 The second is that _going on-call_ for a whole system _scares the shit_ out of me.
 
 This feeling has been exacerbated by the fact that when I joined Unruly I wasn't just starting a new job, but also shifting away from my specialism.
-After well over a decade of work on Front End and Web Applications, my role at Unruly is the first since my junior years, in which I am not only predominantly _focused on a Back End system_, but on a _ truly distributed_ one.
+After well over a decade of work on Front End and Web Applications, my role at Unruly is the first since my junior years, in which I am not only predominantly _focused on a Back End system_, but on a _truly distributed_ one.
 
 While I'll be the first to advocate for *Front End development* as a form of distributed system itself, working on a high throughput Ad Exchange represents a departure from my comfort zone and so the idea of being on-call in such an environment triggers all my fears and self deprecating demons.
 
