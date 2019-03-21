@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Structured Reasoning Of Searching Through Structured Logging"
+title:  "Structured Greping Of Structured Logging"
 date: 2019-02-01 22:16:08 +0100
 tags: JSON, grep, jq, logging, structured-logs
 icon: terminal
@@ -330,7 +330,7 @@ $ cat bidrequests.json |
 
 # Conclusion
 <section>
-The most important take away for me has been that structured logging opens up a whole world of options when you want to analyse what is going on in your system. But as I said earlier: **There isn't much point having structured logs if you can't reason about them in a structured manner in the place where you need them**.
+The most important take away for me has been that structured logging opens up a whole world of options when you want to analyse what is going on in your system. But as I said earlier: **There isn't much point having structured logs if you can't reason about them in a structured manner in the place where you need them  **.
 
 Feel free to play around with **jgrep** and submit a [pull request](https://github.com/gmmorris/jgrep) if you spot an error or have an improvement to offer.
 
