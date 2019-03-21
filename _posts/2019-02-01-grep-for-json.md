@@ -330,11 +330,11 @@ $ cat bidrequests.json |
 
 # Conclusion
 <section>
-The most important take away for me has been that structured logging opens up a whole world of options when you want to analyse what is going on in your system. But as I said earlier: **There isn't much point having structured logs if you can't reason about them in a structured manner**.
+The most important take away for me has been that structured logging opens up a whole world of options when you want to analyse what is going on in your system. But as I said earlier: **There isn't much point having structured logs if you can't reason about them in a structured manner in the place where you need them**.
 
 Feel free to play around with **jgrep** and submit a [pull request](https://github.com/gmmorris/jgrep) if you spot an error or have an improvement to offer.
 
 For example, if you look at that last example I gave, you might have noticed that even though the _devicetype_ and _ua_ fields are on the same _device_ object, you can't match against both at the same time. Ideally you would be able to do something like ```jgrep '.device{"devicetype":1,"ua"*:"GSA/"}'``` which would definitely be more intuitive. This is just one example of a still missing feature which I'll be more than happy to receive a [pull request](https://github.com/gmmorris/jgrep) for.
 
-I haven't yet published the cli tool to Homebrew or apt-get, but I hope to do so once I feel the tool is mature enough. In the meantime you can download the latest release on [Github](https://github.com/gmmorris/jgrep).
+I haven't yet published the cli tool to _Homebrew_ or _APT_, but I hope to do so once I feel the tool is mature enough. In the meantime you can download the latest release on [Github](https://github.com/gmmorris/jgrep).
 </section>
