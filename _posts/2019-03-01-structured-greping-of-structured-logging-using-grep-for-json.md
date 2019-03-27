@@ -148,7 +148,7 @@ Clearly the issue is deeper:
 So I made a tool which would allow me to do so.
 </section>
 
-# jgrep - grep for JSON
+# Jeff Goldblum aka jg - grep for JSON
 <section>
 I began to think about the complex questions I often ask when sniffing around in these logs and came to the following conclusions:
 1. I need a tool that could describe a _JSON structure_ and match input against this structure
@@ -161,7 +161,7 @@ The first pattern to emulate was, obviously, the tools we we're already using - 
 
 The command-line API for my tool is as close to that of **grep** as possible.
 The various flags, such as _-c_ (print count) and _-i_ (ignore case), are the same.
-The ability to either _pipe_ input into **jgrep** or specify a specific file are supported too.
+The ability to either _pipe_ input into **jg** or specify a specific file are supported too.
 
 You get the idea.
 
@@ -175,17 +175,22 @@ Instead I chose to emulate another syntax which I have been using to _match shap
 
 While the structure of _HTML Documents_, which is what _CSS Selectors_ are optimised for, is very differently from JSON structures, I could see enough similarities and I felt it would be quite intuitive to people who are used to both JSON and CSS, such as the web development community.
 
-The project's [readme](https://github.com/gmmorris/jgrep) documents the entire syntax in detail. I'd appreciate feedback on this syntax, so please do tell me how intuitive you actually find it.
+The project's [readme](https://github.com/gmmorris/jg) documents the entire syntax in detail. I'd appreciate feedback on this syntax, so please do tell me how intuitive you actually find it.
+
+> Wait... why Jeff Goldblum? What does he have to do with JSON?
+> Well, I originally named the project *jgrep*, but that name and similar variants are taken by similar tools.
+> But then I thought... *json grep* could be shortened to *jg*... and *jg* is obviously *Jeff Goldblum*...
+> And Jeff is awesome, so obviously *jg* would have to be named after him.
 </section>
 
-# Using jgrep To Answer The Question
+# Using jg To Answer The Question
 <section>
-So how would you use **jgrep** to answer the question I asked above? Can we find all the _bid responses_ which include bids on a specific _Private Marketplace Deal_, have an _Ad Id_ on them and can be _skipped_?"
+So how would you use **jg** to answer the question I asked above? Can we find all the _bid responses_ which include bids on a specific _Private Marketplace Deal_, have an _Ad Id_ on them and can be _skipped_?"
 
 Like so:
 
 ```
-$ cat bidresponse.json | jgrep '{"dealid":"UNRX-GIDI-9d2a2ba53ebc"}' | jgrep '.adid'  | jgrep '{"attr":[16]}' 
+$ cat bidresponse.json | jg '{"dealid":"UNRX-GIDI-9d2a2ba53ebc"}' | jg '.adid'  | jg '{"attr":[16]}' 
 ```
 
 ```
@@ -193,20 +198,20 @@ $ cat bidresponse.json | jgrep '{"dealid":"UNRX-GIDI-9d2a2ba53ebc"}' | jgrep '.a
 {"id":"cd56c8ce-7ed6-49b6-84f5-689dd5315196","seatbid":[{"bid":[{"id":"1","impid":"cd56c8ce-7ed6-49b6-84f5-689dd5315196","price":7.49,"adid":"8762655","adm":"<?xml version=\"1.0\" encoding=\"UTF-8\"?><VAST version=\"2.0\"></VAST>","adomain":["gidi.io"],"dealid":"UNRX-GIDI-9d2a2ba53ebc","attr":[15, 16]}],"seat":"10000001"}],"cur":"USD"}
 ```
 
-As you can see in this example, just like _grep_, we can combine searches by piping _jgrep_ commands into one another. Effectively this narrows our results down by filtering down the results using one pattern and then handing those over to another search with another pattern.
+As you can see in this example, just like _grep_, we can combine searches by piping _jg_ commands into one another. Effectively this narrows our results down by filtering down the results using one pattern and then handing those over to another search with another pattern.
 
 If, on the other hand, you want to print events that match one of multiple patterns (an _OR_ relationship, instead of _AND_) then you can use the _-e_ flag... again, just like _grep_.
 
 So for example, if you wanted to find _bid responses_ that _either_ have an Ad ID _or_ have the specified deal ID, you could use the following:
 
 ```
-$ jgrep -e '{"dealid":"UNRX-GIDI-9d2a2ba53ebc"}' -e '.adid' bidresponse.json
+$ jg -e '{"dealid":"UNRX-GIDI-9d2a2ba53ebc"}' -e '.adid' bidresponse.json
 ```
 </section>
 
-# Using jgrep On Bid Requests
+# Using jg On Bid Requests
 <section>
-To better showcase the benefit of using **jgrep** lets take a look at _openRTB_'s _Bid Request_, which is a somewhat more complex entity than the _Bid Response_.
+To better showcase the benefit of using **jg** lets take a look at _openRTB_'s _Bid Request_, which is a somewhat more complex entity than the _Bid Response_.
 
 _Bid Requests_ are an entity that the _Ad Exchange_ sends to potential buyers in order to offer them the opportunity of buying advertising real-estate. We're talking about a structure that can be vastly different depending on the ad format on offer, the type of the real-estate and a variety of other factors.
 
@@ -285,30 +290,30 @@ For example, here is a _Bid Request_ offering the opportunity of purchasing spac
 
 This is a relatively simple _Bid Request_ if you can believe it.
 
-Bellow are a variety of example _jgrep_ cli calls that would match the above _bid request_. If you're unsure how the pattern works I suggest looking at the shape of the _Bid Request_ and finding the specified fields in the structure, hopefully it will make more sense then.
+Bellow are a variety of example _jg_ cli calls that would match the above _bid request_. If you're unsure how the pattern works I suggest looking at the shape of the _Bid Request_ and finding the specified fields in the structure, hopefully it will make more sense then.
 
 The following will match any JSON object that has an object under the key _"site"_ which has a key "ref":
 
 ```
-$ jgrep '.site.ref' bidrequests.json
+$ jg '.site.ref' bidrequests.json
 ```
 
 The following will match any JSON object that has a key _"country"_ whose value is _"GBR"_, meaning the user is located in Britain:
 
 ```
-$ jgrep '{"country":"GBR"}' bidrequests.json
+$ jg '{"country":"GBR"}' bidrequests.json
 ```
 
 The following will match any JSON object that has a key _"pmp"_ followed by a key _"deals"_ whose value is a _non-empty_ array:
 
 ```
-$ jgrep '.pmp.deals[.]' bidrequests.json
+$ jg '.pmp.deals[.]' bidrequests.json
 ```
 
 Following from the last example, this will only match if the array of deals has a deal with the id "UNRX-GIDI-2":
 
 ```
-$ jgrep '.pmp.deals[{"id":"UNRX-GIDI-2"}]' bidrequests.json
+$ jg '.pmp.deals[{"id":"UNRX-GIDI-2"}]' bidrequests.json
 ```
 
 More often than not I need to search for events which match several different things at once.
@@ -321,10 +326,10 @@ For example, what if I want to find all the _Bid Requests_ which were offered fo
 
 ```
 $ cat bidrequests.json |              
-  jgrep '.device{"devicetype":1}' |   
-  jgrep '.device{"ua"*:"GSA/"}' |     
-  jgrep '{"country":"GBR"}' |         
-  jgrep '.imp[{"instl":1}]'
+  jg '.device{"devicetype":1}' |   
+  jg '.device{"ua"*:"GSA/"}' |     
+  jg '{"country":"GBR"}' |         
+  jg '.imp[{"instl":1}]'
 ```
 </section>
 
@@ -332,9 +337,9 @@ $ cat bidrequests.json |
 <section>
 The most important take away for me has been that structured logging opens up a whole world of options when you want to analyse what is going on in your system. But as I said earlier: **There isn't much point having structured logs if you can't reason about them in a structured manner in the place where you need them  **.
 
-Feel free to play around with **jgrep** and submit a [pull request](https://github.com/gmmorris/jgrep) if you spot an error or have an improvement to offer.
+Feel free to play around with **jg** and submit a [pull request](https://github.com/gmmorris/jg) if you spot an error or have an improvement to offer.
 
-For example, if you look at that last example I gave, you might have noticed that even though the _devicetype_ and _ua_ fields are on the same _device_ object, you can't match against both at the same time. Ideally you would be able to do something like ```jgrep '.device{"devicetype":1,"ua"*:"GSA/"}'``` which would definitely be more intuitive. This is just one example of a still missing feature which I'll be more than happy to receive a [pull request](https://github.com/gmmorris/jgrep) for.
+For example, if you look at that last example I gave, you might have noticed that even though the _devicetype_ and _ua_ fields are on the same _device_ object, you can't match against both at the same time. Ideally you would be able to do something like ```jg '.device{"devicetype":1,"ua"*:"GSA/"}'``` which would definitely be more intuitive. This is just one example of a still missing feature which I'll be more than happy to receive a [pull request](https://github.com/gmmorris/jg) for.
 
-I haven't yet published the cli tool to _Homebrew_ or _APT_, but I hope to do so once I feel the tool is mature enough. In the meantime you can download the latest release on [Github](https://github.com/gmmorris/jgrep).
+I haven't yet published the cli tool to _Homebrew_ or _APT_, but I hope to do so once I feel the tool is mature enough. In the meantime you can download the latest release on [Github](https://github.com/gmmorris/jg).
 </section>
