@@ -117,7 +117,7 @@ Retraining such individuals is going to be a huge challenge for our societies an
 <section>
 Finally, the last major topic of conversation, from my perspective, is also the most urgent: **Climate Change**.
 
-This is _a glaring omission from the _Beyond Tech_ conference, which I find hard to understand. None of the other concerns matter much if our climate collapses under the weight of continued human expansionism.
+This is _a glaring omission_ from the _Beyond Tech_ conference, which I find hard to understand. None of the other concerns matter much if our climate collapses under the weight of continued human expansionism.
 
 The role that our tech civilisation plays in climate change is far bigger than many of us care to admit, and the omission of such a topic from the conference bewilders me.
 
