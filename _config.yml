@@ -1,18 +1,13 @@
-# Welcome to Jekyll!
+# Welcome to Sinai Jekyll Theme!
 #
 # This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
+# which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+theme_version: 1.0.1
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Think, Write; Rethink, Rewrite.
 email: blog@gidi.io
 description: >- # this means to ignore newlines until "baseurl:"
@@ -20,36 +15,36 @@ description: >- # this means to ignore newlines until "baseurl:"
   He has a wide range of experience ranging from Front End to Back End and Infrastructure development.
 author:
   Gidi Meir Morris
-twitter:
-  username: chekofif
-  card: summary
-social:
-  name: Gidi Meir Morris
-  links:
-    - https://twitter.com/chekofif
-    - https://github.com/gmmorris
+baseurl:            '' # The subpath of your site, e.g. /blog
+url:                'https://www.gidi.io/' # The base hostname & protocol for your site
+twitter:            https://twitter.com/chekofif
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://gidi.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: chekofif
-github_username:  gmmorris
+markdown:  kramdown
+permalink: pretty
+paginate:  12
+sass:
+  style: compressed
 
-# Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+gems:
+  - jekyll-paginate
+  - jekyll/tagging
 
-google_analytics: UA-66893134-1
+include:
+  - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  pretty
+
+# Pages path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext

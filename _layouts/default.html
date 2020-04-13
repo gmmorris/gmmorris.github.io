@@ -1,41 +1,32 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang='en'>
 
-  {%- include head.html -%}
+{% include head.html %}
 
-  <body>
-    {%- include header.html -%}
-    <main aria-label="Content">
-      {{ content }}
-    </main>
-    {%- include footer.html -%}
-    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script> -->
-    <script src="/assets/highlight.js"></script>
-    <script type="application/javascript" >
-      function getAll(selector){
-        return Array.prototype.slice.call(
-          document.querySelectorAll(selector)
-        );
-      }
+<body class='{% if page.url == '/' %} is-home {% endif %}'>
 
-      getAll('pre code')
-        .forEach(function(el){
-          hljs.highlightBlock(el);
-/*
-          getAll('.p')
-            .forEach(function(el){
-              if(el.innerText === '|>' || el.innerText === '|') {
-                el.className += ' re';
-              }
-            });
+  {% include analytics.html %}
 
-          getAll('.o, .o .hljs-function')
-            .forEach(function(el){
-              if(el.innerText === '=>') {
-                el.className += ' re';
-              }
-            });*/
-        });      
-    </script>
-  </body>
+  <div class='js-off-canvas-container c-off-canvas-container'>
+    {% include header.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+  </div>
+
+  <script src="{{ '/js/jquery.min.js' | prepend: site.baseurl }}">                 </script>
+  <script src="{{ '/js/jquery.viewportchecker.min.js' | prepend: site.baseurl }}"> </script>
+  <script src="{{ '/js/jquery.ghostHunter.min.js' | prepend: site.baseurl }}">     </script>
+  <script src="{{ '/js/masonry.pkgd.min.js' | prepend: site.baseurl }}">           </script>
+  <script src="{{ '/js/imagesloaded.pkgd.min.js' | prepend: site.baseurl }}">      </script>
+  <script src="{{ '/js/evil-icons.min.js' | prepend: site.baseurl }}">             </script>
+  <script src="{{ '/js/jquery.fitvids.js' | prepend: site.baseurl }}">             </script>
+  <script src="{{ '/js/instafeed.min.js' | prepend: site.baseurl }}">              </script>
+  <script src="{{ '/js/transition.js' | prepend: site.baseurl }}">                 </script>
+  <script src="{{ '/js/zoom.min.js' | prepend: site.baseurl }}">                   </script>
+  <script src="{{ '/js/app.js' | prepend: site.baseurl }}">                        </script>
+  <script src="https://kit.fontawesome.com/b06b0f8780.js" crossorigin="anonymous"></script>
+</body>
+
 </html>

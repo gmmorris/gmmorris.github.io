@@ -2,16 +2,15 @@
 layout: post
 title:  "The magical quest for Componentisation"
 date:   2016-11-28 13:10:00 +0100
-tags: javascript, code-design
+tags: javascript code-design
 icon: user-astronaut
 description: "My endevour to figure out how to implement complex Object Composition in code"
-banner: banner-cards
-banner-img: "/assets/img/banners/cards.png"
-banner-desc: "The Hand"
-banner-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/14597324427"
+image: "/images/banners/cards.png"
+image-desc: "The Hand"
+image-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/14597324427"
 ---
-{::options parse_block_html="true" /}
-<section class="cl2">
+
+
 I would like, if I may, to ask you an existential question.
 
 **What is the core of our job as developers today?**
@@ -22,10 +21,10 @@ But rather, what our job probably _is_, is to _take an existing abstraction and 
 
 What we’re still trying to figure out is how best to do that, right?
 For me, that quest began with modularisation.
-</section>
+
 
 ## Modularisation
-<section class="cl2">
+
 Predominantly focussed on the Front End over the past decade, I spent several years evangelising **Backbone.js** as a solution to tackling the challenge of Front End architecture. As a relatively early adopter of Backbone, in early 2011, I found the move from a messy soup of global Javascript objects with complex prototypical hierarchies, to a structured MVC (or rather, MVP) pattern an extremely pleasing step forward.
 
 Backbone allowed us to focus less on how the pieces of our code fit together, and more on what they actually did. This was made possible by abstracting away a lot of the boilerplate and defining a clear API for each piece of our system. This might seem obvious in hindsight, but at the time this felt groundbreaking, mostly because we were so used to our Javascript existing as *a pile of code held together by duct tape* that we accepted our fate and found it hard to see the potential for a better option.
@@ -33,11 +32,11 @@ Backbone allowed us to focus less on how the pieces of our code fit together, an
 But the key *unique selling point* of Backbone, beyond removing boilerplate and providing an enforced API, was laying the groundwork for proper **modularisation** of our Javascript codebases.
 
 Modules are a corner stone of good code structuring, as they encourage us to break our code down into individual logical pieces. This makes it easier for us to write maintainable code that’s easier to reason about, to test and to reuse.
-</section>
+
 
 ## Rachel’s Trifle
 
-<section class="cl2">
+
 Backbone, though, as it turned out, was not the be-all and end-all solution to our problems.
 
 We could definitely leverage the benefits of MVC to achieve several things, such as breaking down our architecture into multitiered Object Oriented designs, to strive for separation of concerns by layering our modules and to design inheritance chains meant to improve code reuse and reduce complexity. But it seemed we would always end up hitting the same inevitable wall.
@@ -46,16 +45,16 @@ As a codebase would grow, requirements would change and assumptions would turn o
 
 What we would initially envision as a well thought out and layered Trifle, turned out to be more a mixed up recipe, where layers don’t quite make sense anymore, they end up seeping into the layers above and bellow them and something just doesn’t taste quite right anymore. This in turn makes it harder to reuse code, to test it and to maintain it.
 
-![](/assets/img/2016/11/trifle.gif)
+![](/images/2016/11/trifle.gif)
 
 > _Rachel’s Trifle? Good. **Code Trifle**? Bad._
 
 In other words, our code would develop a smell… the unmistakable smell of a Custard, Jam, Mashed Potatoes and Meat dessert.
-</section>
+
 
 ## Wait, but why?
 
-<section class="cl2">
+
 Einstein never actually said that *insanity is doing the same thing over and over again and expecting different results*, but I’d like to think that he *would* agree that when we find ourselves repeating a mistake, we should probably rethink our initial approach.
 
 I tried to identify the root causes for why so many of the teams I’d worked on ended up with these code smells and I narrowed them down to the following four:
@@ -71,11 +70,11 @@ We often find it hard to make truly atomic pieces of code as they have an inhere
 
 **Trying to predict the future**
 By far the biggest culprit for the dank code smell is a habit developers have of trying to predict how their code will be used instead of focusing on what is needed. This can lead to many problematic implementations, but most of all it leads to over engineering of solutions, which often leads to code that is very hard to *delete* later. I’m a firm believer that good code should be easy to delete and over engineering often makes that much harder to do.
-</section>
+
 
 ## Searching for answers
 
-<section class="cl2">
+
 Having boiled down my problem to its root causes, the next step would be to figure out what I could do to reduce their impact on how I write my code. I believed these causes could be reduced to one core issue, which is that my code would often end up with **High Efferent Coupling & Fragmented State**.
 
 Which begged the question:
@@ -85,32 +84,32 @@ Which begged the question:
 Searching high and low for an answer I hit the internet, the books, the tech talks, my dad (I didn’t literally hit my dad, I just asked his opinion, as he’s been writing code since the 70s, presumably sporting glorious hippie hair and a spliff) and found that there are in fact many possible answers to this question.
 
 I won’t enumerate all of them, but one answer would show up repeatedly, and that was a quote which I’d heard many times before:
-</section>
 
-<section>
-![Note the year in which this book, considered a religious tome by many developers, was released. 1994. That’s 22 years ago, that’s it. If anything serves to remind us that we’re still “just figuring out this shit, because it’s bloody new”, it’s that.](/assets/img/2016/11/favour.png)
+
+
+![Note the year in which this book, considered a religious tome by many developers, was released. 1994. That’s 22 years ago, that’s it. If anything serves to remind us that we’re still “just figuring out this shit, because it’s bloody new”, it’s that.](/images/2016/11/favour.png)
 
 <small>Note the year in which this book, considered a religious tome by many developers, was released. 1994. That’s 22 years ago, that’s it. If anything serves to remind us that we’re still “just figuring out this shit, because it’s bloody new”, it’s that.</small>
-</section>
 
-<section class="cl2">
+
+
 In fact, this quote has been repeated so many times by so many people, I’ve began to find it *eye-roll inducing*.
 
 The reason I found this quote slightly annoying was that the more I discussed this topic with experienced developers, the more it would remind me of another quote.
-</section>
 
-<section class="no-indent">
-![](/assets/img/2016/11/theory.png)
-</section>
 
-<section class="cl2">
+
+![](/images/2016/11/theory.png)
+
+
+
 While it seemed many developers appreciated the wisdom in this advice, reflected in the fact that it has been featured in innumerable talks and blog posts, very few could actually show me *how to achieve this*.
 
 *Composability* is not an inherently clear idea, and while many developers seems perfectly capable of coding up an example in an IDE, they never seemed to actually follow through when it came to their codebase. And most annoying was the fact that they were aware of this discrepency, but simply couldn’t quite translate the theory into practice once they had real problems they needed to solve.
-</section>
+
 
 ## What is Composition?
-<section class="cl2">
+
 So to figure out how to achieve *composability*, we first need to understand what *composition* actually means.
 
 To the best of my understanding there are two kinds of composition.
@@ -118,7 +117,7 @@ To the best of my understanding there are two kinds of composition.
 The first is **functional composition**. I’ll assume for the sake of succinctness, that you already know what functional composition is, as this blog post is already way too long.
 
 But just to make sure we’re on the same page I’ll clarify that when I say functional composition, what I mean is that, in the following snippet, the **h** function is the *functional composition* of the **g** and **f** functions.
-</section>
+
 
 ```javascript
 const g = () => {}
@@ -127,14 +126,14 @@ const f = () => {}
 // (g ∘ f )(x) = g(f(x))
 const h = (...args) => g(f(...args))
 ```
-<section class="cl2">
+
 The second kind of composition is **object composition**, and this is where I got stuck.
 
 I just couldn’t wrap my brain around how I was supposed to take the theory of Functional Composition and apply it to complex objects. How to structure the pieces of my code and make them work together without relegating back to old and smelly practices.
-</section>
+
 
 ### What is Object Composition?
-<section class="cl2">
+
 [Eric Elliot](https://twitter.com/_ericelliott) gave a really good talk at [Fluent 2013](https://www.youtube.com/watch?v=lKCCZTUx0sI) in which he explains object composition and its benefits in a much better way than I ever could, so I’d highly recommend watching his talk.
 
 But after experimenting with Eric’s proposed solution, a library called [StampIt](https://github.com/stampit-org/stampit), I still couldn’t see how I could avoid the high Efferent Coupling I was experiencing, nor did it do much to help me tackle the fragmented state.
@@ -142,25 +141,25 @@ But after experimenting with Eric’s proposed solution, a library called [Stamp
 This feeling of frustration with the smell of my code would stay with me for a while, until recently, when I began using *React* in production. It wasn’t immediately apparent to me how React seemed to alleviate many of the problems I was experiencing, nor do I want to tote React as necceserily a *solution* to these problems.
 
 What I have found *React* to be though, is an opportunity to alleviate many of the causes for these code smells, and that’s the actual topic I want to talk about.
-</section>
+
 
 ## Composability via Componentisation
 
-<section class="cl2">
+
 I often hear developers talk about the difference between the *react* package and the *react-dom* package. They seem to always focus on how the separation provides the ability to use *React*’s top level API to define *loosely coupled* components for different Renderers and Reconciler in order to share components and logic between different target technologies. They will also discuss how the uniderectional flow of data aids in avoiding *fragmented state*. Sadly, though, it’s much more unusual though to hear them discuss what it is about the top level API that makes it so well suited for building such a wide variety of components with relatively low efferent coupling.
 
 React is often toted around as highly declarative, composable and encapsulated. In fact, these descriptions are stated on the React homepage, but no where in the documentation is it discussed what it is about React’s API that allows for these traits. These traits are simply stated as fact.
 
 I guess the rest of the Javascript community is much more practical than I am, because I found myself much more concerned with *why* it worked than anyone else I talked to.
-</section>
+
 
 ## From Function to Component
 
-<section class="cl2">
+
 It wasn’t until I started analysing the React API that I got my “AHA!” moment. What I realised was that a direct parallel can be made between the API of Functional Composition and the React API.
 
 Lets break down the API of Functional Composition and label the different building blocks:
-</section>
+
 
 ```javascript
 // We'll label g() and f() as the `parent` and `child` functions
@@ -177,12 +176,12 @@ const childProps = [a, b, c]
 const composition = (props) => parent(props, child(childProps))
 ```
 
-<section class="cl2">
+
 While this might not be immediately apparent, the above composition is actually reminiscent of *React*’s top level API. In order to see it though, we’ll have fade away some of the layers of abstraction provided by JSX.
 
 If you look at the React docs you’ll find an [article explaining JSX’s compilation target](https://facebook.github.io/react/docs/jsx-in-depth.html) (and you can play around with the JSX to JS compilation [here](https://jsx-live.now.sh/).).
 Specifically what might interest you is how:
-</section>
+
 
 ```javascript
 // Specifically what might interest you is how the following JSX:
@@ -198,11 +197,11 @@ React.createElement(
 )
 ```
 
-<section class="cl2">
+
 While it might not be apparent at first glance, this API could easily be a wrapper for the functional composition we built a couple of snippets ago.
 
 Lets replace the React Component references and props with the labels we defined in our snippet.
-</section>
+
 
 ```javascript
 React.createElement(
@@ -212,18 +211,18 @@ React.createElement(
 )
 ```
 
-<section class="cl2">
+
 This might seem obvious in hindsight, but by adding a little abstraction and expanding flexibility by allowing the parent functions to have their own arguments in addition to the return values of the child functions, React has actually provided us with a highly flexible API for Object Composition. By defining a strict API for the communication between all pieces of your code, you achieve an ideal situation where:
 
 1. Every piece of your code knows how to talk to every other piece
 1. Every piece of your code can be passed as an argument to any other piece
 
 I tried asking a couple of members of the React core team what they would call this design pattern, but sadly never got an answer. Considering how swamped they must be with issues, emails and life, I decided not to pursue them further and simply named this design pattern thus: **Componentisation**.
-</section>
+
 
 ## The rules of Componentisation
 
-<section>
+
 Considering the componentisation API as a generic design pattern I defined a set of 7 rules which any library must follow in order to provide the composability I strive for:
 
 1. Every composed object must be either a Component or at most a built in type
@@ -241,11 +240,11 @@ Considering the componentisation API as a generic design pattern I defined a set
 1. A component doesn’t have to “know” its children in order to interact with them
 
 I believe that any library that follows these rules could, in theory, provide the high level of composability required to build complex systems without compromising on low cohesiveness and efferent coupling.
-</section>
+
 
 ## Bottom Line
 
-<section class="cl2">
+
 The point of this article isn’t to claim that React or Componentisation is a magical solution to all your problems. Rather, that Componentisation is about providing a framework (as in a basic structure, not as in a *Javascript Framework*) which can facilitate the authorship of loosely coupled code, with less code smell.
 
 But it is also important to keep in mind that componentisation alone cannot promise you these traits. In order to achieve these, you must first understand *what it is* about componentisation that provides them and then you need to maintain the dicipline of constantly making sure the code you author sticks to the framework and only deviates when absolutly neccesery.
@@ -257,12 +256,11 @@ And so this has been my quest for the secret of componentisation. When I set out
 In addition I’m putting together an article in which I will present you with various design patterns we can follow with componentisation which can help you take advantage of the componentisation paradigm.
 
 So there’s plenty to look forward to!
-</section>
+
 
 ## Learning more
 
-<section class="no-indent">
+
 Following the React core team on Twitter and Github provided true insight into how this API is transforming the way developers are writing code since the library was introduced.
 
 I [would](https://twitter.com/sebmarkbage) [highly](https://twitter.com/dan_abramov) [recommend](https://twitter.com/_chenglou) [following](https://twitter.com/zpao) [them](https://twitter.com/soprano) and reading the [issues on the GitHub repo](https://github.com/facebook/react/issues). I’ve learned alot from doing just that and I’m sure you will too.
-</section>

@@ -4,34 +4,33 @@ title:  "Why on earth would you create yet another package manager for Javascrip
 description: "How and why I built a Javascript library for packaging modules"
 date:   2015-08-28 12:06:00 +0100
 icon: stream
-banner: banner-shell
-banner-img: "/assets/img/banners/shell.png"
-banner-desc: "The Shell"
-banner-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/21090105071/"
+image: "/images/banners/shell.png"
+image-desc: "The Shell"
+image-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/21090105071/"
 ---
-{::options parse_block_html="true" /}
-<section class="cl2">
+
+
 I recently got asked this question by a coworker…. as I tried to explain I found myself going back four years to my next to last job, where I developed the component I recently released known as The Modularizer at one of the most exciting rollercoasters I ever rode — the now deceased A/B testing startup Pluralis.
 
 As I explained to my coworker what the needs were it occurred to me that as I also found a fresh usage for this component in my current role as Lead Front End Architect of Loveholidays, it might be worth explaining this publicly, so that perhaps it can help another company somewhere, now that I’ve open sourced it.
-</section>
+
 
 ## What is it?
 
-<section class="cl2">
+
 Well, simply put, Modularizer is a simplified Javascript package manager, built using the now standard AMD API (whose most widely used implementation is Require.js), which can exist completely independent of the global scope, unlike other AMD implementations which usually rely on a global-scoped set of functions.
 You can read more technical details about it’s usage on the documentation page [here](http://gmmorris.github.io/Modularizer/), but what I’d like to explain in this post is the answer to the simple question: *Why bother?*
-</section>
+
 
 ## Why Bother?
 
-<section class="cl2">
+
 While Modularizer was created in 2011 (and of course maintained since then; It isn’t a relic, but hasn’t been open source for long, so I’m the sole maintainer), and today perhaps other available options are better, I still found it an ideal component for the recent rewrite of the Loveholidays website, which I spearheaded and recently completed.
 
 Like I said, the main difference between Modularizer and other implementations like Require.js, is that it stays clear of the global scope. When I want to put together a package of JS modules, I simply create an instance of a Modularizer package and define the module inside of it, using the same API as RequireJS uses, but in a sandboxed environment, so that no clash can happen between the modules in my package and other packages on the page.
 
 Usually this isn’t much of a requirement, because you usually have sole control of the JS modules on your pages, so there is little-to-no danger of a clash, but there is another situation where you might need a module package manager where the danger of a clash is very high — an embedded component which is injected into other people’s websites, and thats where Modularizer came into play and where it had it’s first *fire-test*.
-</section>
+
 
 ## The Pluralis Use Case
 
@@ -39,27 +38,25 @@ To understand the need you must first understand what Pluralis did.
 Pluralis was a crowd sourced A/B testing platform.
 It tried to create a mix between the personalised A/B testing environment provided by the likes of *Optimizely* and the crowd sourced platforms like *99designs.*
 
-<div style="text-align:center">
-**take a deep breath and read the next two paragraphs quickly**
-</div>
+<small>**take a deep breath and read the next two paragraphs quickly**</small>
 
-<section class="cl2">
+
 The idea was that a client would visit our site, they would input their site’s url and would immediately be presented with their own website, but with our code injected into theirs, so that they could start marking sections they wanted tweaked and improved.
 Our crowed sourced community would then be able to edit part of the client’s site, using an on page WYSIWYG editor, to optimize the client’s page for him. Whoever optimized the page to the best result (with Pluralis actally performing the Conversion Rate measurment between the different versions) would win a the contest and the client would pay the winning optimizer a bounty, after which, once all parties are paid, the client would receive a document explaining how to implement the optimized version on their site.
 
-**OK, breath**
-</section>
+<small>**OK, breath**</small>
 
-<section class="cl2">
+
+
 That was the idea… its not that relevant to this post, but rather the architecture required for this is the point. Pluralis had a need for a very complex Front End architecture (which, as the sole FE developer for the first 9 months of the company, rested solely on my shoulders), in which we had the following:
-</section>
 
-<section style="text-align:center" class="no-indent">
-![Over simplified, but it gives a vague idea of the complexity any module manager would need to handle for our use case](/assets/img/2015/08/pluralis.png)
+
+
+![Over simplified, but it gives a vague idea of the complexity any module manager would need to handle for our use case](/images/2015/08/pluralis.png)
 
 *Over simplified, but it gives a vague idea of the complexity any module manager would need to handle for our use case*
-</section>
-<section class="cl2">
+
+
 This is an over simplified little slice out of an entire architecture, but the challenge for any module manager we chose was this: It had to be able to handle sharing different modules between several different packages, where each package had it’s own dependancies, own environment to live in and had to allow us a comfortable working platform for both Dev environments and Production environments.
 
 These modules would also have to live well on both our own website and our clients’ websites, and as the saying goes: **its a jungle out there**.
@@ -67,7 +64,7 @@ These modules would also have to live well on both our own website and our clien
 The moment your code needs to live on other people’s website, it has to be as encapsulated and safe as possible.
 
 If our product were to cause clashes on our clients’ websites and product — we were as good as finished. No one will use a product that hurts their website, and we had to be able to assure them, and ourselves, that our code cannot clash with theirs no matter what.
-</section>
+
 
 ## The Technical Requirements
 

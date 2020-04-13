@@ -4,13 +4,12 @@ title:  "Using ES6's Proxy for safe Object property access"
 date:   2016-02-07 13:10:00 +0100
 icon: code
 description: "How to use the Javascript ES6 Proxy object to create a safe wrapper around an object in order to prevent an undefined exception"
-banner: banner-screwpress
-banner-img: "/assets/img/banners/screw_press.png"
-banner-desc: "The Screw Press"
-banner-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/14594902280"
+image: "/images/banners/screw_press.png"
+image-desc: "The Screw Press"
+image-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/14594902280"
 ---
-{::options parse_block_html="true" /}
-<section class="cl2">
+
+
 I can’t get over the feeling that ES6 (still refusing to say ES2015 ^_^) is a kind of playground offering me all these new toys and attractions to play around with.
 Currently my focus is on exploring the Proxy object which gives us a new way to intercept fundamental operations on Objects, among them property access, which is something I want to play around with today.
 
@@ -18,13 +17,13 @@ Currently my focus is on exploring the Proxy object which gives us a new way to 
 Sick and tired of accessing a nested object under a property in a deep object just to have the ***Uncaught TypeError: Cannot read property ‘foo’ of undefined*** thrown in your face?
 Well, by using a Proxy you can get around those errors without excessive key checking in a reusable manner.
 The code example for doing this is down bellow, an **npm** module is available via ***npm install safeobj***, with the source on [Github](https://github.com/gmmorris/safeobj).
-</section>
 
-<section>
+
+
 ## Making our object access safe
 Suppose we have an object describing Darth Vader and a function which receives a person and returns his father’s name.
 How do we prevent this code from throwing an error?
-</section>
+
 
 ```javascript
 const DarthVader = {
@@ -43,11 +42,11 @@ function getFatherName(person) {
 let darthVadersFather = getFatherName(DarthVader)
 ```
 ### What have we seen before?
-<section class="cl2">
+
 There are lots of ways to make your object access safe from undefined properties. These have been extensively covered in other articles and usually involve either the approach of describing the deep property access as a string, or by wrapping your object in a “functional” wrapper (Such as a Functor) and abstracting away the access operation that way.
 
 The Functor example is a little complicated to give an example of, so I suggest you read up using my favourite book on the subject, which is [Professor Frisby’s Mostly adequate guide to FP](https://github.com/MostlyAdequate/mostly-adequate-guide) (specifically what you want are **Maybe**, **Either**, **Left** and **Right**), but here is an example using a string to make safe deep object property access.
-</section>
+
 
 ```javascript
 const DarthVader = {
@@ -72,7 +71,7 @@ let fathersName = deepAccessUsingString(DarthVader, 'father.name');
 console.log(mothersName); // prints "Shmi"
 console.log(fathersName); // prints undefined 
 ```
-<section class="cl2">
+
 The approach I’d like to show you today is more in line with the Functor approach, but doesn’t require you to delve deep into the functional world of monads, lenses etc. (I would actually *highly* recommend you do do that, because its a wonderful ecosystem and paradigm, but if you don’t want to, this Proxies approach is a nice half step in that direction).
 
 ### How can we do this using a Proxy?
@@ -80,7 +79,7 @@ The approach I’d like to show you today is more in line with the Functor appro
 The solution is loosely based on the functional approach where we add an intermediary layer between the actual property access and the actual act of accessing the object’s property. This is exactly what proxies are designed for and we can do this by catching every “get” operation on the object, and every subsequent “get” operation on its nested objects as it digs deeper into the original complex object.
 
 We start by defining some helper functions, which you might not need to do if you have a utility library you’re using (such as lodash or underscore), but to keep this example simple we’ll implement these ourselves with a couple of helper functions:
-</section>
+
 
 ```javascript
 const isObject = obj => obj && typeof obj === 'object';
@@ -94,7 +93,7 @@ const Undefined = new Proxy({}, {
 const either = (val,fallback) => (val === Undefined? fallback : val);
 ```
 
-<section class="cl2">
+
 These helpers are quite straight forward (lodash has equivalents for both):
 
 **isObject** simply receives a variable and returns true or false, depending on whether it is in fact an Object.
@@ -106,7 +105,7 @@ Next we have a a dead simple object, sillily called **Undefined**. This is a <u>
 **either** is a small sort of predicate operation which receives a variable, checks wether it is, in fact, an *Undefined Property* value and if it is, returns a fallback value, otherwise it returns the original value and acts sort of like the *[identity](https://lodash.com/docs#identity)* function.
 
 Now that we have these utilities its a small step towards implementing a proxy which will make our object access safe:
-</section>
+
 
 ```javascript
 function safe (obj) {
@@ -122,14 +121,14 @@ function safe (obj) {
 }
 ```
 
-<section class="cl2">
+
 What this little function does is receive an object and return a proxy for this object which implements a very simply wrapper for property access.
 Whenever a property is accessed on the proxy, it will check whether that property exists and do one of two things:
 If that property **exists** it will either return the value or, of its an object, wrap it in a new ***safe* **proxy and return it in place of the nested object.
 If, though, the required property doesn’t exist, we’ll return our **Undefined** object (instead of the regular value we’d usually receive in such a situation, which is Javascript’s internal *undefined* type).
 
 Now, what we get is the ability to dig deep into an object, including undefined properties, so that, if we continue with our **Darth Vader** example, we get the following behaviour:
-</section>
+
 
 ```javascript
 const mySafeObj = safe({
@@ -153,23 +152,23 @@ console.log(mySafeObj.father.name);
 console.log(either(mySafeObj.father.father.name, false)); 
 ```
 
-<section class="cl2">
+
 What you can see is a wonderful little piece of proxy usage, which allows us to access our object’s properties regularly, but if we access any kind of undefined property, we’ll get back a reference to our custom Undefined object.
 Using the ***either*** function we can then write some very concise code which asks for a value on our object, without the danger of a TypeError, but also without having to type check for the **Undefined** type, and instead simply provide the fallback value we want to receive instead in the case that the property is actually missing.
 
 In the last line in that example you can see that we can go quite a bit deeper without any danger. Its pretty cool, if you ask me.
-</section>
+
 
 ## The downsides
 
-<section class="cl2">
+
 There are actually some downsides to this approach, which you should be aware of.
 
 **The first**, and most obvious one, is that Proxies are hardly available at this stage. Happily **Firefox** and **MS Edge** (oh, how the tables have turned) have a full implementation for us to use, but **Chrome** has only just added a version compliant with the ES6 spec (version 49, which is still in Beta channel only) and other browsers are [still way off](http://caniuse.com/#search=proxy).
 
 **The second**, and most important one, is that this essentially requires a new Proxy object to be created on every property access operation in the chain. This can have major costs in object allocation and performance. There are ways to improve this, for example, by replacing the nested objects under the properties with **safe** objects as well.
 This approach is experimental and has some more work to do in order to be production ready, but its a nice start.
-</section>
+
 
 ## Bottom line
 

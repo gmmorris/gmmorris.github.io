@@ -1,40 +1,40 @@
 ---
 layout: default
 ---
-{% include page-pagination.html %}
-<article itemscope itemtype="http://schema.org/BlogPosting">
-  <header> 
-    <h1>{{ page.title | escape }}</h1>
-    
-    <div class="dateline">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {% capture words %}
-        {{ page.content | number_of_words | minus: 250 }}
-      {% endcapture %}
-      {% unless words contains "-" %}
-      <span class="read-time">{{ words | plus: 250 | divided_by: 180 | append: " min read" }}</span>
-      {% endunless %}
+
+{% include base_path %}
+
+{% include post-pagination.html %}
+
+{% if page.image %}
+  <meta itemprop='og:image' content='{{ base_path }}{{ page.image }}'>
+{% endif %}
+
+{% include post-hero.html %}
+
+<div class='o-wrapper'>
+
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--center o-grid__col--2-3-m'>
+      <article class='c-post'>
+
+        <div class='c-content'>
+          {{ content }}
+        </div>
+
+        <div class='o-grid'>
+          <div class='o-grid__col o-grid__col--4-4-s'>
+              {% include share.html %}
+          </div>
+        </div>
+
+        <hr>
+
+        <!-- {% include disqus.html %} -->
+
+      </article>
+
     </div>
-    
-  </header>
-  
-  {%- if page.banner -%}
-    {%- if page.banner-desc -%}
-      <a title="{{ page.banner-desc }}" target="_blank" href="{{ page.banner-desc-link }}">
-    {%- endif -%}
-        <img src="{{ page.banner-img }}" class="post-banner {{ page.banner }}"></img>
-    {%- if page.banner-desc -%}
-      </a>
-    {%- endif -%}
-  {%- endif -%}
+  </div>
 
-  {{ content }}
-
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-</article>
+</div>

@@ -1,32 +1,66 @@
-{%- assign default_paths = site.pages | map: "path" -%}
-{%- assign page_paths = site.header_pages | default: default_paths -%}
-<header class="grid">
-  <div class="header-nav header-nav-logo f4 tr pt3 pr3">
-    <a class="logo" href="{{ "/" | relative_url }}">
-      <i title="{{ site.title | escape }}" class="article-red fas fa-sync-alt"></i>
-      <i title="If You Do It, Do It With Heart" id="heart" class="article-red fas fa-hand-holding-heart"></i>
-    </a>  
-  </div>
-  <div class="header-nav header-nav-title">
-    <p class="ttu sans-serif tracked lh-copy b">
-      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-    </p>
-    <p class="ttu sans-serif tracked lh-copy b article-red">Gidi Meir Morris</p>
-  </div>
-  <div class="header-nav header-nav-github">
-    <p class="ttu sans-serif tracked lh-copy b">Code</p>
-    <p class="ttu sans-serif tracked lh-copy b">
-      <a href="http://www.github.com/gmmorris">
-        <i class="fas fa-code-branch"></i>Github
-      </a>
-    </p>
-  </div>
-  <div class="header-nav header-nav-cv">
-    <p class="ttu sans-serif tracked lh-copy b">All Professional & Shit</p>
-    <p class="ttu sans-serif tracked lh-copy b article-red">
-      <a title="Status: Not Currently On The Market" href="http://gidi.io/cv/index.html">
-          <i class="fas fa-user-secret"></i>CV
-      </a>          
-    </p>
+<header class="c-header">
+  <div class="o-grid c-header__inner">
+    <div class="o-grid__col o-grid__col--2-4-s o-grid__col--2-4-l">
+      <div class="c-logo">
+        {% if site.logo %}
+        <a href="{{ site.baseurl }}/">
+          <img
+            class="c-logo__img"
+            src="{{ site.logo }}"
+            alt="{{ site.title }}"
+          />
+        </a>
+        {% else %}
+        <h1>
+          <a class="c-logo__link" href="{{ site.baseurl }}/"
+            >{{ site.title }}</a
+          >
+        </h1>
+        {% endif %}
+      </div>
+    </div>
+
+    <div
+      class="o-grid__col o-grid__col--2-4-s o-grid__col--2-4-l _o-grid__col--full"
+    >
+      <div class="c-off-canvas-content js-off-canvas-content">
+        <div
+          class="js-off-canvas-toggle c-off-canvas-toggle c-off-canvas-toggle--close"
+        >
+          <span class="c-off-canvas-toggle__icon"></span>
+        </div>
+
+        <div class="o-grid">
+          <div
+            class="o-grid__col o-grid__col--4-4-s o-grid__col--3-4-l o-grid__col--full"
+          >
+            <nav class="c-nav-wrap">
+              <ul class="c-nav o-plain-list">
+                {% include navigation.html %}
+                <li class="c-nav__item">
+                  <a
+                    class="toggle-search-button js-search-toggle"
+                    href="#"
+                    aria-label="Search"
+                  >
+                    <span
+                      class="c-nav__icon"
+                      data-icon="ei-search"
+                      data-size="s"
+                    ></span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="js-off-canvas-toggle c-off-canvas-toggle">
+        <span class="c-off-canvas-toggle__icon"></span>
+      </div>
+    </div>
   </div>
 </header>
+
+{% include search-form.html %}

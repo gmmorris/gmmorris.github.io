@@ -1,0 +1,12 @@
+/*------------------------------------*\
+  Components > Header
+\*------------------------------------*/
+
+.c-header {
+  padding: double($base-spacing-unit) 0;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+  }
+}

@@ -2,25 +2,25 @@
 layout: post
 title:  "Structured Greping Of Structured Logging"
 date: 2019-03-01 22:16:08 +0100
-tags: JSON, grep, jq, logging, structured-logs
+tags: JSON grep jq logging structured-logs
 icon: terminal
 description: "Why I created a command-line JSON processor."
-banner: banner-occult
-banner-desc: "The history of the devil and the idea of evil; from the earliest times to the present day"
-banner-img: "/assets/img/banners/historydevil.png"
-banner-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/14773757364"
+
+image-desc: "The history of the devil and the idea of evil; from the earliest times to the present day"
+image: "/images/banners/historydevil.png"
+image-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/14773757364"
 ---
-{::options parse_block_html="true" /}
-<section>
+
+
 I'm not one to advocate for _SSH_-ing into a server and manually sifting through logs.
 
 I'm a big believer in investing in your logging structure & infrastructure at a level that allows you to offload the log sniffing and analysis to a more suitable time and place.
 
 That said, there are still times when I find myself piping around log files on remote servers. Recently, feeling fed up with one of the more tedious examples of this, I threw together a little tool that I think might be of use to others as well.
-</section>
+
 
 # A Shed Load Of JSON
-<section>
+
 As I've mentioned before a core part of my job is to maintain a distributed system of Ad Exchanges. These Exchanges run _real-time bidding_ auctions in which we offer buyers the opportunity of buying advertising real-estate.
 
 Each auction produces a large amount of information which we log into files. These logs are used both for monitoring and in order to support analysis at a later time. As our Ad Exchanges communicate with the outside world by using the [openRTB specification](https://www.iab.com/guidelines/real-time-bidding-rtb-project/), a superset of the JSON format, we chose to log everything that happens within the exchanges as structured JSON as well.
@@ -30,10 +30,10 @@ There is a whole variety of events which we wish to log when an auction executes
 Whenever an event takes place within an Ad Exchange we write a JSON object into a log file containing all the metadata about the event. We try to enrich the log with as much information as possible, empowering ourselves and our analysts by enabling all sorts of business-related questions to be asked about what is happening within out system.
 
 Ever wondered how often certain buyers bid on certain kinds of real-estate? No problem, thanks to these structured logs, we can analyse these events using third-party tools long after they took place in our system. Shortly after these log files are created on a server they get aggregated into a system maintained by our _Sh↑ft_ team who own all our <u>sh</u>ared <u>i</u>n<u>f</u>ras<u>t</u>ructure (hence the name), which streams these logs into a variety of such reporting tools.
-</section>
+
 
 # grep-ing JSON Is A Pain
-<section>
+
 Sometimes though, I might wish to take a look at these logs while they still reside on an Ad Exchange. There are several reasons why I might chose to do that.
 
 For example, I may wish to get immediate feedback about something that is happening on an exchange (as it can take some time for the sheer amount of data to reach our reporting services). 
@@ -46,7 +46,9 @@ When such a situation occurs I will usually _SSH_ into one of our Ad Exchanges a
 
 **jq** on the other hand is a tool used to dig into JSON structures and manipulate them. This tool is very useful if you're trying to _extract_ data out of a complicated JSON object.
 
+
 ## Why Is grep Unfit For Purpose?
+
 I heavily use both of these tools, but often find both mildly infuriating as they will often fall short of my needs. Generally speaking, I use these tools when I'm searching for an answer to a business related question. For example, I might ask the question: "Are we getting any _bid responses_ which include bids on a specific _Private Marketplace Deal_, which have an _Ad Id_ on them and can be _skipped_?".
 
 In order to answer this question I need to find all the logged events written to the log when an Ad Exchange receives a _Bid Response_ bidding to buy some space offered as part of a specific _deal_ in order to place a _skippable_ video ad in it.
@@ -55,7 +57,8 @@ I know, that's a whole load of vague domain knowledge that means nothing to you,
 
 A _Bid Response_ is logged as a JSON structure which describes a bid by a potential buyer in an auction. In this bid the buyer can specify a variety of properties describing the use they would like to make of our advertising real-estate (in the case that they win the auction). Two such properties are a property specifying that they would like to buy this real-estate as part of a prenegotiated _deal_ offered on our _private marketplace_, and an attribute specifying that we should offer the end user an opportunity to _skip_ this ad if they would like to.
 
-Bellow is an example of a logged event matching what I'm looking for:
+
+Below is an example of a logged event matching what I'm looking for:
 
 ```json
 {
@@ -76,6 +79,7 @@ Bellow is an example of a logged event matching what I'm looking for:
 	"cur": "USD"
 }
 ```
+
 
 The important parts of this _bid response_ are the following:
 1. The _dealid_ field which described the ID of the Deal the bidder would like to buy under. In this case: _UNRX-GIDI-9d2a2ba53ebc_.
@@ -143,13 +147,13 @@ And we haven't even began to check for the presence of an _Ad ID_ which appears 
 Clearly, answering this question using _grep_ is very hard as the shape of our logs can be quite complex. Using the expressions supported by _grep_ can get very unwieldily complex when trying to match up with these shapes and while _jq_ is great for focusing in on certain parts of these logs, it isn't great for getting the big picture in which those parts reside.
 
 Clearly the issue is deeper:
-> There isn't much point having structured logs if you can't reason about them in a structured manner.
+<mark>There isn't much point having structured logs if you can't reason about them in a structured manner.</mark>
 
 So I made a tool which would allow me to do so.
-</section>
+
 
 # Jeff Goldblum aka jg - grep for JSON
-<section>
+
 I began to think about the complex questions I often ask when sniffing around in these logs and came to the following conclusions:
 1. I need a tool that could describe a _JSON structure_ and match input against this structure
 2. I need complex ways of describing not just the shape, but the data itself as well, ideally so I can identify  _containment_ or _exact values_
@@ -177,14 +181,15 @@ While the structure of _HTML Documents_, which is what _CSS Selectors_ are optim
 
 The project's [readme](https://github.com/gmmorris/jg) documents the entire syntax in detail. I'd appreciate feedback on this syntax, so please do tell me how intuitive you actually find it.
 
-> Wait... why Jeff Goldblum? What does he have to do with JSON?
-> Well, I originally named the project *jgrep*, but that name and similar variants are taken by similar tools.
-> But then I thought... *json grep* could be shortened to *jg*... and *jg* is obviously *Jeff Goldblum*...
-> And Jeff is awesome, so obviously *jg* would have to be named after him.
-</section>
+<p><mark>Wait... why Jeff Goldblum?</mark> <small>What does he have to do with JSON?
+Well, I originally named the project <strong>jgrep</strong>, but that name and similar variants are taken by similar tools.
+But then I thought... <strong>json grep</strong> could be shortened to <strong>jg</strong>... and <strong>jg</strong> is obviously <strong>Jeff Goldblum</strong>...
+And Jeff is awesome, so obviously <strong>jg</strong> would have to be named after him.</small></p>
+
+
 
 # Using jg To Answer The Question
-<section>
+
 So how would you use **jg** to answer the question I asked above? Can we find all the _bid responses_ which include bids on a specific _Private Marketplace Deal_, have an _Ad Id_ on them and can be _skipped_?"
 
 Like so:
@@ -207,10 +212,10 @@ So for example, if you wanted to find _bid responses_ that _either_ have an Ad I
 ```
 $ jg -e '{"dealid":"UNRX-GIDI-9d2a2ba53ebc"}' -e '.adid' bidresponse.json
 ```
-</section>
+
 
 # Using jg On Bid Requests
-<section>
+
 To better showcase the benefit of using **jg** lets take a look at _openRTB_'s _Bid Request_, which is a somewhat more complex entity than the _Bid Response_.
 
 _Bid Requests_ are an entity that the _Ad Exchange_ sends to potential buyers in order to offer them the opportunity of buying advertising real-estate. We're talking about a structure that can be vastly different depending on the ad format on offer, the type of the real-estate and a variety of other factors.
@@ -331,10 +336,10 @@ $ cat bidrequests.json |
   jg '{"country":"GBR"}' |         
   jg '.imp[{"instl":1}]'
 ```
-</section>
+
 
 # Conclusion
-<section>
+
 The most important take away for me has been that structured logging opens up a whole world of options when you want to analyse what is going on in your system. But as I said earlier: **There isn't much point having structured logs if you can't reason about them in a structured manner in the place where you need them  **.
 
 Feel free to play around with **jg** and submit a [pull request](https://github.com/gmmorris/jg) if you spot an error or have an improvement to offer.
@@ -342,4 +347,3 @@ Feel free to play around with **jg** and submit a [pull request](https://github.
 For example, if you look at that last example I gave, you might have noticed that even though the _devicetype_ and _ua_ fields are on the same _device_ object, you can't match against both at the same time. Ideally you would be able to do something like ```jg '.device{"devicetype":1,"ua"*:"GSA/"}'``` which would definitely be more intuitive. This is just one example of a still missing feature which I'll be more than happy to receive a [pull request](https://github.com/gmmorris/jg) for.
 
 I haven't yet published the cli tool to _Homebrew_ or _APT_, but I hope to do so once I feel the tool is mature enough. In the meantime you can download the latest release on [Github](https://github.com/gmmorris/jg).
-</section>
