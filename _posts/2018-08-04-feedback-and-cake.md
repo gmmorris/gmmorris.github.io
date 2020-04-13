@@ -2,7 +2,8 @@
 layout: post
 title:  "Feedback & Cake"
 date:   2018-08-04 19:52:00 +0100
-tags: psychological-safety trust team-building
+categories: [Team-Dynamics]
+tags: [psychological-safety,trust,team-building]
 icon: seedling
 description: "Practical steps to we took to building psychological safety using a feedback circle"
 image-desc: "Topping"

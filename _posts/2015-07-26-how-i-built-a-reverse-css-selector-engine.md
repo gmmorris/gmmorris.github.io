@@ -4,6 +4,8 @@ title:  "Simmer.js: A Javascript reverse CSS selector engine"
 description: "How I designed a Javascript library for calculating the CSS selector of an element on an a webpage"
 date:   2015-07-26 14:00:00 +0100
 icon: stream
+categories: [Javascript]
+tags: [javascript,css]
 image: "/images/banners/eye.png"
 banner-img: "/images/banners/eye.png"
 image-desc: "Elementary anatomy and physiology"

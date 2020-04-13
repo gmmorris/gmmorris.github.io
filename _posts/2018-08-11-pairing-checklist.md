@@ -2,7 +2,8 @@
 layout: post
 title:  "Pairing Checklist"
 date:   2018-08-11 14:43:00 +0100
-tags: psychological-safety trust team-building pair-programming pairing
+categories: [Team-Dynamics]
+tags: [psychological-safety,trust,team-building,pair-programming,pairing]
 icon: seedling
 description: "Practical steps to we took to building psychological safety by providing a foundation for setting mutual expectations during a pair programming session"
 image-desc: "Sing-Song"

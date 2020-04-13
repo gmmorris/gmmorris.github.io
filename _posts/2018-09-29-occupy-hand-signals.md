@@ -2,7 +2,8 @@
 layout: post
 title:  "Occupy Hand Signals"
 date: 2018-09-29 13:53:00 +0100
-tags: psychological-safety trust continuous-improvement team-building
+categories: [Team-Dynamics]
+tags: [psychological-safety,trust,continuous-improvement,team-building]
 icon: seedling
 description: "Practical steps to we took to building psychological safety by improving communication within the team using hand signals"
 

@@ -2,6 +2,8 @@
 layout: post
 title:  "Turning Spaghetti into Lasagne"
 date:   2015-08-29 13:10:00 +0100
+categories: [Case-Study]
+tags: [legacy, refactoring]
 description: "How I led the rewrite of a web application from a legacy codebase on Django to a Single Page Application in Javascript Backbone"
 icon: seedling
 image: "/images/banners/construct.png"

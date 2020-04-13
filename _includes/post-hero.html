@@ -6,12 +6,19 @@
       <div
         class="c-post-hero__content {% unless page.image %} c-post-hero__content--no-image {% endunless %}"
       >
-        <div class="c-post-hero__tags">
-          {% for tag in page.tags limit:1 %}
-          <a href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a>
-          {% endfor %}
+        <div class="c-post-hero__categories">
+          {% for category in page.categories limit:1 %}
+          <a href="{{ site.baseurl }}/categories#{{ category }}"
+            >{{ category | replace: "-", " " }}</a
+          >{% endfor %}
         </div>
         <h1 class="c-post-hero__title">{{ page.title }}</h1>
+        <div class="c-post-hero__tags">
+          {% for tag in page.tags %}
+          <a href="{{ site.baseurl }}/tags#{{ tag }}"
+            >{{ tag | replace: "-", " " }}{{loop.index}}</a
+          >{% if forloop.last == true %}{% else %},{% endif %} {% endfor %}
+        </div>
         <div class="c-post-hero__meta">
           <time datetime="{{ page.date | date: '%d %b %Y' }}"
             >{{ page.date | date: '%d %b %Y' }}</time

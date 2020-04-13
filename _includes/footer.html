@@ -7,7 +7,11 @@
 
       <ul class="c-footer-list o-plain-list">
         {% for tag in site.tags %}
-        <li><a href="{{ site.baseurl }}/tag/{{ tag[0] }}">{{ tag[0] }}</a></li>
+        <li>
+          <a href="{{ site.baseurl }}/tags#{{ tag[0] }}"
+            >{{ tag[0] | replace: "-", " " }}</a
+          >
+        </li>
         <li>
           {% endfor %}
         </li>

@@ -2,7 +2,8 @@
 layout: post
 title:  "The secret sauce to an effective team is a mix of Marmalade, Chutney and a little Tahini"
 date:   2018-07-28 23:39:00 +0100
-tags: psychological-safety trust team-building
+categories: [Team-Dynamics]
+tags: [psychological-safety,trust,team-building]
 icon: seedling
 description: "Practical steps to we took to building psychological safety when forming a new team"
 image-desc: "The Stag"

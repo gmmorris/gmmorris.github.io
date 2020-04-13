@@ -2,7 +2,8 @@
 layout: post
 title:  "The magical quest for Componentisation"
 date:   2016-11-28 13:10:00 +0100
-tags: javascript code-design
+categories: [Code-Design]
+tags: [javascript,code-design]
 icon: user-astronaut
 description: "My endevour to figure out how to implement complex Object Composition in code"
 image: "/images/banners/cards.png"

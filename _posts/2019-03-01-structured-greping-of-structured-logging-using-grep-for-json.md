@@ -2,7 +2,8 @@
 layout: post
 title:  "Structured Greping Of Structured Logging"
 date: 2019-03-01 22:16:08 +0100
-tags: JSON grep jq logging structured-logs
+categories: [Tooling]
+tags: [JSON,grep,jq,logging,structured-logs]
 icon: terminal
 description: "Why I created a command-line JSON processor."
 

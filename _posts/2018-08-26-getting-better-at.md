@@ -2,7 +2,8 @@
 layout: post
 title:  "Getting Better at X"
 date: 2018-08-25 17:43:00 +0100
-tags: psychological-safety trust continuous-improvement team-building
+categories: [Team-Dynamics]
+tags: [psychological-safety,trust,continuous-improvement,team-building]
 icon: seedling
 description: "Practical steps to we took to building psychological safety by reducing the Power Dynamic between newcomers and long standing team members"
 image-desc: "Ballads of the Bench and Bar"

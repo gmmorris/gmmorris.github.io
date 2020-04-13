@@ -2,7 +2,8 @@
 layout: post
 title:  "Betting On Reason"
 date:   2018-07-14 15:21:00 +0100
-tags: javascript reasonml ocaml
+categories: [Javascript]
+tags: [javascript,reasonml,ocaml]
 icon: user-astronaut
 description: "Why I chose to bet on Javascript and why I'm now betting on ReasonML"
 image-desc: "The Arrowhead"

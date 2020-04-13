@@ -2,7 +2,8 @@
 layout: post
 title:  "Experiments As An Entity"
 date: 2018-10-22 10:00:00 +0100
-tags: trust continuous-improvement team-building
+categories: [Team-Dynamics]
+tags: [trust,continuous-improvement,team-building]
 icon: seedling
 description: "When team members fear change, elevate experiments to story card level"
 

@@ -27,11 +27,12 @@
     }
   }
 
-  &__tags {
+  &__tags, &__categories {
     color: $color-gray;
     font-size: $font-size-tiny;
     text-transform: capitalize;
     letter-spacing: $global-letter-spacing;
+    padding: 1em 0em;
 
     a {
       color: $color-gray;
@@ -62,6 +63,7 @@
     font-size: $font-size-tiny;
     color: $color-gray;
     letter-spacing: $global-letter-spacing;
+    padding: 1em 0em;
   }
 
   &__author a {
