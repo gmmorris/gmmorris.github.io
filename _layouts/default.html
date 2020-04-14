@@ -5,7 +5,9 @@
 
 <body class='{% if page.url == '/' %} is-home {% endif %}'>
 
-  {% include analytics.html %}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {% include analytics.html %}
+  {%- endif -%}
 
   <div class='js-off-canvas-container c-off-canvas-container'>
     {% include header.html %}

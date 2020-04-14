@@ -19,6 +19,8 @@ baseurl:            '' # The subpath of your site, e.g. /blog
 url:                'https://www.gidi.io/' # The base hostname & protocol for your site
 twitter:            https://twitter.com/chekofif
 
+google_analytics: UA-66893134-1
+
 markdown:  kramdown
 permalink: pretty
 paginate:  12
