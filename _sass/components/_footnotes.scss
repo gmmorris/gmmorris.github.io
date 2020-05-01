@@ -1,0 +1,45 @@
+
+.fa-asterisk {
+  color: #5b5be0;
+  background-color: #d4d4f7;
+  padding: 0.2em;
+  border-radius: 1em;
+  position: relative;
+  top: -0.7em;
+  font-size: 0.4em;
+}
+.fa-asterisk + .fa-asterisk {
+  position: relative;
+  top: 0.1em;
+  left: -0.6em;
+}
+
+small.footnote { 
+  display: block;
+  -webkit-box-shadow: inset 0 0 30px #ececff;
+  -moz-box-shadow: inset 0 0 30px #ececff;
+  box-shadow: inset 0 0 30px #ececff;
+  border-radius: 1em;
+  padding: 1em;
+  .fa-asterisk {
+    color: #5b5be0;
+    position: static;
+    background-color: #d4d4f7;
+    padding: 0.2em;
+    border-radius: 1em;
+    font-size: 0.7em;
+    vertical-align: top;
+    margin-right: 0.5em;
+  }
+  .fa-asterisk + .fa-asterisk {
+    position: relative;
+    top: 0.7em;
+    left: -0.9em;
+    margin-right: 0.25em;
+  }
+  .fa-asterisk + .fa-asterisk + .fa-asterisk {
+    top: 1.3em;
+    left: -1.6em;
+    margin-right: -1.05em;
+  }
+}

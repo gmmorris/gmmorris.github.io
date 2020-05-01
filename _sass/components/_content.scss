@@ -120,7 +120,7 @@ $block-max-width: 1300px;
 
 .kg-embed-card,
 .kg-image-card,
-.kg-gallery-card, {
+.kg-gallery-card {
   figcaption {
     width: 100%;
     text-align: center;
@@ -191,25 +191,4 @@ $block-max-width: 1300px;
 
 .kg-gallery-image:not(:first-of-type) {
   margin: 0 0 0 half($base-spacing-unit);
-}
-
-
-.fa-asterisk {
-  color: #5b5be0;
-  background-color: #d4d4f7;
-  padding: 0.2em;
-  border-radius: 1em;
-  position: relative;
-  top: -0.7em;
-  font-size: 0.4em;
-}
-small {
-  .fa-asterisk {
-    color: #5b5be0;
-    position: static;
-    background-color: #d4d4f7;
-    padding: 0.2em;
-    border-radius: 1em;
-    font-size: 1em;
-  }
 }

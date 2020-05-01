@@ -45,7 +45,7 @@ An _experiment_ differs from a decision in several ways:
 
 By placing our **Experiment** cards along side our _User Stories_ we have elevated these experiments from a mere momentary decisions to an on-going evolving process. Their constant visibility demands our full attention, and the transitory nature of story cards is projected onto the _experiment_, reducing the concern that developers might have of decisions being set-in-stone and unchangable.
 
-<small><i class="fas fa-asterisk"></i> The _Agile Board_ is where the team maintains the lifecycle of our *User Story* cards, *Technical Development* cards and *Research* cards. These cards are moved, like on a Kanban Board, through this lifecycle going from _Backlog_ to _In Progress_ to _Review_ and finally to _Done_.</small>
+<small class="footnote"><i class="fas fa-asterisk"></i> The _Agile Board_ is where the team maintains the lifecycle of our *User Story* cards, *Technical Development* cards and *Research* cards. These cards are moved, like on a Kanban Board, through this lifecycle going from _Backlog_ to _In Progress_ to _Review_ and finally to _Done_.</small>
 
 
 ## The Slow Decline Of Experiment Cards

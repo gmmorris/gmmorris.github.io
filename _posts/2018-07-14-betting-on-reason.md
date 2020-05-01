@@ -151,9 +151,9 @@ I then experimented with _Scala_, _Closure_ <i class="fas fa-asterisk"></i><i cl
 
 With other, I found that I simply didn't *think* in them; meaning that their syntax didn't allow me to express myself well.
   
-<small><i class="fas fa-asterisk"></i> I suspect this might be less true for **F#** and **Scala**, but they aren't particulalrly good for targeting the Javascript runtime.</small>
+<small class="footnote"><i class="fas fa-asterisk"></i> I suspect this might be less true for **F#** and **Scala**, but they aren't particulalrly good for targeting the Javascript runtime.</small>
 
-<small><i class="fas fa-asterisk"></i><i class="fas fa-asterisk"></i> Closure isn't Statically Typed, but I heard that _thinking in Lisp_ encourages safer code. I remain unconvinced.</small>
+<small class="footnote"><i class="fas fa-asterisk"></i><i class="fas fa-asterisk"></i> Closure isn't Statically Typed, but I heard that _thinking in Lisp_ encourages safer code. I remain unconvinced.</small>
 
 
 ### Enter ReasonML

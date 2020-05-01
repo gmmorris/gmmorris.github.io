@@ -44,7 +44,7 @@ For example, you can see that two team member disagree on what keyboard configur
 
 We use this list as a starting point.
 
-<small><i class="fas fa-asterisk"></i> Unhealthy to the planet that is. In an attempt to mitigate this we've been experimenting with digital alternatives, though we have yet to find a single good alternative.</small>
+<small class="footnote"><i class="fas fa-asterisk"></i> Unhealthy to the planet that is. In an attempt to mitigate this we've been experimenting with digital alternatives, though we have yet to find a single good alternative.</small>
 
 ### Define what you consider to be bad
 Next we repeat the process with a slight change, we now spend 15 minutes brainstorming on what properties make a bad **X**.

@@ -60,7 +60,7 @@ When I look at the _tech civilisation_ as a whole, I see several circles of infl
 
 The precise impact we have on each one of these circles of influence would require a tome to enumerate, but what I would like to enumerate is a handful of categories which I feel can broadly encompass the different _topics of conversation_ we should focus on.
 
-<small><i class="fas fa-asterisk"></i> By _product developers_ I do not just mean people who write code, but rather all aspects of product creation.</small>
+<small class="footnote"><i class="fas fa-asterisk"></i> By _product developers_ I do not just mean people who write code, but rather all aspects of product creation.</small>
 
 
 

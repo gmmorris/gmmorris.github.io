@@ -21,7 +21,7 @@ twitter:            https://twitter.com/chekofif
 
 markdown:  kramdown
 permalink: pretty
-paginate:  12
+paginate:  20
 sass:
   style: compressed
 

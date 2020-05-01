@@ -1,0 +1,124 @@
+<div class="chart-container">
+  <canvas id="chart-two-extremes" class="in-article-chart" width="80%"></canvas>
+</div>
+<script lang="javascript">
+  window._charts = window._charts || [];
+  window._charts.push({
+      selector: '#chart-two-extremes',
+      chart: {
+      type: 'bubble',
+      data: {
+          labels: "Organisational Patterns",
+          datasets: [
+          {
+              label: ["Localised XP team"],
+              backgroundColor: "#cce3de",
+              borderColor: "#a4c3b2",
+              data: [{
+              x: 0.5,
+              y: 0.5,
+              r: 10
+              }]
+          }, {
+              label: ["Globally Distributed team"],
+              backgroundColor: "#88d498",
+              borderColor: "#1a936f",
+              data: [{
+              x: 3.5,
+              y: 3.5,
+              r: 10
+              }]
+          }, {
+              label: ["Distributed XP team"],
+              backgroundColor: "#a8dadc",
+              borderColor: "#457b9d",
+              data: [{
+              x: 2,
+              y: 1,
+              r: 5
+              }]
+          }
+          ]
+      },
+      options: {
+        tooltips: {
+            callbacks: {
+                label: function(tooltipItem, data) {
+                    return data.datasets[tooltipItem.datasetIndex].label || '';
+                }
+            }
+        },
+            responsive: true,
+            maintainAspectRatio: false,
+            legend: {
+                position: 'bottom',
+                labels: {
+                    padding: 25,
+                    fontStyle: '"Jost*",Helvetica,Arial,sans-serif'
+                }
+            },
+            hover: {
+                mode: 'label'
+            },
+          title: {
+          display: true,
+          text: 'Organisational Patterns by ratio of Synchronicity to Co-Location'
+          }, scales: {
+          yAxes: [{
+              scaleLabel: {
+              display: true,
+              labelString: "Synchronicity"
+              },
+              ticks: {
+                  min: 0,
+                  max: 4,
+                  stepSize: 1,
+                  suggestedMin: 0,
+                  suggestedMax: 4,
+                  callback: function(label, index, labels) {
+                      switch (index) {
+                        case 0:
+                            return 'Async';
+                            break;
+                        case 4:
+                            return 'Sync';
+                            break;
+                        default:
+                            return '';
+                      }
+                  }
+              }
+          }],
+          xAxes: [{
+              scaleLabel: {
+              display: true,
+              labelString: "Co-Location"
+              },
+              ticks: {
+                  min: 0,
+                  max: 4,
+                  stepSize: 1,
+                  suggestedMin: 0,
+                  suggestedMax: 4,
+                  callback: function(label, index, labels) {
+                      switch (index) {
+                        case 0:
+                            return 'Co-Located';
+                            break;
+                        case 2:
+                            return 'Remote Friendly';
+                            break;
+                        case 4:
+                            return 'Distributed';
+                            break;
+                        default:
+                            return '';
+                      }
+                  }
+              }
+          }]
+          }
+      }
+      }
+  });
+</script>

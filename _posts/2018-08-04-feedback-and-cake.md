@@ -173,7 +173,7 @@ In the above example, I'd present Nigel with two separate pieces of feedback:
 
 I have seen other teams take a slightly different approach, where they actually prefer to give the _constructive_ and _reinforcing_ feedback together in order to force individuals to always seek both the positive and the negative in a persons' behaviour. I personally don't believe in that approach and believe it discourages people from giving concise constructive feedback and might actually cause individuals to withhold feedback all together.
 
-<small><i class="fas fa-asterisk"></i> I probably wouldn't give him reinforcing feedback at all, to be honest.</small>
+<small class="footnote"><i class="fas fa-asterisk"></i> I probably wouldn't give him reinforcing feedback at all, to be honest.</small>
 
 
 ### concise & specific

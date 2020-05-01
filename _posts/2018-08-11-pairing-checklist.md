@@ -20,7 +20,7 @@ Pairing is not a mentoring session or a division where one person is coding and 
 
 As I've mentioned in past posts, research has shown us that the  _trust_ is a key ingredient to fostering effective collaboration in a team. From this, I believe, we can infer that when your coding process is a collaborative one, _trust_ plays a decisive role in whether you coding process is successful. In fact, we could further infer than it does so to a higher degree than it would in an environment where collaboration is a less defining aspect of the practice of coding.
 
-<small><i class="fas fa-asterisk"></i> In fact, we're not necessarily discussing code, but that distinction is better left for a broader post on the topic of Pair Programming</small>
+<small class="footnote"><i class="fas fa-asterisk"></i> In fact, we're not necessarily discussing code, but that distinction is better left for a broader post on the topic of Pair Programming</small>
 
 <small>This post is part of the series [The secret sauce to an effective team]({% post_url 2018-07-28-the-secret-sauce-to-an-effective-team %}) which describes the steps taken within my team at Unruly in order to facilitate the fostering of _psychological safety_ amongst members of the team.</small>
 
@@ -45,7 +45,7 @@ This is true not only for the working environment but also for the work product 
 
 In a Paired environment, failing to address conflict in a team can easily lead to the breakdown of the entire process, and so, encouraging a culture of feedback has been a paramount priority to us.
 
-<small><i class="fas fa-asterisk"></i> The subject of power dynamics in a pair is, again, a subject for a far more in-depth post, but I felt it was worth pointing it out here, as they are the root cause of many trust issues you might encounter in a pair.</small>
+<small class="footnote"><i class="fas fa-asterisk"></i> The subject of power dynamics in a pair is, again, a subject for a far more in-depth post, but I felt it was worth pointing it out here, as they are the root cause of many trust issues you might encounter in a pair.</small>
 
 
 ## Setting a Foundation
