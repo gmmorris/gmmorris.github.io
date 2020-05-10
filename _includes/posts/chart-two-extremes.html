@@ -62,12 +62,12 @@
             },
           title: {
           display: true,
-          text: 'Organisational Patterns by ratio of Synchronicity to Co-Location'
+          text: 'Organisational Patterns by ratio of Synchronisation to Collocation'
           }, scales: {
           yAxes: [{
               scaleLabel: {
               display: true,
-              labelString: "Synchronicity"
+              labelString: "Synchronisation"
               },
               ticks: {
                   min: 0,
@@ -92,7 +92,7 @@
           xAxes: [{
               scaleLabel: {
               display: true,
-              labelString: "Co-Location"
+              labelString: "Collocation"
               },
               ticks: {
                   min: 0,
@@ -103,7 +103,7 @@
                   callback: function(label, index, labels) {
                       switch (index) {
                         case 0:
-                            return 'Co-Located';
+                            return 'Collocated';
                             break;
                         case 2:
                             return 'Remote Friendly';
