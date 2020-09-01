@@ -1,14 +1,11 @@
 ---
 layout: post
-title:  "A Case Study of Two Extremes"
+title:  "Paterns"
 categories: [Organisational-Patterns]
 tags: []
 icon: seedling
 description: ""
 
-image-desc: "Women of Faial"
-image: "/images/banners/women_of_faial.png"
-image-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/14596746138"
 ---
 
 {%- capture night_as_primary_url -%}
@@ -19,9 +16,11 @@ image-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/145967
   {% post_url 2018-07-28-the-secret-sauce-to-an-effective-team %}
 {%- endcapture -%}
 
-When humans band together in pursuit of a shared goal they enjoy an endless range of _organisational patterns_ to coalesce around. All patterns have their advantages, disadvantages, and limitations, often encouraging dogmatic preferences amongst their followers, which means your chosen pattern often dictates, or at least influences, the organisation's culture.
+When humans band together in pursuit of a shared goal they enjoy an endless range of _organisational patterns_ to coalesce around. All patterns have their advantages, disadvantages, and limitations, and we often find that the very act of chosing one of them over the others, enourages dogmatic preferences amongst their followers, which means your chosen pattern often dictates, or at least influences, the organisation's culture.
 
-When discussing this topic, I'll often hear my colleagues express the opinion that "in the tech industry we do things _this_ way" or "_that_ way" and that we do so for _this_ reason, or _that_ reason. In truth though, it has been my experience that every organisation does things their own way, and that attributing reasoning to these choices, such as their choice of _organistional governance_, requires a degree of familiarity with the individuals involved that we rarely attain without actually spending a substantial amount of time within that organisation. In fact, if narrow we our analysis of an organisation to their choice of _organistional governance_, I believe we'll find that  choice of I'd go so far as to say that even if a certain pattern _was_ successful for said organisation, that provides me with little assurance that said pattern would be succesful for mine. I believe that to understand why a specific pattern works succesfully within a specific organisation, is to understand more about the people applying it, than about the pattern itself.
+Discussing this topic with colleagues, I'll often hear the prespective that "in the tech industry we do things _this_ way" or "_that_ way" and that we do so for _this_ reason, or _that_ reason. In truth though, it has been my experience that even if two organisations seem to do things the same _way_ in practice they can be miles apart, and attributing reasoning to these choices, such as their choice of _organistional governance_, requires a degree of familiarity with the individuals involved that we rarely attain without actually spending a substantial amount of time within that organisation. In fact, if we narrow our analysis of an organisation to their choice of _organistional governance_ (the **way** in _this way_), I don't believe we'll learn as much about the pattern as we instinctively think we will. Additionally, I'd say that even if a certain pattern _was_ successful for said organisation, that provides me with little assurance that said pattern would be succesful for mine. I believe that to understand why a specific pattern works succesfully within a specific organisation, is to understand more about the people applying it, than about the pattern itself.
+
+In this blog post I'll delve into an analysis of two _organisational patterns_ applied within two different _organisation_ to a measurable degree of success and do my best to express how these _organizations_ succeeded at making these _patters_ work for them. 
 
 # Patterns
 
@@ -47,7 +46,7 @@ On the other hand, a _Globally Distributed team_ approaches the process of produ
 <small class="footnote"><i class="fas fa-asterisk"></i>In my research I have come across multiple Extreme Programming teams who are not collocated at all and have found ways of adapting the XP practices to a distributed environment. That, though, is a topic for another article.</small>
 
 ## Diametrically Opposed
-Measured by the aspects of _synchronisation_ and _collocation_ it's easy to see how these two patterns differ, but why would I refer to them as _diametrically opposed_? That term would suggest not only that they differ, but that they are actively opposed to each other. You might wonder, is that not an exageration?
+Measured by the aspects of _synchronisation_ and _collocation_ it's easy to see how .these two patterns differ, but why would I refer to them as _diametrically opposed_? That term would suggest not only that they differ, but that they are actively opposed to each other. You might wonder, is that not an exageration?
 
 Throughout my research into these two _patterns_ I discussed this topic with their practicionares across several different organisations. Interestingly, I encountered a repeating _oditty_ where simply describing the practices adopted by practitioners of any one of these patterns to practitioners of the other would result in a veriety of vehement responses. I describe this as an _oditty_ as asking these very same people to consider other, often equally uncommon, _patterns_ then they would almost exclusively respond with curioucity, and even a hunger, for ways in which to tweak and improve their own way of working. They seemed to thrive on new ideas and perspectives, but these two _patterns_ seemed to produce a deeply ingrained aversion to each other.
 
