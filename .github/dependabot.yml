@@ -8,7 +8,9 @@ updates:
   # Update your Gemfile (& lockfiles) as soon as
   # new versions are published to the RubyGems registry
   - package_manager: "ruby:bundler"
+    package-ecosystem: "bundler"
+    # Raise pull requests to update vendored dependencies that are checked in to the repository
+    vendor: true
     directory: "/"
     schedule:
       interval: "daily"
-    vendor: true
