@@ -25,7 +25,7 @@ paginate:  20
 sass:
   style: compressed
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll/tagging
 
