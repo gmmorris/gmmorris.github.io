@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Paterns"
+date: 2022-12-29 00:00:00
 categories: [Organisational-Patterns]
 tags: []
 icon: seedling

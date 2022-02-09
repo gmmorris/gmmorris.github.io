@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "A Case Study of Two Extremes"
+date: 2022-12-29 00:00:00
 categories: [Organisational-Patterns]
 tags: []
 icon: seedling
 description: ""
-
 image-desc: "Women of Faial"
 image: "/images/banners/women_of_faial.png"
 image-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/14596746138"
@@ -117,7 +117,7 @@ Interestingly I've found it harder to find practitioners of the _Globally Distri
 
 One striking exception I have found to this rule has been amongst the practitioners at Elastic, where I am now employed. This is no coincidence. I began researching this topic while as a team lead at Unruly, when I had been trying to introduce distributed work into my team and failed miserably. Discovering Elastic and how it operates was one of the key drivers of my continued interest in _organisational patterns_, and I subsequently joined to team to better understand how they make it work.
 
-Elastic has operated as a _Globally Distributed team_ from its inception, with three of its co-founders finding each other remotely and founding their company across thre different countries and time zones. Today the company numbers almost 2,000 individuals, including an engineering department of well over half of that workforce, spanning several dozen different countries. As a rule, their _organisational governance_ dictates that any role which _can_ be globally distibuted, should be, as it enabled the company to maximise its diversity and its ability to hire the best person for the job, no matter their location. 
+Elastic has operated as a _Globally Distributed team_ from its inception, with three of its co-founders finding each other remotely and founding their company across three different countries and time zones. Today the company numbers almost 2,000 individuals, including an engineering department of well over half of that workforce, spanning several dozen different countries. As a rule, their _organisational governance_ dictates that any role which _can_ be globally distibuted, should be, as it enabled the company to maximise its diversity and its ability to hire the best person for the job, no matter their location. 
 
 As utopian as this vision might seem on paper though, this _pattern_ introduces a wide range of imbalances into the _system_, primarily the deficit in communication that teammates might experience when compared to a more traditional work environment. As teams are distributed, teammates are likely to find themselves reliant on colleagues with whom they share little to no overlapping work hours.
 
