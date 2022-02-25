@@ -41,11 +41,9 @@ An _experiment_ differs from a decision in several ways:
 1. **Experiments have a specific mandate.** We always define the goal of the experiment which clarifies what it is trying to achieve.
 2. **Experiments are timeboxed.** We always assign an expiration date for the experiment after which we revisit the method defined by the experiment and unless consensus has been achieved, we revert back to our previous method or adopt a new experiment.
 3. **Experiments have owners**. Unlike _working agreements_, which are decisions the team has commited to following as a group, _experiments_ are owned by an individual in the team who is responsible nudging the team whenever the experiment is forgotten and schedules the follow up when anexperiment expires.
-4. **Experiments are elevated**. Again, unlike _working agreements_, we place our _experiment cards_ as an **In Progress** item on our _Agile Board_ <i class="fas fa-asterisk"></i>. Along side our _User Stories_ you might spot an _Experiment_ card and that card will stay in the column until its expiration at which point it moves to **Review**.
+4. **Experiments are elevated**. Again, unlike _working agreements_, we place our _experiment cards_ as an **In Progress** item on our _Agile Board_ <a href="#footnote"><i class="fas fa-asterisk"></i></a>. Along side our _User Stories_ you might spot an _Experiment_ card and that card will stay in the column until its expiration at which point it moves to **Review**.
 
 By placing our **Experiment** cards along side our _User Stories_ we have elevated these experiments from a mere momentary decisions to an on-going evolving process. Their constant visibility demands our full attention, and the transitory nature of story cards is projected onto the _experiment_, reducing the concern that developers might have of decisions being set-in-stone and unchangable.
-
-<small class="footnote"><i class="fas fa-asterisk"></i> The _Agile Board_ is where the team maintains the lifecycle of our *User Story* cards, *Technical Development* cards and *Research* cards. These cards are moved, like on a Kanban Board, through this lifecycle going from _Backlog_ to _In Progress_ to _Review_ and finally to _Done_.</small>
 
 
 ## The Slow Decline Of Experiment Cards
@@ -57,3 +55,7 @@ The first was a slow decline in _expriments_. Less experiment cards were appeari
 The second was a rise in off the cuff suggestions that the team _"experiment by doing X"_ to which people would simply nod in agreement and accept the suggestion without arguing. The team seemed to have not only become more comfortable trying ideas that their instinct labeled as _possible_, but also comfortable with these ideas being applied without the formality of an _experiment card_. To me this signaled a great improvment at trust within the team.
 
 All in all I feel the _experiment cards_ proved to be a very effective and easy to implement tool which I intend on utilising in the future even when there are no underlying trust issues.
+
+<ol class="footnote" id="footnote">
+<li><i class="fas fa-asterisk"></i> The <strong>Agile Board</strong> is where the team maintains the lifecycle of our <strong>User Story</strong> cards, <strong>Technical Development</strong> cards and <strong>Research</strong> cards. These cards are moved, like on a Kanban Board, through this lifecycle going from <strong>Backlog</strong> to <strong>In Progress</strong> to <strong>Review</strong> and finally to <strong>Done</strong>.</li>
+</ol>

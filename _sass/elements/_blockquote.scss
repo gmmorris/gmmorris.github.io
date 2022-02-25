@@ -6,12 +6,31 @@ blockquote {
   font-size: $font-size-h3;
   text-align: center;
 
-  @include mq($from: tablet) {
-    min-width: 75vw;
+  &.inline {
+    padding: 0 12px;
+    border-left: 2px dotted #ba3925;
+    font-size: 1em;
+    text-align: left;
+    padding-left: 2em;
+    margin: 0em 0em 2em -1.5em;
+
+    @include mq($from: tablet) {
+      min-width: 75vw;
+    }
+
+    @include mq($from: desktop) {
+      min-width: half($grid-width);
+    }
   }
 
-  @include mq($from: desktop) {
-    font-size: $font-size-h2;
-    min-width: half($grid-width) + quarter($grid-width);
+  &:not(.inline) {
+    @include mq($from: tablet) {
+      min-width: 75vw;
+    }
+
+    @include mq($from: desktop) {
+      font-size: $font-size-h2;
+      min-width: half($grid-width) + quarter($grid-width);
+    }
   }
 }

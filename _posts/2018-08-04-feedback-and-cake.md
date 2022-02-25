@@ -99,19 +99,25 @@ My team's approach is to have a check-in with everyone in the team at the start 
 
 We do this by going around the circle, and each person either gives or withholds consent.
 
-> "I am willing to give and receive feedback."
+<blockquote class="inline">
+"I am willing to give and receive feedback."
+</blockquote>
 
 I would recommend keeping an eye out for peer pressure. If no individual ever withholds consent, it is important to ensure people feel **safe** to do so, as they might not.
 
 I had such a concern in the beginning but several weeks into this ceremony, one team member withheld consent.
 
-> "I do not wish to give, nor receive, feedback"
+<blockquote class="inline">
+"I do not wish to give, nor receive, feedback"
+</blockquote>
 
 Perhaps they were going through a though time outside of work, or perhaps they simply didn't feel in the mood, but we respect their wishes and skip over them in the session.
 
 You should also keep an eye out for individuals who are selective in their consent.
 
-> "I am willing to give feedback, but do not wish to receive any"
+<blockquote class="inline">
+"I am willing to give feedback, but do not wish to receive any"
+</blockquote>
 
 If this is a repeating pattern, it suggests that the individual may be feeling unsafe or perhaps they haven't bought into the  process. I would take such an individual aside at the next opportunity and try to get to the bottom of the issue.
 
@@ -125,9 +131,11 @@ Once every team member has voiced their consent, we go through the team members 
 The format of feedback is that we preface the feedback by declaring who this feedback is for and whether it is meant to _reinforce_ a positive behaviour that the giver has perceived, or _constructive_ feedback meant to correct a behaviour the giver has felt to be unwelcome.
 
 An example would be:
-> This is **constructive** feedback is for **Jennifer**.
-> When we were pairing on Monday, there were several different occasions during the session when I was driving and you tried to explain something to me which I didn't understand, so you pulled the keyboard away from me and typed the code yourself.
-> When you did this I felt stupid that I didn't understand and like I was more a burden on you than your pair.
+<blockquote class="inline">
+This is <strong>constructive</strong> feedback is for <strong>Jennifer</strong>.<br/><br/>
+When we were pairing on Monday, there were several different occasions during the session when I was driving and you tried to explain something to me which I didn't understand, so you pulled the keyboard away from me and typed the code yourself.<br/><br/>
+When you did this I felt stupid that I didn't understand and like I was more a burden on you than your pair.
+</blockquote>
 
 We'll discuss what feedback actually is in the next section, but this example shows you an example of how feedback is directed, specific, balanced and short.
 
@@ -155,11 +163,14 @@ To encourage balance we ask that team members give _reinforcing_ feedback and _c
 Separating these also allows us to avoid a pattern of behaviour we jokingly refer to as **the shit sandwich**, which is when an individual wraps the constructive feedback in reinforcing feedback.
 
 For example, bellow is an example of a shit sandwich:
-> I have feedback for **Nigel**.
-> I think you did a great job rallying people to go vote.
-> I have to say though that I felt very uncomfortable, being an immigrant myself, by the way you stoke racist prejudice, out right lie to poeple and deceive the poor into thinking their misfortune is the fault of their immigrant neighbours.
-> But you can be proud of the fact that you managed to tap into the feelings of the masses and got them more involved in politics.
-> Then again, so did Hitler.
+
+<blockquote class="inline">
+I have feedback for <strong>Nigel</strong>.<br/>
+I think you did a great job rallying people to go vote.<br/>
+I have to say though that I felt very uncomfortable, being an immigrant myself, by the way you stoke racist prejudice, out right lie to poeple and deceive the poor into thinking their misfortune is the fault of their immigrant neighbours.<br/>
+But you can be proud of the fact that you managed to tap into the feelings of the masses and got them more involved in politics.<br/>
+Then again, so did Hitler.
+</blockquote>
 
 _That_, is a shit sandwich.
 
@@ -169,12 +180,9 @@ In my team we have decided that such situations should be separated into two sep
 
 In the above example, I'd present Nigel with two separate pieces of feedback:
 1. A _constructive_ piece of feedback expressing how I felt unwelcome as an immigrant and fearful as the member of minority when I witnessed his campaign.
-2. A _reinforcing_ piece of feedback expressing how well he has done in achieving fascist status, which I know he has pursued for some time now. <i class="fas fa-asterisk"></i>
+2. A _reinforcing_ piece of feedback expressing how well he has done in achieving fascist status, <a href="#footnote">which I know he has pursued for some time now<i class="fas fa-asterisk"></i></a>.
 
 I have seen other teams take a slightly different approach, where they actually prefer to give the _constructive_ and _reinforcing_ feedback together in order to force individuals to always seek both the positive and the negative in a persons' behaviour. I personally don't believe in that approach and believe it discourages people from giving concise constructive feedback and might actually cause individuals to withhold feedback all together.
-
-<small class="footnote"><i class="fas fa-asterisk"></i> I probably wouldn't give him reinforcing feedback at all, to be honest.</small>
-
 
 ### concise & specific
 
@@ -241,3 +249,7 @@ But that doesn't mean my attendance at the sessions any less important. I still 
 ## Our guidelines document
 
 Feel free to copy it from [here](https://docs.google.com/document/d/13V2Z88zKash_kxQGZCeNMlLqmCK4svhNrXZHzEJZXCY/edit?usp=sharing).
+
+<ol id="footnote" class="footnote">
+    <li><i class="fas fa-asterisk"></i> I probably wouldn't give him reinforcing feedback at all, to be honest.</li>
+</ol>

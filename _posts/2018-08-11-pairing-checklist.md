@@ -16,11 +16,9 @@ _Psychological safety_ is undeniably important in every team, but it wasn't unti
 
 In case you're unfamiliar with Pair Programming, I'll explain that the idea behind the practice is that it represents the extreme form of performing a Code Review. Instead of creating an asynchronous process in which a developer submits a piece of code she has written to review by a second developer, we pair the two developer together and ask them to write this code together.
 
-Pairing is not a mentoring session or a division where one person is coding and the other is watching. Pairing is a collaborative process where both sides take part in a dialogue about the design, implementation and integration of a piece of code <i class="fas fa-asterisk"></i>.
+Pairing is not a mentoring session or a division where one person is coding and the other is watching. Pairing is a collaborative process where both sides take part in a dialogue about the design, implementation and integration of <a href="#footnote">a piece of code<i class="fas fa-asterisk"></i></a>.
 
 As I've mentioned in past posts, research has shown us that the  _trust_ is a key ingredient to fostering effective collaboration in a team. From this, I believe, we can infer that when your coding process is a collaborative one, _trust_ plays a decisive role in whether you coding process is successful. In fact, we could further infer than it does so to a higher degree than it would in an environment where collaboration is a less defining aspect of the practice of coding.
-
-<small class="footnote"><i class="fas fa-asterisk"></i> In fact, we're not necessarily discussing code, but that distinction is better left for a broader post on the topic of Pair Programming</small>
 
 <small>This post is part of the series [The secret sauce to an effective team]({% post_url 2018-07-28-the-secret-sauce-to-an-effective-team %}) which describes the steps taken within my team at Unruly in order to facilitate the fostering of _psychological safety_ amongst members of the team.</small>
 
@@ -41,12 +39,9 @@ In contrast, in a paired environment, the very act of coding relies on having po
 
 Bridging such gaps requires trust between individuals, as both individuals must feel comfortable enough to challenge each other's assumptions and preferences along the way.
 
-This is true not only for the working environment but also for the work product itself. When there exists a lack of trust, it is harder for one developer to challenge the decision of another in regards to, for example, the use of one code construct over another. This is often exasperated by an imbalance of power between the individuals. It's hard enough for a newcomer to challenge an experienced developer under traditional circumstances, but in a paired environment where **feedback has to be immediate and face-to-face**, this is often for more challenging. <i class="fas fa-asterisk"></i>
+This is true not only for the working environment but also for the work product itself. When there exists a lack of trust, it is harder for one developer to challenge the decision of another in regards to, for example, the use of one code construct over another. This is often exasperated by an imbalance of power between the individuals. It's hard enough for a newcomer to challenge an experienced developer under traditional circumstances, but in a paired environment where **feedback has to be immediate and face-to-face**, <a href="#footnote">this is often for more challenging<i class="fas fa-asterisk"></i><i class="fas fa-asterisk"></i></a>.
 
 In a Paired environment, failing to address conflict in a team can easily lead to the breakdown of the entire process, and so, encouraging a culture of feedback has been a paramount priority to us.
-
-<small class="footnote"><i class="fas fa-asterisk"></i> The subject of power dynamics in a pair is, again, a subject for a far more in-depth post, but I felt it was worth pointing it out here, as they are the root cause of many trust issues you might encounter in a pair.</small>
-
 
 ## Setting a Foundation
 
@@ -128,3 +123,8 @@ The interesting thing about little _nudges_ like the **Pairing Checklist** is th
 ### Print Me
 
 Bellow you will find [a printable version](https://docs.google.com/document/d/1C0wO44NUfof4a69cIRjfu-UHcoxKaZTYna946MvBm44/edit?usp=sharing) with the more concise wording of the above checklist.
+
+<ol class="footnote" id="footnote">
+<li><i class="fas fa-asterisk"></i> In fact, we're not necessarily discussing code, but that distinction is better left for a broader post on the topic of Pair Programming</li>
+<li><i class="fas fa-asterisk"></i><i class="fas fa-asterisk"></i> The subject of power dynamics in a pair is, again, a subject for a far more in-depth post, but I felt it was worth pointing it out here, as they are the root cause of many trust issues you might encounter in a pair.</li>
+</ol>

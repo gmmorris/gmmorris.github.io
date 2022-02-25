@@ -135,7 +135,7 @@ Well, while this argument isn't new, what _is_ new is that I have have recently 
 ### Static means slow
 
 The main argument which has kept me away from going back to statically typed languages with my personal work has been the claim that working in these languages is slow, inflexible and hard to change.  
-While these are truly subjective measurements, it has been my anecdotal experience that after a decade of _thinking in Javascript_, especially with _functional programming paradigms_ gaining popularity in the community, these characterisations are true for the languages I have used, such as _Java_ and  _C#_ <i class="fas fa-asterisk"></i>.
+While these are truly subjective measurements, it has been my anecdotal experience that after a decade of _thinking in Javascript_, especially with _functional programming paradigms_ gaining popularity in the community, these characterisations are true for the languages I have used, such as _Java_ and  <a href="#footnote">_C#_<i class="fas fa-asterisk"></i></a>.
 
 
 Spending the last few years writing Java has only reinforced my feelings that prototyping in Java is needlessly slow and overly verbose, that changing complex Object Oriented systems is often doubly so and that this lack of flexibility actually hinders my ability to remain agile (agility isn't about speed, these are different problems).
@@ -147,15 +147,10 @@ The frustration with this disconnect drove me into months of experimentation.
 I began by experimenting with _Flow_ and _Typescript_ - two options for using Static Types over Javascript.  
 I found both of these options reasonable, but nowhere near as powerful as my experience with Java, as it was too easy for me to game the compiler. While escape hatches are helpful, they can also be detrimental when too easy to use.
 
-I then experimented with _Scala_, _Closure_ <i class="fas fa-asterisk"></i><i class="fas fa-asterisk"></i>, _Haskell_, _Elm_ and _Erlang_ but all of them had issues I simply couldn't stomach. Mostly it was a lack of interoperability with Javascript which is still my _target platform_ of choice, or a lack of _general purpose_ support at language level (I'm looking at you _Elm_).
+I then experimented with _Scala_, <a href="#footnote">_Closure_ <i class="fas fa-asterisk"></i><i class="fas fa-asterisk"></i></a>, _Haskell_, _Elm_ and _Erlang_ but all of them had issues I simply couldn't stomach. Mostly it was a lack of interoperability with Javascript which is still my _target platform_ of choice, or a lack of _general purpose_ support at language level (I'm looking at you _Elm_).
 
 With other, I found that I simply didn't *think* in them; meaning that their syntax didn't allow me to express myself well.
   
-<small class="footnote"><i class="fas fa-asterisk"></i> I suspect this might be less true for **F#** and **Scala**, but they aren't particulalrly good for targeting the Javascript runtime.</small>
-
-<small class="footnote"><i class="fas fa-asterisk"></i><i class="fas fa-asterisk"></i> Closure isn't Statically Typed, but I heard that _thinking in Lisp_ encourages safer code. I remain unconvinced.</small>
-
-
 ### Enter ReasonML
 
 What finally began to change my perception of static typing has been my introduction to **ReasonML** and by extension to **OCaml**.
@@ -231,3 +226,8 @@ By choosing ReasonML you're not only retaining your power as a developer on the 
 
 I adore Javascript, and I owe the success of my career thus far to the bet I made on it a decade ago, but I'm making a new bet and that's on typed languages that target the Javascript runtime, and while it remains to be seen whether it can win the popularity contest, I think ReasonML is a safe bet for achieving this.
 Lets revisit this bet in a decade and see if I'm a one trick pony.
+
+<ol id="footnote" class="footnote">
+    <li><i class="fas fa-asterisk"></i> I suspect this might be less true for **F#** and **Scala**, but they aren't particulalrly good for targeting the Javascript runtime.</li>
+    <li><i class="fas fa-asterisk"></i><i class="fas fa-asterisk"></i> Closure isn't Statically Typed, but I heard that _thinking in Lisp_ encourages safer code. I remain unconvinced.</li>
+</ol>
