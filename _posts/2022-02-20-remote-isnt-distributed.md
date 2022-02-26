@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Remote isn't Distributed"
-date: 2022-01-26 00:00:00
+date: 2022-02-20 00:00:00
 categories: [Communication]
 tags: [distributed,remote]
 icon: seedling
-description: ""
 hidden: true
+description: ""
 image: "/images/banners/remote-distributed.png"
 banner-img: "/images/banners/remote-distributed.png"
 image-desc: "Fairland's juvenile artist"
@@ -45,12 +45,12 @@ Being _globally distributed_ means that any role that _can_ be distibuted, shoul
 
 I mentioned above that the ideas of a _globally distributed_ team and being _intentionally asynchronous_ aren't well understood, and I'd like to address that by sharing what I have learned over the past two and a half years of work at Elastic, in a three part essay:<br/>
 
-[Part I: Intentionally Asynchronous]({% post_url _drafts/2022-01-27-intentionally-asynchronous %}) covers some practical practices that Elastic has adopted in order to successfully scale as a distributed company.
+[Part I: Intentionally Asynchronous]({% post_url 2022-02-21-intentionally-asynchronous %}) covers some practical practices that Elastic has adopted in order to successfully scale as a distributed company.
 
-[Part II: A Chain of Archived Context]({% post_url _drafts/2022-01-28-a-chain-of-archived-context %}) explores a couple of real world examples where, in my opinion, asynchronous communication improves on in-peson collaboration by empowering team to archive their communications and link these archives to the _source of truth_, which enables teams to retain context across generations.
+[Part II: A Chain of Archived Context]({% post_url 2022-02-22-a-chain-of-archived-context %}) explores a couple of real world examples where, in my opinion, asynchronous communication improves on in-peson collaboration by empowering team to archive their communications and link these archives to the _source of truth_, which enables teams to retain context across generations.
 
-[Part III: Managing Distributed Teams]({% post_url _drafts/2022-01-29-managing-distributed-teams %}) covers some of the things I've learned from managing teams in a distributed setting. These are very subjective and anecdotal, but I believe they are also worth sharing.
+[Part III: Managing Distributed Teams]({% post_url 2022-02-23-managing-distributed-teams %}) covers some of the things I've learned from managing teams in a distributed setting. These are very subjective and anecdotal, but I believe they are also worth sharing.
 
 <ol class="footnote" id="footnote">
-    <li><i class="fas fa-asterisk"></i> Though they **are** better placed to do so, thanks to their archived communications, and we'll get to that in <a href="{% post_url _drafts/2022-01-28-a-chain-of-archived-context %}">Part II: A Chain of Archived Context</a>.</li>
+    <li><i class="fas fa-asterisk"></i> Though they **are** better placed to do so, thanks to their archived communications, and we'll get to that in <a href="{% post_url 2022-02-22-a-chain-of-archived-context %}">Part II: A Chain of Archived Context</a>.</li>
 </ol>

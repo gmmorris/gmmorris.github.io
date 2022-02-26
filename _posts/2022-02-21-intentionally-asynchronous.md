@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Distributed by Design I: Intentionally Asynchronous"
-date: 2022-01-27 00:00:00
+date: 2022-02-21 00:00:00
 categories: [Communication]
 tags: [distributed,remote]
 icon: seedling
@@ -26,7 +26,7 @@ Elastic practices asynchornous communication as much as is feasible, and are int
 As a fledgling remote-first company Elastic leaned heavily on a communication style that is best described as _loose distributed consensus_, interacting primarily by the means that were common place in the open source community at the time, such as email, and IRC. Given the open source background of the individuals involved this not only made sense, but was easy to pass on to newcommers. It didn't take long for the company to learn that this sort of informal assimilation of communication norms does not scale, and fearing their culture might be at risk, formalised this culture by various means.
 
 I'll focus on two of these formal means, the _Source Code_ and the _Communications Charter_, though it is worth noting that there are other formalised means in place to address the variety of needs across the organisation.
-The informal practices born out of async work are just as interesting, in my opinion, but we will touch of those in [parts II]({% post_url _drafts/2022-01-28-a-chain-of-archived-context %}) and [III]({% post_url _drafts/2022-01-29-managing-distributed-teams %}) of this essay.
+The informal practices born out of async work are just as interesting, in my opinion, but we will touch of those in [parts II]({% post_url 2022-02-22-a-chain-of-archived-context %}) and [III]({% post_url 2022-02-23-managing-distributed-teams %}) of this essay.
 
 ## The Source Code
 
@@ -70,7 +70,7 @@ On the one hand, it's harder to tell when members of your team are working, and 
 On the other, decades of work in co-located teams have trained me to perceving work hours as a proxy for _overwork_, and I can no longer rely on that that.
 I have to **trust** my teammates when they work at hours that might seem unusual to me, and avoid the assumption that they are overworking.
 
-These side effects have pushed me further outside of my comfort zone as a manager, and we'll cover that in _[Part III: On Managing Distributed Teams]({% post_url _drafts/2022-01-29-managing-distributed-teams %})_.
+These side effects have pushed me further outside of my comfort zone as a manager, and we'll cover that in _[Part III: On Managing Distributed Teams]({% post_url 2022-02-23-managing-distributed-teams %})_.
 
 
 ### Format As You Are
@@ -206,7 +206,7 @@ When it comes to best practices for Zoom, you'll find a lot of overlap with Slac
 
 **Record meetings whenever possible and document the recording.** This is one of the key practices I've taken away from my time at Elastic, and hope to carry with me for the rest of my career.<br/>
 While my last company, Unruly, was [by far the most collaborative environment](https://medium.com/unruly-engineering/why-work-at-unruly-559a50792d96) I had ever had the privilege of working in, it was terrible at retaining historical knowledge and context.<br/>
-In Elastic we record most of our meetings, whether they are recurring meetings such as planning sessions, or ad-hoc _"I'd like to pick your brain"-type_ meetings. I'll expand on an _aha-moment_ I had regarding this practice when we discuss the [chain of archived context, in part II]({% post_url _drafts/2022-01-28-a-chain-of-archived-context %}).
+In Elastic we record most of our meetings, whether they are recurring meetings such as planning sessions, or ad-hoc _"I'd like to pick your brain"-type_ meetings. I'll expand on an _aha-moment_ I had regarding this practice when we discuss the [chain of archived context, in part II]({% post_url 2022-02-22-a-chain-of-archived-context %}).
 
 **If this zoom call could have been an Email, make it so next time.** If you've ever attended a Zoom call with dozens of attendees you'll know what I'm talking about. Most likely, when attending a meeting like this, not everyone on the call was necessery nor have they gained value from attending the call synchronously. Whenever I attend a meeting like this I ask myself whether this could have been an Email, or a session best attended by a handful of people and distributed later as a recording.<br/>
 I mention this point as, for many teams (including in Elastic), it is this sort of meeting that makes it so incredibly hard to become truly asynchronous and distributed. The synchronous all-hands or cross team sync-up call, often with required attendance, is now an anchor that has to be dropped _somewhere_ in the time-space continuum. This anchor is best avoided as much as possible.
@@ -215,12 +215,12 @@ I mention this point as, for many teams (including in Elastic), it is this sort 
 
 Part I has covered the practicalities of Elastic's formal baseline for asynchoronous collaboration.
 
-I invite you to learn more through [Part II: A chain of archived context]({% post_url _drafts/2022-01-28-a-chain-of-archived-context %}) and [Part III: On Managing Distributed Teams]({% post_url _drafts/2022-01-29-managing-distributed-teams %}), where I cover some less formal practices, and anecdotal lessons that I have learned over the past two years of managing distributed teams.
+I invite you to learn more through [Part II: A chain of archived context]({% post_url 2022-02-22-a-chain-of-archived-context %}) and [Part III: On Managing Distributed Teams]({% post_url 2022-02-23-managing-distributed-teams %}), where I cover some less formal practices, and anecdotal lessons that I have learned over the past two years of managing distributed teams.
 
 <ol class="footnote fa-ul" id="footnote">
-<li><span class="fa-li"><i class="fas fa-asterisk"></i></span> I've found that the variation usually correlated with how wide the timezone spread is within the team and we'll touch on this variation in  <a href="{% post_url _drafts/2022-01-29-managing-distributed-teams %}">Part III: On Managing Distributed Teams</a>.</li>
+<li><span class="fa-li"><i class="fas fa-asterisk"></i></span> I've found that the variation usually correlated with how wide the timezone spread is within the team and we'll touch on this variation in  <a href="{% post_url 2022-02-23-managing-distributed-teams %}">Part III: On Managing Distributed Teams</a>.</li>
 <li><span class="fa-li"><i class="fas fa-asterisk"></i><i class="fas fa-asterisk"></i></span> They are referring to the ideas of being intentionally distirbuted, prioritising people's freedom to prioritise life over work, and so forth.</li>
 <li><span class="fa-li"><i class="fas fa-asterisk"></i><i class="fas fa-asterisk"></i><i class="fas fa-asterisk"></i></span> A recent <a href="https://twitter.com/chekofif/status/1493939523377668105">Twitter thread</a> has me thinking there's a potential pitfall here too, but I feel like the Source Code does a good job providing the nuance needed to reduce the likelihood of bad actors taking advantage of it.</li>
 <li><span class="fa-li"><i class="fas fa-asterisk"></i><i class="fas fa-asterisk"></i><i class="fas fa-asterisk"></i><i class="fas fa-asterisk"></i></span> To be honest, I'd be more than happy if our entire backlog of Github Issues were nuked tomorrow, forcing teams to ask themselves _"what is the next most-valuable deliverable for my customers?"_, but that's a blog post for another day.</li>
-<li><span class="fa-li"><i class="fas fa-asterisk"></i><i class="fas fa-asterisk"></i><i class="fas fa-asterisk"></i><i class="fas fa-asterisk"></i><i class="fas fa-asterisk"></i></span> This is no longer true once a question asked on Slack or Zoom is appropriately documented. Many questions are discussed and resolved over Zoom, for example, but as long as we document this question in a discoverable manner by linking it to the appropriate context, such as a Github Issue, then we can still benefit from async communication. We will see this in action in <a href="{% post_url _drafts/2022-01-28-a-chain-of-archived-context %}">Part II: A Chain of Archived Context</a>.</li>
+<li><span class="fa-li"><i class="fas fa-asterisk"></i><i class="fas fa-asterisk"></i><i class="fas fa-asterisk"></i><i class="fas fa-asterisk"></i><i class="fas fa-asterisk"></i></span> This is no longer true once a question asked on Slack or Zoom is appropriately documented. Many questions are discussed and resolved over Zoom, for example, but as long as we document this question in a discoverable manner by linking it to the appropriate context, such as a Github Issue, then we can still benefit from async communication. We will see this in action in <a href="{% post_url 2022-02-22-a-chain-of-archived-context %}">Part II: A Chain of Archived Context</a>.</li>
 </ol>

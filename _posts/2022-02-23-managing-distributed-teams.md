@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Distributed by Design III: On Managing Distributed Teams"
-date: 2022-01-29 00:00:00
+date: 2022-02-23 00:00:00
 categories: [Engineering Management]
 tags: [distributed,remote]
 icon: seedling
@@ -30,9 +30,9 @@ The tensions and dynamics might be different, but if you are a good manager of a
 
 ## On Being Remote in a Distributed Environment
 
-In the [first part of this essay]({% post_url _drafts/2022-01-27-intentionally-asynchronous %}) we discussed why asynchronous communication is a priority for distributed teams, and the system we have put in place to encourage, or even enforce, its practice.
+In the [first part of this essay]({% post_url 2022-02-21-intentionally-asynchronous %}) we discussed why asynchronous communication is a priority for distributed teams, and the system we have put in place to encourage, or even enforce, its practice.
 
-But what if your team is [not _distribted_, but rather merely _remote_]({% post_url _drafts/2022-01-26-remote-isnt-distributed %})?<br/>
+But what if your team is [not _distribted_, but rather merely _remote_]({% post_url 2022-02-20-remote-isnt-distributed %})?<br/>
 Should async still be a priority?<br/>
 
 Many teams have asked themselves this question over the past two years, as co-located teams turn to remote work, remaining in the same timezone as they were before.
@@ -42,7 +42,7 @@ Interestingly, teams at distributed companies like Elastic have also found thems
 
 To tackle this dilema, we should begin by asking the most obvious question: why wouldn't you prioritise async?
 
-In [Part II]({% post_url _drafts/2022-01-28-a-chain-of-archived-context %}) we saw some of the benefits of async work, but there are undeniable downsides, such as slower feedback cycles and I wouldn't hold it against _remote_ teams that chose to side steps these by leaning into synchronous communication.
+In [Part II]({% post_url 2022-02-22-a-chain-of-archived-context %}) we saw some of the benefits of async work, but there are undeniable downsides, such as slower feedback cycles and I wouldn't hold it against _remote_ teams that chose to side steps these by leaning into synchronous communication.
 
 This is a question I've discussed with many Engineering Managers over the past couple of years, and I've begun to notice a wind change. More and more teams are beginning to notice downsides to their synchronous work, as these become more pronounced by their transition to remote work. Interactions that once worked face-to-face, don't work as well over Zoom, and decisions made through ephemeral, and often siloed, instant messaging don't permeate through the team as they once did.
 
@@ -80,7 +80,7 @@ In the following diagram, a _remote_ team for whom the widest timezone gap is 5 
 ![The impact of being Remote in a Distributed environment](/images/2022/02/remote-collaborating-with-distributed.png)
 
 Luckily for me, prioritising async is easier than it would be for most, as Elastic has already set such a strong baseline for my teams, but it can still be challenging.
-Though I might not need to get buy-in for ideas like [_Home, Dinner_]({% post_url _drafts/2022-01-27-intentionally-asynchronous %}), my teammates are only human and can gravitate to old habbits as well, especially if they happen to be closer to _remote_ than they are to _distributed_.
+Though I might not need to get buy-in for ideas like [_Home, Dinner_]({% post_url 2022-02-21-intentionally-asynchronous %}), my teammates are only human and can gravitate to old habbits as well, especially if they happen to be closer to _remote_ than they are to _distributed_.
 
 As with any other change you'd like to coach your team into, it's far better to inspire the team's buy-in by helping them see the same problems you see, rather than coercing them into it.
 My favoured approach to this challenge is to begin by identifying the source of resistence to the change and coach the members of my team to a place where they can see it too, and choose to address these themselves.<br/>
@@ -121,7 +121,7 @@ My favourite nuance to this has been that I can no longer use work-hours as a pr
 In the past, if I were to spot a teammate working out of hours, I'd assume they were overworking and address this concern accordingly. Earlier on as a manager on a distributed team, I begun to notice this practice becoming harder, as I had to familiarise myself with each individual's work-hours across timezones. This is neither scalable, nor effective.
 
 The _aha-moment_ for me was the moment I realised that a member of my team would regularly take breaks during the day, going for a walk with their partner, or an afternoon cycle in the woods.
-They would then make up those hours in the evenings, or weekends, and on observation I realised - this is **exactly** what [**Home, Dinner**]({% post_url _drafts/2022-01-27-intentionally-asynchronous %}) and async work are about: freeing the members of our team to manage their time as they see fit while still being an effective team.
+They would then make up those hours in the evenings, or weekends, and on observation I realised - this is **exactly** what [**Home, Dinner**]({% post_url 2022-02-21-intentionally-asynchronous %}) and async work are about: freeing the members of our team to manage their time as they see fit while still being an effective team.
 
 This means I can no longer use work-hours as a proxy for anything, whether it's tracking performance or overwork. Either way, I need a better metric, and that's where effective feedback and coaching is required.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Distributed by Design II: A Chain of Archived Context"
-date: 2022-01-28 00:00:00
+date: 2022-02-22 00:00:00
 categories: [Communication]
 tags: [distributed,remote]
 icon: seedling
@@ -14,7 +14,7 @@ image-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/145952
 ---
 In the first part of this essay we covered what we mean by _asynchronous communication_, and I introduced you to the two tools that Elastic uses to set the baseline for, and align on, the expectations we have of our distributed teams.
 
-Your continued interest in the topic of _Distributed by Design_ suggests you're, at the very least, intrigued by the possibility of asynchronous work, but you might not be _entirely sold_ on the merits. Given the challenges inherent to asynchronous work, I couldn't blame anyone for doubting whether the return justifies the effort, especially if your team is [not _distribted_, but rather merely _remote_]({% post_url _drafts/2022-01-26-remote-isnt-distributed %}).
+Your continued interest in the topic of _Distributed by Design_ suggests you're, at the very least, intrigued by the possibility of asynchronous work, but you might not be _entirely sold_ on the merits. Given the challenges inherent to asynchronous work, I couldn't blame anyone for doubting whether the return justifies the effort, especially if your team is [not _distribted_, but rather merely _remote_]({% post_url 2022-02-20-remote-isnt-distributed %}).
 
 I don't personally believe everyone is well suited for asynchronous work or distributed teams. In fact, I think it's a minority of people who are.
 That said, I also believe this is a large enough subset of the industry that those companies tackling this challenge well will easily find themselves able to grow their high-performing teams.
@@ -162,7 +162,7 @@ When your culture instinctively records decisions in an asynchronous means of co
 
 What I have discovered over the past few years, is that working remotely makes this sort of thing easier, but working _distributed_ makes these things _intuitive_ and as a result - the easiest.
 
-An interesting nuance I have found is that truly distributed teams, where their members are spread out across mutltiple time zones, find this far easier than teams that are in the same timezone. We'll discuss this in the third part of this essay, [On Managing Distributed Teams]({% post_url _drafts/2022-01-29-managing-distributed-teams %}).
+An interesting nuance I have found is that truly distributed teams, where their members are spread out across mutltiple time zones, find this far easier than teams that are in the same timezone. We'll discuss this in the third part of this essay, [On Managing Distributed Teams]({% post_url 2022-02-23-managing-distributed-teams %}).
 
 <ol class="footnote fa-ul" id="footnote">
 <li><span class="fa-li"><i class="fas fa-asterisk"></i></span> To be clear, this isn't an <strong>engineers</strong> problem, as I've seen the exact same behaviour exhibitted by product managers, business development people and more. I find humans struggle to think about their future needs once their immediate need has been addressed.</li>
