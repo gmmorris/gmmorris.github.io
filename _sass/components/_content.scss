@@ -55,13 +55,23 @@ $block-max-width: 1300px;
   h2,
   h3,
   h4 {
-    font-family: $font-sans-serif;
-    font-weight: $font-weight-medium;
     margin-bottom: half($base-spacing-unit);
 
     &:not(:first-child) {
       margin-top: double($base-spacing-unit) + half($base-spacing-unit);
     }
+  }
+
+  h1,
+  h2 {
+    font-family: $font-sans-serif;
+    font-weight: $font-weight-medium;
+  }
+  
+  h3,
+  h4 {
+    font-family: $font-sans-serif-light;
+    font-weight: $font-weight-regular;
   }
 
   hr + h1,

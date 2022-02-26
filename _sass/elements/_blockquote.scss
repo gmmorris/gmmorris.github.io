@@ -7,12 +7,24 @@ blockquote {
   text-align: center;
 
   &.inline {
-    padding: 0 12px;
+    
+    .fas {
+      color: #ba3925;
+      &.fa-quote-left {
+        float: left;
+        margin-right: 0.5em;
+      }
+      &.fa-quote-right {
+        float: right;
+        padding-top: 0.5em;
+      }
+    }
+
     border-left: 2px dotted #ba3925;
     font-size: 1em;
     text-align: left;
     padding-left: 2em;
-    margin: 0em 0em 2em -1.5em;
+    margin: 0em 0em 2em -1em;
 
     @include mq($from: tablet) {
       min-width: 75vw;
