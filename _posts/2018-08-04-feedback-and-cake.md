@@ -180,7 +180,7 @@ In my team we have decided that such situations should be separated into two sep
 
 In the above example, I'd present Nigel with two separate pieces of feedback:
 1. A _constructive_ piece of feedback expressing how I felt unwelcome as an immigrant and fearful as the member of minority when I witnessed his campaign.
-2. A _reinforcing_ piece of feedback expressing how well he has done in achieving fascist status, <a href="#footnote">which I know he has pursued for some time now<i class="fas fa-asterisk"></i></a>.
+2. A _reinforcing_ piece of feedback expressing how well he has done in achieving fascist status, {% include footnotes/footnote_link.html content="which I know he has pursued for some time now" count=1 %}.
 
 I have seen other teams take a slightly different approach, where they actually prefer to give the _constructive_ and _reinforcing_ feedback together in order to force individuals to always seek both the positive and the negative in a persons' behaviour. I personally don't believe in that approach and believe it discourages people from giving concise constructive feedback and might actually cause individuals to withhold feedback all together.
 
@@ -250,6 +250,6 @@ But that doesn't mean my attendance at the sessions any less important. I still 
 
 Feel free to copy it from [here](https://docs.google.com/document/d/13V2Z88zKash_kxQGZCeNMlLqmCK4svhNrXZHzEJZXCY/edit?usp=sharing).
 
-<ol id="footnote" class="footnote">
-    <li><i class="fas fa-asterisk"></i> I probably wouldn't give him reinforcing feedback at all, to be honest.</li>
+<ol id="footnote" class="footnote fa-ul">
+    <li><span class="fa-li"><i class="fas fa-asterisk"></i></span> I probably wouldn't give him reinforcing feedback at all, to be honest.</li>
 </ol>
