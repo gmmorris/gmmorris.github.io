@@ -16,7 +16,7 @@ image-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/147842
 I'd caution anyone taking management advice from me to keep in mind that I have no idea what I'm doing.
 I'm just figuring this out as I go along.
 
-With that in mind, I'd suggest you treat this post as anecdotal observations on managing distibuted teams, rather than advice on how to do it well.
+With that in mind, I'd suggest you treat this post as anecdotal observations on managing distributed teams, rather than advice on how to do it well.
 
 # Part III: On Managing Distributed Teams
 
