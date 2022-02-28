@@ -3,7 +3,7 @@ layout: post
 title:  "The Tech Civilisation Circles of Influence"
 date: 2019-05-08 16:05:01 +0100
 categories: [Tech-Ethics]
-tags: [tech,ethics,diversity,inclusivity,climate]
+tags: [ethics, tech,diversity,inclusivity,climate]
 icon: seedling
 description: ""
 
