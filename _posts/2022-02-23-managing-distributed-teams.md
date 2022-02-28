@@ -5,7 +5,6 @@ date: 2022-02-23 00:00:00
 categories: [Engineering Management]
 tags: [distributed,remote]
 icon: seedling
-hidden: true
 description: ""
 image: "/images/banners/weathering-a-storm-at-sea.png"
 banner-img: "/images/banners/weathering-a-storm-at-sea.png"

@@ -5,7 +5,6 @@ date: 2022-02-21 00:00:00
 categories: [Communication]
 tags: [distributed,remote]
 icon: seedling
-hidden: true
 description: ""
 image: "/images/banners/distributed-at-sea.png"
 banner-img: "/images/banners/distributed-at-sea.png"
