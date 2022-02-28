@@ -2,7 +2,7 @@
 layout: post
 title:  "Distributed by Design I: Intentionally Asynchronous"
 date: 2022-02-21 00:00:00
-categories: [Communication]
+categories: [Team-Dynamics]
 tags: [distributed,remote]
 icon: seedling
 description: ""
@@ -17,6 +17,8 @@ I dislike the term _remote friendly_, as it doesn't tell me anything about how s
 
 This is why many of my former colleagues, realising mid-way into 2020 that this new reality was not going to come to an end any time soon, reached out to me for advice. _How does Elasic make this work?_, they asked.<br/>
 Their companies, who seemed to have realised the same, began distributing articles filled with banal statements such as _"Communication is key"_ or  _"Stick to your work schedule"_, but no one explained _how_ this is achieved. The better articles would take a step in the right direction, by advising people to switch to _asynchronous communication_ and to create a culture of unblockable work, but rarely did they explain **how**.
+
+<small>This post is part of the **Distributed by Design** essay, which begins with [Remote isn't Distributed]({% post_url 2022-02-20-remote-isnt-distributed %}), describing what I learned over two and a half years as an individual contributer and manager on a distributed team at [Elastic](https://www.elastic.co/).</small>
 
 # Part I: Intentionally Asynchronous
 

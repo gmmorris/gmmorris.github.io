@@ -2,7 +2,7 @@
 layout: post
 title:  "Distributed by Design II: A Chain of Archived Context"
 date: 2022-02-22 00:00:00
-categories: [Communication]
+categories: [Team-Dynamics]
 tags: [distributed,remote]
 icon: seedling
 description: ""
@@ -17,6 +17,8 @@ Your continued interest in the topic of _Distributed by Design_ suggests you're,
 
 I don't personally believe everyone is well suited for asynchronous work or distributed teams. In fact, I think it's a minority of people who are.
 That said, I also believe this is a large enough subset of the industry that those companies tackling this challenge well will easily find themselves able to grow their high-performing teams.
+
+<small>This post is part of the **Distributed by Design** essay, which begins with [Remote isn't Distributed]({% post_url 2022-02-20-remote-isnt-distributed %}), describing what I learned over two and a half years as an individual contributer and manager on a distributed team at [Elastic](https://www.elastic.co/).</small>
 
 # Part II: A Chain of Archived Context
 

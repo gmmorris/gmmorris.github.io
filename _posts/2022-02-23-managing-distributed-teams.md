@@ -17,6 +17,8 @@ I'm just figuring this out as I go along.
 
 With that in mind, I'd suggest you treat this post as anecdotal observations on managing distributed teams, rather than advice on how to do it well.
 
+<small>This post is part of the **Distributed by Design** essay, which begins with [Remote isn't Distributed]({% post_url 2022-02-20-remote-isnt-distributed %}), describing what I learned over two and a half years as an individual contributer and manager on a distributed team at [Elastic](https://www.elastic.co/).</small>
+
 # Part III: On Managing Distributed Teams
 
 As an Engineering Manager, I believe I can sum up the responsibility of my role as one goal - to leave my team better than I found them.<br/>

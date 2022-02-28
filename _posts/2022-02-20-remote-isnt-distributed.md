@@ -2,7 +2,7 @@
 layout: post
 title:  "Remote isn't Distributed"
 date: 2022-02-20 00:00:00
-categories: [Communication]
+categories: [Team-Dynamics]
 tags: [distributed,remote]
 icon: seedling
 description: ""
