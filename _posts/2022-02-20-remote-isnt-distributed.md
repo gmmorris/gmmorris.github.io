@@ -14,11 +14,11 @@ image-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/147839
 ---
 
 Two years ago our entire industry, and to a certain extent most office-based industries, was thrown into a new remote-first reality by a global pandemic.
-This was particularly interesting for me as, unlike most of my friends and my family who found themselves forced into an unfamiliar work envirnment, I did not. For me, this was already familiar ground as six months earlier in late 2019, I had intentionally chosen to go remote by joining [Elastic](https://www.elastic.co/), which has operated as a remote-first team since its inception.
+This was particularly interesting for me as, unlike most of my friends and my family who found themselves forced into an unfamiliar work environment, I did not. For me, this was already familiar ground as six months earlier in late 2019, I had intentionally chosen to go remote by joining [Elastic](https://www.elastic.co/), which has operated as a remote-first team since its inception.
 
 My interest in remote work began as a team lead at [Unruly](https://medium.com/unruly-engineering), where my team and I had been [trying to introduce remote work and were finding it hard](https://unruly.co/blog/article/2018/10/03/inside-prodev-unrulys-software-engineer-ina-tsetsova-on-remote-working-open-sources-and-stuffed-toys/).
 To be more accurate, we were failing miserably at it.
-Following years as practitioners of _Extreme Programming_, utilising _pair programming_, _agile boards_, and co-located _osmotic communication_, we couldn't figure out how to balance remote work with the heavy realiance we had developed on in-person collaboration.
+Following years as practitioners of _Extreme Programming_, utilising _pair programming_, _agile boards_, and co-located _osmotic communication_, we couldn't figure out how to balance remote work with the heavy reliance we had developed on in-person collaboration.
 
 With an interest in addressing this gap in my competency, I decided to join Elastic, as I wanted to learn how an engineering team as large as theirs was able to scale and operate in a remote-first fashion.
 
@@ -35,19 +35,19 @@ I nice simile for this gap, which might be less helpful if you're less of a nerd
 
 ![Co-Located is to Remote as Remote is to Distributed](/images/2022/02/colocated-remote-distributed.png)
 
-I'm exagerating, obviously, as _distributed_ teams don't have to, **spoiler-alert**, {% include footnotes/footnote_link.html content="collaborate across the plains of an inverted time dimension" count=1 %}. That said, unlike most of the _remote_ teams formed by the digital transformation of the global pandemic, they _do_ have to collaborate in an environment where their teammates are _out-of-sync_ with each other. This is where an _Intentionally Asynchronous_ culture where asychronous communication is not only encouraged, but enforced, is demostrably impacatful.
+I'm exaggerating, obviously, as _distributed_ teams don't have to, **spoiler-alert**, {% include footnotes/footnote_link.html content="collaborate across the plains of an inverted time dimension" count=1 %}. That said, unlike most of the _remote_ teams formed by the digital transformation of the global pandemic, they _do_ have to collaborate in an environment where their teammates are _out-of-sync_ with each other. This is where an _Intentionally Asynchronous_ culture where asynchronous communication is not only encouraged, but enforced, is demonstrably impactful.
 
 ![Remote and Distributed by timezone spread](/images/2022/02/remote-distributed.png)
 
-Being _globally distributed_ means that any role that _can_ be distibuted, should be, as it enables the organisation to maximise its diversity and its ability to hire the best person for the job, no matter their location. Elastic, is globally distributed by [design and intention](https://www.elastic.co/about/distributed). This means that however we collaborate, it has to enable each and every role in the company to operate no matter the teammate's chosen timezone. Ideally not an inverted time dimension, but for the right candidate, we'd make it work 😉.
+Being _globally distributed_ means that any role that _can_ be distributed, should be, as it enables the organisation to maximise its diversity and its ability to hire the best person for the job, no matter their location. Elastic, is globally distributed by [design and intention](https://www.elastic.co/about/distributed). This means that however we collaborate, it has to enable every role in the company to operate no matter the teammate's chosen timezone. Ideally not an inverted time dimension, but for the right candidate, we'd make it work 😉.
 
 ## Distributed by Design
 
-I mentioned above that the ideas of a _globally distributed_ team and being _intentionally asynchronous_ aren't well understood, and I'd like to address that by sharing what I have learned over the past two and a half years of work at Elastic, in a three part essay:<br/>
+I mentioned above that the ideas of a _globally distributed_ team and being _intentionally asynchronous_ aren't well understood, and I'd like to address that by sharing what I have learned over the past two and a half years of work at Elastic, in a three-part essay:<br/>
 
-[Part I: Intentionally Asynchronous]({% post_url 2022-02-21-intentionally-asynchronous %}) covers some practical practices that Elastic has adopted in order to successfully scale as a distributed company.
+[Part I: Intentionally Asynchronous]({% post_url 2022-02-21-intentionally-asynchronous %}) covers some practical practices that Elastic has adopted to successfully scale as a distributed company.
 
-[Part II: A Chain of Archived Context]({% post_url 2022-02-22-a-chain-of-archived-context %}) explores a couple of real world examples where, in my opinion, asynchronous communication improves on in-peson collaboration by empowering team to archive their communications and link these archives to the _source of truth_, which enables teams to retain context across generations.
+[Part II: A Chain of Archived Context]({% post_url 2022-02-22-a-chain-of-archived-context %}) explores a couple of real-world examples where, in my opinion, asynchronous communication improves on in-person collaboration by empowering teams to archive their communications and link these archives to the _source of truth_, which enables teams to retain context across generations.
 
 [Part III: Managing Distributed Teams]({% post_url 2022-02-23-managing-distributed-teams %}) covers some of the things I've learned from managing teams in a distributed setting. These are very subjective and anecdotal, but I believe they are also worth sharing.
 
