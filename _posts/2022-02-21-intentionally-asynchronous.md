@@ -9,7 +9,7 @@ description: ""
 image: "/images/banners/distributed-at-sea.png"
 banner-img: "/images/banners/distributed-at-sea.png"
 image-desc: "Fairland's juvenile artist"
-image-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/14783544635/"
+image-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/14758987106"
 ---
 
 When the pandemic hit engineering teams in 2020, most of them scrambled to migrate their existing working processes to a _remote friendly_ setting.
