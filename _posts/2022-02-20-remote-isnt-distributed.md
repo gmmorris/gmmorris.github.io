@@ -50,6 +50,6 @@ I mentioned above that the ideas of a _globally distributed_ team and being _int
 
 [Part III: Managing Distributed Teams]({% post_url 2022-02-23-managing-distributed-teams %}) covers some of the things I've learned from managing teams in a distributed setting. These are very subjective and anecdotal, but I believe they are also worth sharing.
 
-<ol class="footnote" id="footnote">
-    <li><i class="fas fa-asterisk"></i> Though they **are** better placed to do so, thanks to their archived communications, and we'll get to that in <a href="{% post_url 2022-02-22-a-chain-of-archived-context %}">Part II: A Chain of Archived Context</a>.</li>
+<ol class="footnote fa-ul" id="footnote">
+<li><span class="fa-li"><i class="fas fa-asterisk"></i></span> Though they <strong>are</strong> better placed to do so, thanks to their archived communications, and we'll get to that in <a href="{% post_url 2022-02-22-a-chain-of-archived-context %}">Part II: A Chain of Archived Context</a>.</li>
 </ol>
