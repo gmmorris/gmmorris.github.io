@@ -15,14 +15,15 @@ image-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/147589
 When the pandemic hit engineering teams in 2020, most of them scrambled to migrate their existing working processes to a _remote friendly_ setting.
 I dislike the term _remote friendly_, as it doesn't tell me anything about how suitable the process is for remote work, and is usually more of a _frenemy_, than actually suited to the realities of remote work.
 
-This is why many of my former colleagues, realising mid-way into 2020 that this new reality was not going to come to an end any time soon, reached out to me for advice. _How does Elasic make this work?_, they asked.<br/>
+This is why many of my former colleagues, realising mid-way into 2020 that this new reality was not going to come to an end any time soon, reached out to me for advice. _How does Elasic make this work?_, they asked.
+
 Their companies, who seemed to have realised the same, began distributing articles filled with banal statements such as _"Communication is key"_ or  _"Stick to your work schedule"_, but no one explained _how_ this is achieved. The better articles would take a step in the right direction, by advising people to switch to _asynchronous communication_ and to create a culture of unblockable work, but rarely did they explain **how**.
 
 <small>This post is part of the **Distributed by Design** essay, which begins with [Remote isn't Distributed]({% post_url 2022-02-20-remote-isnt-distributed %}), describing what I learned over two and a half years as an individual contributer and manager on a distributed team at [Elastic](https://www.elastic.co/).</small>
 
 # Part I: Intentionally Asynchronous
 
-Elastic practices asynchronous communication as much as is feasible, and are intentional about enforcing asynchronous practices even where they are seemingly less necessary. I'll be honest and admit that I have noticed that, even within Elastic, {% include footnotes/footnote_link.html content="the degree to which different teams succeed at applying these practices can to vary widely" count=1 %}, but let us begin with the basics: How does Elastic set a _baseline_ of async communication?
+Elastic practices asynchronous communication as much as is feasible, and are intentional about enforcing asynchronous practices even where they are seemingly less necessery. I'll be honest and admit that I have noticed that, even within Elastic, {% include footnotes/footnote_link.html content="the degree to which different teams succeed at applying these practices tends to vary widely" count=1 %}, but let us begin with the basics: How does Elastic set a _baseline_ of async communication?
 
 As a fledgling remote-first company Elastic leaned heavily on a communication style that is best described as _loose distributed consensus_, interacting primarily by the means that were common place in the open-source community at the time, such as email, and IRC. Given the open-source background of the individuals involved this choice not only made sense but was easy to pass on to newcomers. It didn't take long for the company to learn that this sort of informal assimilation of communication norms does not scale, and fearing their culture might be at risk, formalised this culture by various means.
 
@@ -162,7 +163,7 @@ Elastic uses Github intensively, all across the organisation, to track, execute,
 
 We have repositories dedicated to our technical products, but teams also maintain dedicated repositories for collabroation. Issues are filed for onboarding, to discuss working practices and agreements, or documenting discussions that have taken place. As a result teams are able to leverage the same tooling used to track technical work, collaborate on code, and maintain a backlog of work, in order to track, collaborate on, and archive other aspects of our team dynamics.
 
-Teammates submit PRs with improvements to the content in their team repositories, in the same way they contribute improvements to code. Whether they're proposing an improvement to a working agreement, an onboarding issue, or internal documentation, other teammates are able asynchornously review the suggestion, collaborate and iterate on it, and merge the resulting improvement. Teammates can file issues with questions, allowing others to weigh in, add context, and then close the issue when the question has been answered. This provide the team with {% include footnotes/footnote_link.html content="a record of past learnings that would have otherwise been lost to the ether" count=5 %} had they been asked in Slack or over Zoom.
+Teammates submit PRs with improvements to the content in their team repositories, in the same way they contribute improvements to code. Whether they're proposing an improvement to a working agreement, an onboarding issue, or internal documentation, other teammates are able asynchornously review the suggestion, collaborate and iterate on it, and merge the resulting improvement. Teammates can file issues with questions, allowing others to weigh in, add context, and then close the issue when the question has been answered. This provides the team with {% include footnotes/footnote_link.html content="a record of past learnings that would have otherwise been lost to the ether" count=5 %} had they been asked in Slack or over Zoom.
 
 #### Email
 
@@ -205,11 +206,14 @@ When it comes to best practices for Zoom, you'll find a lot of overlap with Slac
 
 **When you make decisions on Zoom, as we all know you will, document them elsewhere.** I won't labour this point any further. Always document these decisions somewhere asynchronous and non-ephemeral.
 
-**Record meetings whenever possible and document the recording.** This is one of the key practices I've taken away from my time at Elastic, and hope to carry with me for the rest of my career.<br/>
-While my last company, Unruly, was [by far the most collaborative environment](https://medium.com/unruly-engineering/why-work-at-unruly-559a50792d96) I had ever had the privilege of working in, it was terrible at retaining historical knowledge and context.<br/>
+**Record meetings whenever possible and document the recording.** This is one of the key practices I've taken away from my time at Elastic, and hope to carry with me for the rest of my career.
+
+While my last company, Unruly, was [by far the most collaborative environment](https://medium.com/unruly-engineering/why-work-at-unruly-559a50792d96) I had ever had the privilege of working in, it was terrible at retaining historical knowledge and context.
+
 In Elastic we record most of our meetings, whether they are recurring meetings such as planning sessions, or ad-hoc _"I'd like to pick your brain"-type_ meetings. I'll expand on an _aha-moment_ I had regarding this practice when we discuss the [chain of archived context, in part II]({% post_url 2022-02-22-a-chain-of-archived-context %}).
 
-**If this zoom call could have been an Email, make it so next time.** If you've ever attended a Zoom call with dozens of attendees you'll know what I'm talking about. Most likely, when attending a meeting like this, not everyone on the call was necessary nor have they gained value from attending the call synchronously. Whenever I attend a meeting like this I ask myself whether this could have been an Email, or a session best attended by a handful of people and distributed later as a recording.<br/>
+**If this zoom call could have been an Email, make it so next time.** If you've ever attended a Zoom call with dozens of attendees you'll know what I'm talking about. Most likely, when attending a meeting like this, not everyone on the call was necessary nor have they gained value from attending the call synchronously. Whenever I attend a meeting like this I ask myself whether this could have been an Email, or a session best attended by a handful of people and distributed later as a recording.
+
 I mention this point as, for many teams (including in Elastic), it is this sort of meeting that makes it so incredibly hard to become truly asynchronous and distributed. The synchronous all-hands or cross-team sync-up call, often with required attendance, is now an anchor that has to be dropped _somewhere_ in the time-space continuum. This anchor is best avoided as much as possible.
 
 ## Learn more about Distributed by Design

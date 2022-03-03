@@ -13,7 +13,7 @@ image-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/145952
 ---
 In the first part of this essay, we covered what we mean by _asynchronous communication_, and I introduced you to the two tools that Elastic uses to set the baseline for, and align on, the expectations we have of our distributed teams.
 
-Your continued interest in the topic of _Distributed by Design_ suggests you're, at the very least, intrigued by the possibility of asynchronous work, but you might not be _entirely sold_ on the merits. Given the challenges inherent to asynchronous work, I couldn't blame anyone for doubting whether the return justifies the effort, especially if your team is [not _distribted_, but rather merely _remote_]({% post_url 2022-02-20-remote-isnt-distributed %}).
+Your continued interest in the topic of _Distributed by Design_ suggests you're, at the very least, intrigued by the possibility of asynchronous work, but you might not be _entirely sold_ on the merits. Given the challenges inherent to asynchronous work, I couldn't blame anyone for doubting whether the return justifies the effort, especially if your team is [not _distributed_, but rather merely _remote_]({% post_url 2022-02-20-remote-isnt-distributed %}).
 
 I don't personally believe everyone is well suited for asynchronous work or distributed teams. In fact, I think it's a minority of people who are.
 That said, I also believe this is a large enough subset of the industry that those companies tackling this challenge well will easily find themselves able to grow their high-performing teams.
@@ -106,11 +106,12 @@ If they feel the reasoning is no longer valid, I suggest they bring it up with t
 
 ![Why did we decide on this working agreement?](/images/2022/02/a-chain-of-working-agreements.png)
 
-Back at Unruly, this was much harder, and was only possible because a handful of collegial old-timers, who had remained at the company for years, were available to answer these questions - assuming they recalled the reasoning themselves.
+I found this much harder back at Unruly. Infact, the only reason it was even possible was thanks to a handful of collegial old-timers, who had remained at the company for years, and were available to answer these questions - assuming they recalled the reasoning themselves.
 
 One such colleague, [benji](https://twitter.com/benjiweber), made [the same observation](https://benjiweber.co.uk/blog/2018/08/20/the-unsung-upsides-of-staying-put/) when he left Unruly, interestingly commenting on the fact that some teams _were_ in-fact archiving their stand-up meetings by recording them, but no one was actively consuming these recordings.
-Benji's observation was, in hindsight, a missed learning opportunity on my part, as I had taken note of the unnecessary need for recording those meetings, but entirely missed that the real problem was the lack of discoverability of these recordings.
-Recordings are only useful if they are archived in a discoverable manner. This is why linking the recordings to the source of truth, where the decision has been documented, is critical.
+In hindsight Benji's observation was a missed learning opportunity on my part. Though I had taken note of the unnecessary need for recording those meetings, I entirely missed the fact that the real problem was the lack of discoverability of these recordings.
+Recordings are only useful if they are archived in a discoverable manner.
+This is why linking the recordings to the source of truth, where the decision has been documented, is critical.
 
 ### Example II: Technical Implementation
 

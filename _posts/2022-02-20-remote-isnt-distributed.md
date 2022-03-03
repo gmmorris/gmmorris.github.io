@@ -30,7 +30,7 @@ We tend to talk about engineers who work on _Distributed Systems_ with a certain
 This is as true for human systems as it is for software systems, which is why remote collaboration, a form of a _distributed human system_, is harder than co-located collaboartion; and as we have learned over the years, software engineering is an exercise in human collaboration more than anything else.
 It's a team effort, and if we were to compare those challenges that make _co-located_ collaboration hard with those afflicting _remote_ and _distributed_ team, we would find that the gap between _remote_ and _distributed_ is as wide as the one between _co-located_ and _remote_.
 
-I nice simile for this gap, which might be less helpful if you're less of a nerd than I am, is that a _co-located_ team is to a _remote_ team as the team on _Apollo 11_ is to the team in _Inception_; but a _distributed_ team is more like the team in _Tenet_.
+A nice simile for this gap, which might be less helpful if you're less of a nerd than I am, is that a _co-located_ team is to a _remote_ team as the team on _Apollo 11_ is to the team in _Inception_; but a _distributed_ team is more like the team in _Tenet_.
 
 ![Co-Located is to Remote as Remote is to Distributed](/images/2022/02/colocated-remote-distributed.png)
 
