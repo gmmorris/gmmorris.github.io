@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Case Study of Two Extremes"
-date: 2022-12-29 00:00:00
+date: 2022-3-1 00:00:00
 categories: [Organisational-Patterns]
 tags: []
 icon: seedling
