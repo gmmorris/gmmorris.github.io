@@ -44,7 +44,7 @@ How do we begin to go about that though?
 
 # The Circles Of Our Influence
 
-I talk often about my belief that product developers<i class="fas fa-asterisk"></i>, especially the more privileged ones such as myself, are the most powerful individuals within our _tech civilisation_ and have [written in the recent past](https://gidi.io/2018/07/21/when-personal-ethics-clash-with-industry-norms.html) about the importance of ethical discourse in the context of the hiring of such individuals. If, then, we accept the suggestion that as individuals we are highly influential, then it would be incumbent on us to trace the impact that our civilisation has on the societies around us. Unless we measure our impact, we might never know whether we're society's guardian angels or perhaps no more than bulls in a china shop.
+I talk often about my belief that {% include footnotes/footnote_link.html content="product developers" count=1 %}, especially the more privileged ones such as myself, are the most powerful individuals within our _tech civilisation_ and have [written in the recent past](https://gidi.io/2018/07/21/when-personal-ethics-clash-with-industry-norms.html) about the importance of ethical discourse in the context of the hiring of such individuals. If, then, we accept the suggestion that as individuals we are highly influential, then it would be incumbent on us to trace the impact that our civilisation has on the societies around us. Unless we measure our impact, we might never know whether we're society's guardian angels or perhaps no more than bulls in a china shop.
 
 
 ![The Tech Civilisation's Circles of Influence](/images/2019/05/circles-of-influence.png)
@@ -59,10 +59,6 @@ When I look at the _tech civilisation_ as a whole, I see several circles of infl
 5. Our impact on our natural environment.
 
 The precise impact we have on each one of these circles of influence would require a tome to enumerate, but what I would like to enumerate is a handful of categories which I feel can broadly encompass the different _topics of conversation_ we should focus on.
-
-<small class="footnote"><i class="fas fa-asterisk"></i> By _product developers_ I do not just mean people who write code, but rather all aspects of product creation.</small>
-
-
 
 # The Topics Of Conversation
 
@@ -135,3 +131,7 @@ That said these conversations aren't new and I feel that we as a _tech civilisat
 
 My take on the conference was essentially this: a call for the tech industry to grow up, take responsibility for the role it now plays and ask it self _what do I want to be when I grow up_?
 
+
+<ol class="footnote fa-ul" id="footnote">
+<li><span class="fa-li"><i class="fas fa-asterisk"></i></span> By <i>product developers</i> I do not just mean people who write code, but rather all aspects of product creation.</li>
+</ol>
