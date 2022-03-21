@@ -202,7 +202,7 @@ When the pandemic kicked off in 2020 I saw many companies who practice XP transi
 
 An Ensemble is where three people, or more, are involved in the practice of developing or designing a feature. This is <a target="_blank"  href="https://www.youtube.com/watch?v=SHOVVnRB4h0">also known as a mob</a> though I dislike that term.
 
-These challenges are also the reason why _Extreme Programming_ teams often suffer from a lack of diversity. This isn't an inevitable consequence of XP, as teams who have made the effort of addressing these challenges often discover, but it's hard work.
+These challenges are also the reason why _Extreme Programming_ teams often suffer from a lack of diversity. This isn't an inevitable consequence of XP, as teams who have made the effort of addressing these challenges often find, but it's hard work and requires an intentional effort.
 
 This is why folks often conflate the debate on localisation (Distributed vs. Co-Located) with the debate on Synchronisation (Sync vs. Async). A former colleague of mine made the same observation recently, <a target="_blank" href="https://twitter.com/benjiweber/status/1475793237633863683">tweeting a nice visualisation of this</a>.
 {% endcapture %}
