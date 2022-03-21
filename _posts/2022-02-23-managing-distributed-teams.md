@@ -113,7 +113,7 @@ Learning how to leverage effective 1:1s, working closely with your team to ident
 
 These skills have been covered by far more experienced leaders than myself, such as [Camille Fournier](https://uk.bookshop.org/books/the-manager-s-path/9781491973899), so I won't try and advise you on these myself. But the observation I feel might be less obvious is that {% include footnotes/footnote_link.html content="managing distributed teams forces you to hone these skills" count=1 %}.
 
-Ironically, I find it is easier for inexperienced managers to hide in plain sight when they inhabit the same space as their team. Once you turn remote, and especially distributed, you can no longer rely on the rich signal you get from _constantly observing_ your team. You have to learn to _see_ by other mean, and I have found no better means than connecting with my teammates and peers through conversation.
+Ironically, I find it is easier for inexperienced managers to hide in plain sight when they inhabit the same space as their team. Once you turn remote, and especially distributed, you can no longer rely on the rich signal you get from _constantly observing_ your team. You have to learn to _see_ by other means, and I have found no better means than connecting with my teammates and peers through conversation.
 
 ### A Note with Regards to Overwork
 My favourite nuance to this has been that I can no longer use work-hours as a proxy for **overwork**, either.

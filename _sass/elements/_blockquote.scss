@@ -31,7 +31,8 @@ blockquote {
     }
 
     @include mq($from: desktop) {
-      min-width: half($grid-width);
+      width: half($grid-width);
+      min-width: initial;
     }
   }
 
