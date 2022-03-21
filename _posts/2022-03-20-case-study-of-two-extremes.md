@@ -185,7 +185,7 @@ This is where becoming _intentionally asynchronous_ elavates from being an recom
 
 You may be thinking, having covered these two extremes, that this essay is a sort of [_clip show essay_](https://en.wikipedia.org/wiki/Clip_show), designed to link you to a bunch of essays I've written before. It's actually the other way around - I began writing this essay and realised that I had too much to say. I couldn't fit this into a single essay, so I exploded the content across a half dozen essays.
 
-If you take one point away from this entire effort, it should be this one: Your organisation is a _system_, and systems are governed by forces. Identifying the forces that impede your team's process enables you to identify and apply the appropriate system fix. You goal in doing so is to drive the team towards becoming a high-performing team.
+If you take one point away from this entire effort, it should be this one: Your organisation is a _system_, and systems are governed by forces. Identifying the forces that impede your team's process enables you to identify and apply the appropriate system fix. Your goal in doing so is to drive the team towards becoming a high-performing team.
 
 Look for the force that causes an imbalance in your system, and then rebalance it. The closer you are to mainstream practices, the easier it is to rebalance, but be careful when choosing your _system fix_. Most teams are not high-performing teams, and aligning with the mainstream can come at a cost in that regard. The hard part is knowing which _system fix_ will enable your team to become high-performing, and which will get in their way. 
 
