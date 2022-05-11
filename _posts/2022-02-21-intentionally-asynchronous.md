@@ -5,7 +5,7 @@ date: 2022-02-21 00:00:00
 categories: [Team-Dynamics]
 tags: [distributed,remote]
 icon: seedling
-description: ""
+description: "How Elastic created an Intentionally Asynchronous culture"
 image: "/images/banners/distributed-at-sea.png"
 banner-img: "/images/banners/distributed-at-sea.png"
 image-desc: "Fairland's juvenile artist"

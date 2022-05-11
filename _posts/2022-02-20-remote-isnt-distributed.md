@@ -5,7 +5,7 @@ date: 2022-02-20 00:00:00
 categories: [Team-Dynamics]
 tags: [distributed,remote]
 icon: seedling
-description: ""
+description: "Discussing the difference between Remote and Distributed teams"
 image: "/images/banners/remote-distributed.png"
 banner-img: "/images/banners/remote-distributed.png"
 image-desc: "Fairland's juvenile artist"

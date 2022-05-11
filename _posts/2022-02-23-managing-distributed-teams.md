@@ -5,7 +5,7 @@ date: 2022-02-23 00:00:00
 categories: [Engineering Management]
 tags: [distributed,remote]
 icon: seedling
-description: ""
+description: "Things I've learned from managing teams in a distributed company"
 image: "/images/banners/weathering-a-storm-at-sea.png"
 banner-img: "/images/banners/weathering-a-storm-at-sea.png"
 image-desc: "Weathering a Storm at Sea"

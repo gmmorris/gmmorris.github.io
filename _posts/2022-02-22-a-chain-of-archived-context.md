@@ -5,7 +5,7 @@ date: 2022-02-22 00:00:00
 categories: [Team-Dynamics]
 tags: [distributed,remote]
 icon: seedling
-description: ""
+description: "How asynchronous communication empowering teams to archive their communications and retain context as generational knowledge"
 image: "/images/banners/taking-in-cargo.png"
 banner-img: "/images/banners/taking-in-cargo.png"
 image-desc: "Taking in Cargo"

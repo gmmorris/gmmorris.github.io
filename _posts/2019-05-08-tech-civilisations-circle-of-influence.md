@@ -5,8 +5,7 @@ date: 2019-05-08 16:05:01 +0100
 categories: [Tech-Ethics]
 tags: [ethics, tech,diversity,inclusivity,climate]
 icon: seedling
-description: ""
-
+description: "My thought on ethics in the tech industry following the Beyond Tech conference in London"
 image-desc: "Good and Evil"
 image: "/images/banners/The-history-of-the-devil.png"
 image-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/14772939841"

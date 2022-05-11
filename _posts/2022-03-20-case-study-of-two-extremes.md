@@ -4,7 +4,7 @@ title:  "A Case Study of Two Extremes"
 categories: [System-Dynamics]
 tags: [organisational patterns, distributed, remote,extreme programming]
 icon: seedling
-description: ""
+description: "What is it that makes distributed teams and Extreme Programming teams seem so diametrically opposed"
 image-desc: "Women of Faial"
 image: "/images/banners/women_of_faial.png"
 image-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/14596746138"
