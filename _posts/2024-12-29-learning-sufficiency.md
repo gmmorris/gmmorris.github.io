@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Learning Sufficiency"
-categories: [NatureTech Leadership]
+categories: [NatureTech]
 tags: [lean,agile,science,extreme programming]
 icon: seedling
 description: "How focusing on the minimum viable effort to validate ideas is morrored across multidisciplinary teams"
