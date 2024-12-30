@@ -18,23 +18,20 @@ But as any engineering leader with some experience under their belt will tell yo
 
 Entire books have been written about why it's better to build the right thing the wrong way than the wrong thing the right way. As engineering managers, we've seen teams spend months gold-plating features no one uses. Similarly, moving from academia to industry, many scientists are dismayed to find their role has changed. Unlike in a research post, invalidating a method is no longer considered a success - either it works, or it doesn't, and if it doesn’t, your job is to pivot away from this line of research and find one that does.
 
-# Optimising for Lean Sufficiency
-
+## Optimising for Lean Sufficiency
 Our vision At Revalue, to see nature regenerated at a planetary scale, is predicated on successfully preventing deforestation where it happens and restoring as many natural ecosystems as possible. Achieving this requires efficiently validating project ideas, killing the unrealistic ones to focus on those with real potential. How many dead ends we hit doesn't matter - what counts is how many viable projects we steward into being.
 
-## Lean Sufficiency in Engineering
-
+### Lean Sufficiency in Engineering
 This is where the power of sufficiency comes in. As leaders, our role is to help domain experts identify the minimum viable level of effort necessary to validate an idea and reach the next phase. To achieve this in product engineering, we often preach to software developers about lean principles, encouraging them to find the bare minimum level of effort necessary to deliver value. The mistake many leaders make, myself included, is neglecting to clarify the difference between “lean code” and the more important concept of a "lean solution."
 
 Lean code eschews documentation and testing - and inevitably creates technical debt. But a lean solution tightly scopes our work to what's needed to validate an idea and guide the next iteration. This requires engineers to collaborate closely with stakeholders to identify the key decision points where the team determines whether to stay the course or pivot.
 
-## Lean Sufficiency in Science
-
+### Lean Sufficiency in Science
 Scientists face a similar challenge when pushed to streamline their assessments. The pressure to be leaner can make them feel like they're compromising their standards, leading to lower integrity output. In truth, we ask them the same as our product engineers - at what point does additional rigour become over-analysis? - and adjust accordingly.
 
 The key is helping them define sufficiency differently at each project stage - what's adequate for validating value versus viability or feasibility? Each phase requires incrementally deeper analysis and higher costs, but lower-stage assessments aren't less rigorous - they just provide a lower confidence level in the project's ultimate success. By mapping out these tiers of sufficiency, scientists can optimise their efforts while maintaining integrity.
 
-# Turns Out that Lean Thinking is a Transferrable Multidisciplinary Skill
+## Turns Out that Lean Thinking is a Transferrable Multidisciplinary Skill
 
 Over the past year, Revalue has focused on developing a robust methodology and supporting technology to efficiently assess carbon projects' viability, feasibility, and path to commercialisation. By defining clear decision points and analyses for each validation phase, we can quickly filter out low-potential projects and strategically allocate resources.
 
