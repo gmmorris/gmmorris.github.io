@@ -31,9 +31,8 @@ Scientists face a similar challenge when pushed to streamline their assessments.
 
 The key is helping them define sufficiency differently at each project stage - what's adequate for validating the potential value of a project? what's adequate when validating viability? or feasibility? Each phase requires incrementally deeper analysis and higher costs, but lower-stage assessments aren't less rigorous - they just provide a lower confidence level in the project's ultimate success. By mapping out these tiers of sufficiency, scientists can optimise their efforts while maintaining integrity.
 
-## Turns Out that Lean Thinking is a Transferrable Multidisciplinary Skill
-
-Over the past year, Revalue has focused on developing a robust methodology and supporting technology to efficiently assess carbon projects' viability, feasibility, and path to commercialisation. By defining clear decision points and analyses for each validation phase, we can quickly filter out low-potential projects and strategically allocate resources.
+## Lean Thinking is a Transferrable Multidisciplinary Skill
+Over the past year, our multidisciplinary team has focused on developing a robust methodology and supporting technology to efficiently assess carbon projects' viability, feasibility, and path to commercialisation. By defining clear decision points and analyses for each validation phase, we can quickly filter out low-potential projects and strategically allocate resources.
 
 To support our scientific team’s efforts, our engineering team has built a platform that not only enables the analyses but also ensures a degree of transparency and interactivity impossible with the tools more traditionally used in our industry - such as spreadsheets or static maps. This allows stakeholders to flexibly interrogate project data without forcing scientists to redo analyses.
 
