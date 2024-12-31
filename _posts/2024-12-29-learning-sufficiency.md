@@ -29,7 +29,7 @@ Lean code eschews documentation and testing - and inevitably creates technical d
 ### Lean Sufficiency in Science
 Scientists face a similar challenge when pushed to streamline their assessments. The pressure to be leaner can make them feel like they're compromising their standards, leading to lower integrity output. In truth, we ask of them the same as we do of our product engineers, to ask themselves - _at what point does additional rigour become over-analysis?_ - and adjust accordingly.
 
-The key is helping them define sufficiency differently at each project stage - what's adequate for validating value versus viability or feasibility? Each phase requires incrementally deeper analysis and higher costs, but lower-stage assessments aren't less rigorous - they just provide a lower confidence level in the project's ultimate success. By mapping out these tiers of sufficiency, scientists can optimise their efforts while maintaining integrity.
+The key is helping them define sufficiency differently at each project stage - what's adequate for validating the potential value of a project? what's adequate when validating viability? or feasibility? Each phase requires incrementally deeper analysis and higher costs, but lower-stage assessments aren't less rigorous - they just provide a lower confidence level in the project's ultimate success. By mapping out these tiers of sufficiency, scientists can optimise their efforts while maintaining integrity.
 
 ## Turns Out that Lean Thinking is a Transferrable Multidisciplinary Skill
 
