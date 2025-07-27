@@ -4,7 +4,7 @@ title:  "Learning Sufficiency"
 categories: [NatureTech]
 tags: [lean,agile,science,extreme programming]
 icon: seedling
-description: "How focusing on the minimum viable effort to validate ideas is morrored across multidisciplinary teams"
+description: "What I learned trying to get multidisciplinary teams to move fast without hating themselves"
 image-desc: "Dragons of Icod"
 image: "/images/banners/dragona_of_icod.png"
 image-desc-link: "https://www.flickr.com/photos/internetarchivebookimages/14596729299/"
