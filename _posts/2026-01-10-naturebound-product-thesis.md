@@ -10,7 +10,7 @@ description: "Reflecting on the product thesis behind NatureBound, a company I c
 
 I haven't written about this yet, and frankly, I wasn't sure when the right moment would come. But I've been reading Drew Hoskins' _The Product-Minded Engineer_, and his framework for thinking about product thesis and antithesis has given me a lens through which to process what we tried to build - and why it mattered, even though we didn't succeed.
 
-In 2022, I left big tech to focus on climate change and nature. It was a deliberate shift, one I'd been contemplating for years as I watched the compounding effects of ecosystem collapse play out in real-time data and increasingly desperate reports from the scientific community. The decision crystallized when I realized I couldn't keep building tools for better collaboration and productivity while ignoring the existential question: _what are we collaborating toward, and will we have a planet capable of sustaining it?_
+In 2022, I left big tech to focus on climate change and nature. It was a deliberate shift, one I'd been contemplating for years as I watched the compounding effects of ecosystem collapse play out in real-time data and increasingly desperate reports from the scientific community. I was suffering from pretty bad climate doomism at the time. I'd sit there optimizing ad delivery systems and improving observability tooling while the planet was dying, and it felt like no one was doing anything about it. That wasn't true, of course - plenty of people were working on these problems - but that was my perspective from inside the tech bubble. The decision crystallized when I realized I couldn't keep building tools for better collaboration and productivity while ignoring the existential question: _what are we collaborating toward, and will we have a planet capable of sustaining it?_
 
 ## NatureBound and the People Behind It
 
@@ -31,6 +31,16 @@ I'm writing this now because NatureBound folded in 2024. We ran the experiment, 
 Startups fail for a thousand reasons, most of them mundane. Market timing, funding dynamics, team capacity, regulatory headwinds. We hit some combination of all of these. But the underlying problem we identified? That hasn't gone anywhere. If anything, it's gotten more acute.
 
 So this is a product thesis for a company that no longer exists, but for a problem that very much does.
+
+## Why I'm Writing This Now
+
+There's another reason I'm documenting this now, and it's worth being transparent about: I'm joining NatureMetrics, "the eDNA company," which has been branching out into the wider ecosystem of biodiversity monitoring. I wanted to get all of this context down on paper _before_ I begin my new role, for two specific reasons.
+
+First, I don't know anything proprietary about NatureMetrics yet. Once I'm inside, these thoughts would become impossible to publish - there would always be the question of whether I'm drawing on internal knowledge or strategy. Writing this now preserves the independence of these observations.
+
+Second, and perhaps more importantly, I'm sure I'm wrong about some of these things. The ideas in this post represent my current understanding, shaped by the NatureBound experience and hundreds of customer conversations, but they're still just hypotheses. It will be fascinating to look back in a year or two and see how much I got wrong, and how much companies like NatureMetrics - who've been in this space far longer than I have - got right. This is my stake in the ground, my "before" snapshot.
+
+So take everything that follows with appropriate skepticism. This is what I believed the product opportunity looked like based on what we learned. Reality, as always, is more nuanced.
 
 ## The Problem: Biodiversity Loss as an Agricultural Crisis
 
