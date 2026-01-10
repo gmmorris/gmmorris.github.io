@@ -89,118 +89,45 @@ The key insight was that **the person who needs the data (the corporate sustaina
 
 ## User Personas
 
-Let me break down the key personas we identified, using the lens of a product brief:
+Meet the people we were trying to help:
 
-### Persona 1: Corporate Sustainability Officer
+### Sarah the Spreadsheet Wrangler (Corporate Sustainability Officer)
 
-**Context:** Employed by a food brand or retailer with complex agricultural supply chains spanning multiple geographies. Responsible for nature-related disclosures under emerging regulatory frameworks (TNFD, CSRD, SEC climate rules).
+Sarah works at a major food brand, managing nature-related disclosures for their agricultural supply chains. She's constantly fighting for budget, trying to prove to the CFO that sustainability isn't just a "nice-to-have," and drowning in consultant reports that cost a fortune and tell her almost nothing actionable. When regulators ask for TNFD compliance, she needs real data, not hand-wavy estimates. She's smart, overworked, and acutely aware that her job exists in that awkward space between regulatory necessity and executive skepticism.
 
-**Jobs to be Done:**
-- Understand the company's dependencies on ecosystem services across sourcing regions
-- Quantify the company's impact on biodiversity within its value chain
-- Report this information in standardized formats that satisfy regulators and investors
-- Demonstrate year-over-year improvement in key metrics
-- Identify supply chain risks related to ecosystem degradation
+**How she'd use NatureBound:**
 
-**Pain Points:**
-- Lack of standardized methodologies for measuring biodiversity dependencies and impacts
-- Data availability is sparse and inconsistent across different sourcing regions
-- Existing consultants are expensive and produce one-off reports rather than continuous monitoring
-- No clear connection between reporting metrics and actionable improvements
-- Difficulty translating ecological concepts into business-relevant risk assessments
-
-**Success Metrics:**
-- Time to produce a compliant nature-related disclosure
-- Confidence level in reported metrics
-- Ability to show improvement trends
-- Cost per sourcing region assessed
-
-**What They're Willing to Pay For:** A system that automates the translation of field-level ecological data into boardroom-ready reports, with clear audit trails and alignment to regulatory requirements.
+It's Q4, and Sarah needs to submit her company's first TNFD report in three months. She logs into the platform, selects the five sourcing regions her company depends on (tomatoes in Southern Europe, coffee in Colombia, cocoa in West Africa). The system shows her existing data coverage - mostly sparse - and recommends specific data collection strategies for each region based on crop type and regulatory requirements. She approves the plan, the corporate food buyer coordinates with suppliers, and eDNA surveys plus remote sensing get scheduled. Two months later, she downloads a compliance-ready report showing biodiversity dependencies and impacts, complete with audit trails and year-over-year trends. She presents it to the board. The CFO asks, "Will this actually reduce our supply chain risk?" For the first time, she can say yes and point to specific interventions already underway.
 
 ---
 
-### Persona 2: Corporate Food Buyer
+### Marcus the Risk-Mitigator (Corporate Food Buyer)
 
-**Context:** Responsible for procurement relationships with farmers and cooperatives that supply raw materials. Concerned with both short-term availability and long-term sustainability of sourcing regions.
+Marcus sources raw materials from hundreds of farms across multiple continents. He's seen supply chain disruptions from droughts, floods, and degraded soils that no longer produce viable yields. His bonus depends on keeping costs stable and ensuring reliable supply, but he's also under pressure to hit sustainability targets that his company announced to shareholders. He doesn't have time to become an ecologist - he just needs to know which sourcing regions are at risk and what he can do about it before it hits his quarterly numbers.
 
-**Jobs to be Done:**
-- Ensure reliable supply of agricultural products at predictable prices
-- Identify sourcing regions at risk of degradation or productivity decline
-- Meet corporate commitments around sustainable sourcing
-- Support suppliers in adopting practices that improve resilience
-- Demonstrate to customers that products come from responsibly managed lands
+**How he'd use NatureBound:**
 
-**Pain Points:**
-- Limited visibility into ecological health of sourcing regions
-- Difficulty distinguishing between short-term weather impacts and long-term degradation trends
-- Pressure to meet sustainability commitments without tools to measure progress
-- Suppliers don't have data to demonstrate their regenerative practices
-- No way to prioritize which suppliers or regions need intervention first
-
-**Success Metrics:**
-- Supply chain risk scores by region
-- Percentage of sourcing from verified sustainable/regenerative farms
-- Supplier engagement with sustainability programs
-- Customer perception of brand's environmental commitments
-
-**What They're Willing to Pay For:** A biodiversity baseline and monitoring system that integrates with existing supplier management workflows, provides early warning of ecosystem risks, and generates credible sustainability credentials.
+Marcus gets an alert from the platform: one of his tomato-sourcing regions in Southern Europe shows declining biodiversity metrics and increasing pesticide dependency. The system flags this as a medium-term supply risk - if current trends continue, yields will likely drop 15-20% within three years. It recommends a pilot program with 10 farms to implement integrated pest management practices, funded as part of the company's sustainable sourcing budget. The cost: €50K. The projected ROI: reduced supply risk, improved sustainability metrics for reporting, and potential premium pricing for regeneratively-grown tomatoes. Marcus greenlights it. Six months later, those 10 farms show measurable improvements. He expands the program to 50 more farms and uses the early results in his pitch to retain the brand's sustainable sourcing commitments.
 
 ---
 
-### Persona 3: Farmer
+### Frank the Farmer (Multi-Generational Farmer on Thin Margins)
 
-**Context:** Manages cropland or livestock operations, often as part of a multi-generational family business. Faces pressure from multiple directions: input costs, climate volatility, market price fluctuations, regulatory requirements.
+Frank inherited his 200-hectare farm from his father, who inherited it from his father. He cares deeply about the land - it's his legacy - but he's also pragmatic. Pesticide costs have tripled in the past decade. Fertilizer prices are volatile. Drought years are becoming more frequent. He's heard about "regenerative agriculture" and "biodiversity," but he doesn't have €10K to spend on consultants telling him to plant wildflowers. He'll listen if someone can show him how to cut costs or get better prices, but he's been burned before by tech companies selling silver bullets that don't work in real farming conditions.
 
-**Jobs to be Done:**
-- Maintain or improve yields while managing costs
-- Reduce expensive chemical inputs (pesticides, fertilizers) where possible
-- Protect the long-term health and productivity of their land
-- Access premium markets or sustainability incentives that reward regenerative practices
-- Demonstrate to buyers/certifiers that they're farming responsibly
+**How he'd use NatureBound (or rather, how it would help him indirectly):**
 
-**Pain Points:**
-- Chemical inputs are expensive and the costs keep rising
-- Don't have budget to pay for ecological monitoring or advisory services
-- Want to do right by the land but don't know which practices will actually work in their specific context
-- Sustainability certifications are costly and time-consuming
-- Skeptical of "experts" who don't understand the economic realities of farming
-
-**Success Metrics:**
-- Net income per hectare
-- Input cost reductions
-- Soil health trends
-- Access to premium pricing or sustainability incentives
-- Resilience to weather variability
-
-**What They're Willing to Pay For:** Realistically? **Nothing directly.** Farmers operate on thin margins and are understandably skeptical of paying for services that don't have a clear, immediate ROI. However, they're very willing to engage with programs funded by others if those programs provide tangible value.
+Frank doesn't pay for NatureBound - the corporate buyer does. But his agronomist shows up one day with something new: a detailed analysis of his fields showing that he has low predator-to-pest ratios. The recommendation is specific: plant dill and fennel along his field margins, and consider releasing ladybugs next season. The cost is minimal, and the corporate buyer is subsidizing it as part of a sustainable sourcing program. Frank is skeptical but figures he has nothing to lose. The next season, his aphid problems are noticeably better, and he cuts his pesticide costs by 30%. The agronomist shows him the biodiversity monitoring data proving the improvement. Frank is still skeptical of fancy tech, but he trusts results he can see in his bank account. He signs up for the next phase of the program.
 
 ---
 
-### Persona 4: Agronomist
+### Elena the Ecosystem Whisperer (The Agronomist Who Wants to Be Cutting-Edge)
 
-**Context:** Provides advisory services to farmers, either as an independent consultant, as part of a cooperative, or employed by an input supplier. Caught between wanting to provide cutting-edge advice and being limited by available data and analysis tools.
+Elena is an independent agronomist advising 30 farms across her region. She's passionate about her work and prides herself on staying ahead of trends. She knows integrated pest management is the future, and her farmer clients are starting to ask about biodiversity and regenerative practices. But she doesn't have the tools or expertise to offer sophisticated ecological advice - she can recommend crop rotations and fertilizer schedules, but she can't interpret eDNA results or model predator-prey dynamics. Her competitors at larger consultancies are starting to offer these services, and she's worried about losing clients.
 
-**Jobs to be Done:**
-- Help farmers optimize yields and profitability
-- Recommend interventions (inputs, practices, timing) based on field conditions
-- Stay current with emerging practices like regenerative agriculture and IPM
-- Differentiate their services from competitors
-- Build long-term trust relationships with farmer clients
+**How she'd use NatureBound:**
 
-**Pain Points:**
-- Most recommendations are based on generic models rather than field-specific conditions
-- Don't have access to ecological data that would enable more sophisticated IPM strategies
-- Farmers are skeptical of recommendations that don't account for their specific context
-- Emerging practices like biodiversity monitoring are interesting but require expertise they don't have
-- Competitors with better tools and data are gaining market share
-
-**Success Metrics:**
-- Client retention and satisfaction
-- Demonstrable impact on client outcomes (yields, costs, sustainability metrics)
-- Time spent per client engagement
-- Ability to service more clients without sacrificing quality
-
-**What They're Willing to Pay For:** Tools that make them more effective and efficient, especially if those tools provide insights they can't get elsewhere. They're the "AI-enabled Agronomist" of the future - and they know it.
+Elena subscribes to the platform's agronomist tier. When she visits Frank's farm, she pulls up his biodiversity profile - eDNA results, remote sensing analysis, integrated with his farming data. The system highlights the aphid-ladybug imbalance and suggests the intervention. Elena presents this to Frank with confidence, backed by data she couldn't have generated herself. She rolls out similar insights across her client base, positioning herself as the "AI-enabled agronomist" offering cutting-edge advice that her competitors can't match. Her client retention goes up. She starts winning new business from farmers who've heard she has access to tools that make her recommendations more precise and effective. She becomes known in her region as the agronomist who actually understands biodiversity, even though what she really understands is how to use the platform to surface insights she'd never have found on her own.
 
 ---
 
