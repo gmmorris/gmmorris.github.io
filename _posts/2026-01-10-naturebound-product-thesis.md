@@ -16,9 +16,9 @@ In 2022, I left big tech to focus on climate change and nature. It was a deliber
 
 I co-founded NatureBound with two remarkable people who brought perspectives I could never have developed on my own.
 
-**Marianna** is an entrepreneur who spent years in the food space, navigating the messy intersection of sustainability, supply chains, and consumer behavior. She understood the business realities of food production in ways I never could from my engineering background - the razor-thin margins, the complexity of global supply chains, the challenge of making "doing the right thing" economically viable.
+[**Marianna**](https://www.linkedin.com/in/marianna-herold-9a4518/) is an entrepreneur who spent years in the food space, navigating the messy intersection of sustainability, supply chains, and consumer behavior. She understood the business realities of food production in ways I never could from my engineering background - the razor-thin margins, the complexity of global supply chains, the challenge of making "doing the right thing" economically viable.
 
-**Iqbal** was a young, energized Post-Doc Ecologist with a deep passion for biodiversity monitoring. His focus on bats and their critical role in agriculture opened my eyes to the invisible interdependencies that keep our food systems functioning. He's now teaching at a university in Canada, training the next generation of ecologists who'll inherit the challenge of monitoring and protecting what's left.
+[**Iqbal**](https://www.linkedin.com/in/iqbal-bhalla-53b74a116/) was a young, energized Post-Doc Ecologist with a deep passion for biodiversity monitoring. His focus on bats and their critical role in agriculture opened my eyes to the invisible interdependencies that keep our food systems functioning. He's now teaching at the University of Saskatchewan, training the next generation of ecologists who'll inherit the challenge of monitoring and protecting what's left.
 
 The three of us came to the problem from different angles, but we shared a common conviction: agriculture sits at the nexus of the biodiversity crisis, and if we could help make farming more compatible with nature, we could create meaningful change at scale.
 
