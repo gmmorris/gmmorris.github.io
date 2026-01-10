@@ -127,7 +127,7 @@ Amara is an independent agronomist advising 30 farms across her region. She's pa
 
 **How she'd use NatureBound:**
 
-Amara subscribes to the platform's agronomist tier. When she visits António's farm, she pulls up his biodiversity profile - eDNA results, remote sensing analysis, integrated with his farming data. The system highlights the aphid-ladybug imbalance and suggests the intervention. Amara presents this to António with confidence, backed by data she couldn't have generated herself. She rolls out similar insights across her client base, positioning herself as the "AI-enabled agronomist" offering cutting-edge advice that her competitors can't match. Her client retention goes up. She starts winning new business from farmers who've heard she has access to tools that make her recommendations more precise and effective. She becomes known in her region as the agronomist who actually understands biodiversity, even though what she really understands is how to use the platform to surface insights she'd never have found on her own.
+Amara subscribes to the platform's agronomist tier. When she visits António's farm, she pulls up his biodiversity profile - eDNA results, remote sensing analysis, integrated with his farming data. The system highlights the aphid-ladybug imbalance and suggests the intervention. Amara knows crop rotations and soil health - that's her expertise - but now she can connect those insights to ecosystem dynamics she couldn't measure before. She presents this to António with confidence: her agronomic judgment backed by biodiversity data she couldn't have generated herself. She rolls out similar insights across her client base, positioning herself as the "AI-enabled agronomist" offering cutting-edge advice that her competitors can't match. Her client retention goes up. She starts winning new business from farmers who've heard she combines deep agronomic knowledge with ecosystem-level insights. She becomes known in her region as the agronomist who bridges traditional practice with biodiversity science.
 
 ---
 
@@ -178,7 +178,7 @@ But most ecological relationships are far more complex and context-dependent. Th
 
 This was the part that excited me most: we weren't just building a data platform, we were building a capability multiplier that would turn our users into heroes in their domains.
 
-Imagine Amara walking into a farmer's field and, within minutes, identifying ecosystem imbalances that would take a team of PhDs weeks to diagnose. She'd become the agronomist that farmers call first, the one who "just gets it" in ways her competitors can't match. Her reputation would spread - not because she suddenly became an expert in every discipline, but because the platform made her _look_ like one.
+Imagine Amara walking into a farmer's field and, within minutes, connecting her deep agronomic expertise to ecosystem-level data that would normally require a team of specialists to collect and analyze. She'd become the agronomist that farmers call first, the one who "just gets it" in ways her competitors can't match. Her reputation would spread - not because the platform replaced her expertise, but because it amplified what she already knew, letting her see patterns and connections that were always there but previously invisible.
 
 Or Sarah presenting to her board with a story that actually lands: "Last year, we invested €500K in biodiversity monitoring across our tomato supply chain. We identified three high-risk regions. We intervened with targeted programs. This year, those regions show 25% improvement in ecosystem health metrics, pesticide use is down 18%, and we've reduced our supply chain risk by a quantifiable margin. Here's the data, here's the trajectory, here are the farmers who can testify to the results." The CFO leans back, impressed. Sarah just became the sustainability officer who delivers business outcomes, not just compliance paperwork.
 
@@ -186,9 +186,9 @@ Rajesh stops being the buyer who reacts to supply chain crises and becomes the s
 
 Even António - skeptical, pragmatic António - becomes the farmer who "does biodiversity right." He starts getting inquiries from premium brands willing to pay 15% more for tomatoes grown with demonstrable regenerative practices. He's invited to speak at agricultural conferences. His kids, who weren't sure they wanted to take over the farm, start seeing it as a forward-thinking operation worth inheriting.
 
-The platform wasn't just about data integration. It was about giving people superpowers in their daily work - making the agronomist brilliant, the CSO impactful, the buyer strategic, and the farmer prosperous. It was about creating a feedback loop where doing the right thing for nature also made you better at your job, more respected by your peers, and more successful in your career.
+The platform wasn't just about data integration. It was about giving already-capable people superpowers in their daily work - letting the skilled agronomist punch above their weight, helping the strategic CSO deliver measurable impact, enabling the savvy buyer to act on foresight rather than hindsight, and making the pragmatic farmer prosperous. It was about creating a feedback loop where doing the right thing for nature also made you better at your job, more respected by your peers, and more successful in your career.
 
-That was the vision: make the invisible visible, make the complex actionable, and turn regular people into the heroes their ecosystems desperately need.
+That was the vision: make the invisible visible, make the complex actionable, and empower capable people to become the heroes their ecosystems desperately need.
 
 ---
 
