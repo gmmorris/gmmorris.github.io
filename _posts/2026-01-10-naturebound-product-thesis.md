@@ -29,7 +29,7 @@ We each had personal connections to this space. I grew up in an agricultural are
 
 ## We Shut Down in 2024
 
-I'm writing this now because NatureBound folded in 2024. We ran the experiment, we learned an enormous amount, and ultimately we couldn't make it work within the constraints we faced. I still believe in the idea - deeply - and I want to document what we were building, both for my own clarity and in the hope that someone (maybe even me, in a different context) will pick up this thread in the future.
+Enough time has passed since NatureBound folded in 2024 that I feel ready to document what we tried to build. We ran the experiment, we learned an enormous amount, and ultimately we couldn't make it work within the constraints we faced. I still believe in the idea - deeply - and I want to capture what we were building, both for my own clarity and in the hope that someone (maybe even me, in a different context) will pick up this thread in the future.
 
 Startups fail for a thousand reasons, most of them mundane. Market timing, funding dynamics, team capacity and ability, regulatory headwinds. We hit some combination of all of these. But the underlying problem we identified? That hasn't gone anywhere. If anything, it's gotten more acute.
 
