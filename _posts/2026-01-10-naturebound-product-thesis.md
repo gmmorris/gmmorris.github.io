@@ -1,16 +1,19 @@
 ---
 layout: post
-title: "NatureBound: A Product Thesis for Bridging Biodiversity Data and Agricultural Practice"
+title: "NatureBound: A Product Thesis"
 date: 2026-01-10 12:00:00
 categories: [NatureTech]
 tags: [product-management, biodiversity, agriculture, startups, climate]
 icon: seedling
 description: "Reflecting on the product thesis behind NatureBound, a company I co-founded to address fragmented biodiversity data in agriculture - and why I still believe in the idea."
+image-desc: "Birds in Platinotype"
+image: "/images/banners/birds-in-platinotype-right.png"
+image-desc-link: "https://www.flickr.com/photos/biodivlibrary/albums/72157719475318174/with/50615322236/"
 ---
 
-I haven't written about this yet, and frankly, I wasn't sure when the right moment would come. But I've been reading Drew Hoskins' _The Product-Minded Engineer_, and his framework for thinking about product thesis and antithesis has given me a lens through which to process what we tried to build - and why it mattered, even though we didn't succeed.
+I haven't written about this yet, and frankly, I wasn't sure when the right moment would come. But I've been thinking alot about product theses and antitheses, and it felt like a good lens through which to process what we tried to build - and why it mattered, even though we didn't succeed.
 
-In 2022, I left big tech to focus on climate change and nature. It was a deliberate shift, one I'd been contemplating for years as I watched the compounding effects of ecosystem collapse play out in real-time data and increasingly desperate reports from the scientific community. I was suffering from pretty bad climate doomism at the time. I'd sit there optimizing ad delivery systems and improving observability tooling while the planet was dying, and it felt like no one was doing anything about it. That wasn't true, of course - plenty of people were working on these problems - but that was my perspective from inside the tech bubble. The decision crystallized when I realized I couldn't keep building tools for better collaboration and productivity while ignoring the existential question: _what are we collaborating toward, and will we have a planet capable of sustaining it?_
+In 2022, I left big tech to focus on climate change and nature. It was a deliberate shift, one I'd been contemplating for years as I watched the compounding effects of ecosystem collapse play out in real-time. I was suffering from pretty bad climate doomism at the time. It wighted on me that while I sat there, optimising ad delivery systems and improving observability tooling, it felt like the planet was dying, and like no one was doing anything about it. That wasn't true, of course - plenty of people were working on these problems - but that was my perspective from inside the tech bubble. The decision crystallized when I realized I couldn't keep building tools for better collaboration and productivity while ignoring the existential question: _what are we collaborating toward, and will we have a planet capable of sustaining it?_
 
 ## NatureBound and the People Behind It
 
