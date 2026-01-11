@@ -83,7 +83,7 @@ The mechanism works like this:
 
 6. **Demonstrable improvements flow back into the next reporting cycle**, creating a virtuous loop where corporate investment in data collection leads to better on-the-ground practices, which leads to better metrics, which justifies continued investment.
 
-The key insight was that **the person who needs the data (the corporate sustainability team) and the person who can act on it (the farmer) are not the same**, but their interests can be aligned if you build the right connective tissue.
+The key insight was that the person who needs the data (the corporate sustainability team) and the person who can act on it (the farmer) are not the same, but **their interests can be aligned if you build the right connective tissue**.
 
 ## User Personas
 
