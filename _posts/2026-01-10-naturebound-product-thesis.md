@@ -91,7 +91,7 @@ User personas are fictional but representative characters that embody the needs,
 
 Looking back, here are the people I believe we were trying to help:
 
-### Sarah the Spreadsheet Wrangler (Corporate Sustainability Officer)
+### Sarah the Boardroom Advocate (Corporate Sustainability Officer)
 
 Sarah works at a major food brand, managing nature-related disclosures for their agricultural supply chains. She's constantly fighting for budget, trying to prove to the CFO that sustainability isn't just a "nice-to-have," and drowning in consultant reports that cost a fortune and tell her almost nothing actionable. When regulators ask for TNFD compliance, she needs real data, not hand-wavy estimates. She's smart, overworked, and acutely aware that her job exists in that awkward space between regulatory necessity and executive skepticism.
 
