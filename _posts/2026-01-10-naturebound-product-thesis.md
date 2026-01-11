@@ -11,9 +11,9 @@ image: "/images/banners/birds-in-platinotype-right.png"
 image-desc-link: "https://www.flickr.com/photos/biodivlibrary/albums/72157719475318174/with/50615322236/"
 ---
 
-I haven't written about this yet, and frankly, I wasn't sure when the right moment would come. But I've been thinking alot about product theses and antitheses, and it felt like a good lens through which to process what we tried to build - and why it mattered, even though we didn't succeed.
+I haven't written about this yet, and frankly, I wasn't sure when the right moment would come. But I've been thinking a lot about product theses and antitheses, and it felt like a good lens through which to process what we tried to build - and why it mattered, even though we didn't succeed.
 
-In 2022, I left big tech to focus on climate change and nature. It was a deliberate shift, one I'd been contemplating for years as I watched the compounding effects of ecosystem collapse play out in real-time. I was suffering from pretty bad climate doomism at the time. It wighted on me that while I sat there, optimising ad delivery systems and improving observability tooling, it felt like the planet was dying, and like no one was doing anything about it. That wasn't true, of course - plenty of people were working on these problems - but that was my perspective from inside the tech bubble. The decision crystallized when I realized I couldn't keep building tools for better collaboration and productivity while ignoring the existential question: _what are we collaborating toward, and will we have a planet capable of sustaining it?_
+In 2022, I left big tech to focus on climate change and nature. It was a deliberate shift, one I'd been contemplating for years as I watched the compounding effects of ecosystem collapse play out in real-time. I was suffering from pretty bad climate doomism at the time. It weighed on me that while I sat there, optimising ad delivery systems and improving observability tooling, it felt like the planet was dying, and like no one was doing anything about it. That wasn't true, of course - plenty of people were working on these problems - but that was my perspective from inside the tech bubble. The decision crystallised when I realised I couldn't keep building tools for better collaboration and productivity while ignoring the existential question: _what are we collaborating toward, and will we have a planet capable of sustaining it?_
 
 ## NatureBound and the People Behind It
 
@@ -82,7 +82,7 @@ The mechanism works like this:
 
 3. **We interlace diverse data sources** - remote sensing, eDNA, field observations, farm management data - into a unified analytical layer that provides a holistic view of biodiversity health.
 
-4. **We map this to standardized impact and dependency metrics** that corporates can use for their reporting obligations, showing both current state and trends over time.
+4. **We map this to standardised impact and dependency metrics** that corporates can use for their reporting obligations, showing both current state and trends over time.
 
 5. **We generate actionable insights for farmers and agronomists** operating within those supply chains, enabling them to make decisions that improve ecological outcomes while also reducing input costs or improving yields.
 
@@ -150,7 +150,7 @@ Imagine a corporate food buyer sources tomatoes from farms in Southern Europe. T
 
 3. The corporate pays for this data collection as part of their biodiversity monitoring program.
 
-4. Our platform analyzes the results and identifies a critical insight: **there's a low relative abundance of predators to pests**. Specifically, the fields lack sufficient populations of aphid predators like ladybugs (ladybirds).
+4. Our platform analyses the results and identifies a critical insight: **there's a low relative abundance of predators to pests**. Specifically, the fields lack sufficient populations of aphid predators like ladybugs (ladybirds).
 
 5. We generate specific recommendations:
    - **For the agronomist:** Plant yarrow, dill, and fennel along field margins to attract and support ladybug populations. Consider purchasing and releasing ladybugs as a short-term intervention while natural populations establish.
@@ -175,13 +175,13 @@ The example above - aphids and ladybugs - is straightforward because it's a well
 
 But most ecological relationships are far more complex and context-dependent. The role of bats in controlling crop pests varies by region, crop type, surrounding landscape, and even time of year. The interaction between soil microbiome health and plant resilience to drought involves thousands of species and chemical pathways. The impact of hedgerow placement on pollinator abundance depends on flower timing, connectivity to other habitats, and pesticide drift patterns.
 
-**These insights require deep familiarity with multiple data sources and the ability to collect them cost-effectively.** No individual agronomist can be expected to master soil biochemistry, geospatial analysis, eDNA interpretation, and crop science. But a platform that interlaces these data sources and applies specialized models can surface these insights at scale.
+**These insights require deep familiarity with multiple data sources and the ability to collect them cost-effectively.** No individual agronomist can be expected to master soil biochemistry, geospatial analysis, eDNA interpretation, and crop science. But a platform that interlaces these data sources and applies specialised models can surface these insights at scale.
 
 ## Turning Users Into Superheroes
 
 This was the part that excited me most: we weren't just building a data platform, we were building a capability multiplier that would turn our users into heroes in their domains.
 
-Imagine Amara walking into a farmer's field and, within minutes, connecting her deep agronomic expertise to ecosystem-level data that would normally require a team of specialists to collect and analyze. She'd become the agronomist that farmers call first, the one who "just gets it" in ways her competitors can't match. Her reputation would spread - not because the platform replaced her expertise, but because it amplified what she already knew, letting her see patterns and connections that were always there but previously invisible.
+Imagine Amara walking into a farmer's field and, within minutes, connecting her deep agronomic expertise to ecosystem-level data that would normally require a team of specialists to collect and analyse. She'd become the agronomist that farmers call first, the one who "just gets it" in ways her competitors can't match. Her reputation would spread - not because the platform replaced her expertise, but because it amplified what she already knew, letting her see patterns and connections that were always there but previously invisible.
 
 Or Sarah presenting to her board with a story that actually lands: "Last year, we invested €500K in biodiversity monitoring across our tomato supply chain. We identified three high-risk regions. We intervened with targeted programs. This year, those regions show 25% improvement in ecosystem health metrics, pesticide use is down 18%, and we've reduced our supply chain risk by a quantifiable margin. Here's the data, here's the trajectory, here are the farmers who can testify to the results." The CFO leans back, impressed. Sarah just became the sustainability officer who delivers business outcomes, not just compliance paperwork.
 
