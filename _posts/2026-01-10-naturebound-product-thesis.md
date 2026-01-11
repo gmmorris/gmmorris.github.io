@@ -123,7 +123,7 @@ António doesn't pay for NatureBound - the corporate buyer does. But his agronom
 
 ---
 
-### Amara the Ecosystem Whisperer (The Agronomist Who Wants to Be Cutting-Edge)
+### Amara the Ecosystem Whisperer (The One-Woman Consultancy)
 
 Amara is an independent agronomist advising 30 farms across her region. She's passionate about her work and prides herself on staying ahead of trends. She knows integrated pest management is the future, and her farmer clients are starting to ask about biodiversity and regenerative practices. But she doesn't have the tools or expertise to offer sophisticated ecological advice - she can recommend crop rotations and fertiliser schedules, but she can't interpret eDNA results or model predator-prey dynamics. Her competitors at larger consultancies are starting to offer these services, and she's worried about losing clients.
 
