@@ -65,9 +65,9 @@ A product thesis is essentially a bet - a clear statement of what you believe is
 
 Here's how we framed the opportunity:
 
-{% include thesis.html content="Corporations with agricultural supply chains face increasing pressure to report on their nature-related dependencies and impacts, while simultaneously worrying about the long-term sustainability of their supply chains. They need visibility into biodiversity health within their sourcing regions, but lack the tools to collect, integrate, and act on that information efficiently." %}
+{% include callout.html content="Corporations with agricultural supply chains face increasing pressure to report on their nature-related dependencies and impacts, while simultaneously worrying about the long-term sustainability of their supply chains. They need visibility into biodiversity health within their sourcing regions, but lack the tools to collect, integrate, and act on that information efficiently." %}
 
-{% include thesis.html content="We can create a positive feedback loop that aligns corporate reporting requirements with on-the-ground ecological improvement." %}
+{% include callout.html content="We can create a positive feedback loop that aligns corporate reporting requirements with on-the-ground ecological improvement." %}
 
 The mechanism works like this:
 
