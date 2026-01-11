@@ -91,13 +91,13 @@ User personas are fictional but representative characters that embody the needs,
 
 Personas paired with scenarios are powerful alignment tools. It's easier for teams of engineers, product managers, and commercial stakeholders to align on a compelling story about how someone uses the product than it is to align on a shopping list of features. A good scenario makes trade-offs clearer and keeps everyone focused on solving real problems rather than building what's technically interesting.
 
-Looking back, here are the people I believe we were trying to help, along with representative scenarios showing how they'd interact with the platform:
+Looking back, here are the people I believe we were trying to help, along with north star scenarios - aspirational visions of how the platform would ideally work for each persona - showing how they'd interact with it:
 
 ### Sarah the Boardroom Advocate (Corporate Sustainability Officer)
 
 Sarah works at a major food brand, managing nature-related disclosures for their agricultural supply chains. She's constantly fighting for budget, trying to prove to the CFO that sustainability isn't just a "nice-to-have," and drowning in consultant reports that cost a fortune and tell her almost nothing actionable. When regulators ask for TNFD compliance, she needs real data, not hand-wavy estimates. She's smart, overworked, and acutely aware that her job exists in that awkward space between regulatory necessity and executive skepticism.
 
-**Representative scenario:**
+**North star scenario:**
 
 It's Q4, and Sarah needs to submit her company's first TNFD report in three months. She logs into the platform, selects three representative farms from her company's supply chains (a tomato farm in Southern Europe, a coffee farm in Colombia, a cocoa farm in West Africa). The system shows her existing data coverage - mostly sparse - and recommends specific data collection strategies for each farm and its surrounding area based on crop type and regulatory requirements. She approves the plan, the corporate food buyer coordinates with suppliers, and eDNA surveys plus remote sensing get scheduled. Two months later, she downloads a compliance-ready report showing biodiversity dependencies and impacts, complete with audit trails and modelled intervention scenarios. She presents it to the board. The CFO asks, "Will this actually reduce our supply chain risk?" For the first time, she can say yes and point to specific interventions already underway.
 
@@ -107,7 +107,7 @@ It's Q4, and Sarah needs to submit her company's first TNFD report in three mont
 
 Rajesh sources raw materials from hundreds of farms across multiple continents. He's seen supply chain disruptions from droughts, floods, and degraded soils that no longer produce viable yields. His bonus depends on keeping costs stable and ensuring reliable supply, but he's also under pressure to hit sustainability targets that his company announced to shareholders. He doesn't have time to become an ecologist - he just needs to know which sourcing regions are at risk and what he can do about it before it hits his quarterly numbers.
 
-**Representative scenario:**
+**North star scenario:**
 
 Rajesh gets an alert from the platform: one of his tomato suppliers in Southern Europe shows declining biodiversity metrics and increasing pesticide dependency. The system flags this as a medium-term supply risk - if current trends continue, yields will likely drop 15-20% within three years. It recommends a small pilot with 2 farms to test integrated pest management practices, funded as part of the company's sustainable sourcing budget. The cost: €15K. The projected ROI: reduced supply risk, improved sustainability metrics for reporting, and potential premium pricing for regeneratively-grown tomatoes. Rajesh greenlights it. Six months later, those 2 farms show measurable improvements. He uses the early results to secure budget for expanding the program and builds it into his pitch for the brand's sustainable sourcing commitments.
 
@@ -117,7 +117,7 @@ Rajesh gets an alert from the platform: one of his tomato suppliers in Southern 
 
 António's 200-hectare farm has been in his family for generations. He cares deeply about the land - it's his legacy - but he's also pragmatic. Pesticide costs have tripled in the past decade. Fertiliser prices are volatile. Drought years are becoming more frequent. He's heard about "regenerative agriculture" and "biodiversity," but he doesn't have €10K to spend on consultants telling him to plant wildflowers. He'll listen if someone can show him how to cut costs or get better prices, but he's been burned before by tech companies selling silver bullets that don't work in real farming conditions.
 
-**Representative scenario:**
+**North star scenario:**
 
 António doesn't pay for NatureBound - the corporate buyer does. But his agronomist shows up one day with something new: a detailed analysis of his fields showing that he has low predator-to-pest ratios. The recommendation is specific: plant dill and fennel along his field margins, and consider releasing ladybugs next season. The cost is minimal, and the corporate buyer is subsidising it as part of a sustainable sourcing program. António is skeptical but figures he has nothing to lose. The next season, his aphid problems are noticeably better, and he cuts his pesticide costs by 30%. The agronomist shows him the biodiversity monitoring data proving the improvement. António is still skeptical of whatever that curly-haired tech guy from London was going on about, but he trusts results he can see in his bank account. He signs up for the next phase of the program.
 
@@ -127,7 +127,7 @@ António doesn't pay for NatureBound - the corporate buyer does. But his agronom
 
 Amara is an independent agronomist advising 30 farms across her region. She's passionate about her work and prides herself on staying ahead of trends. She knows integrated pest management is the future, and her farmer clients are starting to ask about biodiversity and regenerative practices. But she doesn't have the tools or expertise to offer sophisticated ecological advice - she can recommend crop rotations and fertiliser schedules, but she can't interpret eDNA results or model predator-prey dynamics. Her competitors at larger consultancies are starting to offer these services, and she's worried about losing clients.
 
-**Representative scenario:**
+**North star scenario:**
 
 Amara subscribes to the platform's agronomist tier. She doesn't pay for bespoke data collection for her clients' farms - that would be prohibitively expensive - but she gets access to real-world biodiversity data collected as part of corporate surveys in her region, combined with models calibrated on ground-truthed field surveys. When she visits Elena's strawberry farm, she pulls up the platform: it shows regional eDNA results from surveys conducted 8 kilometres away at a corporate-monitored farm, remote sensing analysis of Elena's specific fields, and ecosystem models that predict likely biodiversity patterns based on crop type, soil conditions, and farming practices. The data reveals low pollinator diversity in the region, with wild bee populations particularly sparse. But Amara doesn't just relay what the platform says - she connects it to what she already knows about Elena's operation. Elena rotates strawberries with fallow periods. Amara recognises the opportunity: time the wildflower strips to bloom during those fallow periods, choosing native species that support pollinators when they need it most and won't compete with the strawberries during harvest season. She designs a planting schedule that integrates the platform's biodiversity insights with her deep knowledge of Elena's farm economics and crop cycles. Elena implements it. The next season, her pollination rates improve noticeably, and her strawberry yields increase by 12%. Amara rolls out similar insights across her client base, positioning herself as the agronomist offering cutting-edge ecological advice that her competitors can't match. Her client retention goes up. She starts winning new business from farmers who've heard she combines deep agronomic knowledge with ecosystem-level insights. She becomes known in her region as the agronomist who bridges traditional practice with biodiversity science.
 
