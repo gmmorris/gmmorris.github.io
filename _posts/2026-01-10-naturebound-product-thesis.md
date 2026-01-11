@@ -116,7 +116,7 @@ Rajesh gets an alert from the platform: one of his tomato suppliers in Southern 
 António's 200-hectare farm has been in his family for generations. He cares deeply about the land - it's his legacy - but he's also pragmatic. Pesticide costs have tripled in the past decade. Fertiliser prices are volatile. Drought years are becoming more frequent. He's heard about "regenerative agriculture" and "biodiversity," but he doesn't have €10K to spend on consultants telling him to plant wildflowers. He'll listen if someone can show him how to cut costs or get better prices, but he's been burned before by tech companies selling silver bullets that don't work in real farming conditions.
 
 #### North star scenario:
-António doesn't pay for NatureBound - the corporate buyer does. But his agronomist shows up one day with something new: a detailed analysis of his fields showing that he has low predator-to-pest ratios. The recommendation is specific: plant dill and fennel along his field margins, and consider releasing ladybugs next season. The cost is minimal, and the corporate buyer is subsidising it as part of a sustainable sourcing program. António is skeptical but figures he has nothing to lose. The next season, his aphid problems are noticeably better, and he cuts his pesticide costs by 30%. The agronomist shows him the biodiversity monitoring data proving the improvement. António is still skeptical of whatever that curly-haired tech guy from London was going on about, but he trusts results he can see in his bank account. He signs up for the next phase of the program.
+António doesn't pay for NatureBound - the corporate buyer does. But his agronomist shows up one day with something new: a detailed analysis of his fields showing that he has low predator-to-pest ratios. The recommendation is specific: plant dill and fennel along his field margins, and consider releasing ladybirds next season. The cost is minimal, and the corporate buyer is subsidising it as part of a sustainable sourcing program. António is skeptical but figures he has nothing to lose. The next season, his aphid problems are noticeably better, and he cuts his pesticide costs by 30%. The agronomist shows him the biodiversity monitoring data proving the improvement. António is still skeptical of whatever that curly-haired tech guy from London was going on about, but he trusts results he can see in his bank account. He signs up for the next phase of the program.
 
 ---
 
@@ -142,9 +142,9 @@ Imagine a corporate food buyer sources tomatoes from farms in Southern Europe. T
 1. Our platform uses open integrations with farm data management platforms to access existing data - crop types, planting locations, pesticide application logs, costs - making onboarding frictionless.
 2. We recommend a targeted data collection strategy: an eDNA survey of the fields and surrounding areas, combined with remote sensing analysis of landscape features (hedgerows, flower margins, etc.).
 3. The corporate pays for this data collection to fulfil their nature-related reporting obligations (TNFD, CSRD).
-4. Our platform analyses the results and identifies a critical insight: **there's a low relative abundance of predators to pests**. Specifically, the fields lack sufficient populations of aphid predators like ladybugs (ladybirds).
+4. Our platform analyses the results and identifies a critical insight: **there's a low relative abundance of predators to pests**. Specifically, the fields lack sufficient populations of aphid predators like ladybirds (ladybugs).
 5. We generate specific recommendations:
-   - **For the agronomist:** Plant yarrow, dill, and fennel along field margins to attract and support ladybug populations. Consider purchasing and releasing ladybugs as a short-term intervention while natural populations establish.
+   - **For the agronomist:** Plant yarrow, dill, and fennel along field margins to attract and support ladybird populations. Consider purchasing and releasing ladybirds as a short-term intervention while natural populations establish.
    - **For the farmer:** This intervention will reduce reliance on aphid-specific pesticides, cutting input costs by an estimated X euros per hectare while maintaining or improving yields. Timeline to impact: 6-12 months.
    - **For the corporate:** This represents a shift toward Integrated Pest Management (IPM) practices, which can be reported as progress toward regenerative agriculture commitments. Projected reduction in chemical dependency: Y%.
 6. The farmer implements the recommendations (funded or incentivised by the corporate as part of their sustainable sourcing program).
@@ -160,7 +160,7 @@ This is the positive feedback loop in action. The corporate gets better metrics 
 
 ## Why This Matters
 
-The example above - aphids and ladybugs - is straightforward because it's a well-understood relationship. A single ladybug can eat 50+ aphids per day. Their larvae are even more voracious. This is textbook biological pest control, and farmers have known about it for generations.
+The example above - aphids and ladybirds - is straightforward because it's a well-understood relationship. A single ladybird can eat 50+ aphids per day. Their larvae are even more voracious. This is textbook biological pest control, and farmers have known about it for generations.
 
 But most ecological relationships are far more complex and context-dependent. The role of bats in controlling crop pests varies by region, crop type, surrounding landscape, and even time of year. The interaction between soil microbiome health and plant resilience to drought involves thousands of species and chemical pathways. The impact of hedgerow placement on pollinator abundance depends on flower timing, connectivity to other habitats, and pesticide drift patterns.
 
