@@ -146,7 +146,7 @@ Imagine a corporate food buyer sources tomatoes from farms in Southern Europe. T
 5. We generate specific recommendations:
    - **For the agronomist:** Plant yarrow, dill, and fennel along field margins to attract and support ladybird populations. Consider purchasing and releasing ladybirds as a short-term intervention while natural populations establish.
    - **For the farmer:** This intervention will reduce reliance on aphid-specific pesticides, cutting input costs by an estimated X euros per hectare while maintaining or improving yields. Timeline to impact: 6-12 months.
-   - **For the corporate:** This represents a shift toward Integrated Pest Management (IPM) practices, which can be reported as progress toward regenerative agriculture commitments. Projected reduction in chemical dependency: Y%.
+   - **For the corporate:** This represents a shift toward Integrated Pest Management practices, which can be reported as progress toward regenerative agriculture commitments. Projected reduction in chemical dependency: Y%.
 6. The farmer implements the recommendations (funded or incentivised by the corporate as part of their sustainable sourcing program).
 7. Next season, follow-up monitoring shows:
    - Ladybug populations have increased
