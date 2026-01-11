@@ -144,20 +144,14 @@ Imagine a corporate food buyer sources tomatoes from farms in Southern Europe. T
 **The NatureBound approach:**
 
 1. Our platform integrates with the farmers' existing data - crop types, planting locations, pesticide application logs, costs.
-
 2. We recommend a targeted data collection strategy: an eDNA survey of the fields and surrounding areas, combined with remote sensing analysis of landscape features (hedgerows, flower margins, etc.).
-
 3. The corporate pays for this data collection as part of their biodiversity monitoring program.
-
 4. Our platform analyses the results and identifies a critical insight: **there's a low relative abundance of predators to pests**. Specifically, the fields lack sufficient populations of aphid predators like ladybugs (ladybirds).
-
 5. We generate specific recommendations:
    - **For the agronomist:** Plant yarrow, dill, and fennel along field margins to attract and support ladybug populations. Consider purchasing and releasing ladybugs as a short-term intervention while natural populations establish.
    - **For the farmer:** This intervention will reduce reliance on aphid-specific pesticides, cutting input costs by an estimated X euros per hectare while maintaining or improving yields. Timeline to impact: 6-12 months.
    - **For the corporate:** This represents a shift toward Integrated Pest Management (IPM) practices, which can be reported as progress toward regenerative agriculture commitments. Projected reduction in chemical dependency: Y%.
-
 6. The farmer implements the recommendations (funded or incentivised by the corporate as part of their sustainable sourcing program).
-
 7. Next season, follow-up monitoring shows:
    - Ladybug populations have increased
    - Aphid damage is controlled naturally
