@@ -21,7 +21,7 @@ I co-founded NatureBound with two remarkable people who brought perspectives I c
 
 [**Marianna**](https://www.linkedin.com/in/marianna-herold-9a4518/) is an entrepreneur who spent years in the food space, navigating the messy intersection of sustainability, supply chains, and consumer behavior. She understood the business realities of food production in ways I never could from my engineering background - the razor-thin margins, the complexity of global supply chains, the challenge of making "doing the right thing" economically viable.
 
-[**Iqbal**](https://www.linkedin.com/in/iqbal-bhalla-53b74a116/) was a young, energized Post-Doc Ecologist with a deep passion for biodiversity monitoring. His focus on bats and their critical role in agriculture opened my eyes to the invisible interdependencies that keep our food systems functioning. He's now teaching at the University of Saskatchewan, training the next generation of ecologists who'll inherit the challenge of monitoring and protecting what's left.
+[**Iqbal**](https://www.linkedin.com/in/iqbal-bhalla-53b74a116/) was a young, energised Post-Doc Ecologist with a deep passion for biodiversity monitoring. His focus on bats and their critical role in agriculture opened my eyes to the invisible interdependencies that keep our food systems functioning. He's now teaching at the University of Saskatchewan, training the next generation of ecologists who'll inherit the challenge of monitoring and protecting what's left.
 
 The three of us came to the problem from different angles, but we shared a common conviction: agriculture sits at the nexus of the biodiversity crisis, and if we could help make farming more compatible with nature, we could create meaningful change at scale.
 
@@ -53,11 +53,11 @@ Breaking this cycle requires visibility into what's actually happening at the ec
 
 During our customer discovery process, we kept hearing the same challenge from different angles: **data fragmentation**. The nature tech space is still in its early stages, and the people building these technologies come from wildly different backgrounds - biochemists, geospatial analysts, climatologists, ecologists, soil scientists. Each discipline has its own data formats, collection methodologies, analysis frameworks, and vocabulary.
 
-For a farmer or agronomist trying to understand the biodiversity affecting their land, this fragmentation is paralyzing. You might have eDNA surveys revealing which species are present in soil or water samples, manual observation records from field visits documenting what's been seen, and remote sensing data showing land cover changes. Then there's the related environmental context - weather and climate data, soil chemistry analysis, pesticide and fertilizer application logs, crop yield data - all of which influence and are influenced by biodiversity but aren't biodiversity data themselves.
+For a farmer or agronomist trying to understand the biodiversity affecting their land, this fragmentation is paralysing. You might have eDNA surveys revealing which species are present in soil or water samples, manual observation records from field visits documenting what's been seen, and remote sensing data showing land cover changes. Then there's the related environmental context - weather and climate data, soil chemistry analysis, pesticide and fertilizer application logs, crop yield data - all of which influence and are influenced by biodiversity but aren't biodiversity data themselves.
 
 Each of these data points is expensive to collect. More importantly, **none of them tells you what you actually need to know in isolation**. The insights that matter - _Is this population of natural predators sufficient to control pests? Are we seeing signs of ecosystem degradation that will impact yields in three years? Which interventions would have the highest ROI for both nature and farm economics?_ - these require interlacing multiple data sources in sophisticated ways.
 
-Agronomists and ecologists who want to provide effective guidance to farmers face an impossible choice: either fork out enormous amounts of money to purchase, produce, and integrate all these data sources themselves, or give incomplete advice based on partial information. For most, the former is economically unsustainable. Their budgets can't support it. So they're stuck making recommendations without the full picture, unable to help farmers optimize for both economic and ecological outcomes.
+Agronomists and ecologists who want to provide effective guidance to farmers face an impossible choice: either fork out enormous amounts of money to purchase, produce, and integrate all these data sources themselves, or give incomplete advice based on partial information. For most, the former is economically unsustainable. Their budgets can't support it. So they're stuck making recommendations without the full picture, unable to help farmers optimise for both economic and ecological outcomes.
 
 ## Product Thesis
 
@@ -150,7 +150,7 @@ Imagine a corporate food buyer sources tomatoes from farms in Southern Europe. T
    - **For the farmer:** This intervention will reduce reliance on aphid-specific pesticides, cutting input costs by an estimated X euros per hectare while maintaining or improving yields. Timeline to impact: 6-12 months.
    - **For the corporate:** This represents a shift toward Integrated Pest Management (IPM) practices, which can be reported as progress toward regenerative agriculture commitments. Projected reduction in chemical dependency: Y%.
 
-6. The farmer implements the recommendations (funded or incentivized by the corporate as part of their sustainable sourcing program).
+6. The farmer implements the recommendations (funded or incentivised by the corporate as part of their sustainable sourcing program).
 
 7. Next season, follow-up monitoring shows:
    - Ladybug populations have increased
