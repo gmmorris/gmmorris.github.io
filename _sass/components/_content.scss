@@ -51,6 +51,11 @@ $block-max-width: 1300px;
     margin-bottom: double($base-spacing-unit) + half($base-spacing-unit);
   }
 
+  li > ul,
+  li > ol {
+    margin-bottom: 0px;
+  }
+
   h1,
   h2,
   h3,
