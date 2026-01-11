@@ -61,11 +61,13 @@ Agronomists and ecologists who want to provide effective guidance to farmers fac
 
 ## Product Thesis
 
+A product thesis is essentially a bet - a clear statement of what you believe is true about a problem and how you think a product can solve it. It's your hypothesis about the world that, if correct, makes your product valuable. Think of it as the "if this, then that" at the heart of a startup: _if_ corporations need biodiversity reporting _and_ farmers need actionable insights, _then_ a platform connecting these needs creates value for everyone.
+
 Here's how we framed the opportunity:
 
-**Corporations with agricultural supply chains face increasing pressure to report on their nature-related dependencies and impacts, while simultaneously worrying about the long-term sustainability of their supply chains. They need visibility into biodiversity health within their sourcing regions, but lack the tools to collect, integrate, and act on that information efficiently.**
+{% include quote.html content="Corporations with agricultural supply chains face increasing pressure to report on their nature-related dependencies and impacts, while simultaneously worrying about the long-term sustainability of their supply chains. They need visibility into biodiversity health within their sourcing regions, but lack the tools to collect, integrate, and act on that information efficiently." %}
 
-**We can create a positive feedback loop that aligns corporate reporting requirements with on-the-ground ecological improvement.**
+{% include quote.html content="We can create a positive feedback loop that aligns corporate reporting requirements with on-the-ground ecological improvement." %}
 
 The mechanism works like this:
 
