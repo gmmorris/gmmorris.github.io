@@ -53,7 +53,7 @@ Breaking this cycle requires visibility into what's actually happening at the ec
 
 During our customer discovery process, we kept hearing the same challenge from different angles: **data fragmentation**. The nature tech space is still in its early stages, and the people building these technologies come from wildly different backgrounds - biochemists, geospatial analysts, climatologists, ecologists, soil scientists. Each discipline has its own data formats, collection methodologies, analysis frameworks, and vocabulary.
 
-For a farmer or agronomist trying to understand the biodiversity affecting their land, this fragmentation is paralysing. You might have eDNA surveys revealing which species are present in soil or water samples, manual observation records from field visits documenting what's been seen, and remote sensing data showing land cover changes. Then there's the related environmental context - weather and climate data, soil chemistry analysis, pesticide and fertilizer application logs, crop yield data - all of which influence and are influenced by biodiversity but aren't biodiversity data themselves.
+For a farmer or agronomist trying to understand the biodiversity affecting their land, this fragmentation is paralysing. You might have eDNA surveys revealing which species are present in soil or water samples, manual observation records from field visits documenting what's been seen, and remote sensing data showing land cover changes. Then there's the related environmental context - weather and climate data, soil chemistry analysis, pesticide and fertiliser application logs, crop yield data - all of which influence and are influenced by biodiversity but aren't biodiversity data themselves.
 
 Each of these data points is expensive to collect. More importantly, **none of them tells you what you actually need to know in isolation**. The insights that matter - _Is this population of natural predators sufficient to control pests? Are we seeing signs of ecosystem degradation that will impact yields in three years? Which interventions would have the highest ROI for both nature and farm economics?_ - these require interlacing multiple data sources in sophisticated ways.
 
@@ -115,7 +115,7 @@ Rajesh gets an alert from the platform: one of his tomato suppliers in Southern 
 
 ### António the Farmer (Multi-Generational Farmer on Thin Margins)
 
-António's 200-hectare farm has been in his family for generations. He cares deeply about the land - it's his legacy - but he's also pragmatic. Pesticide costs have tripled in the past decade. Fertilizer prices are volatile. Drought years are becoming more frequent. He's heard about "regenerative agriculture" and "biodiversity," but he doesn't have €10K to spend on consultants telling him to plant wildflowers. He'll listen if someone can show him how to cut costs or get better prices, but he's been burned before by tech companies selling silver bullets that don't work in real farming conditions.
+António's 200-hectare farm has been in his family for generations. He cares deeply about the land - it's his legacy - but he's also pragmatic. Pesticide costs have tripled in the past decade. Fertiliser prices are volatile. Drought years are becoming more frequent. He's heard about "regenerative agriculture" and "biodiversity," but he doesn't have €10K to spend on consultants telling him to plant wildflowers. He'll listen if someone can show him how to cut costs or get better prices, but he's been burned before by tech companies selling silver bullets that don't work in real farming conditions.
 
 **Representative scenario:**
 
@@ -125,7 +125,7 @@ António doesn't pay for NatureBound - the corporate buyer does. But his agronom
 
 ### Amara the Ecosystem Whisperer (The Agronomist Who Wants to Be Cutting-Edge)
 
-Amara is an independent agronomist advising 30 farms across her region. She's passionate about her work and prides herself on staying ahead of trends. She knows integrated pest management is the future, and her farmer clients are starting to ask about biodiversity and regenerative practices. But she doesn't have the tools or expertise to offer sophisticated ecological advice - she can recommend crop rotations and fertilizer schedules, but she can't interpret eDNA results or model predator-prey dynamics. Her competitors at larger consultancies are starting to offer these services, and she's worried about losing clients.
+Amara is an independent agronomist advising 30 farms across her region. She's passionate about her work and prides herself on staying ahead of trends. She knows integrated pest management is the future, and her farmer clients are starting to ask about biodiversity and regenerative practices. But she doesn't have the tools or expertise to offer sophisticated ecological advice - she can recommend crop rotations and fertiliser schedules, but she can't interpret eDNA results or model predator-prey dynamics. Her competitors at larger consultancies are starting to offer these services, and she's worried about losing clients.
 
 **Representative scenario:**
 
