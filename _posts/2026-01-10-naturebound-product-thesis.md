@@ -41,7 +41,7 @@ There's another reason I'm documenting this now, and it's worth being transparen
 
 First, I don't know anything proprietary about NatureMetrics yet. Once I'm inside, these thoughts would become impossible to publish - there would always be the question of whether I'm drawing on internal knowledge or strategy. Writing this now preserves the independence of these observations.
 
-Second, and perhaps more importantly, I'm sure I'm wrong about some of these things. The ideas in this post represent my current understanding, shaped by the NatureBound experience and hundreds of customer conversations, but they're still just hypotheses. It will be fascinating to look back in a year or two and see how much I got wrong, and how much companies like NatureMetrics - who've been in this space far longer than I have - got right. This is my stake in the ground, my "before" snapshot.
+Second, and perhaps more importantly, I'm sure I'm wrong about some of these things. The ideas in this post represent my current understanding, shaped by the NatureBound experience and dozens of customer conversations, but they're still just hypotheses. It will be fascinating to look back in a year or two and see how much I got wrong, and how much companies like NatureMetrics - who've been in this space far longer than I have - got right. This is my stake in the ground, my "before" snapshot.
 
 So take everything that follows with appropriate skepticism. This is what I believed the product opportunity looked like based on what we learned. Reality, as always, is more nuanced.
 
