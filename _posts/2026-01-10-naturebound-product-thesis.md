@@ -115,7 +115,7 @@ Rajesh gets an alert from the platform: one of his tomato suppliers in Southern 
 
 ### António the Farmer (Multi-Generational Farmer on Thin Margins)
 
-António inherited his 200-hectare farm from his father, who inherited it from his father. He cares deeply about the land - it's his legacy - but he's also pragmatic. Pesticide costs have tripled in the past decade. Fertilizer prices are volatile. Drought years are becoming more frequent. He's heard about "regenerative agriculture" and "biodiversity," but he doesn't have €10K to spend on consultants telling him to plant wildflowers. He'll listen if someone can show him how to cut costs or get better prices, but he's been burned before by tech companies selling silver bullets that don't work in real farming conditions.
+António inherited his 200-hectare farm from his mother, who inherited it from her mother. He cares deeply about the land - it's his legacy - but he's also pragmatic. Pesticide costs have tripled in the past decade. Fertilizer prices are volatile. Drought years are becoming more frequent. He's heard about "regenerative agriculture" and "biodiversity," but he doesn't have €10K to spend on consultants telling him to plant wildflowers. He'll listen if someone can show him how to cut costs or get better prices, but he's been burned before by tech companies selling silver bullets that don't work in real farming conditions.
 
 **Representative scenario:**
 
