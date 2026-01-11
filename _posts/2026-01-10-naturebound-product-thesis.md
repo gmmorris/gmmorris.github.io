@@ -37,7 +37,7 @@ So this is a product thesis for a company that no longer exists, but for a probl
 
 ## Why I'm Writing This Now
 
-There's another reason I'm documenting this now, and it's worth being transparent about: I'm joining NatureMetrics, a company I've always thought of as "the eDNA company," though they've been branching out into the wider ecosystem of biodiversity monitoring - recently launching the ability to interlace bioacoustics with eDNA data, and having included remote sensing for some time. I wanted to get all of this context down on paper _before_ I begin my new role, for two specific reasons.
+There's another reason I'm documenting this now: I'm joining NatureMetrics, which I've always seen as "the eDNA company" - though they've recently added bioacoustics integration and have long included remote sensing. I wanted to capture this _before_ starting, for two reasons.
 
 First, I don't know anything proprietary about NatureMetrics yet. Once I'm inside, these thoughts would become impossible to publish - there would always be the question of whether I'm drawing on internal knowledge or strategy. Writing this now preserves the independence of these observations.
 
