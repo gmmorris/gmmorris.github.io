@@ -21,14 +21,13 @@ I co-founded NatureBound with two remarkable people who brought perspectives I c
 
 [**Marianna**](https://www.linkedin.com/in/marianna-herold-9a4518/) is an entrepreneur who spent years in the food space, navigating the messy intersection of sustainability, supply chains, and consumer behaviour. She understood the business realities of food production in ways I never could from my engineering background - the razor-thin margins, the complexity of global supply chains, the challenge of making "doing the right thing" economically viable.
 
-[**Iqbal**](https://www.linkedin.com/in/iqbal-bhalla-53b74a116/) was a young, energised Post-Doc Ecologist with a deep passion for biodiversity monitoring. His focus on bats and their critical role in agriculture opened my eyes to the invisible interdependencies that keep our food systems functioning. He's now teaching at the University of Saskatchewan, training the next generation of ecologists who'll inherit the challenge of monitoring and protecting what's left.
+[**Iqbal**](https://www.linkedin.com/in/iqbal-bhalla-53b74a116/) was a young, energised PHD Ecologist with a deep passion for biodiversity monitoring. His focus on bats and their critical role in agriculture opened my eyes to the invisible interdependencies that keep our food systems functioning. He's now teaching at the University of Saskatchewan, training the next generation of ecologists who'll inherit the challenge of monitoring and protecting what's left.
 
 The three of us came to the problem from different angles, but we shared a common conviction: agriculture sits at the nexus of the biodiversity crisis, and if we could help make farming more compatible with nature, we could create meaningful change at scale.
 
 We each had personal connections to this space. I grew up in an agricultural area - my first job was collecting eggs in the shadow of what was then the biggest chicken coop in the Middle East. Iqbal's research into bats revealed how these often-overlooked creatures provide billions of dollars worth of pest control services to farmers worldwide. And Marianna, whether she fully admits it or not, is a foodie whose career has orbited around making food systems more sustainable and equitable.
 
-## We Shut Down in 2024
-
+### We Shut Down in 2024
 Enough time has passed since NatureBound folded in 2024 that I feel ready to document what we tried to build. We ran the experiment, we learned an enormous amount, and ultimately we couldn't make it work within the constraints we faced. I still believe in the idea - deeply - and I want to capture what we were building, both for my own clarity and in the hope that someone (maybe even me, in a different context) will pick up this thread in the future.
 
 Startups fail for a thousand reasons, most of them mundane. Market timing, funding dynamics, team capacity and ability, regulatory headwinds. We hit some combination of all of these. But the underlying problem we identified? That hasn't gone anywhere. If anything, it's gotten more acute.
