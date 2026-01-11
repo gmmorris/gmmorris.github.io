@@ -63,7 +63,7 @@ Agronomists and ecologists who want to provide effective guidance to farmers fac
 
 A product thesis is essentially a bet - a clear statement of what you believe is true about a problem and how you think a product can solve it. It's your hypothesis about the world that, if correct, makes your product valuable. Think of it as the "if this, then that" at the heart of a startup: _if_ corporations need biodiversity reporting _and_ farmers need actionable insights, _then_ a platform connecting these needs creates value for everyone.
 
-Here's how we framed the opportunity:
+Looking back, here's how I'd frame the opportunity we were chasing:
 
 {% include callout.html content="Corporations with agricultural supply chains face increasing pressure to report on their nature-related dependencies and impacts, while simultaneously worrying about the long-term sustainability of their supply chains. They need visibility into biodiversity health within their sourcing regions, but lack the tools to collect, integrate, and act on that information efficiently." %}
 
@@ -83,11 +83,13 @@ The mechanism works like this:
 
 6. **Demonstrable improvements flow back into the next reporting cycle**, creating a virtuous loop where corporate investment in data collection leads to better on-the-ground practices, which leads to better metrics, which justifies continued investment.
 
-The key insight was that the person who needs the data (the corporate sustainability team) and the person who can act on it (the farmer) are not the same, but **their interests can be aligned if you build the right connective tissue**.
+The key insight, as I see it now, was that the person who needs the data (the corporate sustainability team) and the person who can act on it (the farmer) are not the same, but **their interests can be aligned if you build the right connective tissue**.
 
 ## User Personas
 
-Meet the people we were trying to help:
+User personas are fictional but representative characters that embody the needs, goals, and pain points of your target users. They help you think concretely about who you're building for and keep you honest about whether your solution actually solves real problems for real people.
+
+Looking back, here are the people I believe we were trying to help:
 
 ### Sarah the Spreadsheet Wrangler (Corporate Sustainability Officer)
 
