@@ -141,7 +141,7 @@ Imagine a corporate food buyer sources tomatoes from farms in Southern Europe. T
 
 1. Our platform uses open integrations with farm data management platforms to access existing data - crop types, planting locations, pesticide application logs, costs - making onboarding frictionless.
 2. We recommend a targeted data collection strategy: an eDNA survey of the fields and surrounding areas, combined with remote sensing analysis of landscape features (hedgerows, flower margins, etc.).
-3. The corporate pays for this data collection as part of their biodiversity monitoring program.
+3. The corporate pays for this data collection to fulfil their nature-related reporting obligations (TNFD, CSRD).
 4. Our platform analyses the results and identifies a critical insight: **there's a low relative abundance of predators to pests**. Specifically, the fields lack sufficient populations of aphid predators like ladybugs (ladybirds).
 5. We generate specific recommendations:
    - **For the agronomist:** Plant yarrow, dill, and fennel along field margins to attract and support ladybug populations. Consider purchasing and releasing ladybugs as a short-term intervention while natural populations establish.
