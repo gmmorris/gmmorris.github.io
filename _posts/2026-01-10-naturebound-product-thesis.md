@@ -53,14 +53,7 @@ Breaking this cycle requires visibility into what's actually happening at the ec
 
 During our customer discovery process, we kept hearing the same challenge from different angles: **data fragmentation**. The nature tech space is still in its early stages, and the people building these technologies come from wildly different backgrounds - biochemists, geospatial analysts, climatologists, ecologists, soil scientists. Each discipline has its own data formats, collection methodologies, analysis frameworks, and vocabulary.
 
-For a farmer or agronomist trying to understand the biodiversity on their land, this fragmentation is paralyzing. You might have:
-- Remote sensing data showing land cover changes
-- eDNA surveys revealing which species are present in soil or water samples
-- Manual observation records from field visits
-- Weather and climate data
-- Soil chemistry analysis
-- Pesticide and fertilizer application logs
-- Crop yield data
+For a farmer or agronomist trying to understand the biodiversity affecting their land, this fragmentation is paralyzing. You might have eDNA surveys revealing which species are present in soil or water samples, manual observation records from field visits documenting what's been seen, and remote sensing data showing land cover changes. Then there's the related environmental context - weather and climate data, soil chemistry analysis, pesticide and fertilizer application logs, crop yield data - all of which influence and are influenced by biodiversity but aren't biodiversity data themselves.
 
 Each of these data points is expensive to collect. More importantly, **none of them tells you what you actually need to know in isolation**. The insights that matter - _Is this population of natural predators sufficient to control pests? Are we seeing signs of ecosystem degradation that will impact yields in three years? Which interventions would have the highest ROI for both nature and farm economics?_ - these require interlacing multiple data sources in sophisticated ways.
 
