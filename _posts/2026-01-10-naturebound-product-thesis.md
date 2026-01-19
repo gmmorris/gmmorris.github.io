@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NatureBound: A Product Thesis"
+title: "NatureBound: The Vision"
 date: 2026-01-10 12:00:00
 categories: [NatureTech]
 tags: [product-management, biodiversity, agriculture, startups, climate]
@@ -159,7 +159,7 @@ But every product thesis has its antithesis. North star scenarios aren't truth -
 
 What did we learn when we tried to build this? Where did the thesis hold up, and where did it break down?
 
-**Continue reading in [Part 2: Product Antitheses](#)** where I explore what happened when theory met reality.
+**Continue reading in [Part 2: The Valley](#)** where I explore what happened when theory met reality.
 
 
 <ol class="footnote fa-ul" id="footnote">
