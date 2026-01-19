@@ -13,7 +13,9 @@ image-desc-link: "https://www.flickr.com/photos/biodivlibrary/albums/72157719475
 
 In 2022 I co-founded a NatureTech company called NatureBound. I haven't written about this yet, and frankly, I wasn't sure when the right moment would come. But I've been thinking a lot about product theses and antitheses, and it felt like a good lens through which to process what we tried to build - and why it mattered, even though we didn't succeed.
 
-That year, I left big tech to focus on climate change and nature. It was a deliberate shift, one I'd been contemplating for years as I watched the compounding effects of ecosystem collapse play out in real-time. I was suffering from pretty bad climate doomism at the time, and it weighed on me that while I sat there, optimising ad delivery systems, it seemed like no one was doing much to prevent the planet from dying. That wasn't true, of course, plenty of people were working on these problems, but that I couldnt see that from inside the tech bubble. What began as an idea, crystallised into a decision when I realised, through months of therapy that there's no point having career ambition if there's no planet left to sustain it.
+That year, I left big tech to focus on climate change and nature. It was a deliberate shift, [one I'd been contemplating for years](http://localhost:4000/tech-ethics/2019/05/09/tech-civilisations-circle-of-influence/) as I watched the compounding effects of ecosystem collapse play out in real-time. I was suffering from pretty bad climate doomism at the time, and it weighed on me that while I sat there, optimising ad delivery systems, it seemed like no one was doing much to prevent the planet from dying. That wasn't true, of course, plenty of people were working on these problems, but I couldnt see that from inside the tech bubble.
+
+What began as an idea, crystallised into a decision when {% include footnotes/footnote_link.html content="I realised" count=1 %} that there's no point having career ambition if there's no planet left to sustain it.
 
 ## NatureBound and the People Behind It
 
@@ -21,11 +23,12 @@ I co-founded NatureBound with two remarkable people who brought perspectives I c
 
 [**Marianna**](https://www.linkedin.com/in/marianna-herold-9a4518/) was an entrepreneur who spent years in the food space, navigating the messy intersection of sustainability, supply chains, and consumer behaviour. She understood the business realities of food production in ways I never could from my engineering background - the razor-thin margins, the complexity of global supply chains, the challenge of making "doing the right thing" economically viable.
 
-[**Iqbal**](https://www.linkedin.com/in/iqbal-bhalla-53b74a116/) was a young, energised PHD Ecologist with a deep passion for biodiversity monitoring. His focus on bats and their critical role in agriculture opened my eyes to the invisible interdependencies that keep our food systems functioning. He's now teaching at the University of Saskatchewan, training the next generation of ecologists who'll inherit the challenge of protecting what's left.
+[**Iqbal**](https://www.linkedin.com/in/iqbal-bhalla-53b74a116/) was a young and energised PHD Ecologist with a deep passion for biodiversity monitoring. His focus on bats and their critical role in agriculture opened my eyes to the invisible interdependencies that keep our food systems functioning. He's now teaching at the University of Saskatchewan, training the next generation of ecologists who'll inherit the challenge of protecting what's left.
 
 
 The three of us came to the problem from different angles, but we shared a common conviction: agriculture sits at the nexus of the climate and biodiversity crises, and if we could help make farming more compatible with nature, we could create meaningful change at scale.
-We each had personal connections to this space. I grew up in an agricultural area - my first job was collecting eggs in the shadow of what was then the biggest chicken coop in the Middle East. Iqbal's research into bats revealed how these often-overlooked creatures provide billions of dollars worth of pest control services to farmers worldwide. And Marianna, a true foodie who had co-founded a children's snack company, brought years of experience working to make food systems more sustainable and equitable.
+
+We each had personal connections to this space. I grew up in an agricultural area - my first job was collecting eggs in the shadow of what was then the biggest chicken coop in the Middle East. Iqbal's research into bats revealed how these often-overlooked creatures provide billions of dollars worth of pest control services to farmers worldwide. And Marianna, a true foodie who had co-founded a children's healthy snack company in the past, brought years of experience working to make food systems more sustainable and equitable.
 
 ### We Shut Down in 2024
 Enough time has passed since NatureBound folded in 2024 that I feel ready to document what we tried to build. We ran the experiment, we learned an enormous amount, and ultimately we couldn't make it work within the constraints we faced. I still believe in the idea and I want to capture what we were building, both for my own clarity and in the hope that someone (maybe even me, in a different context) will pick up this thread in the future.
@@ -34,7 +37,7 @@ Startups fail for a thousand reasons, most of them mundane. Market timing, fundi
 
 So this is a product thesis for a company that no longer exists, but for a problem that very much does.
 
-### Why I'm Writing This Now
+## Why I'm Writing This Now
 
 There's another reason I'm documenting this now, and it's worth being transparent about: I'm joining NatureMetrics, to lead the engineering team working on their Nature Intelligence platform. I've watched NatureMetrics, a company I've always thought of as "the eDNA company", evolve to offer a much more holistic offering, which suggests they may be moving in the same direction we were at NatureBound - something I can't wait to explore. I wanted to get all of this context down on paper _before_ I begin my new role, for two specific reasons.
 
@@ -154,3 +157,8 @@ But every Product Thesis has its Antithesis.
 North star scenarios aren't truth, they are an informed hypothesis we hold tentatively, until we learn it's wrong, at which point we revise or discard it.
 
 In Part 2 of this blog post, I'll explore the product antitheses - the reasons this thesis might be wrong, and what we learned about its validity through our attempts to build it.
+
+
+<ol class="footnote fa-ul" id="footnote">
+<li><span class="fa-li"><i class="fas fa-asterisk"></i></span> Thanks to months of therapy.</li>
+</ol>
