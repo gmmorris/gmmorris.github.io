@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NatureBound: The Vision"
+title: "NatureBound: A Product Thesis"
 date: 2026-01-10 12:00:00
 categories: [NatureTech]
 tags: [product-management, biodiversity, agriculture, startups, climate]
@@ -13,7 +13,7 @@ image-desc-link: "https://www.flickr.com/photos/biodivlibrary/albums/72157719475
 
 In 2022 I co-founded a NatureTech company called NatureBound. I haven't written about this yet, and frankly, I wasn't sure when the right moment would come. But I've been thinking a lot about product theses and antitheses, and it felt like a good lens through which to process what we tried to build - and why it mattered, even though we didn't succeed.
 
-That year, I left big tech to focus on climate change and nature. It was a deliberate shift, [one I'd been contemplating for years](http://localhost:4000/tech-ethics/2019/05/09/tech-civilisations-circle-of-influence/) as I watched the compounding effects of ecosystem collapse play out in real-time. I was suffering from pretty bad climate doomism at the time, and it weighed on me that while I sat there, optimising ad delivery systems, it seemed like no one was doing much to prevent the planet from dying. That wasn't true, of course, plenty of people were working on these problems, but I couldnt see that from inside the tech bubble.
+That year, I left big tech to focus on climate change and nature. It was a deliberate shift, [one I'd been contemplating for years](/2019/05/09/tech-civilisations-circle-of-influence/) as I watched the compounding effects of ecosystem collapse play out in real-time. I was suffering from pretty bad climate doomism at the time, and it weighed on me that while I sat there, optimising ad delivery systems, it seemed like no one was doing much to prevent the planet from dying. That wasn't true, of course, plenty of people were working on these problems, but I couldnt see that from inside the tech bubble.
 
 What began as an idea, crystallised into a decision when {% include footnotes/footnote_link.html content="I realised" count=1 %} that there's no point having career ambition if there's no planet left to sustain it.
 
@@ -159,7 +159,7 @@ But every product thesis has its antithesis. North star scenarios aren't truth -
 
 What did we learn when we tried to build this? Where did the thesis hold up, and where did it break down?
 
-**Continue reading in [Part 2: Testing the Thesis](/naturetech/2026/01/17/naturebound-product-antithesis.html)** where I explore what happened when theory met reality.
+**Continue reading in [Part 2: Testing the Thesis]({% post_url 2026-01-17-naturebound-product-antithesis %}) where I explore what happened when theory met reality.
 
 
 <ol class="footnote fa-ul" id="footnote">

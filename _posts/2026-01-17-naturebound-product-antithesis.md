@@ -11,7 +11,7 @@ image: "/images/banners/birds-in-platinotype-left.png"
 image-desc-link: "https://www.flickr.com/photos/biodivlibrary/albums/72157719475318174/with/50615322236/"
 ---
 
-In [Part 1: The Vision](/naturetech/2026/01/10/naturebound-product-thesis.html), I laid out what we believed when we built NatureBound: corporations need biodiversity data for reporting, they'll fund data collection as part of compliance, this data can generate actionable insights for farmers and agronomists, these insights create measurable improvements, and improvements justify continued investment in a positive feedback loop.
+In [Part 1: A Product Thesis]({% post_url 2026-01-10-naturebound-product-thesis %}), I laid out what we believed when we built NatureBound: corporations need biodiversity data for reporting, they'll fund data collection as part of compliance, this data can generate actionable insights for farmers and agronomists, these insights create measurable improvements, and improvements justify continued investment in a positive feedback loop.
 
 The mechanism was elegant. The corporate sustainability officer gets compliance-ready reports. The food buyer de-risks their supply chain. The agronomist gains capabilities that let them compete with larger consultancies. The farmer cuts costs and improves yields. Everyone wins, and the ecosystem benefits from reduced chemical loading.
 
