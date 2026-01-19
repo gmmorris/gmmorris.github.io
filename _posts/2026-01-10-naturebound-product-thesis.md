@@ -151,6 +151,8 @@ The platform wasn't just about data integration. It was about giving already-cap
 
 That was the vision: make the invisible visible, make the complex actionable, and empower capable people to become the heroes their ecosystems desperately need.
 
+I tried to capture this idea in a phrase: **observability for nature**. Just as Charity Majors and the observability movement transformed how we understand complex software systems - moving beyond simple monitoring to asking arbitrary questions of production systems - we needed the same for ecosystems. The parallel felt apt: both are complex adaptive systems where emergent behaviour matters more than individual components, where you can't predict every failure mode in advance, and where the ability to ask new questions of your system is more valuable than dashboards of predetermined metrics. (This deserves its own blog post, which I hope to write one day.)
+
 ---
 
 But every Product Thesis has its Antithesis.
