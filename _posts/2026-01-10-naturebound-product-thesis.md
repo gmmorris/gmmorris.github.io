@@ -149,7 +149,7 @@ António becomes a pioneer in his region. The data backing his results gives him
 
 The platform wasn't just about data integration. It was about giving already-capable people superpowers in their daily work - letting the skilled agronomist punch above their weight, helping the strategic CSO deliver measurable impact, enabling the savvy buyer to act on foresight rather than hindsight, and making the pragmatic farmer prosperous. It was about creating a feedback loop where doing the right thing for nature also made you better at your job, more respected by your peers, and more successful in your career.
 
-That was the vision: make the invisible visible, make the complex actionable, and empower capable people to become the heroes their ecosystems desperately need. (I tried to capture this as "observability for nature" - more on that another time.)
+That was the vision: make the invisible visible, make the complex actionable, and empower capable people to become the heroes their ecosystems desperately need. We might call this observability for nature - the ability to ask new questions of complex ecosystems, not just monitor predetermined metrics.
 
 ## Part 2: Product Antitheses
 
