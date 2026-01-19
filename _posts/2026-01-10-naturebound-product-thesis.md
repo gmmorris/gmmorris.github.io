@@ -147,6 +147,8 @@ Rajesh stops being the buyer who reacts to supply chain crises and becomes the s
 
 António becomes a pioneer in his region. The data backing his results gives him credibility to push boundaries his neighbors are still hesitant to cross. Premium brands start approaching him, willing to pay 15% more for demonstrably regenerative practices. He gets invited to speak at agricultural conferences - not as someone who was "taught" about biodiversity, but as a farmer proving it works economically. His kids see him leading the future of farming, not clinging to the past, and the farm they weren't sure about inheriting suddenly looks like an operation worth building on.
 
+### Observability for Nature
+
 The platform wasn't just about data integration. It was about giving already-capable people superpowers in their daily work - letting the skilled agronomist punch above their weight, helping the strategic CSO deliver measurable impact, enabling the savvy buyer to act on foresight rather than hindsight, and making the pragmatic farmer prosperous. It was about creating a feedback loop where doing the right thing for nature also made you better at your job, more respected by your peers, and more successful in your career.
 
 That was the vision: make the invisible visible, make the complex actionable, and empower capable people to become the heroes their ecosystems desperately need. We might call this observability for nature - the ability to ask new questions of complex ecosystems, not just monitor predetermined metrics.
