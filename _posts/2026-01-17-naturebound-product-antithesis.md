@@ -7,15 +7,11 @@ tags: [product-management, biodiversity, agriculture, startups, climate]
 icon: seedling
 description: "Examining where our product thesis met reality - what we got wrong about building observability for nature, and what that teaches us about the space."
 image-desc: "Birds in Platinotype"
-image: "/images/banners/birds-in-platinotype-right.png"
+image: "/images/banners/birds-in-platinotype-left.png"
 image-desc-link: "https://www.flickr.com/photos/biodivlibrary/albums/72157719475318174/with/50615322236/"
 ---
 
-_This is Part 2 of a two-part series. [Read Part 1: Product Thesis here](/naturetech/2026/01/10/naturebound-product-thesis.html)._
-
-## The Thesis We Held
-
-In Part 1, I laid out what we believed when we built NatureBound: corporations need biodiversity data for reporting, they'll fund data collection as part of compliance, this data can generate actionable insights for farmers and agronomists, these insights create measurable improvements, and improvements justify continued investment in a positive feedback loop.
+In [Part 1](/naturetech/2026/01/10/naturebound-product-thesis.html), I laid out what we believed when we built NatureBound: corporations need biodiversity data for reporting, they'll fund data collection as part of compliance, this data can generate actionable insights for farmers and agronomists, these insights create measurable improvements, and improvements justify continued investment in a positive feedback loop.
 
 The mechanism was elegant. The corporate sustainability officer gets compliance-ready reports. The food buyer de-risks their supply chain. The agronomist gains capabilities that let them compete with larger consultancies. The farmer cuts costs and improves yields. Everyone wins, and the ecosystem benefits from reduced chemical loading.
 
