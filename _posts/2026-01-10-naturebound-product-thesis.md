@@ -151,11 +151,13 @@ The platform wasn't just about data integration. It was about giving already-cap
 
 That was the vision: make the invisible visible, make the complex actionable, and empower capable people to become the heroes their ecosystems desperately need. We might call this observability for nature - the ability to ask new questions of complex ecosystems, not just monitor predetermined metrics.
 
-## Part 2: Product Antitheses
+---
 
-But every product thesis has its antithesis. North star scenarios aren't truth - they're informed hypotheses we hold tentatively, until we learn they're wrong, at which point we revise or discard them. The real question isn't whether the vision was compelling, but whether it was _valid_. What did we learn when we tried to build this? Where did the thesis hold up, and where did it break down?
+But every product thesis has its antithesis. North star scenarios aren't truth - they're informed hypotheses we hold tentatively, until we learn they're wrong, at which point we revise or discard them. The real question isn't whether the vision was compelling, but whether it was _valid_.
 
-Let's explore what happened when theory met reality.
+What did we learn when we tried to build this? Where did the thesis hold up, and where did it break down?
+
+**Continue reading in [Part 2: Product Antitheses](#)** where I explore what happened when theory met reality.
 
 
 <ol class="footnote fa-ul" id="footnote">
