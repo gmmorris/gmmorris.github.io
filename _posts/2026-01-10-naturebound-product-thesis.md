@@ -135,7 +135,7 @@ But most ecological relationships are far more complex and context-dependent. Th
 
 **These insights require deep familiarity with multiple data sources and the ability to collect them cost-effectively.** No individual agronomist can be expected to master soil biochemistry, geospatial analysis, eDNA interpretation, and crop science. But a platform that interlaces these data sources and applies specialised models can surface these insights at scale.
 
-## Turning Users Into Superheroes
+### Turning Users Into Superheroes
 
 This was the part that excited me most: we weren't just building a data platform, we were building a product that would turn our users into heroes in their domains.
 
