@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NatureBound: The Valley"
+title: "NatureBound: Testing the Thesis"
 date: 2026-01-17 12:00:00
 categories: [NatureTech]
 tags: [product-management, biodiversity, agriculture, startups, climate]
@@ -19,7 +19,9 @@ It was compelling enough that we spent two years building toward it. Compelling 
 
 ## What is a Product Antithesis?
 
-A product antithesis is the mirror image of your thesis - it's where you interrogate your assumptions, test them against reality, and ask: "What if we were wrong?" Every compelling vision has blind spots. Every elegant thesis has edge cases that don't fit. The antithesis isn't about admitting defeat; it's about intellectual honesty.
+A product antithesis is the mirror image of your thesis - it's where you actively try to prove yourself wrong. It's about testing your hypotheses as rigorously as possible, looking hard in the mirror to find the things that will kill your idea, and evolving your understanding based on what you learn. The goal isn't to defend your vision; it's to disprove your thesis as early as possible, before you've invested years building something nobody wants.
+
+Every compelling vision has blind spots. Every elegant thesis has edge cases that don't fit. The antithesis isn't about admitting defeat after the fact; it's about intellectual honesty while you can still change course. It's the discipline of seeking out the uncomfortable truths that invalidate your assumptions, rather than waiting for reality to do it for you.
 
 When a startup fails, there's a natural tendency to focus on execution: we didn't move fast enough, we ran out of runway, we hired the wrong people, we couldn't raise the next round. These are all real constraints, and they all matter. But they're not the most interesting questions to ask when examining what happened.
 

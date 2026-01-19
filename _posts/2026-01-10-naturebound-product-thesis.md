@@ -159,7 +159,7 @@ But every product thesis has its antithesis. North star scenarios aren't truth -
 
 What did we learn when we tried to build this? Where did the thesis hold up, and where did it break down?
 
-**Continue reading in [Part 2: The Valley](#)** where I explore what happened when theory met reality.
+**Continue reading in [Part 2: Testing the Thesis](/naturetech/2026/01/17/naturebound-product-antithesis.html)** where I explore what happened when theory met reality.
 
 
 <ol class="footnote fa-ul" id="footnote">
