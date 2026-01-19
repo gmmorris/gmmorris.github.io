@@ -25,7 +25,7 @@ I co-founded NatureBound with two remarkable people who brought perspectives I c
 
 
 The three of us came to the problem from different angles, but we shared a common conviction: agriculture sits at the nexus of the climate and biodiversity crises, and if we could help make farming more compatible with nature, we could create meaningful change at scale.
-We each had personal connections to this space. I grew up in an agricultural area - my first job was collecting eggs in the shadow of what was then the biggest chicken coop in the Middle East. Iqbal's research into bats revealed how these often-overlooked creatures provide billions of dollars worth of pest control services to farmers worldwide. And Marianna whose career has orbited around making food systems more sustainable and equitable, is a true foodie, who had co-founded a children's snack company.
+We each had personal connections to this space. I grew up in an agricultural area - my first job was collecting eggs in the shadow of what was then the biggest chicken coop in the Middle East. Iqbal's research into bats revealed how these often-overlooked creatures provide billions of dollars worth of pest control services to farmers worldwide. And Marianna, a true foodie who had co-founded a children's snack company, brought years of experience working to make food systems more sustainable and equitable.
 
 ### We Shut Down in 2024
 Enough time has passed since NatureBound folded in 2024 that I feel ready to document what we tried to build. We ran the experiment, we learned an enormous amount, and ultimately we couldn't make it work within the constraints we faced. I still believe in the idea and I want to capture what we were building, both for my own clarity and in the hope that someone (maybe even me, in a different context) will pick up this thread in the future.
@@ -122,30 +122,7 @@ Amara subscribes to the platform's agronomist tier. She doesn't pay for bespoke 
 
 ## How These Personas Connect
 
-Let me highlight how this demonstrates that our platform would create value across all these personas simultaneously.
-
-Imagine a corporate food buyer sources tomatoes from farms in Southern Europe. Their sustainability officer needs to report on biodiversity dependencies and impacts. Meanwhile, the farmers are spending significant amounts on pesticides to control aphids, which are decimating their crops.
-
-### The traditional approach
-The corporate hires a consultant to do a one-time biodiversity assessment. The report notes that there's a "moderate diversity of beneficial insects" but doesn't connect this to anything actionable. The farmers keep spraying pesticides. The sustainability report checks a box. Nothing changes.
-
-### The NatureBound approach
-1. Our platform uses open integrations with farm data management platforms to access existing data - crop types, planting locations, pesticide application logs, costs - making onboarding frictionless.
-2. We recommend a targeted data collection strategy: an eDNA survey of the fields and surrounding areas, combined with remote sensing analysis of landscape features (hedgerows, flower margins, etc.).
-3. The corporate pays for this data collection to fulfil their nature-related reporting obligations (TNFD, CSRD).
-4. Our platform analyses the results and identifies a critical insight: **there's a low relative abundance of predators to pests**. Specifically, the fields lack sufficient populations of aphid predators like ladybirds (ladybugs).
-5. We generate specific recommendations:
-   - **For the agronomist:** Plant yarrow, dill, and fennel along field margins to attract and support ladybird populations. Consider purchasing and releasing ladybirds as a short-term intervention while natural populations establish.
-   - **For the farmer:** This intervention will reduce reliance on aphid-specific pesticides, cutting input costs by an estimated X euros per hectare while maintaining or improving yields. Timeline to impact: 6-12 months.
-   - **For the corporate:** This represents a shift toward Integrated Pest Management practices, which can be reported as progress toward regenerative agriculture commitments. Projected reduction in chemical dependency: Y%.
-6. The farmer implements the recommendations (funded or incentivised by the corporate as part of their sustainable sourcing program).
-7. Next season, follow-up monitoring shows:
-   - Ladybug populations have increased
-   - Aphid damage is controlled naturally
-   - Pesticide costs have decreased
-   - The biodiversity metrics in the corporate's report show measurable improvement
-
-This is the positive feedback loop in action. The corporate gets better metrics and demonstrable progress. The farmer reduces costs and improves soil health. The agronomist provides differentiated, data-driven advice. And the ecosystem benefits from reduced chemical loading.
+These personas don't exist in isolation - they're interconnected through shared data and aligned incentives. Consider António's intervention from his scenario: when his corporate buyer funds eDNA surveys to fulfil their TNFD reporting obligations, the platform identifies low ladybird populations and recommends planting wildflowers to attract them. António gets a 30% reduction in pesticide costs. Sarah gets biodiversity metrics showing measurable improvement for her compliance report. Rajesh de-risks his tomato supply chain. And Amara gains regional biodiversity data she can leverage for her other clients in the area. The same data collection creates compounding value across all four personas, turning compliance requirements into on-the-ground ecological and economic wins.
 
 ---
 
