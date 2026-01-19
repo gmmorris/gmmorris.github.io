@@ -151,7 +151,7 @@ António becomes a pioneer in his region. The data backing his results gives him
 
 The platform wasn't just about data integration. It was about giving already-capable people superpowers in their daily work - letting the skilled agronomist punch above their weight, helping the strategic CSO deliver measurable impact, enabling the savvy buyer to act on foresight rather than hindsight, and making the pragmatic farmer prosperous. It was about creating a feedback loop where doing the right thing for nature also made you better at your job, more respected by your peers, and more successful in your career.
 
-That was the vision: make the invisible visible, make the complex actionable, and empower capable people to become the heroes their ecosystems desperately need. We might call this observability for nature - the ability to ask new questions of complex ecosystems, not just monitor predetermined metrics.
+That was the vision: make the invisible visible, make the complex actionable, and empower capable people to become the heroes their ecosystems desperately need. We might call this observability for nature - {% include footnotes/footnote_link.html content="getting the right information at the right time into the hands of the people who have the ability and responsibility to do the right thing" count=3 %}.
 
 ---
 
@@ -165,4 +165,5 @@ What did we learn when we tried to build this? Where did the thesis hold up, and
 <ol class="footnote fa-ul" id="footnote">
 <li><span class="fa-li"><i class="fas fa-asterisk"></i></span> Thanks to months of therapy.</li>
 <li><span class="fa-li"><i class="fas fa-asterisk"></i><i class="fas fa-asterisk"></i></span> Hey, that's me!</li>
+<li><span class="fa-li"><i class="fas fa-asterisk"></i><i class="fas fa-asterisk"></i></span> To quote <a target="_blank" href="https://www.honeycomb.io/blog/observability-a-manifesto">Charity Majors and Honeycomb</a></li>
 </ol>
