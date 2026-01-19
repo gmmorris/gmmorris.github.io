@@ -11,46 +11,46 @@ image: "/images/banners/birds-in-platinotype-right.png"
 image-desc-link: "https://www.flickr.com/photos/biodivlibrary/albums/72157719475318174/with/50615322236/"
 ---
 
-I haven't written about this yet, and frankly, I wasn't sure when the right moment would come. But I've been thinking a lot about product theses and antitheses, and it felt like a good lens through which to process what we tried to build - and why it mattered, even though we didn't succeed.
+In 2022 I co-founded a NatureTech company called NatureBound. I haven't written about this yet, and frankly, I wasn't sure when the right moment would come. But I've been thinking a lot about product theses and antitheses, and it felt like a good lens through which to process what we tried to build - and why it mattered, even though we didn't succeed.
 
-In 2022, I left big tech to focus on climate change and nature. It was a deliberate shift, one I'd been contemplating for years as I watched the compounding effects of ecosystem collapse play out in real-time. I was suffering from pretty bad climate doomism at the time. It weighed on me that while I sat there, optimising ad delivery systems and improving observability tooling, it felt like the planet was dying, and like no one was doing anything about it. That wasn't true, of course - plenty of people were working on these problems - but that was my perspective from inside the tech bubble. The decision crystallised when I realised: what's the point of career ambition if there's no planet left to sustain it?
+In 2022, I left big tech to focus on climate change and nature. It was a deliberate shift, one I'd been contemplating for years as I watched the compounding effects of ecosystem collapse play out in real-time. I was suffering from pretty bad climate doomism at the time, and it weighed on me that while I sat there, optimising ad delivery systems, it seemed like no one was doing much to prevent the planet from dying. That wasn't true, of course, plenty of people were working on these problems, but that I couldnt see that from inside the tech bubble. What began as an idea, crystallised into a decision when I realised, through months of therapy that there's no point having career ambition if there's no planet left to sustain it.
 
 ## NatureBound and the People Behind It
 
 I co-founded NatureBound with two remarkable people who brought perspectives I could never have developed on my own.
 
-[**Marianna**](https://www.linkedin.com/in/marianna-herold-9a4518/) is an entrepreneur who spent years in the food space, navigating the messy intersection of sustainability, supply chains, and consumer behaviour. She understood the business realities of food production in ways I never could from my engineering background - the razor-thin margins, the complexity of global supply chains, the challenge of making "doing the right thing" economically viable.
+[**Marianna**](https://www.linkedin.com/in/marianna-herold-9a4518/) was an entrepreneur who spent years in the food space, navigating the messy intersection of sustainability, supply chains, and consumer behaviour. She understood the business realities of food production in ways I never could from my engineering background - the razor-thin margins, the complexity of global supply chains, the challenge of making "doing the right thing" economically viable.
 
-[**Iqbal**](https://www.linkedin.com/in/iqbal-bhalla-53b74a116/) was a young, energised PHD Ecologist with a deep passion for biodiversity monitoring. His focus on bats and their critical role in agriculture opened my eyes to the invisible interdependencies that keep our food systems functioning. He's now teaching at the University of Saskatchewan, training the next generation of ecologists who'll inherit the challenge of monitoring and protecting what's left.
+[**Iqbal**](https://www.linkedin.com/in/iqbal-bhalla-53b74a116/) was a young, energised PHD Ecologist with a deep passion for biodiversity monitoring. His focus on bats and their critical role in agriculture opened my eyes to the invisible interdependencies that keep our food systems functioning. He's now teaching at the University of Saskatchewan, training the next generation of ecologists who'll inherit the challenge of protecting what's left.
 
-The three of us came to the problem from different angles, but we shared a common conviction: agriculture sits at the nexus of the biodiversity crisis, and if we could help make farming more compatible with nature, we could create meaningful change at scale.
 
-We each had personal connections to this space. I grew up in an agricultural area - my first job was collecting eggs in the shadow of what was then the biggest chicken coop in the Middle East. Iqbal's research into bats revealed how these often-overlooked creatures provide billions of dollars worth of pest control services to farmers worldwide. And Marianna, whether she fully admits it or not, is a foodie whose career has orbited around making food systems more sustainable and equitable.
+The three of us came to the problem from different angles, but we shared a common conviction: agriculture sits at the nexus of the climate and biodiversity crises, and if we could help make farming more compatible with nature, we could create meaningful change at scale.
+We each had personal connections to this space. I grew up in an agricultural area - my first job was collecting eggs in the shadow of what was then the biggest chicken coop in the Middle East. Iqbal's research into bats revealed how these often-overlooked creatures provide billions of dollars worth of pest control services to farmers worldwide. And Marianna whose career has orbited around making food systems more sustainable and equitable, is a true foodie, who had co-founded a children's snack company.
 
 ### We Shut Down in 2024
-Enough time has passed since NatureBound folded in 2024 that I feel ready to document what we tried to build. We ran the experiment, we learned an enormous amount, and ultimately we couldn't make it work within the constraints we faced. I still believe in the idea - deeply - and I want to capture what we were building, both for my own clarity and in the hope that someone (maybe even me, in a different context) will pick up this thread in the future.
+Enough time has passed since NatureBound folded in 2024 that I feel ready to document what we tried to build. We ran the experiment, we learned an enormous amount, and ultimately we couldn't make it work within the constraints we faced. I still believe in the idea and I want to capture what we were building, both for my own clarity and in the hope that someone (maybe even me, in a different context) will pick up this thread in the future.
 
-Startups fail for a thousand reasons, most of them mundane. Market timing, funding dynamics, team capacity and ability, regulatory headwinds. We hit some combination of all of these. But the underlying problem we identified? That hasn't gone anywhere. If anything, it's gotten more acute.
+Startups fail for a thousand reasons, most of them mundane. Market timing, funding dynamics, team capacity and capabilities, regulatory headwinds. We hit some combination of all of these. But the underlying problem we identified? That hasn't gone anywhere. If anything, it's gotten more acute.
 
 So this is a product thesis for a company that no longer exists, but for a problem that very much does.
 
-## Why I'm Writing This Now
+### Why I'm Writing This Now
 
-There's another reason I'm documenting this now, and it's worth being transparent about: I'm joining NatureMetrics, a company I've always thought of as "the eDNA company." I've watched them evolve to offer a much more holistic offering, which suggests they may be moving in the same direction we were at NatureBound - something I can't wait to explore. I wanted to get all of this context down on paper _before_ I begin my new role, for two specific reasons.
+There's another reason I'm documenting this now, and it's worth being transparent about: I'm joining NatureMetrics, to lead the engineering team working on their Nature Intelligence platform. I've watched NatureMetrics, a company I've always thought of as "the eDNA company", evolve to offer a much more holistic offering, which suggests they may be moving in the same direction we were at NatureBound - something I can't wait to explore. I wanted to get all of this context down on paper _before_ I begin my new role, for two specific reasons.
 
 First, I don't know anything proprietary about NatureMetrics yet. Once I'm inside, these thoughts would become impossible to publish - there would always be the question of whether I'm drawing on internal knowledge or strategy. Writing this now preserves the independence of these observations.
 
-Second, and perhaps more importantly, I'm sure I'm wrong about some of these things. The ideas in this post represent my current understanding, shaped by the NatureBound experience and dozens of customer conversations, but they're still just hypotheses. It will be fascinating to look back in a year or two and see how much I got wrong, and how much companies like NatureMetrics - who've been in this space far longer than I have - got right. This is my stake in the ground, my "before" snapshot.
+Second, and perhaps more importantly, I'm sure I'm wrong about many of these things. The ideas in this post represent my current understanding, shaped by the NatureBound experience and dozens of customer conversations, but they're still just hypotheses. It will be fascinating to look back in a year or two and see how much I got wrong, and how much companies like NatureMetrics - who've been in this space far longer than I have - got right. This is my stake in the ground, my "before" snapshot.
 
 So take everything that follows with appropriate skepticism. This is what I believed the product opportunity looked like based on what we learned. Reality, as always, is more nuanced.
 
 ## The Problem: Biodiversity Loss as an Agricultural Crisis
 
-The loss of biodiversity represents an existential threat to human civilization, and agriculture is both a primary driver of that loss and one of its most vulnerable victims. Modern farming has created a negative feedback loop: intensive practices degrade ecosystems, which reduces the natural services those ecosystems provide to farms (pollination, pest control, soil health), which drives farmers to rely even more heavily on costly chemical inputs, which further degrades ecosystems.
+The loss of biodiversity represents an existential threat to human civilization, and agriculture is both a primary driver of that loss and one of its most vulnerable victims. Modern farming has created a negative feedback loop: intensive practices degrade ecosystems, which reduces the natural services those ecosystems provide to farms (pollination, pest control, soil health - to name a few), which drives farmers to rely even more heavily on costly chemical inputs, which further degrades ecosystems.
 
 Breaking this cycle requires visibility into what's actually happening at the ecosystem level - and that's where things get complicated.
 
-During our customer discovery process, we kept hearing the same challenge from different angles: **data fragmentation**. The nature tech space is still in its early stages, and the people building these technologies come from wildly different backgrounds - biochemists, geospatial analysts, climatologists, ecologists, soil scientists. Each discipline has its own data formats, collection methodologies, analysis frameworks, and vocabulary.
+During our customer discovery process, we kept hearing the same challenge from different angles: **data fragmentation**. The NatureTech space is still in its early stages, and the people building these technologies come from wildly different backgrounds - foresters, biochemists, geospatial analysts, climatologists, ecologists, soil scientists. Each discipline has its own data formats, collection methodologies, analysis frameworks, and vocabulary.
 
 For a farmer or agronomist trying to understand the biodiversity affecting their land, this fragmentation is paralysing. You might have eDNA surveys revealing which species are present in soil or water samples, manual observation records from field visits documenting what's been seen, and remote sensing data showing land cover changes. Then there's the related environmental context - weather and climate data, soil chemistry analysis, pesticide and fertiliser application logs, crop yield data - all of which influence and are influenced by biodiversity but aren't biodiversity data themselves.
 
@@ -60,9 +60,9 @@ Agronomists and ecologists who want to provide effective guidance to farmers fac
 
 ## Product Thesis
 
-A product thesis is essentially a bet - a clear statement of what you believe is true about a problem and how you think a product can solve it. It's your hypothesis about the world that, if correct, makes your product valuable. Think of it as the "if this, then that" at the heart of a startup: _if_ corporations need biodiversity reporting _and_ farmers need actionable insights, _then_ a platform connecting these needs creates value for everyone.
+A product thesis is essentially a bet - a clear statement of what you believe is true about a problem and how you think a product can solve it. It's your hypothesis about the world that, if correct, makes your product valuable and viable. Think of it as the "if this, then that" at the heart of a startup: _if_ corporations need biodiversity reporting _and_ farmers need actionable insights, _then_ a platform connecting these needs creates value for everyone.
 
-Looking back, here's how I'd frame the opportunity we were chasing:
+Our product theisis evovled a lot over two years, but looking back, here's how I'd frame our underlying thesis:
 
 {% include callout.html content="Corporations with agricultural supply chains face increasing pressure to report on their nature-related dependencies and impacts, while simultaneously worrying about the long-term sustainability of their supply chains. They need visibility into biodiversity health within their sourcing regions, but lack the tools to collect, integrate, and act on that information efficiently." %}
 
