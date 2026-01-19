@@ -11,23 +11,24 @@ image: "/images/banners/birds-in-platinotype-left.png"
 image-desc-link: "https://www.flickr.com/photos/biodivlibrary/albums/72157719475318174/with/50615322236/"
 ---
 
-In [Part 1: A Product Thesis]({% post_url 2026-01-10-naturebound-product-thesis %}), I laid out what we believed when we built NatureBound: corporations need biodiversity data for reporting, they'll fund data collection as part of compliance, this data can generate actionable insights for farmers and agronomists, these insights create measurable improvements, and improvements justify continued investment in a positive feedback loop.
+In [Part 1: A Product Thesis]({% post_url 2026-01-10-naturebound-product-thesis %}), I laid out what we believed when we built NatureBound.
+The thesis was straight forward: corporations need biodiversity data for reporting, they'll fund data collection as part of compliance, this data can generate actionable insights for farmers and agronomists, these insights create measurable improvements, and improvements justify continued investment in a positive feedback loop.
 
 The mechanism was elegant. The corporate sustainability officer gets compliance-ready reports. The food buyer de-risks their supply chain. The agronomist gains capabilities that let them compete with larger consultancies. The farmer cuts costs and improves yields. Everyone wins, and the ecosystem benefits from reduced chemical loading.
 
-It was compelling enough that we spent two years building toward it. Compelling enough that investors, advisors, and early customers saw the logic. But compelling isn't the same as valid.
+It was compelling enough that we spent almost two years building toward it. Compelling enough that investors, advisors, and early customers saw the logic. But compelling isn't the same as valid.
 
 ## What is a Product Antithesis?
 
 A product antithesis is the mirror image of your thesis - it's where you actively try to prove yourself wrong. It's about testing your hypotheses as rigorously as possible, looking hard in the mirror to find the things that will kill your idea, and evolving your understanding based on what you learn. The goal isn't to defend your vision; it's to disprove your thesis as early as possible, before you've invested years building something nobody wants.
 
-Every compelling vision has blind spots. Every elegant thesis has edge cases that don't fit. The antithesis isn't about admitting defeat after the fact; it's about intellectual honesty while you can still change course. It's the discipline of seeking out the uncomfortable truths that invalidate your assumptions, rather than waiting for reality to do it for you.
+Every compelling vision has blind spots. Every elegant thesis has edge cases that don't fit. The antithesis isn't about admitting defeat, but rather about surfacing the weakest links in your thinking while you can still change course. It's the discipline of seeking out the uncomfortable truths that invalidate your assumptions, rather than waiting for reality to do it for you.
 
 When a startup fails, there's a natural tendency to focus on execution: we didn't move fast enough, we ran out of runway, we hired the wrong people, we couldn't raise the next round. These are all real constraints, and they all matter. But they're not the most interesting questions to ask when examining what happened.
 
 The more valuable question is: **Was the underlying hypothesis valid?** Not "Could we have executed better?" but "Were we solving the right problem in the right way for the right people?" This matters because if the thesis was fundamentally sound, someone else - maybe even me, in a different context - could pick it up and succeed where we didn't. But if the thesis itself was flawed, then no amount of execution excellence would have saved us.
 
-So let me be clear about what this post is not: this is not a post-mortem about why NatureBound failed as a company. I'm not going to dissect our fundraising strategy, our go-to-market execution, or our team dynamics. Those are important questions, but they're not what I'm exploring here. This is about the product thesis itself. About potential invalidations we haven't disproved. About ways the thesis could be fundamentally wrong that we need to take seriously.
+So let me be clear about what this post is not: this is not a post-mortem about why NatureBound failed as a company. I'm not going to dissect our fundraising strategy, our go-to-market execution, or our team dynamics. Those are important questions, but they're not what I'm exploring here. This is about the product thesis itself. About potential invalidations we haden't disproved by the time the company folded. About ways the thesis could be fundamentally wrong that we would need to take seriously if we ever picked this idea up again.
 
 These aren't conclusions about what we got wrong - the company shut down, but that doesn't definitively prove which assumptions were invalid. What follows are the hardest questions, the ones that could kill the idea if they turn out to be true. Some we saw signals for. Others remain open questions. But all of them deserve rigorous examination, because if I'm only willing to defend the thesis, I haven't learned anything.
 
