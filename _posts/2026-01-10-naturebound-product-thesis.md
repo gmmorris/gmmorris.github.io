@@ -149,16 +149,13 @@ António becomes a pioneer in his region. The data backing his results gives him
 
 The platform wasn't just about data integration. It was about giving already-capable people superpowers in their daily work - letting the skilled agronomist punch above their weight, helping the strategic CSO deliver measurable impact, enabling the savvy buyer to act on foresight rather than hindsight, and making the pragmatic farmer prosperous. It was about creating a feedback loop where doing the right thing for nature also made you better at your job, more respected by your peers, and more successful in your career.
 
-That was the vision: make the invisible visible, make the complex actionable, and empower capable people to become the heroes their ecosystems desperately need.
+That was the vision: make the invisible visible, make the complex actionable, and empower capable people to become the heroes their ecosystems desperately need. (I tried to capture this as "observability for nature" - more on that another time.)
 
-I tried to capture this idea in a phrase: **observability for nature**. Just as Charity Majors and the observability movement transformed how we understand complex software systems - moving beyond simple monitoring to asking arbitrary questions of production systems - we needed the same for ecosystems. The parallel felt apt: both are complex adaptive systems where emergent behaviour matters more than individual components, where you can't predict every failure mode in advance, and where the ability to ask new questions of your system is more valuable than dashboards of predetermined metrics. (This deserves its own blog post, which I hope to write one day.)
+## Part 2: Product Antitheses
 
----
+But every product thesis has its antithesis. North star scenarios aren't truth - they're informed hypotheses we hold tentatively, until we learn they're wrong, at which point we revise or discard them. The real question isn't whether the vision was compelling, but whether it was _valid_. What did we learn when we tried to build this? Where did the thesis hold up, and where did it break down?
 
-But every Product Thesis has its Antithesis.
-North star scenarios aren't truth, they are an informed hypothesis we hold tentatively, until we learn it's wrong, at which point we revise or discard it.
-
-In Part 2 of this blog post, I'll explore the product antitheses - the reasons this thesis might be wrong, and what we learned about its validity through our attempts to build it.
+Let's explore what happened when theory met reality.
 
 
 <ol class="footnote fa-ul" id="footnote">
