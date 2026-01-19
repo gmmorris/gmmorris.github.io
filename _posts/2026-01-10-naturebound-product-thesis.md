@@ -48,7 +48,7 @@ So take everything that follows with appropriate skepticism. This is what I beli
 
 The loss of biodiversity represents an existential threat to human civilization, and agriculture is both a primary driver of that loss and one of its most vulnerable victims. Modern farming has created a negative feedback loop: intensive practices degrade ecosystems, which reduces the natural services those ecosystems provide to farms (pollination, pest control, soil health - to name a few), which drives farmers to rely even more heavily on costly chemical inputs, which further degrades ecosystems.
 
-Breaking this cycle requires visibility into what's actually happening at the ecosystem level - and that's where things get complicated.
+Breaking this cycle requires visibility into what's actually happening at the ecosystem level - and that's where things get complex. Not just complicated with many moving parts, but genuinely complex: ecosystems are adaptive systems where cause and effect aren't always linear, where interventions can have unexpected consequences, and where context matters enormously.
 
 During our customer discovery process, we kept hearing the same challenge from different angles: **"I have data, now what?"** Consultants and technology providers tell farmers and agronomists to collect biodiversity data - eDNA surveys, bioacoustic monitoring, remote sensing - promising insights that will transform their operations. So they spend tens of thousands of pounds collecting it. And then... nothing. The data sits in reports that tell them species are present, habitats exist, but not what to actually _do_ about it.
 
