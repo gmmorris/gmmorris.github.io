@@ -65,7 +65,7 @@ Together, these two problems left everyone we spoke to stuck. Corporate buyers c
 
 ## Product Thesis
 
-A product thesis is essentially a bet - a clear statement of what you believe is true about a problem and how you think a product can solve it. It's your hypothesis about the world that, if correct, makes your product valuable and viable. Think of it as the "if this, then that" at the heart of a startup: _if_ corporations need biodiversity reporting _and_ farmers need actionable insights, _then_ a platform connecting these needs creates value for everyone.
+**A product thesis is essentially a bet** - a clear statement of what you believe is true about a problem and how you think a product can solve it. It's your hypothesis about the world that, if correct, makes your product valuable and viable. Think of it as the "if this, then that" at the heart of a startup: _if_ corporations need biodiversity reporting _and_ farmers need actionable insights, _then_ a platform connecting these needs creates value for everyone.
 
 Our product theisis evovled a lot over two years, but looking back, here's how I'd frame our underlying thesis:
 
