@@ -26,6 +26,14 @@ blockquote {
     padding-left: 2em;
     margin: 0em 0em 2em -1em;
 
+    p {
+      margin-bottom: 0;
+    }
+
+    p + p {
+      margin-top: 0.75em;
+    }
+    
     @include mq($from: tablet) {
       min-width: 75vw;
     }
