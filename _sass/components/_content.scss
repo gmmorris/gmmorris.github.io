@@ -51,6 +51,11 @@ $block-max-width: 1300px;
     margin-bottom: double($base-spacing-unit) + half($base-spacing-unit);
   }
 
+  li > ul,
+  li > ol {
+    margin-bottom: 0px;
+  }
+
   h1,
   h2,
   h3,
@@ -66,12 +71,14 @@ $block-max-width: 1300px;
   h2 {
     font-family: $font-sans-serif;
     font-weight: $font-weight-medium;
+    color: #a63321
   }
   
   h3,
   h4 {
     font-family: $font-sans-serif-light;
     font-weight: $font-weight-regular;
+    color: #ba3925
   }
 
   hr + h1,
