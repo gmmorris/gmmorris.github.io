@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NatureBound II: Testing the Thesis"
-date: 2026-01-17 12:00:00
+date: 2026-01-29 12:00:00
 categories: [NatureTech]
 tags: [product-management, biodiversity, agriculture, startups, climate]
 icon: seedling
