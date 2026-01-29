@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "NatureBound: A Product Thesis"
+title: "NatureBound I: A Product Thesis"
 date: 2026-01-10 12:00:00
 categories: [NatureTech]
 tags: [product-management, biodiversity, agriculture, startups, climate]
 icon: seedling
 description: "Reflecting on the product thesis behind NatureBound, a company I co-founded to address fragmented biodiversity data in agriculture - and why I still believe in the idea."
 image-desc: "Birds in Platinotype"
-image: "/images/banners/birds-in-platinotype-right.png"
-image-desc-link: "https://www.flickr.com/photos/biodivlibrary/albums/72157719475318174/with/50615322236/"
+image: "/images/banners/birds-in-platinotype-1.png"
+image-desc-link: "https://www.flickr.com/photos/biodivlibrary/51279271126/in/album-72157719475318174"
 ---
 
 In 2022 I co-founded a NatureTech company called NatureBound. I haven't written about this yet, and frankly, I wasn't sure when the right moment would come. But I've been thinking a lot about product theses and antitheses, and it felt like a good lens through which to process what we tried to build - and why it mattered, even though we didn't succeed.

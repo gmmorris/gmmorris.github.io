@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "NatureBound: Testing the Thesis"
+title: "NatureBound II: Testing the Thesis"
 date: 2026-01-17 12:00:00
 categories: [NatureTech]
 tags: [product-management, biodiversity, agriculture, startups, climate]
 icon: seedling
 description: "Examining where our product thesis met reality - what we got wrong about building observability for nature, and what that teaches us about the space."
 image-desc: "Birds in Platinotype"
-image: "/images/banners/birds-in-platinotype-left.png"
-image-desc-link: "https://www.flickr.com/photos/biodivlibrary/albums/72157719475318174/with/50615322236/"
+image: "/images/banners/birds-in-platinotype-2.png"
+image-desc-link: "https://www.flickr.com/photos/biodivlibrary/51280295750/in/album-72157719475318174"
 ---
 
 In [Part 1: A Product Thesis]({% post_url 2026-01-10-naturebound-product-thesis %}), I laid out what my co-founders and I believed to be true when we built NatureBound.
