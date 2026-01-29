@@ -69,9 +69,9 @@ A product thesis is essentially a bet - a clear statement of what you believe is
 
 Our product theisis evovled a lot over two years, but looking back, here's how I'd frame our underlying thesis:
 
-{% include callout.html content="Corporations with agricultural supply chains face increasing pressure to report on their nature-related dependencies and impacts, while simultaneously worrying about the long-term sustainability of their supply chains. They need visibility into biodiversity health within their sourcing regions, but lack the tools to collect, integrate, and act on that information efficiently." %}
+{% include callout.html content="Corporations with agricultural supply chains face increasing pressure to report on their nature-related dependencies and impacts, while simultaneously worrying about the long-term sustainability of their supply chains. They need visibility into biodiversity health within their sourcing regions, but lack the tools to collect, integrate, and act on that information efficiently.
 
-{% include callout.html content="We can create a positive feedback loop that aligns corporate reporting requirements with on-the-ground ecological improvement." %}
+We can create a positive feedback loop that aligns corporate reporting requirements with on-the-ground ecological improvement." %}
 
 The mechanism works like this:
 
@@ -91,9 +91,9 @@ The key insight, as I see it now, was that though the people who need the data (
 
 ## User Personas
 
-User personas are fictional but representative characters that embody the needs, goals, and pain points of your target users. They help you think concretely about who you're building for and keep you honest about whether your solution actually solves real problems for real people.
+**User personas** are fictional but representative characters that embody the needs, goals, and pain points of your target users. They help you think concretely about who you're building for and keep you honest about whether your solution actually solves real problems for real people.
 
-Personas paired with scenarios are powerful alignment tools. It's easier for teams of engineers, product managers, and commercial stakeholders to align on a compelling story about how someone uses the product than it is to align on a shopping list of features. A good scenario makes trade-offs clearer and keeps everyone focused on solving real problems rather than building what's technically interesting.
+Personas paired with **scenarios** are powerful alignment tools. It's easier for teams of engineers, product managers, and commercial stakeholders to align on a compelling story about how someone uses the product than it is to align on a shopping list of features. A good scenario makes trade-offs clearer and keeps everyone focused on solving real problems rather than building what's technically interesting.
 
 Looking back, here are the people I believe we were trying to help. For each persona, I've included a north star scenario: an aspirational vision of how the platform would ideally work for them.
 
@@ -106,7 +106,7 @@ It's Q4, and Sarah needs to submit her company's first TNFD report in three mont
 
 ### Rajesh the Risk-Mitigator (Corporate Food Buyer)
 
-Rajesh sources raw materials from hundreds of farms across multiple continents. He's seen supply chain disruptions from droughts, floods, and degraded soils that no longer produce viable yields. His bonus depends on keeping costs stable and ensuring reliable supply, but he's also under pressure to hit sustainability targets that his company announced to shareholders. He doesn't have time to become an ecologist - he just needs to know which sourcing regions are at risk and what he can do about it before it hits his quarterly numbers.
+Rajesh sources raw materials from hundreds of farms across multiple continents. He's seen supply chain disruptions from droughts, floods, and degraded soils that no longer produce viable yields. His bonus depends on keeping costs stable and ensuring reliable supply, but he's also under pressure to hit sustainability targets that his company announced to shareholders. He can see these risks mounting, but he's a procurement expert, not an ecological one - he doesn't have the knowledge to mitigate them proactively, and by the time they show up in his numbers it's already too late.
 
 **North star scenario:**
 Rajesh gets an alert from the platform: one of his tomato suppliers in Southern Europe shows declining biodiversity metrics and increasing pesticide dependency. The system flags this as a medium-term supply risk - if current trends continue, yields will likely drop 15-20% within three years. It recommends a small pilot with 2 farms to test integrated pest management practices, funded as part of the company's sustainable sourcing budget. The cost: €15K. The projected ROI: reduced supply risk, improved sustainability metrics for reporting, and potential premium pricing for regeneratively-grown tomatoes. Rajesh greenlights it. Six months later, those 2 farms show measurable improvements. He uses the early results to secure budget for expanding the program and builds it into his pitch for the brand's sustainable sourcing commitments.
@@ -120,24 +120,14 @@ Amara subscribes to NatureBounds's agronomist tier. She doesn't pay for bespoke 
 
 ### António the Farmer (Multi-Generational Farmer on Thin Margins)
 
-António's 200-hectare farm has been in his family for generations. He cares deeply about the land - it's his legacy - but he's also pragmatic. Pesticide costs have tripled in the past decade. Fertiliser prices are volatile. Drought years are becoming more frequent. He's heard about "regenerative agriculture" and "biodiversity," but he doesn't have €10K to spend on consultants telling him to plant wildflowers. He'll listen if someone can show him how to cut costs or get better prices, but he's been burned before by tech companies selling silver bullets that don't work in real farming conditions.
+António's 200-hectare farm has been in his family for generations. He cares deeply about the land - it's his legacy - but he's also pragmatic. Pesticide costs have tripled in the past decade. Fertiliser prices are volatile. Drought years are becoming more frequent. He's heard about "regenerative agriculture" and "biodiversity," but he doesn't have thousands of Euros to spend on consultants telling him to plant wildflowers. He'll listen if someone can show him how to cut costs or get better prices, but he's been burned before by tech companies selling silver bullets that don't work in real farming conditions.
 
 **North star scenario:**
-António doesn't pay for NatureBound - the corporate buyer funds both the data collection and his agronomist's platform access as part of their sustainable sourcing program. His agronomist shows up one day with something new: a detailed analysis of his fields showing low predator-to-pest ratios. The recommendation is specific: plant dill and fennel along his field margins, and consider releasing ladybirds next season. The intervention cost is minimal, also subsidised by the corporate buyer. António is skeptical but figures he has nothing to lose. The next season, his aphid problems are noticeably better, and he cuts his pesticide costs by 30%. The agronomist shows him the biodiversity monitoring data proving the improvement. António remains wary of tech people selling silver bullets - particularly that {% include footnotes/footnote_link.html content="curly-haired guy from London in the Arc'teryx jacket" count=2 %} - but he trusts results he can see in his bank account. He signs up for the next phase of the program.
+António doesn't pay for NatureBound - the corporate buyer funds both the data collection and his agronomist's platform access as part of their sustainable sourcing program. His agronomist shows up one day with something new: a detailed analysis of his fields on the NatureBound platform showing low predator-to-pest ratios. The recommendation is specific: plant dill and fennel along his field margins, and consider releasing ladybirds next season. The intervention cost is minimal, also subsidised by the corporate buyer. António is skeptical but figures he has nothing to lose. The next season, his aphid problems are noticeably better, and he cuts his pesticide costs by 30%. The agronomist shows him the biodiversity monitoring data proving the improvement. António remains wary of tech people selling silver bullets - most recently that {% include footnotes/footnote_link.html content="curly-haired guy Londoner in the Arc'teryx jacket" count=2 %} - but he trusts results he can see in his bank account. He signs up for the next phase of the program.
 
 ### How These Personas Connect
 
-These personas don't exist in isolation - they're interconnected through shared data and aligned incentives. Consider António's intervention from his scenario: when his corporate buyer funds eDNA surveys to fulfil their TNFD reporting obligations, the platform identifies low ladybird populations and recommends planting wildflowers to attract them. António gets a 30% reduction in pesticide costs. Sarah gets biodiversity metrics showing measurable improvement for her compliance report. Rajesh de-risks his tomato supply chain. And Amara gains regional biodiversity data she can leverage for her other clients in the area. The same data collection creates compounding value across all four personas, turning compliance requirements into on-the-ground ecological and economic wins.
-
----
-
-## Why This Matters
-
-The example above - aphids and ladybirds - is straightforward because it's a well-understood relationship. A single ladybird can eat 50+ aphids per day. Their larvae are even more voracious. This is textbook biological pest control, and farmers have known about it for generations.
-
-But most ecological relationships are far more complex and context-dependent. The role of bats in controlling crop pests varies by region, crop type, surrounding landscape, and even time of year. The interaction between soil microbiome health and plant resilience to drought involves thousands of species and chemical pathways. The impact of hedgerow placement on pollinator abundance depends on flower timing, connectivity to other habitats, and pesticide drift patterns.
-
-**These insights require deep familiarity with multiple data sources and the ability to collect them cost-effectively.** No individual agronomist can be expected to master soil biochemistry, geospatial analysis, eDNA interpretation, and crop science. But a platform that interlaces these data sources and applies specialised models can surface these insights at scale.
+These personas don't exist in isolation - they're interconnected through shared data and aligned incentives. Consider António's intervention from his scenario: when his corporate buyer funds eDNA surveys and bioacoustics to fulfil their TNFD reporting obligations, the platform identifies low ladybird populations and recommends a planting schedule to attract them. António gets a 30% reduction in pesticide costs. Sarah gets biodiversity metrics showing measurable improvement for her compliance report. Rajesh de-risks his tomato supply chain. And Amara gains regional biodiversity data she can leverage for her other clients in the area. The same data collection creates compounding value across all four personas, turning compliance requirements into on-the-ground ecological and economic wins.
 
 ### Turning Users Into Superheroes
 
@@ -151,19 +141,27 @@ Rajesh stops being the buyer who reacts to supply chain crises and becomes the s
 
 António becomes a pioneer in his region. The data backing his results gives him credibility to push boundaries his neighbors are still hesitant to cross. Premium brands start approaching him, willing to pay 15% more for demonstrably regenerative practices. He gets invited to speak at agricultural conferences - not as someone who was "taught" about biodiversity, but as a farmer proving it works economically. His kids see him leading the future of farming, not clinging to the past, and the farm they weren't sure about inheriting suddenly looks like an operation worth building on.
 
+---
+
+## Why This Matters
+
+The example above - aphids and ladybirds - is straightforward because it's a well-understood relationship. A single ladybird can eat 50+ aphids per day. Their larvae are even more voracious. This is textbook biological pest control, and farmers have known about it for generations.
+
+But most ecological relationships are far more complex and context-dependent. The role of bats in controlling crop pests varies by region, crop type, surrounding landscape, and even time of year. The interaction between soil microbiome health and plant resilience to drought involves thousands of species and chemical pathways. The impact of hedgerow placement on pollinator abundance depends on flower timing, connectivity to other habitats, and pesticide drift patterns.
+
+**These insights require deep familiarity with multiple data sources and the ability to collect them cost-effectively.** No individual agronomist can be expected to master soil biochemistry, geospatial analysis, eDNA interpretation, and crop science. But a platform that interlaces these data sources and applies specialised models can surface these insights at scale.
+
 ### Observability for Nature
 
 The platform wasn't just about data integration. It was about giving already-capable people superpowers in their daily work - letting the skilled agronomist punch above their weight, helping the strategic CSO deliver measurable impact, enabling the savvy buyer to act on foresight rather than hindsight, and making the pragmatic farmer prosperous. It was about creating a feedback loop where doing the right thing for nature also made you better at your job, more respected by your peers, and more successful in your career.
 
-That was the vision: make the invisible visible, make the complex actionable, and empower capable people to become the heroes their ecosystems desperately need. We might call this observability for nature - {% include footnotes/footnote_link.html content="getting the right information at the right time into the hands of the people who have the ability and responsibility to do the right thing" count=3 %}.
+That was the vision: make the invisible visible, make the complex actionable, and empower capable people to become the heroes their ecosystems desperately need. We might call this observability for nature - {% include footnotes/footnote_link.html content="\"getting the right information at the right time into the hands of the people who have the ability and responsibility to do the right thing\"" count=3 %}.
 
 ---
 
-But every product thesis has its antithesis. North star scenarios aren't truth - they're informed hypotheses we hold tentatively, until we learn they're wrong, at which point we revise or discard them. The real question isn't whether the vision was compelling, but whether it was _valid_.
+**But every product thesis has its antithesis.** North star scenarios aren't truth - they're informed hypotheses we hold tentatively, until we learn they're wrong, at which point we revise or discard them. The real question isn't whether the vision was compelling, but whether it was _valid_.
 
-What did we learn when we tried to build this? Where did the thesis hold up, and where did it break down?
-
-**Continue reading in [Part 2: Testing the Thesis]({% post_url 2026-01-17-naturebound-product-antithesis %}) where I explore what happened when theory met reality.
+In [Part 2: Testing the Thesis]({% post_url 2026-01-17-naturebound-product-antithesis %}) we explore some of the questions that remain open. Questions that might disprove our entire product thesis once theory meets reality.
 
 
 <ol class="footnote fa-ul" id="footnote">
