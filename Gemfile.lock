@@ -240,6 +240,10 @@ GEM
       racc (~> 1.4)
     nokogiri (1.13.1-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.13.1-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.13.1-x86_64-linux)
+      racc (~> 1.4)
     nuggets (1.6.0)
     octokit (4.22.0)
       faraday (>= 0.9)
@@ -273,7 +277,7 @@ GEM
     thread_safe (0.3.6)
     typhoeus (1.4.0)
       ethon (>= 0.9.0)
-    tzinfo (1.2.9)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     unf (0.1.4)
       unf_ext
@@ -286,6 +290,7 @@ PLATFORMS
   arm64-darwin-24
   ruby
   universal-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   bundler
