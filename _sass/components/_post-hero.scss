@@ -32,7 +32,11 @@
     font-size: $font-size-tiny;
     text-transform: capitalize;
     letter-spacing: $global-letter-spacing;
-    padding: 1em 0em;
+    padding: .5em 0em;
+
+    @include mq($from: desktop) {
+      padding: 1em 0em;
+    }
 
     a {
       color: $color-gray;
@@ -45,7 +49,8 @@
 
   &__title {
     margin-bottom: 0;
-    font-size: $font-size-h3;
+    font-size: $font-size-h2;
+    line-height: 1.2;
     font-family: $font-sans-serif;
     font-weight: $font-weight-regular;
 
@@ -63,7 +68,11 @@
     font-size: $font-size-tiny;
     color: $color-gray;
     letter-spacing: $global-letter-spacing;
-    padding: 1em 0em;
+    padding: .5em 0em;
+
+    @include mq($from: desktop) {
+      padding: 1em 0em;
+    }
   }
 
   &__author a {
@@ -71,7 +80,9 @@
   }
 
   &__media {
-    margin-right: $base-spacing-unit;
+    @include mq($from: desktop) {
+      margin-right: $base-spacing-unit;
+    }
   }
 
   &__image {

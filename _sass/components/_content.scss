@@ -8,8 +8,14 @@ $block-max-width: 1300px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-size: $font-size-base;
+  font-family: $font-reading;
+  font-size: $font-size-reading-small;
+  line-height: 1.6;
   margin-bottom: double($base-spacing-unit) + half($base-spacing-unit);
+
+  @include mq($from: tablet) {
+    font-size: $font-size-base;
+  }
 
   &:after {
     content: '';
@@ -27,9 +33,11 @@ $block-max-width: 1300px;
 
   a:not(.c-btn) {
     color: $color-brand;
-    text-decoration: none;
-    text-decoration-skip: ink;
-    border-bottom: 1px solid $color-brand;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: rgba(#a63321, .6);
+    text-underline-offset: .18em;
+    text-decoration-skip-ink: auto;
 
     @include attention() {
       color: $color-white;
@@ -48,37 +56,66 @@ $block-max-width: 1300px;
   .highlight,
   .cp_embed_wrapper {
     min-width: 100%;
-    margin-bottom: double($base-spacing-unit) + half($base-spacing-unit);
+    // Roughly one line of space: keeps paragraphs reading as one argument
+    margin-bottom: 1.2em;
+  }
+
+  > blockquote:not(.inline) {
+    margin-bottom: 1.2em;
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  ol,
+  ul {
+    padding-left: 1.25em;
+  }
+
+  li + li {
+    margin-top: .5em;
+  }
+
+  li::marker {
+    color: #a63321;
   }
 
   li > ul,
   li > ol {
+    margin-top: .5em;
     margin-bottom: 0px;
   }
 
+  // .c-content is a flex column, so margins don't collapse: a heading's top
+  // margin adds to the paragraph above it. Keep more space above than below
+  // so each heading sits with the section it introduces.
   h1,
   h2,
   h3,
   h4 {
-    margin-bottom: half($base-spacing-unit);
-
-    &:not(:first-child) {
-      margin-top: double($base-spacing-unit) + half($base-spacing-unit);
-    }
+    line-height: 1.25;
+    margin-bottom: .5em;
+    font-family: $font-sans-serif;
+    font-weight: $font-weight-medium;
   }
 
   h1,
   h2 {
-    font-family: $font-sans-serif;
-    font-weight: $font-weight-medium;
-    color: #a63321
+    color: #a63321;
+
+    &:not(:first-child) {
+      margin-top: 1.5em;
+    }
   }
-  
+
   h3,
   h4 {
-    font-family: $font-sans-serif-light;
-    font-weight: $font-weight-regular;
-    color: #ba3925
+    color: #ba3925;
+
+    &:not(:first-child) {
+      margin-top: 1em;
+    }
   }
 
   hr + h1,
