@@ -3,7 +3,7 @@
 My Jekyll-powered blog. This README shows how to run it locally on macOS and common commands you'll use while developing.
 
 ## Prerequisites
-- Ruby (preferably via Homebrew: `brew install ruby`) 
+- Ruby 3.3 (via Homebrew: `brew install ruby@3.3`). The `github-pages` gem does not support Ruby 4, and GitHub Pages itself builds with 3.3.
 - Bundler (`gem install bundler`)
 - Jekyll is provided via the Gemfile; you don't need to install it globally.
 
@@ -47,10 +47,10 @@ bundle exec jekyll clean
 
 ## Notes
 - The generated site lives in `_site/`; it is recreated on build/serve.
-- If you use Homebrew Ruby, you may need to add it to your shell path, e.g. append to your shell config:
+- Homebrew's `ruby@3.3` is keg-only, so put it on your path, e.g. append to your shell config (or prefix commands in a single shell):
 
 ```bash
-export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+export PATH="/opt/homebrew/opt/ruby@3.3/bin:$PATH"
 ```
 
 - If `bundle install` fails due to native extensions, ensure Xcode Command Line Tools are installed:
