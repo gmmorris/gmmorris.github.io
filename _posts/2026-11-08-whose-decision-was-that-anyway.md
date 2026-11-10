@@ -3,7 +3,7 @@ layout: post
 title: "Whose Decision Was That, Anyway?"
 date: 2026-11-08 12:00:00
 categories: [Agentic Extreme Programming]
-tags: [extreme programming, pairing, code review, ai, agents]
+tags: [extreme programming, pairing, code review, AI, agents]
 icon: seedling
 description: "Agents are making our decisions upstream of review, and we're signing off on them as our own. Why I'm doubling down on pairing."
 image-desc: "The Inspector at the Press"
@@ -48,8 +48,7 @@ Code review is inspection: it happens after the decisions are made. A sign-off i
 
 Agents make that worse in four ways:
 
-- **Less attention.** The attention paid to the code was already thin, and agents thin it further.
-
+* **Less attention.** The attention paid to the code was already thin, and agents thin it further.
 * **Nothing looks wrong.** Agent output is fluent and consistent, and the tests pass. But tests written by the same system that wrote the code only confirm what the code already does, so they reassure without checking anything, and the cues that might make a reviewer slow down are gone.
 * **The decision isn't in the diff.** Review has always rested on an unspoken assumption: the person who wrote the code made the decisions in it. I knew the author's experience and past work, so I could judge whether a decision came from a good understanding of the system and the problem. Agents now take many of those decisions out of people's hands, in conversations I never see as the reviewer, so that signal is weaker and more indirect, and I trust it less. A decision reached independently and one adopted from the agent look the same in the diff, and asking the author "why?" will often echo the agent's answer.
 * **The inspectors share the box.** A reviewer who uses an agent is often checking the work with the same system that produced it. Models are non-deterministic, but their biases are sticky, so even a fresh run of the same model will have similar blindspots.
@@ -74,13 +73,13 @@ Each day starts at stand-up, where you divvy up the prioritised user stories. Ev
 
 The point is that two people work on the problem together every day, and they rotate every day so someone new can weigh in. The feedback, the discussion and the delivery are constant, and they all happen concurrently. I describe this in more detail in [A Case Study of Two Extremes]({% post_url 2022-03-20-case-study-of-two-extremes %}), but this is just anecdotal experience; I maintain there's no *right way to pair*.
 
-## Pairing in the age of agents
+### Pairing in the age of agents
 
 My impression from building several XP teams in the past few years, is that pairing is evolving in significant ways in the age of agentic AI. Pairs used to spend a lot of their time on syntax: the mechanics of translating an idea into working code. Agents can take that away, and I think that's great. It frees the conversation for what matters most: the problem we're solving, the design behind it, the security posture and the real implications of getting it wrong. Let the agent do the rest. Just don't let it drive the design.
 
 I think pairing can actually be more effective now than it ever was. In a classic pair, one person drives and the other navigates. Now the agent can drive and both people can navigate: two minds on where we're going, instead of one watching someone else type. The waiting while the agent works isn't dead time either. It's when the pair talks about the next small step, the risks, and whether this is still the right thing to build.
 
-## The catch
+### The catch
 
 Pairing is the only way I know to get a real review of decisions, because it puts them in front of another person while they're being made. That assumes the pair isn't simply handing off to the agent. A second person helps, since it can feel embarrassing to let the agent decide everything when someone is watching, but two people will probably still default to whatever the agent proposes first.
 
@@ -88,7 +87,7 @@ So the behaviour has to change too: design thinking and conversation before anyo
 
 It's also an argument for diversity of experience. If experience doesn't protect an individual, one experienced reviewer isn't a safeguard. Two people with the same background tend to share assumptions without noticing, so there's nothing to say out loud. When they see the problem differently, the difference has to be put into words for the other person to follow. A less experienced engineer asking *why* the agent said what it said may be the precise nudge a more experienced person needs to actively push back.
 
-## So why isn't everyone pairing?
+### So why isn't everyone pairing?
 
 Part of the reason, I think, is that the path of least resistance is to hand an agent a large task instead of a small one. It feels efficient, but a large task takes a while, so a pair ends up waiting for the machine to catch up, and that's uncomfortable: they don't know what to talk about while the code churns out. Moving in smaller steps helps, and it shortens the loop, which is what XP has always advocated for. But either way, agents still *feel* slower than our thinking and our conversation. They're always catching up, and that creates an async feedback loop that makes pairing less comfortable.
 
