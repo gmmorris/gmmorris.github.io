@@ -52,6 +52,8 @@ I'm a big fan of an internal saying at Spotify — "Talk is cheap" — usually a
 
 Misunderstandings get built on, so the cheapest moment to correct one is the moment it happens. Feedback in minutes beats feedback each iteration, which beats feedback at the end. This is the argument behind pairing, TDD, automated testing, and many other XP practices.
 
+![XP's feedback loops, from pair programming in seconds to release planning in months](/images/2026/11/xp-feedback-loops.svg)
+
 XP went further, and claimed its practices could flatten the cost-of-change curve: with small steps, tests and refactoring, changing your mind late would cost little more than changing it early. It's the same promise people make about agents today. **But XP's flat curve rested on the customer being there to catch the wrong turns early.** Having a customer in the room was always a bet that their time cost less than building the wrong thing. Take them away and the curve bends right back up.
 
 It's also why the practice was about being *together*, not just being available. Context travels through conversation, overheard talk and shared artefacts, not through handoffs. The on-site customer didn't just answer questions. They were around, and the team absorbed the domain by being near it.
