@@ -48,7 +48,7 @@ It's also why the practice was about being *together*, not just being available.
 
 The practice didn't survive contact with reality unchanged. In the second edition, in 2004, Beck folded it into Whole Team, with Real Customer Involvement as a corollary practice, something you build up to rather than start with. <!-- VERIFY wording and reasoning --> The industry had found that a full-time customer was hard to come by, and had filled the gap with proxies. Beck didn't drop the principle. He made it a property of the team.
 
-## Why agents make it easier, and riskier, to skip the conversation
+## Skipping the conversation
 
 Agents haven't changed why the conversation matters. They've changed how easy it is to do without it, and what it costs when you do.
 
