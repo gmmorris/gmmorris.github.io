@@ -22,65 +22,53 @@ I think both sides are right, and both are missing something. **Spec-driven deve
 
 ## Why XP put the customer in the room
 
-When Kent Beck wrote *Extreme Programming Explained* in 1999, the **On-Site Customer** was one of the original twelve practices: a real customer, sitting with the team, answering questions and making priority calls as the work happened. In the second edition, in 2004, it was folded into Whole Team, with Real Customer Involvement as a corollary, something you build up to rather than start with. <!-- VERIFY against both editions -->
+When Kent Beck wrote *Extreme Programming Explained* in 1999, the **On-Site Customer** was one of the original twelve practices: a real customer, sitting with the team, answering questions and making priority calls as the work happened. <!-- VERIFY against both editions -->
 
-It's easy to remember this as a convenience: someone to ask. But the practice rests on a handful of assumptions, and they're worth spelling out, because agents have quietly changed every one of them.
+It's easy to remember this as a convenience: someone to ask. That was never the point. XP started from the assumption that requirements are *discovered*, not specified. No document captures them up front, because you don't know what the customer needs until you've built a little and watched them react, and often they don't know either. That's why a user story was never a spec. It's a placeholder for a conversation.
 
-### Requirements are discovered, not specified
+### Talk is cheap
 
-XP started from the assumption that no document captures the requirements up front. You don't know what the customer needs until you've built a little and watched them react, and often they don't know either. That's why a user story was never a spec. It's a placeholder for a conversation.
+A developer with an unanswered question has two options: stall, or guess. Stalling is expensive, so most people guess, and every guess is a small bet that nobody agreed to. Sitting together made an answer cost minutes rather than days, so people asked instead.
 
-An agent doesn't change this. It just makes it much easier to skip the conversation and write the placeholder out in full.
+"Talk is cheap" is usually a put-down: stop discussing it, and show me the code. At Spotify, it's reportedly an internal saying that means the opposite: debate thoroughly before building, because talking costs very little and building the wrong thing costs a great deal. That's the economics behind the on-site customer. A five-minute conversation is the cheapest feedback loop there is.
 
-### Waiting is the expensive part
+### Every line of code is a business decision
 
-A developer blocked on a question has two options: stall, or guess. Sitting together made an answer cost minutes rather than days, so people asked instead of guessing.
+XP's planning game splits decisions deliberately. Business people decide scope, priority and dates. Technical people decide estimates and technical consequences.
 
-Agents have removed the stall entirely. You never have to wait, because the agent will happily fill the gap. **But filling the gap is guessing. It's just guessing fluently, and at scale.**
-
-### Developers shouldn't make business decisions
-
-XP's planning game splits decisions deliberately. Business people decide scope, priority and dates. Technical people decide estimates and technical consequences. A developer's guess at a business rule is a decision made by the wrong person.
-
-With an agent in the loop, it's often not even the developer making that decision. I [wrote recently]({% post_url 2026-11-08-whose-decision-was-that-anyway %}) about how readily we adopt an agent's lean as our own. A business rule invented by an agent, accepted by an engineer and buried in line 412 of a spec, is a decision made by *two* wrong parties, and neither of them will remember making it.
-
-### There is one voice
-
-The on-site customer had the authority to decide, and to settle conflicts between stakeholders, so developers didn't have to arbitrate. When sales wanted one thing and support wanted another, someone with the standing to choose was in the room.
-
-Agents don't arbitrate. They reconcile. Hand one two conflicting requirements and it will find a way to satisfy both on paper, which usually means neither in practice. The conflict doesn't get resolved. It gets hidden.
+But that split is harder to hold than it looks, because **every line of code is a business decision**. Whether an expired discount still applies at checkout, what happens to a half-finished order, which error a customer sees and what it tells them: none of these feel like business decisions when you're writing them, and all of them are. A developer who isn't regularly talking to the customer, and to the rest of the business, is still making those decisions. They're just making them alone, as the wrong person, without noticing.
 
 ### A wrong guess compounds
 
 Misunderstandings get built on, so the cheapest moment to correct one is the moment it happens. Feedback in minutes beats feedback each iteration, which beats feedback at the end.
 
-This is where XP made its boldest claim: that its practices could flatten the cost-of-change curve. The conventional wisdom, going back to Barry Boehm's work in 1981, was that the later you discover a mistake, the more expensive it is to fix. <!-- VERIFY: Boehm 1981, and Beck's framing of the flattened curve --> XP argued that with small steps, tests and refactoring you could defer decisions safely. **But that flat curve rested on the customer being there to catch the wrong turns early.** Take the customer away and the curve bends right back up.
+This is where XP made its boldest claim: that its practices could flatten the cost-of-change curve. The conventional wisdom, going back to Barry Boehm's work in 1981, was that the later you discover a mistake, the more expensive it is to fix. <!-- VERIFY: Boehm 1981, and Beck's framing of the flattened curve --> XP argued that with small steps, tests and refactoring you could defer decisions safely. **But that flat curve rested on the customer being there to catch the wrong turns early.** Having a customer in the room was always a bet that their time cost less than building the wrong thing. Take them away and the curve bends right back up.
+
+It's also why the practice was about being *together*, not just being available. Context travels through conversation, overheard talk and shared artefacts, not through handoffs. The on-site customer didn't just answer questions. They were around, and the team absorbed the domain by being near it.
+
+The practice didn't survive contact with reality unchanged. In the second edition, in 2004, Beck folded it into Whole Team, with Real Customer Involvement as a corollary practice, something you build up to rather than start with. <!-- VERIFY wording and reasoning --> The industry had found that a full-time customer was hard to come by, and had filled the gap with proxies. Beck didn't drop the principle. He made it a property of the team.
+
+## Why agents make it easier, and riskier, to skip the conversation
+
+Agents haven't changed why the conversation matters. They've changed how easy it is to do without it, and what it costs when you do.
+
+### The guess got fluent
+
+The stall is gone. You never have to wait for an answer, because the agent will happily fill the gap, with a business rule that sounds plausible and a justification to match. **But filling the gap is still guessing.** It's just guessing fluently, and at scale, and the developer is now often not even the one making the guess. I [wrote recently]({% post_url 2026-11-08-whose-decision-was-that-anyway %}) about how readily we adopt an agent's lean as our own. A business rule invented by an agent, accepted by an engineer and buried in line 412 of a spec is a business decision made by two wrong parties, and neither of them will remember making it.
+
+### Rework only feels cheap
 
 The modern version of the flat-curve claim is that agents make rework cheap. That's true in the short term: if you catch a mistake the same afternoon, an agent really can make undoing it almost free. But the later a decision is reversed, the more has been built on top of it, and agents build on top of things *very* quickly. **Agents flatten the cost of producing code, not the cost of being wrong.**
 
 And it isn't only a theoretical worry. [Some engineers are starting to notice it](https://lnkd.in/p/es9MVCJV) day to day: when an agent hits a bug, it patches the one case in front of it rather than stepping back to question the design that caused it, even when explicitly asked to rethink. Each patch is another thing built on top of the original decision, which makes that decision more expensive to undo. Agents haven't made rework cheaper. They've made it easier to put off.
 
-### The customer's time is cheap compared with rework
+That changes how the customer bet looks. If rework feels free, the customer's time starts to look expensive by comparison, and putting them in the room looks like a bad trade. That's the trap. The rework only *feels* free because its real cost turns up later, compounded, on someone else's sprint.
 
-Putting a customer in the room was always a bet: that the cost of their time was lower than the cost of building the wrong thing.
+### Decisions made alone
 
-Agents have changed the maths, or at least they appear to. If rework feels free, the customer's time starts to look expensive by comparison, and the bet looks like a bad one. That's the trap. The rework only *feels* free because its real cost turns up later, compounded, on someone else's sprint.
+More and more decisions are being made in silos: one engineer, one agent, one long conversation nobody else sees. The context still exists. It's just trapped in a chat history.
 
-### Understanding is built by being together
-
-Context travels through conversation, overheard talk and shared artefacts, not through handoffs. The on-site customer didn't just answer questions. They were *around*, and the team absorbed the domain by being near it.
-
-This is the assumption agents have eroded most. More and more decisions are being made in silos: one engineer, one agent, one long conversation nobody else sees. The context still exists. It's just trapped in a chat history.
-
-### Talk is cheap
-
-"Talk is cheap" is usually a put-down. Stop discussing it, and show me the code.
-
-At Spotify, it's reportedly an internal saying that means the opposite. "Talk is cheap" is an argument *for* talking: debate and plan thoroughly before building, because talking costs very little and building the wrong thing costs a great deal.
-
-You could argue agents have broken that logic. If building is nearly free too, why bother with the talking? But the comparison was never really talk versus building. It was talk versus **being wrong**, and being wrong hasn't got any cheaper. If anything, it's more expensive, because an agent will build a great deal on top of a wrong assumption before anyone notices.
-
-And there's a second reason talk matters more now. We're making more decisions than ever, more and more of them alone with an agent, in conversations nobody else sees. **The conversation with another person is the only thing that puts a second mind on those decisions.** Talk is still cheap. It's never been worth more.
+You could argue agents have broken the "talk is cheap" logic. If building is nearly free too, why bother talking first? But the comparison was never really talk versus building. It was talk versus **being wrong**, and being wrong hasn't got any cheaper. And when we're making more decisions than ever, alone with an agent, **the conversation with another person is the only thing that puts a second mind on them.** Talk is still cheap. It's never been worth more.
 
 ## Tame problems and wicked problems
 
@@ -129,6 +117,8 @@ Multiply that across an industry and you get the numbers we're starting to see. 
 Here's the part I think both camps miss. **Test-driven development was always spec-driven development, at the smallest possible scale.** You write the spec as a failing test, make it pass, and find out what you got wrong. XP's story cards and acceptance tests were specs too. Nobody in XP was against writing down what you intend to build.
 
 So the real argument isn't spec versus no spec. It's **how far ahead of the feedback the spec runs.** A spec for the next small step, written with the customer and checked against their reaction before the next one is written, is about as XP as it gets. A spec for the whole problem, written before anyone outside the team has seen anything, is the thing the old men are shouting about, and they're right to.
+
+Step size matters for another reason. A big spec bundles together requirements from different people, and some of them will conflict: sales wants one thing, support wants another. A customer in the room would make someone choose. An agent won't. Hand it two conflicting requirements and it will find a way to satisfy both on paper, which usually means neither in practice. The conflict doesn't get resolved; it gets hidden, somewhere deep in a large change nobody reads closely. Small steps surface those conflicts while there's still someone to settle them.
 
 ## Using agents to get to the customer
 
