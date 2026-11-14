@@ -60,6 +60,8 @@ The stall is gone. You never have to wait for an answer, because the agent will 
 
 The modern version of the flat-curve claim is that agents make rework cheap. That's true in the short term: if you catch a mistake the same afternoon, an agent really can make undoing it almost free. But the later a decision is reversed, the more has been built on top of it, and agents build on top of things *very* quickly. **Agents flatten the cost of producing code, not the cost of being wrong.**
 
+![The cost-of-change curve: traditional, XP's promise, and agents without the conversation](/images/2026/11/cost-of-change-curves.svg)
+
 And it isn't only a theoretical worry. [Some engineers are starting to notice it](https://lnkd.in/p/es9MVCJV) day to day: when an agent hits a bug, it patches the one case in front of it rather than stepping back to question the design that caused it, even when explicitly asked to rethink. Each patch is another thing built on top of the original decision, which makes that decision more expensive to undo. Agents haven't made rework cheaper. They've made it easier to put off.
 
 That changes how the customer bet looks. If rework feels free, the customer's time starts to look expensive by comparison, and putting them in the room looks like a bad trade. That's the trap. The rework only *feels* free because its real cost turns up later, compounded, on someone else's sprint.
