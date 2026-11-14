@@ -22,7 +22,7 @@ What they're arguing about is spec-driven development (SDD), and I think both si
 
 The idea behind SDD is simple: before an agent writes any code, you write down what you want built and why, and the agent turns that into a plan and a list of tasks. It answers a real problem agents created: the conversation between an engineer and an agent, where much of the thinking happens, lives in one terminal and is gone when the session ends. A spec gives those decisions somewhere to live.
 
-Its advocates aren't asking for a big spec up front. Many argue for [small steps, each suitably documented](https://brooker.co.za/blog/2026/04/09/waterfall-vs-spec), with the spec evolving alongside the code. But when Birgitta Böckeler [tried some of these tools](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html), a small bug fix turned into four user stories with sixteen acceptance criteria. The advocates ask for small steps, and the tools blow them up anyway. Agents make the big spec the path of least resistance, and most of us will take it.
+Its advocates aren't asking for a big spec up front. Many argue for [small steps, each suitably documented](https://brooker.co.za/blog/2026/04/09/waterfall-vs-spec), with the spec evolving alongside the code. But in practice, [some are finding](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html) that even a small bug fix turns into four user stories with sixteen acceptance criteria. The advocates ask for small steps, and the tools blow them up anyway. Agents make the big spec the path of least resistance, and most of us will take it.
 
 ## Why XP put the customer in the room
 
