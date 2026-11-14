@@ -1,27 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" width="720" height="520" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" width="720" height="560" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
   <title>XP feedback loops, from seconds to months</title>
-  <rect width="720" height="520" fill="#ffffff"/>
+  <rect width="720" height="560" fill="#ffffff"/>
   <defs>
-    <path id="p0" d="M153,262 A207,207 0 0 1 567,262"/>
-    <path id="p1" d="M181,262 A179,179 0 0 1 539,262"/>
-    <path id="p2" d="M209,262 A151,151 0 0 1 511,262"/>
-    <path id="p3" d="M237,262 A123,123 0 0 1 483,262"/>
-    <path id="p4" d="M265,262 A95,95 0 0 1 455,262"/>
-    <path id="p5" d="M293,262 A67,67 0 0 1 427,262"/>
+    <marker id="arrow-team" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1f7a6d"/></marker>
+    <marker id="arrow-cust" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c27c0e"/></marker>
+    <marker id="arrow-skip" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#a0a0a0"/></marker>
+    <path id="lbl1" d="M309.0,290.0 A71,71 0 0 1 451.0,290.0"/>
+    <path id="lbl2" d="M277.0,290.0 A103,103 0 0 1 483.0,290.0"/>
+    <path id="lbl3" d="M245.0,290.0 A135,135 0 0 1 515.0,290.0"/>
+    <path id="lbl4" d="M213.0,290.0 A167,167 0 0 1 547.0,290.0"/>
+    <path id="lbl5" d="M181.0,290.0 A199,199 0 0 1 579.0,290.0"/>
+    <path id="lbl6" d="M149.0,290.0 A231,231 0 0 1 611.0,290.0"/>
   </defs>
-  <circle cx="360" cy="262" r="224" fill="#eef6f4" stroke="#ffffff" stroke-width="2"/>
-  <circle cx="360" cy="262" r="196" fill="#d6ebe7" stroke="#ffffff" stroke-width="2"/>
-  <circle cx="360" cy="262" r="168" fill="#b7dbd4" stroke="#ffffff" stroke-width="2"/>
-  <circle cx="360" cy="262" r="140" fill="#8cc4ba" stroke="#ffffff" stroke-width="2"/>
-  <circle cx="360" cy="262" r="112" fill="#5ea89c" stroke="#ffffff" stroke-width="2"/>
-  <circle cx="360" cy="262" r="84" fill="#33887b" stroke="#ffffff" stroke-width="2"/>
-  <circle cx="360" cy="262" r="56" fill="#145a50" stroke="#ffffff" stroke-width="2"/>
-  <text font-size="13" fill="#1d3d38"><textPath href="#p0" startOffset="50%" text-anchor="middle"><tspan font-weight="600">Release plan</tspan> · months</textPath></text>
-  <text font-size="13" fill="#1d3d38"><textPath href="#p1" startOffset="50%" text-anchor="middle"><tspan font-weight="600">Iteration plan</tspan> · weeks</textPath></text>
-  <text font-size="13" fill="#1d3d38"><textPath href="#p2" startOffset="50%" text-anchor="middle"><tspan font-weight="600">Acceptance tests</tspan> · days</textPath></text>
-  <text font-size="13" fill="#1d3d38"><textPath href="#p3" startOffset="50%" text-anchor="middle"><tspan font-weight="600">Stand-up</tspan> · one day</textPath></text>
-  <text font-size="13" fill="#ffffff"><textPath href="#p4" startOffset="50%" text-anchor="middle"><tspan font-weight="600">Pair negotiation</tspan> · hours</textPath></text>
-  <text font-size="13" fill="#ffffff"><textPath href="#p5" startOffset="50%" text-anchor="middle"><tspan font-weight="600">Unit tests</tspan> · minutes</textPath></text>
-  <g text-anchor="middle" fill="#ffffff"><text x="360" y="258" font-size="13" font-weight="600">Pair programming</text><text x="360" y="276" font-size="12">seconds</text></g>
-  <text x="700" y="508" font-size="11" fill="#888" text-anchor="end">After Don Wells' XP feedback loops</text>
+  <path d="M369.2,340.9 A52,52 0 1 1 390.8,340.9" fill="none" stroke="#1f7a6d" stroke-width="3" marker-end="url(#arrow-team)"/>
+  <g text-anchor="middle" fill="#1f7a6d">
+    <text x="380" y="278" font-size="12" font-weight="600">Pair</text>
+    <text x="380" y="294" font-size="12" font-weight="600">programming</text>
+    <text x="380" y="310" font-size="11">seconds</text>
+  </g>
+  <path d="M362.5,372.2 A84,84 0 1 1 397.5,372.2" fill="none" stroke="#1f7a6d" stroke-width="3" marker-end="url(#arrow-team)"/>
+  <text font-size="12" fill="#1f7a6d"><textPath href="#lbl1" startOffset="50%" text-anchor="middle"><tspan font-weight="600">Unit tests</tspan> · minutes</textPath></text>
+  <path d="M355.9,403.5 A116,116 0 1 1 404.1,403.5" fill="none" stroke="#c27c0e" stroke-width="3" marker-end="url(#arrow-cust)"/>
+  <text font-size="12" fill="#c27c0e"><textPath href="#lbl2" startOffset="50%" text-anchor="middle"><tspan font-weight="600">Ask the customer</tspan> · minutes</textPath></text>
+  <path d="M349.2,434.8 A148,148 0 1 1 410.8,434.8" fill="none" stroke="#1f7a6d" stroke-width="3" marker-end="url(#arrow-team)"/>
+  <text font-size="12" fill="#1f7a6d"><textPath href="#lbl3" startOffset="50%" text-anchor="middle"><tspan font-weight="600">Stand-up</tspan> · one day</textPath></text>
+  <path d="M342.6,466.1 A180,180 0 1 1 417.4,466.1" fill="none" stroke="#c27c0e" stroke-width="3" marker-end="url(#arrow-cust)"/>
+  <text font-size="12" fill="#c27c0e"><textPath href="#lbl4" startOffset="50%" text-anchor="middle"><tspan font-weight="600">Acceptance tests</tspan> · days</textPath></text>
+  <path d="M335.9,497.4 A212,212 0 1 1 424.1,497.4" fill="none" stroke="#c27c0e" stroke-width="3" marker-end="url(#arrow-cust)"/>
+  <text font-size="12" fill="#c27c0e"><textPath href="#lbl5" startOffset="50%" text-anchor="middle"><tspan font-weight="600">Iteration plan</tspan> · weeks</textPath></text>
+  <path d="M329.3,528.7 A244,244 0 1 1 430.7,528.7" fill="none" stroke="#c27c0e" stroke-width="3" marker-end="url(#arrow-cust)"/>
+  <text font-size="12" fill="#c27c0e"><textPath href="#lbl6" startOffset="50%" text-anchor="middle"><tspan font-weight="600">Release plan</tspan> · months</textPath></text>
+  <line x1="20" y1="30" x2="50" y2="30" stroke="#1f7a6d" stroke-width="3"/>
+  <text x="58" y="34" font-size="12" fill="#333">Within the team</text>
+  <line x1="20" y1="52" x2="50" y2="52" stroke="#c27c0e" stroke-width="3"/>
+  <text x="58" y="56" font-size="12" fill="#333">With the customer</text>
+  <text x="708" y="548" font-size="11" fill="#888" text-anchor="end">Adapted from Don Wells' XP feedback loops</text>
 </svg>

@@ -60,11 +60,11 @@ XP went further, and claimed its practices could flatten the cost-of-change curv
 
 It's also why the practice was about being *together*, not just being available. Context travels through conversation, overheard talk (aka [Osmotic Communication]({% post_url 2022-02-20-remote-isnt-distributed %})) and shared artefacts, not through handoffs. The on-site customer didn't just answer questions. They were around, and the team absorbed the domain by being near it.
 
-The practice didn't survive contact with reality unchanged. In the second edition, in 2004, Beck reframes customer involvement as something you build up to rather than start with. The industry has found that a full-time customer is hard to come by, and has filled the gap with proxies. But Beck didn't drop the principle, instead he folded it a property of the team, in the form of cross-functional domain experts who sit along side the engineers.
-
 ## Skipping the conversation
 
 Agents haven't changed why the conversation matters. They've changed how easy it is to do without it, and what it costs when you do.
+
+![The same feedback loops with agents and a big spec: the agent loop is faster, but the conversations with the customer are skipped until they see the result](/images/2026/11/agent-feedback-loops.svg)
 
 ### The guess got fluent
 
@@ -124,7 +124,9 @@ It doesn't help that a big spec *feels* like progress. In METR's 2025 study, exp
 
 And for most engineers, the customer was never in the room anyway. In most companies I've worked with, the customer isn't someone who turns up asking for things. It's someone the sales team spent months courting, and account managers can be fiercely protective of them, often with good reason. Engineers are honest about the product in ways that can be alarming to a customer who's still deciding whether to trust you. So there are guardrails, and gatekeeping, and an hour a fortnight if you're lucky.
 
-XP's on-site customer assumed access that most teams simply don't have. The big spec is what fills the gap.
+This isn't a new problem. Even XP's on-site customer didn't survive contact with reality unchanged. In the second edition, in 2004, Beck reframes customer involvement as something you build up to rather than start with. The industry has found that a full-time customer is hard to come by, and has filled the gap with proxies. But Beck didn't drop the principle, instead he made it a property of the team, in the form of cross-functional domain experts who sit alongside the engineers.
+
+Back then, proxies filled the gap. Today, the big spec does.
 
 Multiply that across an industry and you get the numbers we're starting to see. <!-- TODO: DORA 2025 on user-centric focus, if it says what I think it says; CircleCI 2026 State of Software Delivery figures on spend vs. outcomes --> [Placeholder: we're spending more on AI than ever, and getting less back.]
 
