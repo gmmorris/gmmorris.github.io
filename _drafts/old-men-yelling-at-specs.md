@@ -74,11 +74,13 @@ This is the assumption agents have eroded most. More and more decisions are bein
 
 ### Talk is cheap
 
-<!-- TODO: tie in the Spotify "talk is cheap" point. Need the source/reference from Gidi. -->
+"Talk is cheap" is usually a put-down. Stop discussing it, and show me the code.
 
-[Placeholder: the Spotify "talk is cheap" point.]
+Daniel Ek, Spotify's co-founder, apparently uses it the other way round. At Spotify, as he tells it, "talk is cheap" is an argument *for* talking: debating and planning thoroughly before building, because talking costs very little and building the wrong thing costs a great deal. <!-- VERIFY: Acquired live show, Sept 2024; only secondhand recaps found so far, need the episode itself before quoting -->
 
-Talk has always been cheap. That was the whole point: a five-minute conversation is the cheapest feedback loop there is. What's changed is everything around it. When code was expensive, talking first was obviously sensible. Now that code is cheap too, it's tempting to think talk has lost its advantage. I think it's the opposite. **When we're making more decisions than ever, alone with an agent, the conversation is the only thing that puts a second mind on them.** Talk is cheap, and it's never been worth more.
+You could argue agents have broken that logic. If building is nearly free too, why bother with the talking? But the comparison was never really talk versus building. It was talk versus **being wrong**, and being wrong hasn't got any cheaper. If anything, it's more expensive, because an agent will build a great deal on top of a wrong assumption before anyone notices.
+
+And there's a second reason talk matters more now. We're making more decisions than ever, more and more of them alone with an agent, in conversations nobody else sees. **The conversation with another person is the only thing that puts a second mind on those decisions.** Talk is still cheap. It's never been worth more.
 
 ## Tame problems and wicked problems
 
