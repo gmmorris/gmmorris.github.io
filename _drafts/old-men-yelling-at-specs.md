@@ -20,7 +20,9 @@ On the other side are the people actually shipping with agents, who are tired of
 
 I think both sides make solid points, and both are missing some of the nuance. Most advocates of SDD aren't arguing for a written-down version of vibe coding, with a single spec describing an entire product. Many of them argue for the opposite: [small steps, each suitably documented](https://github.com/github/spec-kit/blob/main/spec-driven.md#the-sdd-workflow-in-practice).
 
-The trouble is human nature, and the tools don't always help: in practice, even [a small bug fix can balloon](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html) into four user stories with sixteen acceptance criteria. <!-- VERIFY against the article; only secondhand summaries read so far --> **SDD is going to be misunderstood in exactly the way Agile was.** Used to work out the next small step of a problem *with* the customer, it's genuinely useful, and closer to XP than either camp would like to admit. Used to plan the whole problem ahead of time, it fails, in precisely the way XP set out to avoid. And agents make the second way the easy one. It's the path of least resistance, and most of us will take it.
+The trouble is human nature, and the tools don't help. When Birgitta Böckeler [tried some of these tools](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html), a small bug fix turned into four user stories with sixteen acceptance criteria. <!-- VERIFY against the article; only secondhand summaries read so far --> The advocates ask for small steps, and the tools blow them up anyway.
+
+**SDD is going to be misunderstood in exactly the way Agile was.** Used to work out the next small step of a problem *with* the customer, it's genuinely useful, and closer to XP than either camp would like to admit. Used to plan the whole problem ahead of time, it fails, in precisely the way XP set out to avoid. And agents make the second way the easy one. It's the path of least resistance, and most of us will take it.
 
 ## Why XP put the customer in the room
 
