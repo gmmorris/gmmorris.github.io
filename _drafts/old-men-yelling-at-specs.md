@@ -9,6 +9,10 @@ image-desc: "The Clockmaker's Counter"
 image: "/images/banners/wicked-problems.png"
 image-desc-link: "/images/banners/wicked-problems.png"
 ---
+{% capture footnotes %}
+This has a cost, and I've felt it. On the XP teams I've been part of, knowledge lived in conversations, which meant it lived in people. The old-timers knew why the system worked the way it did, and when they left, the reasons often left with them. Tests were meant to be the documentation, and they're good at recording *what* the software does, but in my experience they're poor at recording *why*. I've [written before]({% post_url 2022-02-22-a-chain-of-archived-context %}) about how much context we lose this way, and it's part of why SDD's promise appeals to me: the decisions finally have somewhere to live.
+{% endcapture %}
+
 
 There's an interesting argument playing out at the moment, and I think it's one of those cases where both sides make a lot of sense.
 
@@ -26,9 +30,7 @@ Its advocates aren't asking for a big spec up front. Many argue for [small steps
 
 ## Why XP put the customer in the room
 
-XP has never been big on specs. The Agile Manifesto, which Kent Beck co-signed, values "working software over comprehensive documentation", and XP's answer to the spec was the conversation.
-
-That has a cost, and I've felt it. On the XP teams I've been part of, knowledge lived in conversations, which meant it lived in people. The old-timers knew why the system worked the way it did, and when they left, the reasons often left with them. Tests were meant to be the documentation, and they're good at recording *what* the software does, but in my experience they're poor at recording *why*. I've [written before]({% post_url 2022-02-22-a-chain-of-archived-context %}) about how much context we lose this way, and it's part of why SDD's promise appeals to me: the decisions finally have somewhere to live.
+XP has never been big on specs. The Agile Manifesto, which Kent Beck co-signed, values "working software over comprehensive documentation", and {% include footnotes/footnote_link.html content="XP's answer to the spec was the conversation" count=1 %}.
 
 But XP bet on conversation over documents for good reasons, and they start with the customer in the room.
 
@@ -141,3 +143,5 @@ That framing does a lot of work. It lowers the stakes for the sales team, becaus
 The old men are right: the customer matters more than the spec, and on wicked problems a spec that runs ahead of the feedback will be wrong in ways that compound. The young people are right too: the tools really have changed, and the way we reach the customer, and what we bring to them, should change with them.
 
 **Write the spec for the next step, not the whole problem.** Then go and find out what you got wrong.
+
+{% include footnotes/footnote.html notes=footnotes %}
