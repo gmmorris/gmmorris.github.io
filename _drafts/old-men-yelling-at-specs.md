@@ -18,6 +18,8 @@ There's an interesting argument playing out at the moment, and I think it's one 
 
 On one side are the agile veterans. They watch a team hand an agent a feature request, get back a few thousand lines of `plan.md`, approve it, and let the agent build the lot. They recognise the shape immediately: requirements gathered up front, a big document signed off, a long build, and the customer at the far end of it. *That's waterfall*, they shout. *We spent twenty years getting away from this.*
 
+I'm one of them. I try to keep the shouting to a minimum, but I understand exactly where it comes from.
+
 On the other side are the people actually shipping with agents, who are tired of being told they're doing it wrong by people who learned their craft at a time where many of the constraints were objectively different. The tools have changed. Writing a spec used to be expensive and now it's nearly free. Rework used to be painful and now an agent will rewrite the module before lunch. *Why should the rules from 2001 still apply?*
 
 What they're arguing about is spec-driven development (SDD), and I think both sides are missing some of the nuance. **SDD is going to be misunderstood in exactly the way Agile was.** Used to work out the next small step of a problem *with* the customer, it's genuinely useful, and closer to XP than either camp would like to admit. Used to plan the whole problem ahead of time, it fails, in precisely the way XP set out to avoid.
