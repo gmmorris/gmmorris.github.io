@@ -92,6 +92,8 @@ I want to be clear about this, because the agile camp often isn't: **for tame pr
 
 Wicked problems are where it breaks. Not because people aren't disciplined enough to write a good spec, but because the information the spec needs **doesn't exist yet**. It's created by building something small, putting it in front of people, and watching what they do with it.
 
+If that sounds like an exaggeration, look at what happens when experts' ideas are actually tested. Ron Kohavi and his colleagues ran online experimentation at Microsoft for years, and found that only about a third of the ideas they tested improved the metric they were designed to improve. On mature products like Bing, the success rate was lower still. <!-- VERIFY figures against Kohavi et al. and "Trustworthy Online Controlled Experiments" (2020) --> These were experienced people, with data, building things they believed in. **A spec is a stack of untested ideas**, and on a wicked problem most of them will be wrong in ways nobody can see until they meet users.
+
 ## Wicked problems in disguise
 
 The obvious wicked problems aren't the dangerous ones. Nobody sits down to spec "fix healthcare" in one go. The dangerous ones look tame: a checkout flow, an onboarding form, a reporting dashboard. They look like CRUD until real people start using them, and then they turn out to be about trust, or fear, or politics, or something nobody in the planning meeting would have guessed.
@@ -108,27 +110,19 @@ because someone shipped a small step and watched.
 
 **You often can't tell a problem is wicked until you've started building it.** Which means the first step of any spec has to be small enough to tell you what kind of problem you're dealing with.
 
-## What the evidence says
-
-This isn't just an old man's intuition. <!-- tone check -->
-
-**Most ideas don't work, even when experts have them.** Ron Kohavi and his colleagues ran experimentation at Microsoft for years. Their finding was that only about a third of ideas tested improved the metric they were designed to improve, and on mature products like Bing the success rate was lower still. <!-- VERIFY figures against Kohavi et al. and "Trustworthy Online Controlled Experiments" (2020) --> These were experienced people, with data, building things they believed in. A spec is a stack of untested ideas, and most of them are going to be wrong in ways you can't see until they meet users.
-
-**Big plans have fat tails.** Bent Flyvbjerg's dataset of over 16,000 projects found that only a tiny fraction delivered on time, on budget and with the benefits they promised, and IT projects have some of the worst tails of all: a minority blow up catastrophically. <!-- VERIFY: How Big Things Get Done (2023); Flyvbjerg & Budzier, HBR 2011 --> The interesting twist is that Flyvbjerg's prescription is *more* planning: "think slow, act fast". But look at what he means by planning: Pixar re-cutting storyboards dozens of times, Frank Gehry iterating on models. That's not a spec written up front. It's discovery, done cheaply, before the expensive commitment.
-
-**The feeling of progress is unreliable.** In METR's 2025 study, experienced open-source developers were measurably slower with AI tools, while believing they'd been faster. <!-- VERIFY numbers --> A few thousand lines of well-structured spec feel like a lot of progress. They might be.
-
-**And the industry numbers are heading the wrong way.** <!-- TODO: DORA 2025 on user-centric focus, if it says what I think it says; CircleCI 2026 State of Software Delivery figures on spend vs. outcomes --> [Placeholder: we're spending more on AI than ever, and getting less back.]
-
 ## Why we reach for the big spec anyway
 
-If the evidence is this consistent, why does the big spec keep winning?
+So if most of a big spec is going to be wrong, why does it keep winning?
 
 I've [written before]({% post_url 2026-11-08-whose-decision-was-that-anyway %}) about the path of least resistance, and this is another version of it. **The customer's attention is the scarcest thing on any project.** Every conversation has to be booked, prepared for and followed up. Writing everything down once, and sparing everyone the conversations, is enormously tempting. Agents have made it almost free. So specs balloon, because the cheapest thing to produce is more spec.
+
+It doesn't help that a big spec *feels* like progress. In METR's 2025 study, experienced open-source developers were measurably slower with AI tools, while believing they'd been faster. <!-- VERIFY numbers --> A few thousand lines of well-structured spec feel like a lot of progress. They might not be.
 
 And for most engineers, the customer was never in the room anyway. In most companies I've worked with, the customer isn't someone who turns up asking for things. It's someone the sales team spent months courting, and account managers can be fiercely protective of them, often with good reason. Engineers are honest about the product in ways that can be alarming to a customer who's still deciding whether to trust you. So there are guardrails, and gatekeeping, and an hour a fortnight if you're lucky.
 
 XP's on-site customer assumed access that most teams simply don't have. The big spec is what fills the gap.
+
+Multiply that across an industry and you get the numbers we're starting to see. <!-- TODO: DORA 2025 on user-centric focus, if it says what I think it says; CircleCI 2026 State of Software Delivery figures on spend vs. outcomes --> [Placeholder: we're spending more on AI than ever, and getting less back.]
 
 ## Where SDD and XP actually agree
 
