@@ -26,6 +26,12 @@ Its advocates aren't asking for a big spec up front. Many argue for [small steps
 
 ## Why XP put the customer in the room
 
+XP has never been big on specs. The Agile Manifesto, which Kent Beck co-signed, values "working software over comprehensive documentation", and XP's answer to the spec was the conversation.
+
+That has a cost, and I've felt it. On the XP teams I've been part of, knowledge lived in conversations, which meant it lived in people. The old-timers knew why the system worked the way it did, and when they left, the reasons often left with them. Tests were meant to be the documentation, and they're good at recording *what* the software does, but in my experience they're poor at recording *why*. I've [written before]({% post_url 2022-02-22-a-chain-of-archived-context %}) about how much context we lose this way, and it's part of why SDD's promise appeals to me: the decisions finally have somewhere to live.
+
+But XP bet on conversation over documents for good reasons, and they start with the customer in the room.
+
 When Kent Beck wrote *Extreme Programming Explained* in 1999, the **On-Site Customer** was one of the original twelve practices: a real customer, sitting with the team, answering questions and making priority calls as the work happened.
 
 It's easy to misintepret this as a simple convenience: someone to ask. That was never the point. XP starts from the assumption that requirements are *discovered*, not specified. No document captures them up front, because you don't know what the customer needs until you've built a little and watched them react, and often they don't know either. That's why a user story was never a spec. It's a placeholder for a conversation.
