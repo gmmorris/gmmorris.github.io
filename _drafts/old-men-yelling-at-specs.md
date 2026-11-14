@@ -76,7 +76,7 @@ This is the assumption agents have eroded most. More and more decisions are bein
 
 "Talk is cheap" is usually a put-down. Stop discussing it, and show me the code.
 
-Daniel Ek, Spotify's co-founder, apparently uses it the other way round. At Spotify, as he tells it, "talk is cheap" is an argument *for* talking: debating and planning thoroughly before building, because talking costs very little and building the wrong thing costs a great deal. <!-- VERIFY: Acquired live show, Sept 2024; only secondhand recaps found so far, need the episode itself before quoting -->
+At Spotify, it's reportedly an internal saying that means the opposite. "Talk is cheap" is an argument *for* talking: debate and plan thoroughly before building, because talking costs very little and building the wrong thing costs a great deal.
 
 You could argue agents have broken that logic. If building is nearly free too, why bother with the talking? But the comparison was never really talk versus building. It was talk versus **being wrong**, and being wrong hasn't got any cheaper. If anything, it's more expensive, because an agent will build a great deal on top of a wrong assumption before anyone notices.
 
