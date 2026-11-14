@@ -10,15 +10,15 @@ image: "/images/banners/wicked-problems.png"
 image-desc-link: "/images/banners/wicked-problems.png"
 ---
 
-Over the past year, spec-driven development (SDD) has become one of the most popular ways of working with coding agents. The idea is simple: rather than prompting an agent and hoping for the best, you first write down what you want built and why, have the agent turn that into a plan and a list of tasks, and only then let it write the code. The spec, not the prompt, becomes the source of truth. GitHub, Amazon and a growing list of startups have built tools around it, and for many teams it's the answer to the chaos of vibe coding.
-
-It has also started an interesting argument, and I think it's one of those cases where both sides make a lot of sense.
+There's an interesting argument playing out at the moment, and I think it's one of those cases where both sides make a lot of sense.
 
 On one side are the agile veterans. They watch a team hand an agent a feature request, get back a few thousand lines of `plan.md`, approve it, and let the agent build the lot. They recognise the shape immediately: requirements gathered up front, a big document signed off, a long build, and the customer at the far end of it. *That's waterfall*, they shout. *We spent twenty years getting away from this.*
 
 On the other side are the people actually shipping with agents, who are tired of being told they're doing it wrong by people who learned their craft at a time where many of the constraints were objectively different. The tools have changed. Writing a spec used to be expensive and now it's nearly free. Rework used to be painful and now an agent will rewrite the module before lunch. *Why should the rules from 2001 still apply?*
 
-I think both sides make solid points, and both are missing some of the nuance. Most advocates of SDD aren't arguing for a written-down version of vibe coding, with a single spec describing an entire product. Many of them argue for the opposite: [small steps, each suitably documented](https://github.com/github/spec-kit/blob/main/spec-driven.md#the-sdd-workflow-in-practice).
+What they're arguing about is spec-driven development (SDD), which over the past year has become one of the most popular ways of working with coding agents. The idea is simple: rather than prompting an agent and hoping for the best, you first write down what you want built and why, have the agent turn that into a plan and a list of tasks, and only then let it write the code. The spec, not the prompt, becomes the source of truth. GitHub, Amazon and a growing list of startups have built tools around it, and for many teams it's the answer to the chaos of vibe coding.
+
+Both sides are missing some of the nuance, though. Most advocates of SDD aren't arguing for a written-down version of vibe coding, with a single spec describing an entire product. Many of them argue for the opposite: [small steps, each suitably documented](https://github.com/github/spec-kit/blob/main/spec-driven.md#the-sdd-workflow-in-practice).
 
 The trouble is human nature, and the tools don't help. When Birgitta Böckeler [tried some of these tools](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html), a small bug fix turned into four user stories with sixteen acceptance criteria. <!-- VERIFY against the article; only secondhand summaries read so far --> The advocates ask for small steps, and the tools blow them up anyway.
 
