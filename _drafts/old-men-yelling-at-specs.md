@@ -48,6 +48,8 @@ A developer with an unanswered question has two options: stall, or guess. Stalli
 
 I'm a big fan of an internal saying at Spotify — "Talk is cheap" — usually a put-down, the Spotify team use it to mean the opposite: debate thoroughly before building, because talking costs very little and building the wrong thing costs a great deal. That's the economics behind the on-site customer. A five-minute conversation is the cheapest feedback loop there is.
 
+It's also the first conversation agents and specs let us skip. Why ask anyone, when the agent will answer instantly and the spec has already decided? But a skipped question doesn't disappear. It turns into a guess, and guesses compound.
+
 ### A wrong guess compounds
 
 Misunderstandings get built on, so the cheapest moment to correct one is the moment it happens. Feedback in minutes beats feedback each iteration, which beats feedback at the end. This is the argument behind pairing, TDD, automated testing, and many other XP practices.
@@ -56,9 +58,9 @@ Misunderstandings get built on, so the cheapest moment to correct one is the mom
 
 XP went further, and claimed its practices could flatten the cost-of-change curve: with small steps, tests and refactoring, changing your mind late would cost little more than changing it early. It's the same promise people make about agents today. **But XP's flat curve rested on the customer being there to catch the wrong turns early.** Having a customer in the room was always a bet that their time cost less than building the wrong thing. Take them away and the curve bends right back up.
 
-It's also why the practice was about being *together*, not just being available. Context travels through conversation, overheard talk and shared artefacts, not through handoffs. The on-site customer didn't just answer questions. They were around, and the team absorbed the domain by being near it.
+It's also why the practice was about being *together*, not just being available. Context travels through conversation, overheard talk (aka [Osmotic Communication]({% post_url 2022-02-20-remote-isnt-distributed %})) and shared artefacts, not through handoffs. The on-site customer didn't just answer questions. They were around, and the team absorbed the domain by being near it.
 
-The practice didn't survive contact with reality unchanged. In the second edition, in 2004, Beck folded it into Whole Team, with Real Customer Involvement as a corollary practice, something you build up to rather than start with. <!-- VERIFY wording and reasoning --> The industry had found that a full-time customer was hard to come by, and had filled the gap with proxies. Beck didn't drop the principle. He made it a property of the team.
+The practice didn't survive contact with reality unchanged. In the second edition, in 2004, Beck reframes customer involvement as something you build up to rather than start with. The industry has found that a full-time customer is hard to come by, and has filled the gap with proxies. But Beck didn't drop the principle, instead he folded it a property of the team, in the form of cross-functional domain experts who sit along side the engineers.
 
 ## Skipping the conversation
 
