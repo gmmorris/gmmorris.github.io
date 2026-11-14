@@ -10,7 +10,7 @@ image: "/images/banners/wicked-problems.png"
 image-desc-link: "/images/banners/wicked-problems.png"
 ---
 {% capture footnotes %}
-This has a cost, and I've felt it. On the XP teams I've been part of, knowledge lived in conversations, which meant it lived in people. The old-timers knew why the system worked the way it did, and when they left, the reasons often left with them. Tests were meant to be the documentation, and they're good at recording *what* the software does, but in my experience they're poor at recording *why*. I've [written before]({% post_url 2022-02-22-a-chain-of-archived-context %}) about how much context we lose this way, and it's part of why SDD's promise appeals to me: the decisions finally have somewhere to live.
+This has a cost, and I've felt it. On the XP teams I've been part of, knowledge lived in conversations, which meant it lived in people. The old-timers knew why the system worked the way it did, and when they left, the reasons often left with them. Tests were meant to be the documentation, and they're good at recording *what* the software does, but in my experience they're poor at recording *why*. I've [written before]({% post_url 2022-02-22-a-chain-of-archived-context %}) about how much context we lose this way, and it's part of why the appeal of SDD resonates with me. That said, I'm a big advocate of [Architecture Decision Records](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) (ADRs) as the answer to this, rather than a spec for every piece of code written. I suspect we'll end up with far more specs than we ever needed ADRs.
 {% endcapture %}
 
 
@@ -48,7 +48,7 @@ I'm a big fan of an internal saying at Spotify — "Talk is cheap" — usually a
 
 ### A wrong guess compounds
 
-Misunderstandings get built on, so the cheapest moment to correct one is the moment it happens. Feedback in minutes beats feedback each iteration, which beats feedback at the end.
+Misunderstandings get built on, so the cheapest moment to correct one is the moment it happens. Feedback in minutes beats feedback each iteration, which beats feedback at the end. This is the argument behind pairing, TDD, automated testing, and many other XP practices.
 
 This is where XP made its boldest claim: that its practices could flatten the cost-of-change curve. The conventional wisdom, going back to Barry Boehm's work in 1981, was that the later you discover a mistake, the more expensive it is to fix. <!-- VERIFY: Boehm 1981, and Beck's framing of the flattened curve --> XP argued that with small steps, tests and refactoring you could defer decisions safely. **But that flat curve rested on the customer being there to catch the wrong turns early.** Having a customer in the room was always a bet that their time cost less than building the wrong thing. Take them away and the curve bends right back up.
 
