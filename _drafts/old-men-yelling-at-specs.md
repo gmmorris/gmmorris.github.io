@@ -5,6 +5,7 @@ categories: [Agentic Extreme Programming]
 tags: [extreme programming, spec-driven development, wicked problems, customers, AI, agents]
 icon: seedling
 description: "Spec-driven development will be misunderstood the same way Agile was. It works for discovering one small step of a wicked problem with the customer, and fails when we use it to plan the whole thing ahead of time."
+image-desc: "The Clockmaker's Counter"
 image: "/images/banners/wicked-problems.png"
 image-desc-link: "/images/banners/wicked-problems.png"
 ---
@@ -15,9 +16,9 @@ On one side are the agile veterans. They watch a team hand an agent a feature re
 
 On the other side are the people actually shipping with agents, who are tired of being told they're doing it wrong by people who learned their craft at a time where many of the constraints were objectively different. The tools have changed. Writing a spec used to be expensive and now it's nearly free. Rework used to be painful and now an agent will rewrite the module before lunch. *Why should the rules from 2001 still apply?*
 
-[To rewrite]
-I think both sides make solid points, but both are missing much of the nuance. : Adocated of Spec-driven development (SDD) are not arguing for a writen-down version of vibe-coding, where the spec describes an entire product; the opposite, many of them argue for small steps to be suitably documents. But this is doomed to fail, because human nature. **SDD is going to be misunderstood in exactly the way Agile was.** Used as a tool for working out the next small step of a problem *with* the customer, it's genuinely useful, and closer to XP than either camp would like to admit. But used to plan the whole problem ahead of time, it fails, and precisely in the way XP tried to tackle. The trouble is that agents make the second way the easy one and hence the path of least resistence, which most will take.
-[/To rewrite]
+I think both sides make solid points, and both are missing some of the nuance. Most advocates of spec-driven development (SDD) aren't arguing for a written-down version of vibe coding, with a single spec describing an entire product. Many of them argue for the opposite: small steps, each suitably documented. GitHub's [Spec Kit](https://github.com/github/spec-kit/blob/main/spec-driven.md) works one feature at a time, and describes requirements and design as "continuous activities rather than discrete phases". Kiro, Amazon's agentic IDE, likewise scopes each spec to a single feature. <!-- VERIFY Kiro against kiro.dev docs -->
+
+The trouble is human nature, and the tools don't help. When Birgitta Böckeler [tried these tools](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html) for Thoughtworks, a small bug fix in Kiro turned into four user stories with sixteen acceptance criteria. <!-- VERIFY against the article; only secondhand summaries read so far --> **SDD is going to be misunderstood in exactly the way Agile was.** Used to work out the next small step of a problem *with* the customer, it's genuinely useful, and closer to XP than either camp would like to admit. Used to plan the whole problem ahead of time, it fails, in precisely the way XP set out to avoid. And agents make the second way the easy one. It's the path of least resistance, and most of us will take it.
 
 ## Why XP put the customer in the room
 
