@@ -21,7 +21,7 @@
   <path d="M362.5,372.2 A84,84 0 1 1 397.5,372.2" fill="none" stroke="#1f7a6d" stroke-width="3" marker-end="url(#arrow-team)"/>
   <text font-size="12" fill="#1f7a6d"><textPath href="#lbl1" startOffset="50%" text-anchor="middle"><tspan font-weight="600">Generated tests</tspan> · minutes</textPath></text>
   <path d="M355.9,403.5 A116,116 0 1 1 404.1,403.5" fill="none" stroke="#a0a0a0" stroke-width="3" stroke-dasharray="6 6" marker-end="url(#arrow-skip)"/>
-  <text font-size="12" fill="#a0a0a0"><textPath href="#lbl2" startOffset="50%" text-anchor="middle"><tspan font-weight="600">Ask the customer</tspan> · skipped</textPath></text>
+  <text font-size="12" fill="#a0a0a0"><textPath href="#lbl2" startOffset="50%" text-anchor="middle"><tspan font-weight="600">Pair negotiation</tspan> · skipped</textPath></text>
   <path d="M349.2,434.8 A148,148 0 1 1 410.8,434.8" fill="none" stroke="#1f7a6d" stroke-width="3" marker-end="url(#arrow-team)"/>
   <text font-size="12" fill="#1f7a6d"><textPath href="#lbl3" startOffset="50%" text-anchor="middle"><tspan font-weight="600">Stand-up</tspan> · one day</textPath></text>
   <path d="M342.6,466.1 A180,180 0 1 1 417.4,466.1" fill="none" stroke="#a0a0a0" stroke-width="3" stroke-dasharray="6 6" marker-end="url(#arrow-skip)"/>

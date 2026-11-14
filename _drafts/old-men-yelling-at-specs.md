@@ -64,8 +64,6 @@ It's also why the practice was about being *together*, not just being available.
 
 Agents haven't changed why the conversation matters. They've changed how easy it is to do without it, and what it costs when you do.
 
-![The same feedback loops with agents and a big spec: the agent loop is faster, but the conversations with the customer are skipped until they see the result](/images/2026/11/agent-feedback-loops.svg)
-
 ### The guess got fluent
 
 The stall is gone. You never have to wait for an answer, because the agent will happily fill the gap, with a business rule that sounds plausible and a justification to match. **But filling the gap is still guessing.** It's just guessing fluently, and at scale, and the developer is now often not even the one making the guess. I [wrote recently]({% post_url 2026-11-08-whose-decision-was-that-anyway %}) about how readily we adopt an agent's lean as our own. A business rule invented by an agent, accepted by an engineer and buried in line 412 of a spec is a business decision made by two wrong parties, and neither of them will remember making it.
@@ -74,7 +72,7 @@ The stall is gone. You never have to wait for an answer, because the agent will 
 
 The modern version of the flat-curve claim is that agents make rework cheap. That's true in the short term: if you catch a mistake the same afternoon, an agent really can make undoing it almost free. But the later a decision is reversed, the more has been built on top of it, and agents build on top of things *very* quickly. **Agents flatten the cost of producing code, not the cost of being wrong.**
 
-![The cost-of-change curve: traditional, XP's promise, and agents without the conversation](/images/2026/11/cost-of-change-curves.svg)
+![The same feedback loops with agents and a big spec: the agent loop is faster, but the conversations with the pair and the customer are skipped until they see the result](/images/2026/11/agent-feedback-loops.svg)
 
 And it isn't only a theoretical worry. [Some engineers are starting to notice it](https://lnkd.in/p/es9MVCJV) day to day: when an agent hits a bug, it patches the one case in front of it rather than stepping back to question the design that caused it, even when explicitly asked to rethink. Each patch is another thing built on top of the original decision, which makes that decision more expensive to undo. Agents haven't made rework cheaper. They've made it easier to put off.
 

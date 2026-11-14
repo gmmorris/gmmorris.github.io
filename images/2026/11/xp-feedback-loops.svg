@@ -20,8 +20,8 @@
   </g>
   <path d="M362.5,372.2 A84,84 0 1 1 397.5,372.2" fill="none" stroke="#1f7a6d" stroke-width="3" marker-end="url(#arrow-team)"/>
   <text font-size="12" fill="#1f7a6d"><textPath href="#lbl1" startOffset="50%" text-anchor="middle"><tspan font-weight="600">Unit tests</tspan> · minutes</textPath></text>
-  <path d="M355.9,403.5 A116,116 0 1 1 404.1,403.5" fill="none" stroke="#c27c0e" stroke-width="3" marker-end="url(#arrow-cust)"/>
-  <text font-size="12" fill="#c27c0e"><textPath href="#lbl2" startOffset="50%" text-anchor="middle"><tspan font-weight="600">Ask the customer</tspan> · minutes</textPath></text>
+  <path d="M355.9,403.5 A116,116 0 1 1 404.1,403.5" fill="none" stroke="#1f7a6d" stroke-width="3" marker-end="url(#arrow-team)"/>
+  <text font-size="12" fill="#1f7a6d"><textPath href="#lbl2" startOffset="50%" text-anchor="middle"><tspan font-weight="600">Pair negotiation</tspan> · hours</textPath></text>
   <path d="M349.2,434.8 A148,148 0 1 1 410.8,434.8" fill="none" stroke="#1f7a6d" stroke-width="3" marker-end="url(#arrow-team)"/>
   <text font-size="12" fill="#1f7a6d"><textPath href="#lbl3" startOffset="50%" text-anchor="middle"><tspan font-weight="600">Stand-up</tspan> · one day</textPath></text>
   <path d="M342.6,466.1 A180,180 0 1 1 417.4,466.1" fill="none" stroke="#c27c0e" stroke-width="3" marker-end="url(#arrow-cust)"/>
@@ -34,5 +34,5 @@
   <text x="58" y="34" font-size="12" fill="#333">Within the team</text>
   <line x1="20" y1="52" x2="50" y2="52" stroke="#c27c0e" stroke-width="3"/>
   <text x="58" y="56" font-size="12" fill="#333">With the customer</text>
-  <text x="708" y="548" font-size="11" fill="#888" text-anchor="end">Adapted from Don Wells' XP feedback loops</text>
+  <text x="708" y="548" font-size="11" fill="#888" text-anchor="end">After Don Wells' XP feedback loops</text>
 </svg>
