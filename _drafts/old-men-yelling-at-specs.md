@@ -5,38 +5,33 @@ categories: [Agentic Extreme Programming]
 tags: [extreme programming, spec-driven development, wicked problems, customers, AI, agents]
 icon: seedling
 description: "Spec-driven development will be misunderstood the same way Agile was. It works for discovering one small step of a wicked problem with the customer, and fails when we use it to plan the whole thing ahead of time."
-# TODO: banner image
+image: "/images/banners/wicked-problems.png"
+image-desc-link: "/images/banners/wicked-problems.png"
 ---
-<!--
-STRAW DRAFT. Not for publishing. Things marked VERIFY need checking against
-primary sources before any of this survives.
--->
 
-There's a familiar argument playing out at the moment, and I'm on both sides of it.
+There's an interesting argument playing out at the moment, and I think it's one of those cases where both sides make a lot of sense.
 
-On one side are the agile veterans. They watch a team hand an agent a feature request, get back a few thousand lines of `spec.md`, approve it, and let the agent build the lot. They recognise the shape immediately: requirements gathered up front, a big document signed off, a long build, and the customer at the far end of it. *That's waterfall*, they shout. *We spent twenty years getting away from this.*
+On one side are the agile veterans. They watch a team hand an agent a feature request, get back a few thousand lines of `plan.md`, approve it, and let the agent build the lot. They recognise the shape immediately: requirements gathered up front, a big document signed off, a long build, and the customer at the far end of it. *That's waterfall*, they shout. *We spent twenty years getting away from this.*
 
-On the other side are the people actually shipping with agents, who are tired of being told they're doing it wrong by people who learned their craft when typing was the bottleneck. The tools have changed. Writing a spec used to be expensive and now it's nearly free. Rework used to be painful and now an agent will rewrite the module before lunch. Why should the rules from 2001 still apply?
+On the other side are the people actually shipping with agents, who are tired of being told they're doing it wrong by people who learned their craft at a time where many of the constraints were objectively different. The tools have changed. Writing a spec used to be expensive and now it's nearly free. Rework used to be painful and now an agent will rewrite the module before lunch. *Why should the rules from 2001 still apply?*
 
-I think both sides are right, and both are missing something. **Spec-driven development is going to be misunderstood in exactly the way Agile was.** Used as a tool for working out the next small step of a problem *with* the customer, it's genuinely useful, and closer to XP than either camp would like to admit. Used to plan the whole problem ahead of time, it fails, and it fails most on the problems that matter most. The trouble is that agents make the second way the easy one.
+[To rewrite]
+I think both sides make solid points, but both are missing much of the nuance. : Adocated of Spec-driven development (SDD) are not arguing for a writen-down version of vibe-coding, where the spec describes an entire product; the opposite, many of them argue for small steps to be suitably documents. But this is doomed to fail, because human nature. **SDD is going to be misunderstood in exactly the way Agile was.** Used as a tool for working out the next small step of a problem *with* the customer, it's genuinely useful, and closer to XP than either camp would like to admit. But used to plan the whole problem ahead of time, it fails, and precisely in the way XP tried to tackle. The trouble is that agents make the second way the easy one and hence the path of least resistence, which most will take.
+[/To rewrite]
 
 ## Why XP put the customer in the room
 
-When Kent Beck wrote *Extreme Programming Explained* in 1999, the **On-Site Customer** was one of the original twelve practices: a real customer, sitting with the team, answering questions and making priority calls as the work happened. <!-- VERIFY against both editions -->
+When Kent Beck wrote *Extreme Programming Explained* in 1999, the **On-Site Customer** was one of the original twelve practices: a real customer, sitting with the team, answering questions and making priority calls as the work happened.
 
-It's easy to remember this as a convenience: someone to ask. That was never the point. XP started from the assumption that requirements are *discovered*, not specified. No document captures them up front, because you don't know what the customer needs until you've built a little and watched them react, and often they don't know either. That's why a user story was never a spec. It's a placeholder for a conversation.
+It's easy to misintepret this as a simple convenience: someone to ask. That was never the point. XP starts from the assumption that requirements are *discovered*, not specified. No document captures them up front, because you don't know what the customer needs until you've built a little and watched them react, and often they don't know either. That's why a user story was never a spec. It's a placeholder for a conversation.
 
 ### Talk is cheap
 
-A developer with an unanswered question has two options: stall, or guess. Stalling is expensive, so most people guess, and every guess is a small bet that nobody agreed to. Sitting together made an answer cost minutes rather than days, so people asked instead.
+A developer with an unanswered question has two options: stall, or guess. Stalling is expensive, so most people guess, and every guess is a small bet that the team has now taken. Sitting together made an answer cost minutes rather than days, so people ask instead.
 
-"Talk is cheap" is usually a put-down: stop discussing it, and show me the code. At Spotify, it's reportedly an internal saying that means the opposite: debate thoroughly before building, because talking costs very little and building the wrong thing costs a great deal. That's the economics behind the on-site customer. A five-minute conversation is the cheapest feedback loop there is.
+**Every line of code is a business decision**. Whether an expired discount still applies at checkout, what happens to a half-finished order, which error a customer sees and what it tells them: none of these feel like business decisions when you're writing them, and all of them are. A developer who isn't regularly talking to the customer, and to the rest of the business, is still making those decisions. They're just making them alone, as the wrong person, without noticing.
 
-### Every line of code is a business decision
-
-XP's planning game splits decisions deliberately. Business people decide scope, priority and dates. Technical people decide estimates and technical consequences.
-
-But that split is harder to hold than it looks, because **every line of code is a business decision**. Whether an expired discount still applies at checkout, what happens to a half-finished order, which error a customer sees and what it tells them: none of these feel like business decisions when you're writing them, and all of them are. A developer who isn't regularly talking to the customer, and to the rest of the business, is still making those decisions. They're just making them alone, as the wrong person, without noticing.
+I'm a big fan of an internal saying at Spotify — "Talk is cheap" — usually a put-down, the Spotify team use it to mean the opposite: debate thoroughly before building, because talking costs very little and building the wrong thing costs a great deal. That's the economics behind the on-site customer. A five-minute conversation is the cheapest feedback loop there is.
 
 ### A wrong guess compounds
 
