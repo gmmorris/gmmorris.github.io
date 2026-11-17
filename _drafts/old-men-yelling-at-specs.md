@@ -18,9 +18,9 @@ This has a cost, and I've felt it. On the XP teams I've been part of, knowledge 
 
 His audience is the Mercury Seven: America's first astronauts, the best pilots the military had, and the men who'll be sitting in that thing when it leaves the atmosphere. They are the customer, and until this moment nobody has brought them into the room. So the machine the engineer is presenting, in [this scene from *The Right Stuff*](https://www.youtube.com/watch?v=C-qEmmpGYvA), doesn't need them at all. It flies itself. There's no window, no hatch they can open, nothing to steer with.
 
-By the end of the scene the astronauts have all three, and the engineer has been corrected twice. Not on his design, but on his vocabulary. It isn't a capsule, it's a *spacecraft*. And the man inside isn't the "astronaut occupant". He's the *pilot*.
+By the end of the scene the astronauts have all three. That's what the engineer gives them. What they give him is harder to see: a correct understanding of what he's been building. It isn't a capsule, it's a *spacecraft*. And the man inside isn't the "astronaut occupant". He's the *pilot*.
 
-The words were the requirements. An occupant doesn't need a window or controls. A pilot does. Nobody could have written those words down in advance, because the engineers didn't know they were wrong until the people who'd fly the thing heard them.
+No spec survives contact with the customer. Months of careful design had produced exactly the right machine for a passenger. But his customer was a pilot.
 
 If you've been following the debate around AI agents lately, some of this may sound familiar. It's at the heart of an argument playing out at the moment, and I think it's one of those cases where both sides make a lot of sense.
 
