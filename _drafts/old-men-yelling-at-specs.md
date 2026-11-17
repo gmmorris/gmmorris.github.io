@@ -130,3 +130,10 @@ The veterans are right: the customer matters more than the spec, and on a wicked
 That second part is where I've been spending most of my time lately. If an agent can build something before the meeting is booked, then maybe the meeting should be about what it built. I've been experimenting with a few ways of using agents to get closer to the customer, more often and more cheaply: throwaway prototypes that exist only to start a conversation, and ways of putting them in front of customers without making promises the sales team will regret. That deserves a post of its own, and it's the one I'll write next.
 
 Until then, the lesson from the Mercury Seven still holds. **Write the spec for the next step, not the whole problem.** Then show it to the people who'll fly it, and find out what you got wrong.
+
+
+{% capture xp-decision-documentatin %}
+This has a cost, and I've felt it. On the XP teams I've been part of, knowledge lived in conversations, which meant it lived in people. The old-timers knew why the system worked the way it did, and when they left, the reasons often left with them. Tests were meant to be the documentation, and they're good at recording *what* the software does, but in my experience they're poor at recording *why*. I've [written before]({% post_url 2022-02-22-a-chain-of-archived-context %}) about how much context we lose this way, and it's part of why the appeal of SDD resonates with me. That said, I'm a big advocate of [Architecture Decision Records](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) (ADRs) as the answer to this, rather than a spec for every piece of code written. I suspect we'll end up with far more specs than we ever needed ADRs.
+{% endcapture %}
+
+{% include footnotes/footnote.html notes=xp-decision-documentatin %}
