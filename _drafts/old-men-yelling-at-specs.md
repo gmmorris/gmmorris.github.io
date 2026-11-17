@@ -97,29 +97,17 @@ By now you might be thinking: surely this is a solved problem. If specs are full
 
 Sometimes that works. Whether it does depends less on how hard you try than on what kind of problem you're facing.
 
-In 1973, Horst Rittel and Melvin Webber published *Dilemmas in a General Theory of Planning*, and gave us a distinction I keep coming back to: **tame problems** and **wicked problems**.
+In 1973, Horst Rittel and Melvin Webber published *Dilemmas in a General Theory of Planning*, and gave us a distinction I keep coming back to: *tame problems* and *wicked problems*.
 
-A tame problem can be fully specified before you start. You know when you've solved it, and the solution is either right or wrong. A wicked problem is different: you can't define it until you've tried to solve it, there's no point at which it's clearly done, and every attempt changes the problem. As they put it, the information needed to understand the problem depends on one's idea for solving it. <!-- VERIFY exact quote -->
+A tame problem can be fully specified before you start. You know when you've solved it, and the solution is either right or wrong. A wicked problem is different: you can't define it until you've tried to solve it, there's no point at which it's clearly done, and every attempt changes the problem. As they put it, *the information needed to understand the problem depends on one's idea for solving it*.
 
-I want to be clear about this, because the agile camp often isn't: **for tame problems, writing the spec up front is fine, and often the best thing to do.** A CSV parser, a migration between two well-documented APIs, a CRUD service over a known schema. Write it down, hand it to the agent, check the result. That's where spec-driven development earned its reputation, and it deserves it.
+I want to be clear about this, because the agile camp often isn't: **for tame problems, writing the spec up front is fine, and often the best thing to do.** A CSV parser, a migration between two well-documented APIs, a CRUD service over a known schema. Write it down, hand it to the agent, check the result. That's where spec-driven development is a no-brainer.
 
-Wicked problems are where it breaks. Not because people aren't disciplined enough to write a good spec, and not because nobody asked the customer. Requirements gathering assumes the customer already knows what they need and is just waiting to be asked. On a wicked problem they don't, and neither do you. The astronauts didn't know to ask for a window until they saw a spacecraft without one. The information the spec needs **doesn't exist yet**. It's created by building something small, putting it in front of people, and watching what they do with it.
+**Wicked problems are where it breaks.** Not because people aren't disciplined enough to write a good spec, and not because nobody asked the customer. Requirements gathering assumes the customer already knows what they need and is just waiting to be asked. On a wicked problem they don't, and neither do you. The astronauts didn't know to ask for a window until they saw a spacecraft without one. The information the spec needs **doesn't exist yet**. It's created by building something small, putting it in front of people, and watching what they do with it.
 
-If that sounds like an exaggeration, look at what happens when experts' ideas are actually tested. Ron Kohavi and his colleagues ran online experimentation at Microsoft for years, and found that only about a third of the ideas they tested improved the metric they were designed to improve. On mature products like Bing, the success rate was lower still. <!-- VERIFY figures against Kohavi et al. and "Trustworthy Online Controlled Experiments" (2020) --> These were experienced people, with data, building things they believed in. **A spec is a stack of untested ideas**, and on a wicked problem most of them will be wrong in ways nobody can see until they meet users.
-
-## Wicked problems in disguise
+### Wicked problems in disguise
 
 The obvious wicked problems aren't the dangerous ones. Nobody sits down to spec "fix healthcare" in one go. The dangerous ones look tame: a checkout flow, an onboarding form, a reporting dashboard. They look like CRUD until real people start using them, and then they turn out to be about trust, or fear, or politics, or something nobody in the planning meeting would have guessed.
-
-<!--
-ANECDOTE GOES HERE. Candidates so far: the Lucky Iron Fish (shape mattered more
-than chemistry; later, possibly the wrong problem), Nextdoor's posting flow
-(adding friction reduced racial profiling), M-Pesa (built for loan repayments,
-used to send money home). Ideally something surprising that only showed up
-because someone shipped a small step and watched.
--->
-
-> **[Anecdote: a problem that looked tame, and a discovery that no up-front spec would have contained.]**
 
 **You often can't tell a problem is wicked until you've started building it.** Which means the first step of any spec has to be small enough to tell you what kind of problem you're dealing with.
 
@@ -129,23 +117,11 @@ So if most of a big spec is going to be wrong, why does it keep winning?
 
 I've [written before]({% post_url 2026-11-08-whose-decision-was-that-anyway %}) about the path of least resistance, and this is another version of it. **The customer's attention is the scarcest thing on any project.** Every conversation has to be booked, prepared for and followed up. Writing everything down once, and sparing everyone the conversations, is enormously tempting. Agents have made it almost free. So specs balloon, because the cheapest thing to produce is more spec.
 
-It doesn't help that a big spec *feels* like progress. In METR's 2025 study, experienced open-source developers were measurably slower with AI tools, while believing they'd been faster. <!-- VERIFY numbers --> A few thousand lines of well-structured spec feel like a lot of progress. They might not be.
-
 And for most engineers, the customer was never in the room anyway. In most companies I've worked with, the customer isn't someone who turns up asking for things. It's someone the sales team spent months courting, and account managers can be fiercely protective of them, often with good reason. Engineers are honest about the product in ways that can be alarming to a customer who's still deciding whether to trust you. So there are guardrails, and gatekeeping, and an hour a fortnight if you're lucky.
 
-This isn't a new problem. Even XP's on-site customer didn't survive contact with reality unchanged. In the second edition, in 2004, Beck reframes customer involvement as something you build up to rather than start with. The industry has found that a full-time customer is hard to come by, and has filled the gap with proxies. But Beck didn't drop the principle, instead he made it a property of the team, in the form of cross-functional domain experts who sit alongside the engineers.
+This isn't a new problem. Even XP's on-site customer didn't survive contact with reality. In the second edition, in 2004, Beck reframes customer involvement as something you build up to rather than start with. The industry has found that a full-time customer is hard to come by, and has filled the gap with proxies. But Beck didn't drop the principle, instead he made it a property of the team, in the form of cross-functional domain experts who sit alongside the engineers.
 
 Back then, proxies filled the gap. Today, the big spec does.
-
-Multiply that across an industry and you get the numbers we're starting to see. <!-- TODO: DORA 2025 on user-centric focus, if it says what I think it says; CircleCI 2026 State of Software Delivery figures on spend vs. outcomes --> [Placeholder: we're spending more on AI than ever, and getting less back.]
-
-## Where SDD and XP actually agree
-
-Here's the part I think both camps miss. **Test-driven development was always spec-driven development, at the smallest possible scale.** You write the spec as a failing test, make it pass, and find out what you got wrong. XP's story cards and acceptance tests were specs too. Nobody in XP was against writing down what you intend to build.
-
-So the real argument isn't spec versus no spec. It's **how far ahead of the feedback the spec runs.** A spec for the next small step, written with the customer and checked against their reaction before the next one is written, is about as XP as it gets. A spec for the whole problem, written before anyone outside the team has seen anything, is the thing the old men are shouting about, and they're right to.
-
-Step size matters for another reason. A big spec bundles together requirements from different people, and some of them will conflict: sales wants one thing, support wants another. A customer in the room would make someone choose. An agent won't. Hand it two conflicting requirements and it will find a way to satisfy both on paper, which usually means neither in practice. The conflict doesn't get resolved; it gets hidden, somewhere deep in a large change nobody reads closely. Small steps surface those conflicts while there's still someone to settle them.
 
 ## Using agents to get to the customer
 
