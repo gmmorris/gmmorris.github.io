@@ -1,40 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" width="720" height="560" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
   <title>Feedback loops with agents and a big spec</title>
   <rect width="720" height="560" fill="#ffffff"/>
-  <defs>
-    <marker id="arrow-team" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1f7a6d"/></marker>
-    <marker id="arrow-cust" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c27c0e"/></marker>
-    <marker id="arrow-skip" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#a0a0a0"/></marker>
-    <path id="lbl1" d="M309.0,290.0 A71,71 0 0 1 451.0,290.0"/>
-    <path id="lbl2" d="M277.0,290.0 A103,103 0 0 1 483.0,290.0"/>
-    <path id="lbl3" d="M245.0,290.0 A135,135 0 0 1 515.0,290.0"/>
-    <path id="lbl4" d="M213.0,290.0 A167,167 0 0 1 547.0,290.0"/>
-    <path id="lbl5" d="M181.0,290.0 A199,199 0 0 1 579.0,290.0"/>
-    <path id="lbl6" d="M149.0,290.0 A231,231 0 0 1 611.0,290.0"/>
-  </defs>
-  <path d="M369.2,340.9 A52,52 0 1 1 390.8,340.9" fill="none" stroke="#1f7a6d" stroke-width="3" marker-end="url(#arrow-team)"/>
-  <g text-anchor="middle" fill="#1f7a6d">
-    <text x="380" y="278" font-size="12" font-weight="600">Agent</text>
-    <text x="380" y="294" font-size="12" font-weight="600">iteration</text>
-    <text x="380" y="310" font-size="11">seconds</text>
-  </g>
-  <path d="M362.5,372.2 A84,84 0 1 1 397.5,372.2" fill="none" stroke="#1f7a6d" stroke-width="3" marker-end="url(#arrow-team)"/>
-  <text font-size="12" fill="#1f7a6d"><textPath href="#lbl1" startOffset="50%" text-anchor="middle"><tspan font-weight="600">Generated tests</tspan> · minutes</textPath></text>
-  <path d="M355.9,403.5 A116,116 0 1 1 404.1,403.5" fill="none" stroke="#a0a0a0" stroke-width="3" stroke-dasharray="6 6" marker-end="url(#arrow-skip)"/>
-  <text font-size="12" fill="#a0a0a0"><textPath href="#lbl2" startOffset="50%" text-anchor="middle"><tspan font-weight="600">Pair negotiation</tspan> · skipped</textPath></text>
-  <path d="M349.2,434.8 A148,148 0 1 1 410.8,434.8" fill="none" stroke="#1f7a6d" stroke-width="3" marker-end="url(#arrow-team)"/>
-  <text font-size="12" fill="#1f7a6d"><textPath href="#lbl3" startOffset="50%" text-anchor="middle"><tspan font-weight="600">Stand-up</tspan> · one day</textPath></text>
-  <path d="M342.6,466.1 A180,180 0 1 1 417.4,466.1" fill="none" stroke="#a0a0a0" stroke-width="3" stroke-dasharray="6 6" marker-end="url(#arrow-skip)"/>
-  <text font-size="12" fill="#a0a0a0"><textPath href="#lbl4" startOffset="50%" text-anchor="middle"><tspan font-weight="600">Acceptance tests</tspan> · skipped</textPath></text>
-  <path d="M335.9,497.4 A212,212 0 1 1 424.1,497.4" fill="none" stroke="#1f7a6d" stroke-width="3" marker-end="url(#arrow-team)"/>
-  <text font-size="12" fill="#1f7a6d"><textPath href="#lbl5" startOffset="50%" text-anchor="middle"><tspan font-weight="600">Spec review</tspan> · once</textPath></text>
-  <path d="M329.3,528.7 A244,244 0 1 1 430.7,528.7" fill="none" stroke="#c27c0e" stroke-width="3" marker-end="url(#arrow-cust)"/>
-  <text font-size="12" fill="#c27c0e"><textPath href="#lbl6" startOffset="50%" text-anchor="middle"><tspan font-weight="600">Customer sees it</tspan> · months</textPath></text>
+  <line x1="100" y1="510" x2="690" y2="510" stroke="#555" stroke-width="2"/>
+  <path d="M690,504 L702,510 L690,516 z" fill="#555"/>
+  <text x="700" y="532" font-size="12" fill="#555" text-anchor="end">time</text>
+  <circle cx="400" cy="264" r="246" fill="none" stroke="#c27c0e" stroke-width="3"/>
+  <path d="M147,270 L154,256 L161,270 z" fill="#c27c0e"/>
+  <circle cx="400" cy="296" r="214" fill="none" stroke="#1f7a6d" stroke-width="3"/>
+  <path d="M179,302 L186,288 L193,302 z" fill="#1f7a6d"/>
+  <circle cx="400" cy="328" r="182" fill="none" stroke="#a0a0a0" stroke-width="3" stroke-dasharray="6 6"/>
+  <path d="M211,334 L218,320 L225,334 z" fill="#a0a0a0"/>
+  <circle cx="400" cy="360" r="150" fill="none" stroke="#1f7a6d" stroke-width="3"/>
+  <path d="M243,366 L250,352 L257,366 z" fill="#1f7a6d"/>
+  <circle cx="400" cy="392" r="118" fill="none" stroke="#a0a0a0" stroke-width="3" stroke-dasharray="6 6"/>
+  <path d="M275,398 L282,384 L289,398 z" fill="#a0a0a0"/>
+  <circle cx="400" cy="424" r="86" fill="none" stroke="#1f7a6d" stroke-width="3"/>
+  <path d="M307,430 L314,416 L321,430 z" fill="#1f7a6d"/>
+  <circle cx="400" cy="456" r="54" fill="none" stroke="#1f7a6d" stroke-width="3"/>
+  <path d="M339,462 L346,448 L353,462 z" fill="#1f7a6d"/>
+  <g text-anchor="middle" fill="#1f7a6d"><text x="400" y="446" font-size="12" font-weight="600">Agent</text><text x="400" y="460" font-size="12" font-weight="600">iteration</text><text x="400" y="475" font-size="11">seconds</text></g>
+  <g text-anchor="middle" fill="#1f7a6d"><text x="400" y="357" font-size="12" font-weight="600">Generated tests</text><text x="400" y="371" font-size="11">minutes</text></g>
+  <g text-anchor="middle" fill="#a0a0a0"><text x="400" y="293" font-size="12" font-weight="600">Pair negotiation</text><text x="400" y="307" font-size="11">skipped</text></g>
+  <g text-anchor="middle" fill="#1f7a6d"><text x="400" y="229" font-size="12" font-weight="600">Stand-up</text><text x="400" y="243" font-size="11">one day</text></g>
+  <g text-anchor="middle" fill="#a0a0a0"><text x="400" y="165" font-size="12" font-weight="600">Acceptance tests</text><text x="400" y="179" font-size="11">skipped</text></g>
+  <g text-anchor="middle" fill="#1f7a6d"><text x="400" y="101" font-size="12" font-weight="600">Spec review</text><text x="400" y="115" font-size="11">once</text></g>
+  <g text-anchor="middle" fill="#c27c0e"><text x="400" y="37" font-size="12" font-weight="600">Customer sees it</text><text x="400" y="51" font-size="11">months</text></g>
+  <circle cx="400" cy="510" r="5" fill="#333"/>
   <line x1="20" y1="30" x2="50" y2="30" stroke="#1f7a6d" stroke-width="3"/>
   <text x="58" y="34" font-size="12" fill="#333">Within the team</text>
   <line x1="20" y1="52" x2="50" y2="52" stroke="#c27c0e" stroke-width="3"/>
   <text x="58" y="56" font-size="12" fill="#333">With the customer</text>
   <line x1="20" y1="74" x2="50" y2="74" stroke="#a0a0a0" stroke-width="3" stroke-dasharray="6 6"/>
   <text x="58" y="78" font-size="12" fill="#333">Skipped</text>
-  <text x="708" y="548" font-size="11" fill="#888" text-anchor="end">Illustrative</text>
+  <text x="708" y="552" font-size="11" fill="#888" text-anchor="end">Illustrative</text>
 </svg>
