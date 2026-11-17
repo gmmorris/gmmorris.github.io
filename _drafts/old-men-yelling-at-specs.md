@@ -51,7 +51,7 @@ It's easy to misinterpret the guardrail of an on-site customer as simple conveni
 
 ### Talk is cheap
 
-I hear Spotify have an internal saying: *"Talk is cheap."* It's usually a put-down, but they use it to mean the opposite: debate thoroughly before building, because talking costs very little and building the wrong thing costs a great deal. That's the economics behind the on-site customer.
+I hear Spotify have an internal saying: {% include footnotes/footnote_link.html content='*"Talk is cheap."*' count=2 %} It's usually a put-down, but they use it to mean the opposite: debate thoroughly before building, because talking costs very little and building the wrong thing costs a great deal. That's the economics behind the on-site customer.
 
 A developer with an unanswered question has two options: stall, or guess. Stalling is expensive, so most people guess, and every guess is a small bet. Sitting your team together, including the customer, makes it cheaper to answer questions, so people ask instead.
 
@@ -124,8 +124,10 @@ That second part is where I'm spending much of my time now. If an agent can buil
 Until then, the lesson from the Mercury Seven still holds. **Write the spec for the next step, not the whole problem.** Then show it to the people who'll fly it, and find out what you got wrong.
 
 
-{% capture xp-decision-documentatin %}
+{% capture footnotes %}
 This has a cost, and I've felt it. On the XP teams I've been part of, knowledge lived in conversations, which meant it lived in people. The old-timers knew why the system worked the way it did, and when they left, the reasons often left with them. Tests were meant to be the documentation, and they're good at recording *what* the software does, but in my experience they're poor at recording *why*. I've [written before]({% post_url 2022-02-22-a-chain-of-archived-context %}) about how much context we lose this way, and it's part of why the appeal of SDD resonates with me. That said, I'm a big advocate of [Architecture Decision Records](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) (ADRs) as the answer to this, rather than a spec for every piece of code written. I suspect we'll end up with far more specs than we ever needed ADRs.
+
+I've only come across this secondhand, in recaps of Daniel Ek's appearance at the [Acquired podcast's live show](https://www.acquired.fm/episodes/spotify-ceo-daniel-ek) in 2024, where it was described as an internal saying. I haven't heard it from anyone at Spotify, so treat the attribution with a pinch of salt. The idea stands on its own either way.
 {% endcapture %}
 
-{% include footnotes/footnote.html notes=xp-decision-documentatin %}
+{% include footnotes/footnote.html notes=footnotes %}
