@@ -93,13 +93,17 @@ You could argue agents have broken the "talk is cheap" logic. *If building is ne
 
 ## Tame problems and wicked problems
 
+By now you might be thinking: surely this is a solved problem. If specs are full of guesses, talk to the customer *before* you write one. Do the requirements gathering properly: interview the people who'll use it, sit with them, write down what they tell you. Then the spec isn't a guess. It's a record.
+
+Sometimes that works. Whether it does depends less on how hard you try than on what kind of problem you're facing.
+
 In 1973, Horst Rittel and Melvin Webber published *Dilemmas in a General Theory of Planning*, and gave us a distinction I keep coming back to: **tame problems** and **wicked problems**.
 
 A tame problem can be fully specified before you start. You know when you've solved it, and the solution is either right or wrong. A wicked problem is different: you can't define it until you've tried to solve it, there's no point at which it's clearly done, and every attempt changes the problem. As they put it, the information needed to understand the problem depends on one's idea for solving it. <!-- VERIFY exact quote -->
 
 I want to be clear about this, because the agile camp often isn't: **for tame problems, writing the spec up front is fine, and often the best thing to do.** A CSV parser, a migration between two well-documented APIs, a CRUD service over a known schema. Write it down, hand it to the agent, check the result. That's where spec-driven development earned its reputation, and it deserves it.
 
-Wicked problems are where it breaks. Not because people aren't disciplined enough to write a good spec, but because the information the spec needs **doesn't exist yet**. It's created by building something small, putting it in front of people, and watching what they do with it.
+Wicked problems are where it breaks. Not because people aren't disciplined enough to write a good spec, and not because nobody asked the customer. Requirements gathering assumes the customer already knows what they need and is just waiting to be asked. On a wicked problem they don't, and neither do you. The astronauts didn't know to ask for a window until they saw a spacecraft without one. The information the spec needs **doesn't exist yet**. It's created by building something small, putting it in front of people, and watching what they do with it.
 
 If that sounds like an exaggeration, look at what happens when experts' ideas are actually tested. Ron Kohavi and his colleagues ran online experimentation at Microsoft for years, and found that only about a third of the ideas they tested improved the metric they were designed to improve. On mature products like Bing, the success rate was lower still. <!-- VERIFY figures against Kohavi et al. and "Trustworthy Online Controlled Experiments" (2020) --> These were experienced people, with data, building things they believed in. **A spec is a stack of untested ideas**, and on a wicked problem most of them will be wrong in ways nobody can see until they meet users.
 
