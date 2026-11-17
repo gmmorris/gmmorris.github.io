@@ -127,7 +127,7 @@ Back then, proxies filled the gap. Today, the big spec does.
 
 The veterans are right: the customer matters more than the spec, and on a wicked problem, a spec that runs ahead of the feedback will be wrong in ways that compound. The people shipping with agents are right too: the tools really have changed, and how we reach the customer, and what we bring to them, should change with them.
 
-That second part is where I've been spending most of my time lately. If an agent can build something before the meeting is booked, then maybe the meeting should be about what it built. I've been experimenting with a few ways of using agents to get closer to the customer, more often and more cheaply: throwaway prototypes that exist only to start a conversation, and ways of putting them in front of customers without making promises the sales team will regret. That deserves a post of its own, and it's the one I'll write next.
+That second part is where I'm spending much of my time now. If an agent can build something before the meeting is booked, then maybe the meeting should be about what it built. My team has been experimenting with a few ways of using agents to get closer to the customer, more often and more cheaply: throwaway prototypes that exist only to start a conversation, and ways of putting them in front of customers without making promises we will regret later. That deserves a post of its own, and it's the one I hope to write next.
 
 Until then, the lesson from the Mercury Seven still holds. **Write the spec for the next step, not the whole problem.** Then show it to the people who'll fly it, and find out what you got wrong.
 
