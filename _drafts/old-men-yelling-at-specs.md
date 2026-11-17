@@ -123,23 +123,10 @@ This isn't a new problem. Even XP's on-site customer didn't survive contact with
 
 Back then, proxies filled the gap. Today, the big spec does.
 
-## Using agents to get to the customer
-
-If the agent can build something before the meeting is booked, then maybe the meeting should be about what it built.
-
-One approach I've been experimenting with: build a throwaway prototype, and when you show it to a customer, frame it as **something you built for a different customer**. It isn't scalable, it isn't for sale, and it isn't on the roadmap. You're showing it to them because they seem engaged in the problem and you'd value their reaction. <!-- TODO: finish this thought, the original message was cut off -->
-
-That framing does a lot of work. It lowers the stakes for the sales team, because nobody is promising anything. It lowers the stakes for the customer, who can be honest without worrying they're committing to it. And it uses the agent's speed to *start* the conversation, instead of using it to avoid one.
-
 ## Where I've got to
 
-The old men are right: the customer matters more than the spec, and on wicked problems a spec that runs ahead of the feedback will be wrong in ways that compound. The young people are right too: the tools really have changed, and the way we reach the customer, and what we bring to them, should change with them.
+The veterans are right: the customer matters more than the spec, and on a wicked problem, a spec that runs ahead of the feedback will be wrong in ways that compound. The people shipping with agents are right too: the tools really have changed, and how we reach the customer, and what we bring to them, should change with them.
 
-**Write the spec for the next step, not the whole problem.** Then go and find out what you got wrong.
+That second part is where I've been spending most of my time lately. If an agent can build something before the meeting is booked, then maybe the meeting should be about what it built. I've been experimenting with a few ways of using agents to get closer to the customer, more often and more cheaply: throwaway prototypes that exist only to start a conversation, and ways of putting them in front of customers without making promises the sales team will regret. That deserves a post of its own, and it's the one I'll write next.
 
-
-{% capture xp-decision-documentatin %}
-This has a cost, and I've felt it. On the XP teams I've been part of, knowledge lived in conversations, which meant it lived in people. The old-timers knew why the system worked the way it did, and when they left, the reasons often left with them. Tests were meant to be the documentation, and they're good at recording *what* the software does, but in my experience they're poor at recording *why*. I've [written before]({% post_url 2022-02-22-a-chain-of-archived-context %}) about how much context we lose this way, and it's part of why the appeal of SDD resonates with me. That said, I'm a big advocate of [Architecture Decision Records](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) (ADRs) as the answer to this, rather than a spec for every piece of code written. I suspect we'll end up with far more specs than we ever needed ADRs.
-{% endcapture %}
-
-{% include footnotes/footnote.html notes=xp-decision-documentatin %}
+Until then, the lesson from the Mercury Seven still holds. **Write the spec for the next step, not the whole problem.** Then show it to the people who'll fly it, and find out what you got wrong.
