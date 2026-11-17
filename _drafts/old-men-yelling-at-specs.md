@@ -14,11 +14,15 @@ This has a cost, and I've felt it. On the XP teams I've been part of, knowledge 
 {% endcapture %}
 
 
-There's [a scene in *The Right Stuff*](https://www.youtube.com/watch?v=C-qEmmpGYvA) where the seven Mercury astronauts, every one of them a test pilot, are shown the spacecraft NASA's engineers have designed for them. It's built to fly itself. Gordon Cooper asks where the window goes. There is no window. Gus Grissom asks for a hatch with explosive bolts they can open themselves. "This is the final form of the capsule," the engineer tells him. "No hatch." Deke Slayton asks what happens if the automatic controls fail, and is told there are backups and checks, so it wouldn't happen. He asks again: what if it did? "The pilot would have to fly it back," says Scott Carpenter.
+"This is the final form of the capsule," says the engineer, and it is, for about two minutes.
 
-By the end of the scene, the astronauts have a window, a hatch and manual controls, and the engineers have been corrected on their vocabulary twice.
+His audience is the Mercury Seven: America's first astronauts, the best pilots the military had, and the men who'll be sitting in that thing when it leaves the atmosphere. They are the customer, and until this moment nobody has brought them into the room. So the machine the engineer is presenting, in [this scene from *The Right Stuff*](https://www.youtube.com/watch?v=C-qEmmpGYvA), doesn't need them at all. It flies itself. There's no window, no hatch they can open, nothing to steer with.
 
-I've been thinking about that scene a lot lately, because "this is the final form" is a sentence our industry has started writing again, a few thousand lines at a time. It's at the heart of an argument playing out at the moment, and I think it's one of those cases where both sides make a lot of sense.
+By the end of the scene the astronauts have all three, and the engineer has been corrected twice. Not on his design, but on his vocabulary. It isn't a capsule, it's a *spacecraft*. And the man inside isn't the "astronaut occupant". He's the *pilot*.
+
+The words were the requirements. An occupant doesn't need a window or controls. A pilot does. Nobody could have written those words down in advance, because the engineers didn't know they were wrong until the people who'd fly the thing heard them.
+
+If you've been following the debate around AI agents lately, some of this may sound familiar. It's at the heart of an argument playing out at the moment, and I think it's one of those cases where both sides make a lot of sense.
 
 On one side are the agile veterans. They watch a team hand an agent a feature request, get back a few thousand lines of `plan.md`, approve it, and let the agent build the lot. They recognise the shape immediately: requirements gathered up front, a big document signed off, a long build, and the customer at the far end of it. *That's waterfall*, they shout. *We spent twenty years getting away from this.*
 
@@ -46,11 +50,7 @@ That customer wasn't meant to be a product manager, or a stakeholder with opinio
 
 That's who the astronauts in *The Right Stuff* were: people who'd fly the thing, looking at what had been built for them. And notice how they won. The engineers only gave ground when John Glenn wondered aloud how the press might feel about the seven finest pilots in America not being allowed to fly, and Al Shepard cut in: "We want a window."
 
-My favourite part is what happens next. The engineers start conceding, and the conversation turns into a quibble over words. A hatch with explosive bolts on the capsule, the engineer agrees. "That is a spacecraft, sir," Shepard corrects him. "We do not refer to it as a 'capsule'." The engineer carries on: there will be thrusters to give "the astronaut occupant" some control of re-entry. "The pilot," says Slayton. "'Astronaut occupant'?"
-
-It plays as comedy, but it's the most important thing happening in the room. They're negotiating a shared language, what Eric Evans would later call the *ubiquitous language* of domain-driven design, and the words carry the requirements. An occupant doesn't need a window or controls. A pilot does. A capsule is something you put a person in. A spacecraft is something a person flies. Every term they settle on becomes an acceptance criterion, and eventually a test.
-
-You can't write that vocabulary down ahead of time, because the engineers didn't know they were using the wrong words until the people who'd do the job heard them. "This is the final form of the capsule" is what every spec says, right up until it meets its users.
+That quibble over words, which plays as comedy, is the most important thing happening in the room. They're negotiating a shared language, what Eric Evans would later call the *ubiquitous language* of domain-driven design. A capsule is something you put a person in. A spacecraft is something a person flies. Every term they settle on becomes an acceptance criterion, and eventually a test.
 
 It isn't just Hollywood. The real Mercury astronauts did push for a window, and for manual control of the spacecraft, and they got both. <!-- VERIFY: window and manual control history, e.g. NASA history office --> The engineers weren't careless. They'd built a sound answer to the problem as they understood it. What no spec could have told them was what the spacecraft meant to the people flying it: that they were pilots, not passengers. That only surfaced when the people who'd do the job saw what was being built.
 
