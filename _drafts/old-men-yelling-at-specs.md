@@ -38,6 +38,12 @@ But XP bet on conversation over documents for good reasons, and they start with 
 
 When Kent Beck wrote *Extreme Programming Explained* in 1999, the **On-Site Customer** was one of the original twelve practices: a real customer, sitting with the team, answering questions and making priority calls as the work happened.
 
+That customer wasn't meant to be a product manager, or a stakeholder with opinions. It was meant to be someone who would actually use the software: someone who does the job, lives and breathes the domain, and knows what they need because they need it every day.
+
+There's a scene in *The Right Stuff* that captures why that matters. The seven Mercury astronauts are shown the capsule NASA's engineers have designed for them. It's built to fly itself, and the astronauts, every one of them a test pilot, are essentially cargo. John Glenn starts on a careful, diplomatic speech about their concerns, and Al Shepard cuts him off: ["We want a window!"](https://www.youtube.com/watch?v=C-qEmmpGYvA)
+
+It isn't just Hollywood. The real Mercury astronauts did push for a window, and for manual control of the spacecraft, and they got both. <!-- VERIFY: window and manual control history, e.g. NASA history office --> The engineers weren't careless. They'd built a sound answer to the problem as they understood it. What no spec could have told them was what the spacecraft meant to the people flying it: that they were pilots, not passengers. That only surfaced when the people who'd do the job saw what was being built.
+
 It's easy to misintepret this as a simple convenience: someone to ask. That was never the point. XP starts from the assumption that requirements are *discovered*, not specified. No document captures them up front, because you don't know what the customer needs until you've built a little and watched them react, and often they don't know either. That's why a user story was never a spec. It's a placeholder for a conversation.
 
 ### Talk is cheap
