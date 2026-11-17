@@ -13,9 +13,9 @@ image-desc-link: "/images/banners/wicked-problems.png"
 
 "This is the final form of the capsule," says the engineer in [*The Right Stuff*](https://www.youtube.com/watch?v=C-qEmmpGYvA), and it is, for about two minutes. His audience is the Mercury Seven: America's first astronauts, the best pilots the military had, and the men who'll be sitting in that thing when it leaves the atmosphere. They're the only people in the room whose lives depend on it, yet nobody thought to show it to them until it was done, and it shows.
 
-The machine doesn't need them at all. It flies itself. There's no window, no hatch they can open, nothing to steer with. "We want a window," says Al Shepard, and by the end of the scene the astronauts have all three. That's what they gained, but what the engineer gained is just as critical: a correct understanding of what he's been building. It isn't a capsule, it's a *spacecraft*. And the man inside isn't the "astronaut occupant"; he's the *pilot*.
+The machine doesn't need them at all. It flies itself. There's no window, no hatch they can open, nothing to steer with. "We want a window," says Al Shepard, and by the end of the scene the astronauts have all three. That's what they gained, but what the engineer gained is just as crucial: a correct understanding of what he's been building. It isn't a capsule, it's a *spacecraft*. And the man inside isn't the "astronaut occupant"; he's the *pilot*.
 
-*No spec survives contact with the customer.* Months of careful design had produced exactly the right machine for a passenger. But his customer was a *pilot*.
+Months of careful design had produced exactly the right machine for a passenger. But his customer was a *pilot*.
 
 ## Here we go again
 
@@ -23,7 +23,7 @@ If you've been following the debate around AI agents lately, some of this may so
 
 On one side are veterans of the agile movement. They watch a team hand an agent a feature request, get back a few thousand lines of `plan.md`, approve it, and let the agent build the lot. They recognise the shape immediately: requirements gathered up front, a big document signed off, a large build, and the customer at the far end of it. *That's waterfall*, they shout, *we spent twenty years getting away from this.*
 
-On the other side are the people actually shipping with agents, who are tired of being told they're doing it wrong by people who learned their craft at a time where constraints were objectively different. The tools have changed. Writing a spec used to be expensive and now it's nearly free. Rework used to be painful and now an agent will rewrite the module before lunch. *Why should the rules from the last century still apply?*
+On the other side are the people actually shipping with agents, who are tired of being told they're doing it wrong by people who learned their craft at a time where constraints were objectively different. The tools have changed. Writing a spec used to be expensive and now it's nearly free. Rework used to be painful and now an agent will rewrite the module before lunch. *Why should the rules from the late 1900s still apply?*
 
 What they're arguing about is spec-driven development (SDD), and listening to both sides, I have landed on a hunch: **SDD is going to be misunderstood in exactly the way agile was.** 
 
