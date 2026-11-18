@@ -2,7 +2,7 @@
 layout: post
 title: "No Spec Survives Contact with the Customer"
 categories: [Agentic Extreme Programming]
-tags: [extreme programming, spec-driven development, wicked problems, customers, AI, agents]
+tags: [extreme programming, spec-driven development]
 icon: seedling
 description: "Spec-driven development will be misunderstood the same way Agile was. It works for discovering one small step of a wicked problem with the customer, and fails when we use it to plan the whole thing ahead of time."
 image-desc: "The Clockmaker's Counter"
