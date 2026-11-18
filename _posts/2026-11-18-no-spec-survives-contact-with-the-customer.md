@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "No Spec Survives Contact with the Customer"
+date: 2026-11-18 00:00:00
 categories: [Agentic Extreme Programming]
 tags: [extreme programming, spec-driven development]
 icon: seedling
@@ -77,7 +78,7 @@ I want to be clear about this, because the agile camp often isn't: **for tame pr
 
 ### Wicked problems in disguise
 
-The obvious wicked problems aren't the dangerous ones. The dangerous ones look tame. Take a *name* field — seemingly — about as tame as software gets. In 2014, Facebook's real-name policy began suspending the accounts of drag performers whose stage names were how the world knew them, and flagging Native American users whose names didn't look "real" enough to the system. For survivors of abuse, a different name could be a matter of safety. Facebook ended up apologising and changing the policy. <!-- VERIFY: 2014 timing, drag performer suspensions (Sister Roma), Native American cases, apology --> Behind a text field were identity, safety and culture, and none of it was in the spec, because none of it was visible until real people used it. (Patrick McKenzie catalogued [the falsehoods programmers believe about names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/) years earlier, and it's still worth a read.)
+The obvious wicked problems aren't the dangerous ones. The dangerous ones look tame. Take a *name* field — seemingly — about as tame as software gets. In 2014, Facebook's real-name policy began suspending the accounts of drag performers whose stage names were how the world knew them, and flagging Native American users whose names didn't look "real" enough to the system. For survivors of abuse, a different name could be a matter of safety. Facebook ended up apologising and changing how the policy was enforced. Behind a text field were identity, safety and culture, and none of it was in the spec, because none of it was visible until real people used it. (Patrick McKenzie catalogued [the falsehoods programmers believe about names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/) years earlier, and it's still worth a read.)
 
 **You often can't tell a problem is wicked until you've started building it.** Which means the first step of any spec has to be small enough to tell you what kind of problem you're dealing with.
 
