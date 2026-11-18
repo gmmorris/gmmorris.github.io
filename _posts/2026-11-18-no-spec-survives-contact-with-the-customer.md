@@ -2,7 +2,9 @@
 layout: post
 title: "No Spec Survives Contact with the Customer"
 date: 2026-11-18 00:00:00
-categories: [Agentic Extreme Programming]
+categories: [Agentic-Extreme-Programming]
+redirect_from:
+  - "/agentic extreme programming/2026/11/18/no-spec-survives-contact-with-the-customer/"
 tags: [extreme programming, spec-driven development]
 icon: seedling
 description: "Spec-driven development will be misunderstood the same way Agile was. It works for discovering one small step of a wicked problem with the customer, and fails when we use it to plan the whole thing ahead of time."

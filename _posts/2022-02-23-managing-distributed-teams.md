@@ -2,7 +2,9 @@
 layout: post
 title:  "Distributed by Design III: On Managing Distributed Teams"
 date: 2022-02-23 00:00:00
-categories: [Engineering Management]
+categories: [Engineering-Management]
+redirect_from:
+  - "/engineering management/2022/02/23/managing-distributed-teams/"
 tags: [distributed,remote]
 icon: seedling
 description: "Things I've learned from managing teams in a distributed company"

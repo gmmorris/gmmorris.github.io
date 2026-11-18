@@ -2,7 +2,9 @@
 layout: post
 title: "Whose Decision Was That, Anyway?"
 date: 2026-11-08 12:00:00
-categories: [Agentic Extreme Programming]
+categories: [Agentic-Extreme-Programming]
+redirect_from:
+  - "/agentic extreme programming/2026/11/08/whose-decision-was-that-anyway/"
 tags: [extreme programming, pairing, code review, AI, agents]
 icon: seedling
 description: "Agents are making our decisions upstream of review, and we're signing off on them as our own. Why I'm doubling down on pairing."
