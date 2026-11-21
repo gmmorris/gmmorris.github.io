@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Who Pulls the Cord?"
-date: 2026-11-21 12:00:00
 published: false
 categories: [Agentic-Extreme-Programming]
 redirect_from:
