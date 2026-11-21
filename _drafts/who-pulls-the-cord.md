@@ -140,7 +140,7 @@ An agent with no cord, on a line nobody stops, isn't going to make you faster. I
 
 Van Nuys had cords. It had managers who'd seen NUMMI work, and some who'd worked there. What it didn't have was the confidence, and it ended in closure.
 
-The bill for AI without the fundamentals doesn't arrive straight away, which is what makes it dangerous. In [METR's 2025 study](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/), experienced open-source developers took 19% longer to complete tasks with AI than without it, while believing it had made them 20% *faster*. I don't think that contradicts my own experience. Those developers were working in large, mature codebases they already knew well, which is where AI's reach matters least. But it does show how easily the feeling of speed and actual speed come apart. And as I've [argued before]({% post_url 2026-11-18-no-spec-survives-contact-with-the-customer %}), rework only *feels* cheap: its real cost turns up later, compounded.
+The bill for AI without the fundamentals doesn't arrive straight away, which is what makes it dangerous. The feeling of speed arrives on day one. And as I've [argued before]({% post_url 2026-11-18-no-spec-survives-contact-with-the-customer %}), rework only *feels* cheap: its real cost turns up later, compounded.
 
 So here's the strongest version of my position. **If nobody on your team would pull the cord, adding agents adds speed to a line that can't stop.** You'd be better off holding back on handing your delivery to agents until it can.
 
