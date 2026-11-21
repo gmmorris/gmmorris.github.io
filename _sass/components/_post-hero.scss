@@ -65,15 +65,16 @@
   }
 
   &__subtitle {
-    margin: .4em 0 0;
-    font-family: $font-reading;
-    font-style: italic;
-    font-size: $font-size-base;
+    margin: 0;
+    padding-top: .5em;
+    font-family: $font-sans-serif;
+    font-size: $font-size-medium;
     line-height: 1.4;
-    color: $color-gray;
+    color: $color-text;
 
     @include mq($from: desktop) {
-      font-size: 1.2 * $font-size-base;
+      padding-top: .75em;
+      font-size: $font-size-reading-small;
     }
   }
 
