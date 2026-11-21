@@ -8,10 +8,9 @@ redirect_from:
 tags: [extreme programming, lean, DORA, AI, agents]
 icon: seedling
 description: "The flush toilet was a triumph. It also sent far more downstream than Victorian London could carry. AI is doing the same to our engineering systems, and the answer, then and now, is foundations."
-# TODO: banner image
-# image-desc: ""
-# image: "/images/banners/"
-# image-desc-link: "/images/banners/"
+image-desc: "Uncharted Waters"
+image: "/images/banners/u6439765997_19th_century_wood_engraving_an_Admiralty_survey_c_affcece8-5084-4c4d-ba77-4cf41dfca9a2_3.png"
+image-desc-link: "/images/banners/u6439765997_19th_century_wood_engraving_an_Admiralty_survey_c_affcece8-5084-4c4d-ba77-4cf41dfca9a2_3.png"
 ---
 At the Great Exhibition of 1851, in the glass halls of the Crystal Palace, a plumber named George Jennings installed something most visitors had never used: public flushing toilets. They cost a penny a go, and over the months the exhibition was open, more than 827,000 people paid it. It's where the British got the phrase "to spend a penny".
 

@@ -7,10 +7,9 @@ redirect_from:
 tags: [extreme programming, lean, DORA, AI, agents]
 icon: seedling
 description: "Somewhere between the hype and the dismissal, AI is a real opportunity, but only for teams whose foundations can hold it. And some of us are busy ploughing those foundations up."
-# TODO: banner image
-# image-desc: ""
-# image: "/images/banners/"
-# image-desc-link: "/images/banners/"
+image-desc: "Uncharted Waters"
+image: "/images/banners/u6439765997_19th_century_wood_engraving_an_Admiralty_survey_c_affcece8-5084-4c4d-ba77-4cf41dfca9a2_3.png"
+image-desc-link: "/images/banners/u6439765997_19th_century_wood_engraving_an_Admiralty_survey_c_affcece8-5084-4c4d-ba77-4cf41dfca9a2_3.png"
 ---
 In 1881, a land speculator named Charles Dana Wilber published a book promising settlers that the American Great Plains, long marked on maps as the "Great American Desert", wouldn't stay dry for long. All it would take was farming. Break the sod, plant crops, and the climate would change to suit them. He gave the idea a slogan that the railroads were happy to repeat: **rain follows the plough**.
 
