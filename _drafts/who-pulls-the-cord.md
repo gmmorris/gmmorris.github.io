@@ -6,7 +6,7 @@ redirect_from:
   - "/agentic extreme programming/2026/11/21/who-pulls-the-cord/"
 tags: [extreme programming, lean, DORA, AI, agents]
 icon: seedling
-description: "AI is the most exciting thing to happen to our craft in years, but it rewards the teams that already have the confidence to stop the line. Here's my map of the confidences worth having."
+description: "Somewhere between the hype and the dismissal, AI is a real opportunity, but it rewards the teams that already have the confidence to stop the line. Here's my map of the confidences worth having."
 # TODO: banner image
 # image-desc: ""
 # image: "/images/banners/"
@@ -28,7 +28,11 @@ GM's workers knew what happened to people who stopped the line. A new length of 
 
 Most AI rollouts I see look a bit like GM installing cords. Licences get bought, agents get wired into the IDE and the CI pipeline, someone shows a slide with the number of lines of code written by AI, and everyone waits for the output to go up. Sometimes it does, for a while.
 
-I'll be blunt about where I stand, because I think both halves matter:
+The wider conversation doesn't help. It has become polarised: on one side, blind optimism, where every problem is a prompt away from solved; on the other, blind pessimism, where it's all hype and slop and best ignored. Each side's excesses seem to push the other further towards its extreme, and there's very little room left in between.
+
+I'm somewhere in that middle. I'm genuinely excited about what AI makes possible. I'm also watching a lot of waste, and real harm, to individuals as well as to businesses, as companies throw themselves at it without asking what it needs in order to work. <!-- NOTE: consider one concrete example of the harm to individuals (e.g. layoffs justified by AI, burnout, deskilling) --> If we approach AI as what it is, a powerful new tool that has to be learned and fitted into how we work, there's a real opportunity here. If we go all in blindly, many companies are going to burn through huge amounts of runway for little or no return.
+
+So I'll be blunt about where I stand, because I think both halves matter:
 
 * **Ignoring AI is a professional mistake.** Teams that sit this out will fall behind the teams they compete with, they'll struggle to have the impact they want to have, and they're missing out on what is, honestly, a lot of fun.
 * **Adopting AI without the confidence underneath it is worse than not adopting it at all.** Every place where a team falls short on the fundamentals is a place where AI will make them pay, and pay dearly.
@@ -147,7 +151,7 @@ That doesn't mean ignoring AI in the meantime. Point it at the confidence you're
 
 The part of the NUMMI story I find most hopeful is that it was the *same workers*. The people who'd made Fremont one of GM's worst plants made NUMMI one of its best. Nobody hired better engineers. The system changed, and the confidence came with it.
 
-That's what I'd want any team to take from this. Whether you've ignored AI so far or jumped in head first, the confidences on this map are all within reach, and AI can help you get to them. It's the most exciting thing to happen to our craft in years, and I want every team I work with to get the most out of it.
+That's what I'd want any team to take from this. Whether you've ignored AI so far or jumped in head first, the confidences on this map are all within reach, and AI can help you get to them. I'm genuinely excited about what that makes possible, and I want every team I work with to get the most out of it, without burning their runway to find out what it can't do.
 
 But before you put more agents on the line, ask who's going to pull the cord, and what happens when they do.
 
