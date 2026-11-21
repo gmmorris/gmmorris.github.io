@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "The Great Stink"
+title: "Mind the Plumbing"
+subtitle: "My roadmap to getting real outcomes out of AI"
 categories: [Agentic-Extreme-Programming]
 redirect_from:
-  - "/agentic extreme programming/2026/11/21/the-great-stink/"
+  - "/agentic extreme programming/2026/11/21/mind-the-plumbing/"
 tags: [extreme programming, lean, DORA, AI, agents]
 icon: seedling
 description: "The flush toilet was a triumph. It also sent far more downstream than Victorian London could carry. AI is doing the same to our engineering systems, and the answer, then and now, is foundations."

@@ -13,6 +13,9 @@
           >{% endfor %}
         </div>
         <h1 class="c-post-hero__title">{{ page.title }}</h1>
+        {% if page.subtitle %}
+        <p class="c-post-hero__subtitle">{{ page.subtitle }}</p>
+        {% endif %}
         <div class="c-post-hero__tags">
           {% for tag in page.tags %}
           <a href="{{ site.baseurl }}/tags#{{ tag }}"

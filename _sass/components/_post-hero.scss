@@ -64,6 +64,19 @@
     }
   }
 
+  &__subtitle {
+    margin: .4em 0 0;
+    font-family: $font-reading;
+    font-style: italic;
+    font-size: $font-size-base;
+    line-height: 1.4;
+    color: $color-gray;
+
+    @include mq($from: desktop) {
+      font-size: 1.2 * $font-size-base;
+    }
+  }
+
   &__meta {
     font-size: $font-size-tiny;
     color: $color-gray;
