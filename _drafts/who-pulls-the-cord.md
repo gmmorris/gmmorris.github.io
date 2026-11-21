@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Who Pulls the Cord?"
-published: false
 categories: [Agentic-Extreme-Programming]
 redirect_from:
   - "/agentic extreme programming/2026/11/21/who-pulls-the-cord/"
