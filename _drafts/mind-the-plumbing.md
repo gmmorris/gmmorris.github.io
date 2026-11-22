@@ -118,7 +118,7 @@ Anyone can bring up a realistic copy of the whole system (the services, the infr
 
 **My route:** infrastructure as code, every service runnable in an ephemeral environment, on a laptop or in the cloud, and seeded data that reflects the real shape of production without ever being the real thing.
 
-{% capture leads_env %}Agents can check their assumptions against the system instead of guessing. With the whole system in a sandbox, an agent can trace a change end to end, meet the data it will actually meet in production, and fill in the gaps from evidence rather than imagination. And once the system can run anywhere, it doesn't have to run on an engineer's machine: you can spin up several sandboxes in the cloud and let agents build and test experiments in parallel, while the engineers get on with something else. Because each one is a sandbox, nothing an agent does there can hurt anyone, so you can let it roam.{% endcapture %}
+{% capture leads_env %}Agents can check their assumptions against the system instead of guessing. With the whole system in a sandbox, an agent can trace a change end to end, meet the data it will actually meet in production, and fill in the gaps from evidence rather than hallucinations. And once the system can run anywhere, it doesn't have to run on an engineer's machine: you can spin up several sandboxes in the cloud and let agents build and test experiments in parallel, while the engineers get on with something else. Because each one is a sandbox, nothing an agent does there can hurt anyone, so you can let it roam.{% endcapture %}
 {% include highlight.html label="Where it leads" icon="route" content=leads_env %}
 
 ### "Whatever I finish today can go live today"
