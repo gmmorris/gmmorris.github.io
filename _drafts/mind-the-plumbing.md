@@ -85,8 +85,6 @@ If I were coaching a team, this is where I'd start. I'd get everyone in a room, 
 
 The wall should surface the two things that matter most. **Which confidence is the team shortest on?** That's where AI will cost you first. And **where is the team quietly dumping into the river?** Whatever you've been getting away with at the old volume is what will overflow at the new one.
 
-But each confidence is also a step forward. For each one, I've described what it unlocks: what you can safely hand to agents once you have it. That's the roadmap. Not a fixed sequence, but a steadily widening circle of what you can trust agents with.
-
 ### "I can change this without fear"
 
 You can open any part of the codebase, change it, and know within minutes whether you broke something. The signal is a low change failure rate, and a team that doesn't flinch at the parts of the system everyone else avoids.
