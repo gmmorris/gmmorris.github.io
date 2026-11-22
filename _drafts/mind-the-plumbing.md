@@ -204,7 +204,7 @@ London knew it had a problem long before 1858. The debt had been building for de
 
 So here's the strongest version of my position. **If what's downstream can't carry the flow, turning the flow up just puts more sewage in the river.** Hold back on handing your delivery to agents until it can, and in the meantime, point AI at the foundations you're shortest on. Some of the best uses of AI I've seen have been in digging the sewers.
 
-London's answer was Joseph Bazalgette, who built a sewer network sized for twice the city's population and, {% include footnotes/footnote_link.html content="as the story goes, then doubled the pipes on top of that" count=2 %}. It's still in use today. London didn't give up the flush toilet. It built something that could carry it, with room to spare, and then got on with growing.
+London's answer was Joseph Bazalgette, who built a sewer network sized for twice the city's population. It's still in use today. London didn't give up the flush toilet. It built something that could carry it, with room to spare, and then got on with growing.
 
 Put the two maps together and you have my roadmap: what each confidence protects, and how far it lets you go.
 
@@ -216,8 +216,6 @@ So turn up the flow. Just make sure you know where it goes.
 
 {% capture footnotes %}
 You'll notice I haven't used DORA's old elite/high/medium/low tiers. The 2025 report replaced that single ladder with seven team profiles, from "harmonious high-achievers" to teams stuck struggling, and it measures well-being alongside speed and stability. There's no single route to the top, partly because there's no single top. It turns out there's more than one way to be good at this. Who'd have thought?
-
-He's supposed to have said: "we're only going to do this once, and there's always the unforeseen." The quote is repeated everywhere, including by the Institution of Civil Engineers, but I couldn't find a primary source for it, so take it as legend rather than record. The part that's well documented is that the system was sized for a far larger population than London had at the time. There's a lovely irony in the story too: most of the people who pushed for the sewers believed disease spread through bad air, the "miasma" theory, rather than through contaminated water, as John Snow had argued. They built the right thing for the wrong reason. Which, I suppose, is another argument for focusing on the outcome rather than the route.
 {% endcapture %}
 
 {% include footnotes/footnote.html notes=footnotes %}
