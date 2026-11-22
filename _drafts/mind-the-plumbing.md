@@ -204,7 +204,7 @@ That's what I'd want for any team, whether you've ignored AI so far or jumped in
 So turn up the flow. Just make sure you know where it goes.
 
 {% capture footnotes %}
-You'll notice I haven't used DORA's old elite/high/medium/low performance tiers. The 2025 report moved away from them in favour of seven team archetypes, each balancing performance, stability and well-being differently, which fits rather well with the idea that there's no single route.
+You'll notice I haven't used DORA's old elite/high/medium/low tiers. The 2025 report replaced that single ladder with seven team profiles, from "harmonious high-achievers" to teams stuck struggling, and it measures well-being alongside speed and stability. There's no single route to the top, partly because there's no single top. It turns out there's more than one way to be good at this. Who'd have thought?
 
 He's supposed to have said: "we're only going to do this once, and there's always the unforeseen." The quote is repeated everywhere, including by the Institution of Civil Engineers, but I couldn't find a primary source for it, so take it as legend rather than record. The part that's well documented is that the system was sized for a far larger population than London had at the time. There's a lovely irony in the story too: most of the people who pushed for the sewers believed disease spread through bad air, the "miasma" theory, rather than through contaminated water, as John Snow had argued. They built the right thing for the wrong reason. Which, I suppose, is another argument for focusing on the outcome rather than the route.
 {% endcapture %}
