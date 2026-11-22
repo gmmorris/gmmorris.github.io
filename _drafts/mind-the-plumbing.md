@@ -103,9 +103,9 @@ Something goes wrong in production and nobody panics, because putting it right i
 {% capture leads_undo %}**Where it leads:** agent-written changes can reach production without a person nervously guarding each one. Behind a flag, a bad change becomes a cheap experiment rather than an incident, which is what lets you start giving agents room to try things.{% endcapture %}
 {% include callout.html content=leads_undo %}
 
-### "Nothing I can do here is dangerous by accident"
+### "Nothing I do reaches production by accident"
 
-Access to production, to data and to infrastructure is deliberate. Nobody can SSH into a production box on a whim and run commands against the database, and the routes that do exist are logged, limited and reversible. The signal: you'd be comfortable if anything anyone on the team can do were done by mistake. Without it, at the new volume, every standing privilege you've been tolerating becomes one you've handed to an agent. An agent running as you can do anything you can do, at machine speed, in your name.
+Nothing I do can reach production except through the pipeline. Nobody can SSH into a production box on a whim and run a command against the database, and the few routes around the pipeline are logged, limited and time-bound. Without it, at the new volume, every privilege you've been tolerating is one you've handed to your agents. An agent running as you can do anything you can do, at machine speed, in your name. And the safeguard most of us lean on, approving what the agent wants to do, doesn't survive the volume: by the hundredth request of the day, nobody is really reading them anymore.
 
 **My route:** least privilege by default, no standing access to production, break-glass access that's time-limited and audited, infrastructure as code, and production changes only through the pipeline.
 
