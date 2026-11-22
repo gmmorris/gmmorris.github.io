@@ -193,9 +193,9 @@ The early signs of that debt are easy to miss. Some engineers are [noticing](htt
 
 ### Before the summer
 
-London knew it had a problem long before 1858. There had been cholera outbreaks, reports, a commission, and dozens of plans. What it didn't have was the will to act until the smell reached Parliament's windows. Then it found the money in weeks.
+London's waste had been running up a debt long before 1858: cholera in 1832, cesspits that leaked gas and exploded. The flush toilets called it in. Worse outbreaks followed, the river the city drank from became a sewer, and then came the Stink.
 
-I see a lot of teams in the years before 1858. The signs are there: a review queue that keeps growing, incidents that keep repeating, a codebase that's harder to change every month. And the bill for AI without the foundations doesn't arrive straight away, which is what makes it so easy to defer. The feeling of speed arrives on day one. And as I've [argued before]({% post_url 2026-11-18-no-spec-survives-contact-with-the-customer %}), rework only *feels* cheap: its real cost turns up later, compounded.
+I see a lot of teams in the years before 1858. They've been carrying debt for a long time, and agents have started calling it in: a review queue that keeps growing, incidents that keep repeating, a codebase that's harder to change every month. The bill doesn't arrive all at once, which makes it easy to ignore, while the feeling of speed arrives on day one. As I've [argued before]({% post_url 2026-11-18-no-spec-survives-contact-with-the-customer %}), rework only *feels* cheap: its real cost turns up later, compounded.
 
 So here's the strongest version of my position. **If what's downstream can't carry the flow, turning the flow up just puts more sewage in the river.** You'd be better off holding back on handing your delivery to agents until it can.
 
