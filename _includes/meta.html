@@ -32,9 +32,10 @@
   <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
   <meta content="{{ site.url }}/cv/" property="article:author">
 {% endif %}
-{% if page.image %}
-  <meta content="{{ base_path }}{{ page.image }}" property="og:image">
-  <meta content="{{ base_path }}{{ page.image }}" property="twitter:image">
+{% assign share_image = page.social-image | default: page.image %}
+{% if share_image %}
+  <meta content="{{ base_path }}{{ share_image }}" property="og:image">
+  <meta content="{{ base_path }}{{ share_image }}" property="twitter:image">
 {% else %}
   <!-- <meta content="{{ site.url }}/assets/img/logo-high-resolution.png" property="og:image"> -->
 {% endif %}

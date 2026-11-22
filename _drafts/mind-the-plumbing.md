@@ -11,6 +11,7 @@ description: "The flush toilet was a triumph. It also sent far more downstream t
 image-desc: "Uncharted Waters"
 image: "/images/banners/cross-section-of-a-london-street.png"
 image-desc-link: "/images/banners/cross-section-of-a-london-street.png"
+social-image: "/images/posts/mind-the-plumbing-social.png"
 ---
 At the Great Exhibition of 1851, in the glass halls of the Crystal Palace, a plumber named George Jennings installed something most visitors had never used: public flushing toilets. They cost a penny a go (I checked, that's just shy of `80p` today), and over the months the exhibition was open, more than 800,000 people paid for the privilege. It's where the British got the phrase "to spend a penny", which is the gentlemanly way to say you're dropping a deuce.
 
