@@ -130,13 +130,13 @@ Changes flow to production in small pieces, many times a day, and nobody thinks 
 {% capture leads_ship %}Running several agents in parallel without their work piling up. Small changes are reviewable changes, and when each one flows straight to production, more agents means more value delivered rather than a longer queue.{% endcapture %}
 {% include highlight.html label="Where it leads" icon="route" content=leads_ship %}
 
-### "I can change this part without breaking another"
+### "I can hold a whole change in my head"
 
-The system is made of parts with clear boundaries, and a change in one rarely ripples into the others. You know you've got it when a team can change, test and deploy its part of the system without coordinating with everyone else. Without it, at the new volume, every agent change is a change to everything: more context than any agent, or person, can hold, and a blast radius nobody can predict.
+When I pick up a piece of work, I can understand everything it touches: what it changes, what depends on it, and what could break. That's only possible when the system is made of parts with clear boundaries, so a change in one rarely ripples into the others. You know you've got it when a team can change, test and deploy its part of the system without coordinating with everyone else. Without it, at the new volume, every agent change is a change to everything: more context than any agent, or person, can hold, and a blast radius nobody can predict.
 
 **My route:** [Domain-Driven Design](https://martinfowler.com/bliki/DomainDrivenDesign.html): bounded contexts drawn around the business rather than technical layers, a ubiquitous language shared by engineers and domain experts, and explicit contracts between contexts, with tests that hold each side to its contract.
 
-{% capture leads_coupling %}Agents can work inside a boundary small enough to understand in full, and several people's agents can work side by side without stepping on each other. A smaller world is one an agent is less likely to get wrong. And a ubiquitous language means the team, the domain experts and the agents all use the same words for the same things, so less gets lost between them.{% endcapture %}
+{% capture leads_coupling %}Agents get the same benefit: a change whose context fits inside a boundary they can understand in full, and several people's agents can work side by side without stepping on each other. A smaller world is one an agent is less likely to get wrong. And a ubiquitous language means the team, the domain experts and the agents all use the same words for the same things, so less gets lost between them.{% endcapture %}
 {% include highlight.html label="Where it leads" icon="route" content=leads_coupling %}
 
 ### "We solved the right problem"
