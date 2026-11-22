@@ -193,7 +193,7 @@ The early signs of that debt are easy to miss. Some engineers are [noticing](htt
 
 ## Where I've got to
 
-London's waste had been running up a debt long before 1858; the flush toilets just called it in. I see a lot of teams in the same place. They've carried debt for years, and agents have started calling it in: a review queue that keeps growing, incidents that keep repeating, a codebase that's harder to change every month. The bill arrives slowly, while the feeling of speed arrives on day one.
+London knew it had a problem long before 1858. The debt had been building for decades; the flush toilets just called it in. I see a lot of teams in the same place. They've carried debt for years, and agents have started calling it in: a review queue that keeps growing, incidents that keep repeating, a codebase that's harder to change every month. The bill arrives slowly, while the feeling of speed arrives on day one.
 
 So here's the strongest version of my position. **If what's downstream can't carry the flow, turning the flow up just puts more sewage in the river.** Hold back on handing your delivery to agents until it can, and in the meantime, point AI at the foundations you're shortest on. Some of the best uses of AI I've seen have been in digging the sewers.
 
