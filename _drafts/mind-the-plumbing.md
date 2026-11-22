@@ -131,7 +131,7 @@ An agent can be very good at reading code and telling you what it appears to do.
 
 **My route:** pairing, rotating pairs, story reviews before work is picked up and after it's shipped, and [Architecture Decision Records](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) for the decisions that matter.
 
-{% capture leads_5 %}**Where it leads:** better instructions, from more people. An agent does what it's asked, so the quality of its work is capped by the understanding of whoever is asking: the constraints they know to mention, the unwritten rules about the data, the history behind the odd-looking design. When that understanding is shared, anyone on the team can steer an agent well, not just the one person who knows where the bodies are buried. And the records that hold the *why* become context your agents can use too.{% endcapture %}
+{% capture leads_5 %}**Where it leads:** better instructions, from more people. Agents are guided by people, and language is a lossy medium: no instruction captures everything. The more the person guiding an agent understands about the system, the less gets lost: the constraints they know to mention, the unwritten rules about the data, the history behind the odd-looking design. When that understanding is shared, anyone on the team can steer an agent well, not just the one person who knows where the bodies are buried. And the records that hold the *why* become context your agents can use too.{% endcapture %}
 {% include callout.html content=leads_5 %}
 
 ## Muscle and tendon
