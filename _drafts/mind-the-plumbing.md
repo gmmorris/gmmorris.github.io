@@ -170,13 +170,13 @@ Anyone on the team can raise a concern, about a change, a decision, a tool or a 
 {% capture leads_speak %}Problems surface while they're still small. Someone flags the agent change that looks off, the workflow that isn't paying off, or the task that should never have been handed to an agent, without worrying they'll be seen as standing in the way. In a climate this anxious, that honesty is rare, and it's worth more than any tool.{% endcapture %}
 {% include highlight.html label="Where it leads" icon="route" content=leads_speak %}
 
-### "We get a little better every week"
+### "We'll be better next week than we were last week"
 
-The team regularly stops to look at how it works, decides what to change, and follows through. You know you've got it when retrospectives lead to experiments, the experiments get reviewed, and the way the team works this quarter isn't the way it worked last quarter. Without it, at the new volume, the feeling of speed wins every argument. Tools and workflows change month to month, and a team that never pauses to ask whether they're actually helping ends up keeping whatever felt fastest.
+The team regularly stops to look at how it works, changes something, and checks whether it helped. You know you've got it when this quarter's way of working isn't last quarter's. Without it, at the new volume, the strain lands on the one meeting that could relieve it. Retrospectives get pushed, shortened and skipped, and the team stops improving right when it can least afford to.
 
-**My route:** regular retrospectives with real time set aside for them, small experiments with a date to review them, and a few honest measures to ground the conversation: lead time, change failure rate, and how much we're reworking. And, as I mentioned earlier, re-evaluating our practices rather than inheriting them.
+**My route:** retrospectives with real time set aside for them, small experiments with a date to review them, and a few honest measures to keep us grounded: lead time, change failure rate and rework.
 
-{% capture leads_better %}A team that can find its own route. Agentic tools are changing faster than anyone can write a roadmap for them, including this one. A team that reviews and adapts can try a new agent workflow, see whether it actually helps, and spread what works across the team, rather than every engineer quietly building their own habits in isolation.{% endcapture %}
+{% capture leads_better %}A team that finds its own route. Agentic tools are changing faster than anyone can map them, this post included. A team that reviews and adapts can try a new agent workflow, see whether it helps, and spread what works, instead of every engineer quietly developing habits on their own.{% endcapture %}
 {% include highlight.html label="Where it leads" icon="route" content=leads_better %}
 
 ## Muscle and tendon
