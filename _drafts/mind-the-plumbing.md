@@ -12,23 +12,23 @@ image-desc: "Uncharted Waters"
 image: "/images/banners/cross-section-of-a-london-street.png"
 image-desc-link: "/images/banners/cross-section-of-a-london-street.png"
 ---
-At the Great Exhibition of 1851, in the glass halls of the Crystal Palace, a plumber named George Jennings installed something most visitors had never used: public flushing toilets. They cost a penny a go, and over the months the exhibition was open, more than 827,000 people paid it. It's where the British got the phrase "to spend a penny".
+At the Great Exhibition of 1851, in the glass halls of the Crystal Palace, a plumber named George Jennings installed something most visitors had never used: public flushing toilets. They cost a penny a go (I checked, that's just shy of `80p` today), and over the months the exhibition was open, more than 800,000 people paid for the privilege. It's where the British got the phrase "to spend a penny", which is the gentlemanly way to say you're dropping a deuce.
 
-The flush toilet caught on fast. It was cleaner, more convenient and more civilised than anything that came before, and the number of water closets in London nearly doubled in the first half of the 1850s.
+The flush toilet caught on fast. It was cleaner, more convenient and more civilised than anything that came before, and the number of water closets in London doubled over the next few years.
 
-Every one of them sent far more water downstream than the city had ever had to deal with. London's waste had mostly gone into cesspits, some 200,000 of them, and the cesspits overflowed. The authorities' answer was to have houses connect their drains to the sewers instead. But the sewers had been built to carry rainwater, and they emptied straight into the Thames: the same river much of London drew its drinking water from. Cholera swept through the city more than once. A commission set up to fix the drainage considered dozens of plans and authorised none of them.
+Every one of them sent far more water downstream than the city had ever had to deal with. In those days, London's waste had mostly gone into cesspits, which would now overflowing on a regualr basis. The authorities' answer was to have houses connect their drains to the sewers instead. But the sewers had been built to carry rainwater, and they emptied straight into the Thames: the same river much of London drew its drinking water from. Cholera swept through the city more than once.
 
-Then came the hot summer of 1858. The river, by now an open sewer running through the middle of the capital, began to smell so badly that it became known as the Great Stink. Parliament, which sat right on the riverbank, hung curtains soaked in chloride of lime over its windows. Benjamin Disraeli described the Thames as *"a Stygian pool, reeking with ineffable and intolerable horrors"*. After years of argument, a bill to fund a proper sewer system passed in about eighteen days.
+Then came the hot summer of 1858. The river, by now an open sewer running through the middle of the capital, began to smell so badly that it became known as the Great Stink. Parliament, which sat right on the riverbank, hung curtains soaked in chloride of lime over its windows. After years of inaction, the politicians were finally forced into action and a bill to fund a proper sewer system passed in about eighteen days, unheared of for those days — and if you ask most people — ever since.
 
-The flush toilet wasn't the problem. It was a triumph, and nobody seriously suggested going back to chamber pots. It just sent far more downstream, into a system that had never been safe in the first place.
+The flush toilet wasn't the problem. It was a triumph of inovation, and nobody seriously suggested going back to chamber pots. But it sent far more downstream, into a system that had never been safe in the first place, and buckled under the new load.
 
 ## Spending a penny
 
-Yes, I'm about to compare AI-generated code to sewage. Bear with me; that includes mine.
+Yes, I'm about to compare AI-generated code to sewage. Bear with me; it comes from a positive place.
 
-Engineers have said for years that **code is a liability, not an asset**. Every line has to be read, tested, deployed, run, understood and maintained by someone, for as long as it lives. The value is in what it does for the people using it, and the code is the cost of getting there.
+We've known for decades that **code is a liability, not an asset**. Every line has to be authored, tested, deployed, run, understood and maintained by someone, for as long as it lives. The potential value is in what it does for the people using it, but the wrong code can have a negaitve impact on the people using it and on the business itself. A surplus of code is not, in and of itself, a net-positive.
 
-AI has made producing that code almost effortless, the way the flush toilet made disposal effortless. That's a genuine improvement, and I'll come to why I'm excited about it. But all of it still flows downstream: into review, into the test suite, into the deployment pipeline, into production, into the heads of the team who'll have to change it next year, and in front of the customers who'll have to live with it.
+AI has made producing that code almost effortless, the way the flush toilet made disposal effortless. That's a genuine improvement, and I'm genuinely excited about it. But all of it still flows downstream: into review, into the test suites, into the deployment pipeline, into production, into the cognitive load of the team who'll have to change it next year, into the battle cards of the sales teams, and in front of the customers who'll have to live with it.
 
 Most teams have always had some practices that were quietly unsafe: tests nobody trusts, a deploy that needs a particular person, pull requests that sit for days, a customer nobody talks to. At the old volume, we got away with them. The cesspit was nasty, but it held. Turn up the flow, and those practices don't just become bottlenecks, they become the point where everything overflows.
 
