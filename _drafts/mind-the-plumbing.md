@@ -7,21 +7,21 @@ redirect_from:
   - "/agentic extreme programming/2026/11/21/mind-the-plumbing/"
 tags: [extreme programming, lean, DORA, AI, agents]
 icon: seedling
-description: "The flush toilet was a triumph. It also sent far more downstream than Victorian London could carry. AI is doing the same to our engineering systems, and the answer, then and now, is foundations."
-image-desc: "Uncharted Waters"
+description: "The flush toilet was a triumph, and it nearly broke Victorian London. AI is doing the same to our engineering systems. Here's my map of the confidences a team needs before it turns up the flow."
+image-desc: "The Surveyors Beneath the Street"
 image: "/images/banners/cross-section-of-a-london-street.png"
 image-desc-link: "/images/banners/cross-section-of-a-london-street.png"
 social-image: "/images/posts/mind-the-plumbing-social.png"
 ---
-At the Great Exhibition of 1851, in the glass halls of the Crystal Palace, a plumber named George Jennings installed something most visitors had never used: public flushing toilets. They cost a penny a go (I checked, that's just shy of `80p` today), and over the months the exhibition was open, more than 800,000 people paid for the privilege. It's where the British got the phrase "to spend a penny", which is the gentlemanly way to say you're dropping a deuce.
+At the Great Exhibition of 1851, in the glass halls of the Crystal Palace, a plumber named George Jennings installed something most visitors had never used: public flushing toilets. They cost a penny a go (I checked, that's just shy of 80p today), and over the months the exhibition was open, more than 800,000 people paid for the privilege. It's where the British got the phrase "to spend a penny", which is the gentlemanly way to say you're dropping a deuce.
 
 The flush toilet caught on fast. It was cleaner, more convenient and more civilised than anything that came before, and the number of water closets in London doubled over the next few years.
 
-Every one of them sent far more water downstream than the city had ever had to deal with. In those days, London's waste had mostly gone into cesspits, which would now overflowing on a regualr basis. The authorities' answer was to have houses connect their drains to the sewers instead. But the sewers had been built to carry rainwater, and they emptied straight into the Thames: the same river much of London drew its drinking water from. Cholera swept through the city more than once.
+Every one of them sent far more water downstream than the city had ever had to deal with. In those days, London's waste had mostly gone into cesspits, which were now overflowing on a regular basis. The authorities' answer was to have houses connect their drains to the sewers instead. But the sewers had been built to carry rainwater, and they emptied straight into the Thames: the same river much of London drew its drinking water from. Cholera swept through the city more than once.
 
-Then came the hot summer of 1858. The river, by now an open sewer running through the middle of the capital, began to smell so badly that it became known as the Great Stink. Parliament, which sat right on the riverbank, hung curtains soaked in chloride of lime over its windows. After years of inaction, the politicians were finally forced into action and a bill to fund a proper sewer system passed in about eighteen days, unheared of for those days — and if you ask most people — ever since.
+Then came the hot summer of 1858. The river, by now an open sewer running through the middle of the capital, began to smell so badly that it became known as the Great Stink. Parliament, which sat right on the riverbank, hung curtains soaked in chloride of lime over its windows. After years of inaction, the politicians were finally forced into action and a bill to fund a proper sewer system passed in about eighteen days, unheard of for those days — and if you ask most people — ever since.
 
-The flush toilet wasn't the problem. It was a triumph of inovation, and nobody seriously suggested going back to chamber pots. But it sent far more downstream, into a system that had never been safe in the first place, and buckled under the new load.
+The flush toilet wasn't the problem. It was a triumph of innovation, and nobody seriously suggested going back to chamber pots. But it sent far more downstream, into a system that had never been safe in the first place, and buckled under the new load.
 
 ## Spending a penny
 
@@ -37,7 +37,7 @@ The wider conversation doesn't help. Many organisations are anxious about AI, an
 
 I'm excited about AI, and that's exactly why I take its trade-offs seriously. I'm watching real waste and harm as companies reach for whatever sounds most certain, and I don't want to add to it with false confidence of my own. There's no one-size-fits-all roadmap; this is mine: what I believe my teams and I need to get right, based on what I've seen work and what I've watched fail. For us, the opportunity starts with the plumbing. Go all-in without it, and many companies will burn through their runway for little or no return.
 
-Being direct about where I stand, I think there are two halves that matter equally:
+To be direct about where I stand, there are two halves that matter equally:
 
 * **Ignoring Agentic Engineering is a professional mistake.** Teams that sit this out will fall behind the teams they compete with, they'll struggle to have the impact they want to have, and they're missing out on what can be, honestly, a lot of fun (assuming you derive enjoyment from professional achievement and outcomes).
 * **Adopting Agentic Engineering without the foundations to carry it is worse than not adopting it at all.** Every place where a team falls short on the fundamentals is a place where AI will make them pay, and pay dearly.
@@ -52,11 +52,11 @@ But for me, AI isn't primarily about automation. It's non-deterministic, which m
 
 The first is a better way to investigate my own thinking: a rubber duck that talks back, in ways that beat the rubber duck. The second is reach. There's a lot I don't know, technologies I've never used, APIs I've never integrated, and AI can get to a huge amount of information very quickly. Both come with pitfalls, and [I've written about some of them]({% post_url 2026-11-08-whose-decision-was-that-anyway %}), but as long as I interrogate what comes back rather than trusting the first answer, they let me move much faster than I ever could before.
 
-**In the past year, I've achieved in days what would previously have taken me weeks.** There's no doubt about that in my mind. If you've tried it seriously and still don't believe that, I'd gently suggest looking again. I can't say for sure why it's worked so well for me. Part of it, I suspect, is having twenty-five years of experience under my belt. Not because experience stops me believing the things an agent makes up; the research suggests that it doesn't. But it taught me what good looks like, when something smells off, and how to keep an agent moving in small, reliable steps, so that each one gives me the confidence to take the next. Not everyone has had twenty-five years to learn that, and I worry about how we grow newcomers into experienced engineers in the coming decades. But this is why collborative practices matter more than effer.
+**In the past year, I've achieved in days what would previously have taken me weeks.** There's no doubt about that in my mind. If you've tried it seriously and still don't believe that, I'd gently suggest looking again. I can't say for sure why it's worked so well for me. Part of it, I suspect, is having twenty-five years of experience under my belt. Not because experience stops me believing the things an agent makes up; the research suggests that it doesn't. But it taught me what good looks like, when something smells off, and how to keep an agent moving in small, reliable steps, so that each one gives me the confidence to take the next. Not everyone has had twenty-five years to learn that, and I worry about how we grow newcomers into experienced engineers in the coming decades. But this is why collaborative practices matter more than ever.
 
 The gains are real, and every one of them has depended on what happens downstream of the agent.
 
-## The River We Drink From
+## The river we drink from
 
 The field is moving so fast that any research is out of date almost as soon as it's published, so everything that follows deserves a pinch of salt.
 
@@ -94,7 +94,7 @@ You can open any part of the codebase, change it, and know within minutes whethe
 
 **My route:** TDD and a fast test suite people actually trust. If you lack these today, AI is genuinely brilliant at getting you started: wrapping characterisation tests around the legacy code nobody dares touch used to take weeks of code archaeology. Today, armed with mutation testing to prove those tests actually cover the existing behaviour, AI can do it while you sleep.
 
-{% capture leads_fear %}Agents can work anywhere in the codebase, including the parts everyone avoids, and check their own work against tests you trust. Earning that trust isn't straight forward: tests written by the same agent that wrote the code tend to confirm what the code does, not what it should do. But get it right with a suitable multi-agent setup, and you take the first step from reviewing every line an agent writes to trusting the feedback loop it works inside.{% endcapture %}
+{% capture leads_fear %}Agents can work anywhere in the codebase, including the parts everyone avoids, and check their own work against tests you trust. Earning that trust isn't straightforward: tests written by the same agent that wrote the code tend to confirm what the code does, not what it should do. But get it right with a suitable multi-agent setup, and you take the first step from reviewing every line an agent writes to trusting the feedback loop it works inside.{% endcapture %}
 {% include highlight.html label="Where it leads" icon="route" content=leads_fear %}
 
 ### "If I'm wrong, I can undo it in minutes"
@@ -155,7 +155,7 @@ We'll get things wrong; [on a wicked problem]({% post_url 2026-11-18-no-spec-sur
 
 Decisions are made in the open, challenged while they're being made, and understood by more than one person. You know you've got it when anyone on the team can explain why the system is the way it is. Without it, at the new volume, more decisions than ever end up in one person's undocumented conversation with a machine, where [nobody else ever sees them]({% post_url 2026-11-08-whose-decision-was-that-anyway %}). Spec-driven development attempts to tackle this, but on its own, [at scale, all it becomes is more documentation no one reads]({% post_url 2026-11-18-no-spec-survives-contact-with-the-customer %}).
 
-I expect this to be the most contentious confidence on the map. Many people seem to believe that in the age of AI we no longer need to know what our software does, or how, because we can always ask the AI. I suspect they've forgotten how it feels when the Sales team, or a customer, asks whether something is possible, or they're seeing what they're seeing in the product, and the best you can say is "I don't know. I'll have to check and get back to you."
+I expect this to be the most contentious confidence on the map. Many people seem to believe that in the age of AI we no longer need to know what our software does, or how, because we can always ask the AI. I suspect they've forgotten how it feels when the Sales team, or a customer, asks whether something is possible, or why they're seeing what they're seeing in the product, and the best you can say is "I don't know. I'll have to check and get back to you."
 
 An agent can be very good at reading code and telling you what it appears to do. It's far less able to tell you why it's that way, because the why often isn't in the code or the docs at all. It lives in the shape and origin of the data, in how that data is spread across different stores and structures, and in side effects and history nobody wrote down. Assuming you can always ask the AI is, in my opinion, blind faith. It might hold in a one-year-old greenfield startup. In any company with legacy, it's wishful thinking.
 
@@ -184,7 +184,7 @@ The team regularly stops to examine how it works, experiment, and reflect. You k
 
 ## Muscle and tendon
 
-I have a tear in my rotator cuff; This might seem unrelated, but bear with me.
+I have a tear in my rotator cuff; this might seem unrelated, but bear with me.
 
 Anyone who's taken up a sport seriously as an adult has probably met a version of this. When you train hard, muscle adapts quickly: you can feel yourself getting stronger within weeks. Tendons and ligaments adapt far more slowly, over months. That gap is why people who ramp up too fast get injured: the muscle can now produce more force than the connective tissue can safely carry. Climbers know this well; a beginner's arms get strong long before their fingers do. After Covid I tried to climb at my pre-pandemic level too soon, training hard, I rushed into it and injured myself several times.
 
