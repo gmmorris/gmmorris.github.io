@@ -19,7 +19,7 @@ The flush toilet caught on fast. It was cleaner, more convenient and more civili
 
 Every one of them sent far more water downstream than the city had ever had to deal with. In those days, London's waste had mostly gone into cesspits, which were now overflowing on a regular basis. The authorities' answer was to have houses connect their drains to the sewers instead. But the sewers had been built to carry rainwater, and they emptied straight into the Thames: the same river much of London drew its drinking water from. Cholera swept through the city more than once.
 
-Then came the hot summer of 1858. The river, by now an open sewer running through the middle of the capital, began to smell so badly that it became known as the Great Stink. Parliament, which sat right on the riverbank, hung curtains soaked in chloride of lime over its windows. After years of inaction, the politicians were finally forced into action and a bill to fund a proper sewer system passed in about eighteen days, unheard of for those days — and if you ask most people — ever since.
+Then came the hot summer of 1858. The river, by now an open sewer running through the middle of the capital, began to smell so badly that it became known as the Great Stink. Parliament, which sat right on the riverbank, hung curtains soaked in chloride of lime over its windows. After years of inaction, Parliament passed a bill to fund a proper sewer system in about eighteen days, a speed unheard of then, and, most would say, ever since.
 
 The flush toilet wasn't the problem. It was a triumph of innovation, and nobody seriously suggested going back to chamber pots. But it sent far more downstream, into a system that had never been safe in the first place, and buckled under the new load.
 
@@ -33,7 +33,7 @@ AI has made producing that code almost effortless, the way the flush toilet made
 
 Engineering teams constantly trade expediency against sustainability, and the compromises leave behind practices that are risky and unsafe: test suites nobody trusts, deploys that need a particular person, pull requests that sit for days or weeks, customers nobody on the team has ever spoken to. At the old volume, we got away with it. The cesspit was nasty, but it held. Turn up the flow, and those compromises don't just become bottlenecks: they overflow.
 
-The wider conversation doesn't help. Many organisations are anxious about AI, and that anxiety has created a market for confidence: frameworks, platforms, transformation programmes, anything that promises to make the fear go away. As [the Cutlefish](https://lnkd.in/p/ery_rx26) put it, *the more anxious the buyer, the more reassuring a confident prescription becomes, and the people acknowledging complexity and trade-offs start to sound less credible than the people promising transformation*. I recognise John's observation in first-hand experience, as multiple people have read my acknowledgement of complexity and trade-offs as opposition to the adoption of Agentic Engineering, which couldn't be further from the truth.
+The wider conversation doesn't help. Many organisations are anxious about AI, and that anxiety has created a market for confidence: frameworks, platforms, transformation programmes, anything that promises to make the fear go away. As [John Cutler](https://lnkd.in/p/ery_rx26) put it, *the more anxious the buyer, the more reassuring a confident prescription becomes, and the people acknowledging complexity and trade-offs start to sound less credible than the people promising transformation*. I've seen this first-hand: more than one person has read my acknowledgement of complexity and trade-offs as opposition to Agentic Engineering, which couldn't be further from the truth.
 
 I'm excited about AI, and that's exactly why I take its trade-offs seriously. I'm watching real waste and harm as companies reach for whatever sounds most certain, and I don't want to add to it with false confidence of my own. There's no one-size-fits-all roadmap; this is mine: what I believe my teams and I need to get right, based on what I've seen work and what I've watched fail. For us, the opportunity starts with the plumbing. Go all-in without it, and many companies will burn through their runway for little or no return.
 
@@ -184,9 +184,9 @@ The team regularly stops to examine how it works, experiment, and reflect. You k
 
 ## Muscle and tendon
 
-I have a tear in my rotator cuff; this might seem unrelated, but bear with me.
+After Covid, I went back to climbing at my pre-pandemic level far too soon. My arms were ready long before the rest of me was, and I've got a torn rotator cuff to show for it.
 
-Anyone who's taken up a sport seriously as an adult has probably met a version of this. When you train hard, muscle adapts quickly: you can feel yourself getting stronger within weeks. Tendons and ligaments adapt far more slowly, over months. That gap is why people who ramp up too fast get injured: the muscle can now produce more force than the connective tissue can safely carry. Climbers know this well; a beginner's arms get strong long before their fingers do. After Covid I tried to climb at my pre-pandemic level too soon, training hard, I rushed into it and injured myself several times.
+Anyone who's taken up a sport seriously as an adult has probably met a version of this. When you train hard, muscle adapts quickly: you can feel yourself getting stronger within weeks. Tendons and ligaments adapt far more slowly, over months. That gap is why people who ramp up too fast get injured: the muscle can now produce more force than the connective tissue can safely carry. Climbers know this well; a beginner's arms get strong long before their fingers do.
 
 Agentic Engineering is like growing a muscle. Output goes up almost immediately. The connective tissue (the tests, the deployment pipeline, the shared understanding, the conversations with the customer) adapts at its own pace, and only if you train it deliberately. And everything that makes agents exciting adds load: bigger tasks, more autonomy, agents running in parallel while you're in a meeting.
 
@@ -194,7 +194,7 @@ So this is how I think about how far to let an agent run. **Give agents as much 
 
 ![The confidences placed on five rings of agentic engineering, from autocomplete at the centre to agents in the cloud at the edge, each on the ring where agents start to depend on it](/images/posts/mind-the-plumbing-agentic.svg)
 
-Autonomy beyond that is borrowing against a debt you might not be able to pay back — take a long hard look at your available runway. The early signs of that debt are easy to miss. Some engineers are [noticing](https://lnkd.in/p/es9MVCJV) that when an agent hits a bug, it often patches the one case in front of it rather than question the design that caused it. Each patch is a little more sent downstream, and nobody notices the smell until the weather turns.
+Autonomy beyond what your foundations can carry is borrowing against a debt you might not be able to pay back — take a long hard look at your available runway. The early signs of that debt are easy to miss. Some engineers are [noticing](https://lnkd.in/p/es9MVCJV) that when an agent hits a bug, it often patches the one case in front of it rather than question the design that caused it. Each patch is a little more sent downstream, and nobody notices the smell until the weather turns.
 
 ## Where I've got to
 
