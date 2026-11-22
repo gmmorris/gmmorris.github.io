@@ -190,13 +190,11 @@ Anyone who's taken up a sport seriously as an adult has probably met a version o
 
 Agentic Engineering is like growing a muscle. Output goes up almost immediately. The connective tissue (the tests, the deployment pipeline, the shared understanding, the conversations with the customer) adapts at its own pace, and only if you train it deliberately. And everything that makes agents exciting adds load: bigger tasks, more autonomy, agents running in parallel while you're in a meeting.
 
-So this is how I think about how far to let an agent run. **Give agents as much autonomy as your foundations can carry, and no more.** Autonomy beyond that is borrowing against a debt you might not be able to pay back — take a long hard look at your available runway.
-
-Plot the same confidences against how much you hand to agents, from autocomplete in the IDE to autonomous agents in the cloud, and the shape of that advice becomes clearer:
+So this is how I think about how far to let an agent run. **Give agents as much autonomy as your foundations can carry, and no more.** Plot our confidences against how much you hand to agents, from autocomplete in the IDE to autonomous agents in the cloud, and the shape of that advice becomes clearer:
 
 ![The confidences placed on five rings of agentic engineering, from autocomplete at the centre to agents in the cloud at the edge, each on the ring where agents start to depend on it](/images/posts/mind-the-plumbing-agentic.svg)
 
-The early signs of that debt are easy to miss. Some engineers are [noticing](https://lnkd.in/p/es9MVCJV) that when an agent hits a bug, it often patches the one case in front of it rather than question the design that caused it. Each patch is a little more sent downstream, and nobody notices the smell until the weather turns.
+Autonomy beyond that is borrowing against a debt you might not be able to pay back — take a long hard look at your available runway. The early signs of that debt are easy to miss. Some engineers are [noticing](https://lnkd.in/p/es9MVCJV) that when an agent hits a bug, it often patches the one case in front of it rather than question the design that caused it. Each patch is a little more sent downstream, and nobody notices the smell until the weather turns.
 
 ## Where I've got to
 
