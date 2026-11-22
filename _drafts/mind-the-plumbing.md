@@ -85,6 +85,8 @@ If I were coaching a team, this is where I'd start. I'd get everyone in a room, 
 
 The wall should surface the two things that matter most. **Which confidence is the team shortest on?** That's where AI will cost you first. And **where is the team quietly dumping into the river?** Whatever you've been getting away with at the old volume is what will overflow at the new one.
 
+But each confidence is also a step forward. For each one, I've described what it unlocks: what you can safely hand to agents once you have it. That's the roadmap. Not a fixed sequence, but a steadily widening circle of what you can trust agents with.
+
 ### "I can change this without fear"
 
 You can open any part of the codebase, change it, and know within minutes whether you broke something. The signal is a low change failure rate, and a team that doesn't flinch at the parts of the system everyone else avoids.
@@ -92,6 +94,8 @@ You can open any part of the codebase, change it, and know within minutes whethe
 My route has always been TDD and a fast test suite people actually trust. AI is genuinely brilliant here: wrapping characterisation tests around the legacy code nobody dares touch used to take weeks of archaeology. By leveraging mutation testing, AI can do this while you sleep. Be careful, though: tests written by the same agent that wrote the code tend to confirm what the code does, not what it should do.
 
 *At the new volume: a test suite nobody trusts becomes many times more changes nobody can verify.*
+
+**What it unlocks:** agents can work anywhere in the codebase, including the parts everyone avoids, and check their own work against tests you actually trust. That's the first step from reviewing every line an agent writes to trusting the feedback loop it works inside.
 
 ### "If I'm wrong, I can undo it in minutes"
 
@@ -101,6 +105,8 @@ My route: good observability, rollbacks that are boring, and feature flags so th
 
 *At the new volume: more change means more things going wrong. If recovery is slow and painful, every one of them costs more, and they start to overlap.*
 
+**What it unlocks:** agent-written changes can reach production without a person nervously guarding each one. Behind a flag, a bad change becomes a cheap experiment rather than an incident, which is what lets you start giving agents room to try things.
+
 ### "I can ship this today, and again this afternoon"
 
 Changes flow to production in small pieces, many times a day, and nobody thinks it's remarkable. The signals are deployment frequency and lead time.
@@ -109,13 +115,17 @@ My route: trunk-based development, small batches and an automated path to produc
 
 *At the new volume: a deploy that needs a particular person, or a pull request that waits days for review, becomes the cesspit everything else backs up into.*
 
+**What it unlocks:** running several agents in parallel without their work piling up. Small changes are reviewable changes, and when each one flows straight to production, more agents means more value delivered rather than a longer queue.
+
 ### "We solved the right problem"
 
-The hardest one to measure, I wish I had a metric for it. You know you've got it when it's routine for the team to hears from the people using what you built, and change course because of what they learned.
+The hardest one to measure, I wish I had a metric for it. You know you've got it when it's routine for the team to hear from the people using what you built, and change course because of what they learned.
 
 My route: conversations with customers, small steps, and lately, throwaway prototypes built with agents that exist only to drive those conversations.
 
 *At the new volume: when building is cheap, building the wrong thing feels cheap too, right up until you've built a great deal of it, and soon it becomes a liability.*
+
+**What it unlocks:** cheap building turns into cheap learning. Agents can prototype several options in the time it used to take to build one, and the customer conversation decides which one survives. This is where AI stops being a faster way to write code and becomes a faster way to find out what's worth writing.
 
 ### "We all know why it works this way"
 
@@ -127,7 +137,9 @@ An agent can be very good at reading code and telling you what it appears to do.
 
 My route: pairing, rotating pairs, story reviews before work is picked up and after it's shipped, and [Architecture Decision Records](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) for the decisions that matter.
 
-*At the new volume: more decisions than ever are being made in one person's undocumented conversation with a machine, and [nobody else ever sees them]({% post_url 2026-11-08-whose-decision-was-that-anyway %}). Spec Driven Development attempts to tackle this, but on it's own, at scale, all it becomes is more documentation no one reads.*
+*At the new volume: more decisions than ever are being made in one person's undocumented conversation with a machine, and [nobody else ever sees them]({% post_url 2026-11-08-whose-decision-was-that-anyway %}). Spec-driven development attempts to tackle this, but on its own, at scale, all it becomes is more documentation no one reads.*
+
+**What it unlocks:** handing agents bigger, more ambiguous tasks, because the team can judge whether the result fits the system, and steer it when it doesn't. And the records that hold the *why* become context your agents can use too.
 
 ## Muscle and tendon
 
