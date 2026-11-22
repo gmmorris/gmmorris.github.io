@@ -1,0 +1,4 @@
+<aside class="c-highlight">
+  {% if include.label %}<div class="c-highlight__label">{% if include.icon %}<i class="fas fa-{{ include.icon }}"></i> {% endif %}{{ include.label }}</div>{% endif %}
+  <div class="c-highlight__body">{{ include.content | markdownify }}</div>
+</aside>

@@ -1,0 +1,36 @@
+/*------------------------------------*\
+  Components > Highlight
+  A boxed call-out for key takeaways, distinct from quotes.
+\*------------------------------------*/
+
+.c-highlight {
+  margin: 0 0 2em;
+  padding: 1em 1.25em;
+  background: $bg-gray;
+  border-left: 4px solid #ba3925;
+  border-radius: 0 4px 4px 0;
+
+  &__label {
+    margin-bottom: .4em;
+    font-family: $font-sans-serif;
+    font-size: $font-size-tiny;
+    font-weight: $font-weight-medium;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: #ba3925;
+
+    .fas {
+      margin-right: .3em;
+    }
+  }
+
+  &__body {
+    p {
+      margin-bottom: 0;
+    }
+
+    p + p {
+      margin-top: .75em;
+    }
+  }
+}
