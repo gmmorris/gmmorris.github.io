@@ -136,7 +136,7 @@ When I pick up a piece of work, I can understand everything it touches: what it 
 
 **My route:** [Domain-Driven Design](https://martinfowler.com/bliki/DomainDrivenDesign.html): bounded contexts drawn around the business rather than technical layers, a ubiquitous language shared by engineers and domain experts, and explicit contracts between contexts, with tests that hold each side to its contract.
 
-{% capture leads_coupling %}Agents get the same benefit: a change whose context fits inside a boundary they can understand in full, and several people's agents can work side by side without stepping on each other. A smaller world is one an agent is less likely to get wrong. And a ubiquitous language means the team, the domain experts and the agents all use the same words for the same things, so less gets lost between them.{% endcapture %}
+{% capture leads_coupling %}Agents get the same benefit: each change fits inside a boundary they can understand in full, and several people's agents can work side by side without stepping on each other. A smaller world is one an agent is less likely to get wrong. And a ubiquitous language means the team, the domain experts and the agents all use the same words for the same things, so less gets lost between them.{% endcapture %}
 {% include highlight.html label="Where it leads" icon="route" content=leads_coupling %}
 
 ### "We solved the right problem"
