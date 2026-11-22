@@ -30,58 +30,66 @@ We've known for decades that **code is a liability, not an asset**. Every line h
 
 AI has made producing that code almost effortless, the way the flush toilet made disposal effortless. That's a genuine improvement, and I'm genuinely excited about it. But all of it still flows downstream: into review, into the test suites, into the deployment pipeline, into production, into the cognitive load of the team who'll have to change it next year, into the battle cards of the sales teams, and in front of the customers who'll have to live with it.
 
-Engineering teams always have to trade off expediency against sustainability and as a result compromise on practices that are somewhat risky and unsafe: test suites that nobody trusts, a deploy that needs a particular person, pull requests that sit around for days and weeks, and customers that nobody on the team has ever talked to. At the old volume, we got away with this. The cesspit was nasty, but it held. Turn up the flow, and those compromises don't just become bottlenecks, they overflow.
+Engineering teams constantly trade expediency against sustainability, and the compromises leave behind practices that are risky and unsafe: test suites nobody trusts, deploys that need a particular person, pull requests that sit for days or weeks, customers nobody on the team has ever spoken to. At the old volume, we got away with it. The cesspit was nasty, but it held. Turn up the flow, and those compromises don't just become bottlenecks: they overflow.
 
-The wider conversation doesn't help. Many organisations are anxious about AI, and that anxiety has created a market for confidence: frameworks, platforms, transformation programmes, anything that promises to make the fear go away. As [the Cutlefish](https://lnkd.in/p/ery_rx26) put it, *the more anxious the buyer, the more reassuring a confident prescription becomes, and the people acknowledging complexity and trade-offs start to sound less credible than the people promising transformation*.
+The wider conversation doesn't help. Many organisations are anxious about AI, and that anxiety has created a market for confidence: frameworks, platforms, transformation programmes, anything that promises to make the fear go away. As [the Cutlefish](https://lnkd.in/p/ery_rx26) put it, *the more anxious the buyer, the more reassuring a confident prescription becomes, and the people acknowledging complexity and trade-offs start to sound less credible than the people promising transformation*. I recognise John's observation in first-hand experience, as multiple people have read my acknowledgement of complexity and trade-offs as opposition to the adoption of Agentic Engineering, which couldn't be further from the truth.
 
-So this post isn't a prescription, it's my own roadmap: what I believe my teams and I need to get right, based on what I've seen work and what I've watched fail. I'm genuinely excited about AI, and I'm also watching real waste and harm as companies reach for whatever sounds most certain. If we approach AI as what it is, a powerful new tool that has to be learned and fitted into how we work, there's a real opportunity here. For us, the opportunity starts with the plumbing. If we go *all-in* blindly, many companies are going to burn through huge amounts of runway for little or no return.
+I'm excited about AI, and that's exactly why I take its trade-offs seriously. I'm watching real waste and harm as companies reach for whatever sounds most certain, and I don't want to add to it with false confidence of my own. There's no one-size-fits-all roadmap; this is mine: what I believe my teams and I need to get right, based on what I've seen work and what I've watched fail. For us, the opportunity starts with the plumbing. Go all-in without it, and many companies will burn through their runway for little or no return.
 
-So I'll be direct about where I stand, because I think both halves matter:
+Being direct about where I stand, I think there are two halves that matter equally:
 
-* **Ignoring AI is a professional mistake.** Teams that sit this out will fall behind the teams they compete with, they'll struggle to have the impact they want to have, and they're missing out on what can be, honestly, a lot of fun (assuming you derive enjoyment from professional achievement and outcomes).
-* **Adopting AI without the foundations to carry it is worse than not adopting it at all.** Every place where a team falls short on the fundamentals is a place where AI will make them pay, and pay dearly.
+* **Ignoring Agentic Engineering is a professional mistake.** Teams that sit this out will fall behind the teams they compete with, they'll struggle to have the impact they want to have, and they're missing out on what can be, honestly, a lot of fun (assuming you derive enjoyment from professional achievement and outcomes).
+* **Adopting Agentic Engineering without the foundations to carry it is worse than not adopting it at all.** Every place where a team falls short on the fundamentals is a place where AI will make them pay, and pay dearly.
 
 ## Why I'm excited
 
 As far as I know, nobody in 1858 was arguing for a return to the chamber pot, and I'm not arguing for a return to hand-writing every line either.
 
-Lean taught us to see waste: the waiting, the handoffs, the manual steps repeated over and over, the work that adds nothing a customer would pay for. Automation is how we remove much of it. Once we've worked out the mechanics of something, we teach a machine to do it, so nobody has to think about it again: the pipeline, the deploy, the tests, the boring bits. AI pushes that further than anything has before, and I have no aversion to it.
+Lean taught us to see waste: the waiting, the handoffs, the manual steps repeated over and over, the work that adds nothing a customer would pay for. Automation is how we remove much of it. Once we've worked out the mechanics of something, we teach a machine to do it, so nobody has to think about it again: the data ingestion, the pipeline, the deploy, the manual checks that gate every release, the boring bits. AI has the potential to push that further than anything has before, and I'm keen to find out how far.
 
-But for me, AI isn't only automation. It's non-deterministic, which means I can never fully trust it to run lights-out. Not yet, anyway. What I *do* get from it is two things.
+But for me, AI isn't primarily about automation. It's non-deterministic, which means I can never fully trust it to run lights-out. Not yet, anyway. What I *do* get from it is two things.
 
-The first is a better way to investigate my own thinking. It's a rubber duck that talks back, in ways that beat the rubber duck. There are pitfalls, and I've [written about one of them]({% post_url 2026-11-08-whose-decision-was-that-anyway %}): we readily adopt an agent's lean as our own. So I try to go in with a view of my own, and make it argue with me rather than for me.
+The first is a better way to investigate my own thinking: a rubber duck that talks back, in ways that beat the rubber duck. The second is reach. There's a lot I don't know, technologies I've never used, APIs I've never integrated, and AI can get to a huge amount of information very quickly. Both come with pitfalls, and [I've written about some of them]({% post_url 2026-11-08-whose-decision-was-that-anyway %}), but as long as I interrogate what comes back rather than trusting the first answer, they let me move much faster than I ever could before.
 
-The second is reach. There's a lot I don't know: technologies I've never used, APIs I've never integrated. AI can get to a huge amount of information very quickly, and as long as I don't trust the first answer it gives me, as long as I interrogate what comes back, it lets me move much faster than I ever could before.
+**In the past year, I've achieved in days what would previously have taken me weeks.** There's no doubt about that in my mind. If you've tried it seriously and still don't believe that, I'd gently suggest looking again. I can't say for sure why it's worked so well for me. Part of it, I suspect, is having twenty-five years of experience under my belt. Not because experience stops me believing the things an agent makes up; the research suggests that it doesn't. But it taught me what good looks like, when something smells off, and how to keep an agent moving in small, reliable steps, so that each one gives me the confidence to take the next. Not everyone has had twenty-five years to learn that, and I worry about how we grow newcomers into experienced engineers in the coming decades. But this is why collborative practices matter more than effer.
 
-**In the past year, I've achieved in hours and days what would previously have taken me weeks.** There's no doubt about that in my mind. Anyone who claims that can't be true is either not really trying it, or is experiencing some kind of bias. <!-- NOTE: consider softening, e.g. "If you've tried it seriously and still don't believe that, I'd gently suggest looking again at how you tried it." -->
+The gains are real, and every one of them has depended on what happens downstream of the agent.
 
-I can't say for sure why it's worked so well for me. Part of it, I suspect, is twenty-five years of building software. Not because experience stops me believing the things an agent makes up; the research is fairly clear that it doesn't. But it taught me what to look at, when something smells off, and how to keep an agent moving in small, reliable steps, so that each one gives me the confidence to take the next. Not everyone has had twenty-five years to learn that. But it's something a team can provide.
+## The River We Drink From
 
-Look at what both of those uses have in common: *don't trust the first answer*. The gains are real, and every one of them has depended on what happens downstream of the agent.
+The field is moving so fast that any research is out of date almost as soon as it's published, so everything that follows deserves a pinch of salt.
 
-## Downstream
+Even so, some patterns are already showing up consistently enough that they're worth listening to. Research by [DORA](https://dora.dev/) tells this story in numbers. The [2024 report](https://dora.dev/research/2024/dora-report/) found that as AI adoption went up, delivery throughput and stability went *down*. The [2025 report](https://dora.dev/dora-report-2025/) put the explanation plainly: **AI is an amplifier**. It magnifies the strengths of high-performing teams, and the dysfunctions of struggling ones. It speeds up development, and that speed exposes whatever is weak downstream.
 
-DORA's research on AI tells this story in numbers. The 2024 report found that as AI adoption went up, delivery throughput and stability went *down*: by an estimated 1.5% and 7.2% respectively for a 25% increase in adoption. The [2025 report](https://dora.dev/dora-report-2025/) put the explanation plainly: **AI is an amplifier**. It magnifies the strengths of high-performing teams, and the dysfunctions of struggling ones. It speeds up development, and that speed exposes whatever is weak downstream.
+That fits with what decades of research have found: speed and stability aren't a trade-off. {% include footnotes/footnote_link.html content='The teams that deploy most often are the ones with the lowest change failure rates and the fastest recovery' count=1 %}, and it isn't a coincidence. The foundations are what let you go fast.
 
-That fits with what DORA has been finding for over a decade: speed and stability aren't a trade-off. {% include footnotes/footnote_link.html content='The teams that deploy most often are the ones with the lowest change failure rates and the fastest recovery' count=1 %}, and it isn't a coincidence. The foundations are what let you go fast.
+The same Lean thinking that tells us to automate waste away also warns us about the worst waste of all. Taiichi Ohno called it [overproduction](https://artoflean.com/reference/overproduction/): making more than the next step can use. It's the worst because it creates and hides the others. Work that's been started but can't move on piles up as inventory in front of the bottleneck, waiting, and hiding its defects until someone finally gets to it.
 
-The same Lean thinking that tells us to automate waste away also warns us about the worst waste of all. Taiichi Ohno called it overproduction: making more than the next step can use. It's the worst because it creates and hides the others. Work that's been started but can't move on piles up as inventory in front of the bottleneck, waiting, and hiding its defects until someone finally gets to it. With agents, the bottleneck has moved. Writing code used to be the slow part. Now it's everything after it, and if those stages were already fragile, they don't just slow down. They overflow.
+Agents speed up just one part of delivery: producing code. Everything downstream of that has to absorb the extra volume. But software delivery is a loop, not a line. What flows downstream comes back around as the starting point for the next change: the code we have to understand, the bugs we have to fix, the feedback that tells us what to build next. So the strain doesn't stay downstream. It comes back to the production of code itself.
 
-## A map of uncharted ground
+Victorian London learned the same lesson: the river it was pouring its waste into was the one it drank from. So the real question isn't how fast your agents can write code. It's whether the whole loop can carry what they produce.
 
-It would be easy to turn this into a list of practices: do TDD, do trunk-based development, pair, deploy continuously. But nobody has charted this territory yet, me included, and I'd be suspicious of anyone who tells you there's a single route across it. Copying another team's practices doesn't copy their foundations.
+## A map across uncharted ground
 
-So instead, here's my chart so far: the *confidences* I think a team needs to get real value out of AI. For each one, I'll share how I've got there in the past, but that's my route, not *the* route. If your team gets the same confidence another way, you've arrived.
+The predictable answer is a list of practices: do TDD, do trunk-based development, pair, deploy continuously. I've never believed that works. We don't all think alike, and a practice that transforms how one person works can exhaust another, or do nothing for them at all. As a neurodivergent person, I know this first-hand. That's why a team should [keep re-evaluating its practices]({% post_url 2018-07-28-the-secret-sauce-to-an-effective-team %}) rather than inheriting them.
 
-Rather than a starting point, I'd suggest two questions. **Which of these is your team shortest on?** That's where AI will cost you first. And **where is your team quietly dumping into the river today?** Whatever you've been getting away with at the old volume is what will overflow at the new one.
+A leader's job is to make their team successful: the team you have, not the team you wish you had. Telling them to adopt every practice and all will be well isn't true, and it isn't helpful. Copying another team's practices doesn't copy their foundations.
+
+And with Agentic Engineering, we're on uncharted ground, so I'd be suspicious of anyone who claims there's a single route across it. 
+
+Instead, here's my chart so far: the *confidences* I think a team needs to get real value out of AI. For each one, I share how my team and I got there, but that's *my* route, not *the* route. If your team reaches the same confidence another way, you've arrived.
 
 ## The confidences
+
+If I were coaching a team, this is where I'd start. I'd get everyone in a room, post each of these confidences on the wall, and ask each person to add sticky notes under each one: *what gives you this confidence today?*, and *what keeps you from having it?*.
+
+The wall should surface the two things that matter most. **Which confidence is the team shortest on?** That's where AI will cost you first. And **where is the team quietly dumping into the river?** Whatever you've been getting away with at the old volume is what will overflow at the new one.
 
 ### "I can change this without fear"
 
 You can open any part of the codebase, change it, and know within minutes whether you broke something. The signal is a low change failure rate, and a team that doesn't flinch at the parts of the system everyone else avoids.
 
-My route has always been TDD and a fast test suite people actually trust. AI is genuinely brilliant here: wrapping characterisation tests around the code nobody dares touch used to take weeks of archaeology. Be careful, though: tests written by the same agent that wrote the code tend to confirm what the code does, not what it should do.
+My route has always been TDD and a fast test suite people actually trust. AI is genuinely brilliant here: wrapping characterisation tests around the legacy code nobody dares touch used to take weeks of archaeology. By leveraging mutation testing, AI can do this while you sleep. Be careful, though: tests written by the same agent that wrote the code tend to confirm what the code does, not what it should do.
 
 *At the new volume: a test suite nobody trusts becomes many times more changes nobody can verify.*
 
@@ -97,37 +105,43 @@ My route: good observability, rollbacks that are boring, and feature flags so th
 
 Changes flow to production in small pieces, many times a day, and nobody thinks it's remarkable. The signals are deployment frequency and lead time.
 
-My route: trunk-based development, small batches and an automated path to production. This is the confidence agents erode most quietly, because their default is the big batch: a big plan, a big diff, a big review. I wrote about this in [No Spec Survives Contact with the Customer]({% post_url 2026-11-18-no-spec-survives-contact-with-the-customer %}).
+My route: trunk-based development, small batches and an automated path to production. This is the confidence I find agents erode first, because they default to big batches: [a big spec]({% post_url 2026-11-18-no-spec-survives-contact-with-the-customer %}), a big plan, a big diff, and a big review.
 
 *At the new volume: a deploy that needs a particular person, or a pull request that waits days for review, becomes the cesspit everything else backs up into.*
 
 ### "We solved the right problem"
 
-The hardest one to measure, and I'd rather be honest about that than invent a metric for it. You know you've got it when the team regularly hears from the people using what you built, and changes course because of what they hear.
+The hardest one to measure, I wish I had a metric for it. You know you've got it when it's routine for the team to hears from the people using what you built, and change course because of what they learned.
 
-My route: conversations with customers, small steps, and lately, throwaway prototypes built with agents that exist only to start those conversations (a topic I still owe you a post on).
+My route: conversations with customers, small steps, and lately, throwaway prototypes built with agents that exist only to drive those conversations.
 
-*At the new volume: when building is cheap, building the wrong thing is cheap too, right up until you've built a great deal of it, and every line of it is a liability.*
+*At the new volume: when building is cheap, building the wrong thing feels cheap too, right up until you've built a great deal of it, and soon it becomes a liability.*
 
 ### "We all know why it works this way"
 
 Decisions are made in the open, challenged while they're being made, and understood by more than one person. You know you've got it when anyone on the team can explain why the system is the way it is.
 
-My route: pairing, rotating pairs, and Architecture Decision Records for the decisions that matter.
+I expect this to be the most contentious confidence on the map. Many people seem to believe that in the age of AI we no longer need to know what our software does, or how, because we can always ask. I suspect they've forgotten how it feels when someone from sales asks whether something is possible, or why a customer is seeing what they're seeing, and the best you can say is "I don't know. I'll have to check and get back to you."
 
-*At the new volume: more decisions than ever are being made in one person's conversation with a machine, and [nobody else ever sees them]({% post_url 2026-11-08-whose-decision-was-that-anyway %}).*
+An agent can be very good at reading code and telling you what it appears to do. It's far less able to tell you why it's that way, because the why often isn't in the code or the docs at all. It lives in the shape and origin of the data, in how that data is spread across different stores and structures, and in side effects and history nobody wrote down. Assuming you can always ask the AI is, in my opinion, blind faith. It might hold in a two-year-old greenfield startup. In any company with legacy, it's wishful thinking.
+
+My route: pairing, rotating pairs, story reviews before work is picked up and after it's shipped, and [Architecture Decision Records](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) for the decisions that matter.
+
+*At the new volume: more decisions than ever are being made in one person's undocumented conversation with a machine, and [nobody else ever sees them]({% post_url 2026-11-08-whose-decision-was-that-anyway %}). Spec Driven Development attempts to tackle this, but on it's own, at scale, all it becomes is more documentation no one reads.*
 
 ## Muscle and tendon
 
-Anyone who's taken up a sport seriously as an adult has probably met a version of this. When you train hard, muscle adapts quickly: you can feel yourself getting stronger within weeks. Tendons and ligaments adapt far more slowly, over months. That gap is why people who ramp up too fast get injured: the muscle can now produce more force than the connective tissue can safely carry. Climbers know this well; a beginner's arms get strong long before their fingers do.
+I have a tear in my rotator cuff; This might seem unrelated, but bear with me.
 
-AI grows the muscle. Output goes up almost immediately. The connective tissue (the tests, the deployment pipeline, the shared understanding, the conversations with the customer) adapts at its own pace, and only if you train it deliberately. And everything that makes agents exciting adds load: bigger tasks, more autonomy, agents running in parallel while you're in a meeting.
+Anyone who's taken up a sport seriously as an adult has probably met a version of this. When you train hard, muscle adapts quickly: you can feel yourself getting stronger within weeks. Tendons and ligaments adapt far more slowly, over months. That gap is why people who ramp up too fast get injured: the muscle can now produce more force than the connective tissue can safely carry. Climbers know this well; a beginner's arms get strong long before their fingers do. After Covid I tried to climb at my pre-pandemic level too soon, training hard, I rushed into it and injured myself several times.
 
-So this is how I think about how far to let an agent run. **Give agents as much autonomy as your foundations can carry, and no more.** Autonomy beyond that is borrowing against a debt you can't see yet.
+Agentic Engineering is like growing a muscle. Output goes up almost immediately. The connective tissue (the tests, the deployment pipeline, the shared understanding, the conversations with the customer) adapts at its own pace, and only if you train it deliberately. And everything that makes agents exciting adds load: bigger tasks, more autonomy, agents running in parallel while you're in a meeting.
+
+So this is how I think about how far to let an agent run. **Give agents as much autonomy as your foundations can carry, and no more.** Autonomy beyond that is borrowing against a debt you might not be able to pay back — take a long hard look at your available runway.
 
 The early signs of that debt are easy to miss. Some engineers are [noticing](https://lnkd.in/p/es9MVCJV) that when an agent hits a bug, it often patches the one case in front of it rather than question the design that caused it. Each patch is a little more sent downstream, and nobody notices the smell until the weather turns.
 
-## Before the summer
+### Before the summer
 
 London knew it had a problem long before 1858. There had been cholera outbreaks, reports, a commission, and dozens of plans. What it didn't have was the will to act until the smell reached Parliament's windows. Then it found the money in weeks.
 
