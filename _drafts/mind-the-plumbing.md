@@ -81,6 +81,8 @@ Instead, here's my chart so far: the *confidences* I think a team needs to get r
 
 ## The confidences
 
+![A map of the confidences: four rings for the change, the system, the team and the customer, with each confidence on the ring it protects](/images/posts/mind-the-plumbing-confidences.svg)
+
 If I were coaching a team, this is where I'd start. I'd get everyone in a room, post each of these confidences on the wall, and ask the team to add sticky notes under each one, answering the questions *what gives you this confidence today?*, and *what keeps you from having it?*.
 
 The wall should surface the two things that matter most. **Which confidence is the team shortest on?** That's where AI will cost you first. And **where is the team quietly dumping into the river?** Whatever you've been getting away with at the old volume is what will overflow at the new one.
@@ -189,6 +191,10 @@ Agentic Engineering is like growing a muscle. Output goes up almost immediately.
 
 So this is how I think about how far to let an agent run. **Give agents as much autonomy as your foundations can carry, and no more.** Autonomy beyond that is borrowing against a debt you might not be able to pay back — take a long hard look at your available runway.
 
+Plot the same confidences against how much you hand to agents, from autocomplete in the IDE to autonomous agents in the cloud, and the shape of that advice becomes clearer:
+
+![The confidences placed on five rings of agentic engineering, from autocomplete at the centre to agents in the cloud at the edge, each on the ring where agents start to depend on it](/images/posts/mind-the-plumbing-agentic.svg)
+
 The early signs of that debt are easy to miss. Some engineers are [noticing](https://lnkd.in/p/es9MVCJV) that when an agent hits a bug, it often patches the one case in front of it rather than question the design that caused it. Each patch is a little more sent downstream, and nobody notices the smell until the weather turns.
 
 ## Where I've got to
@@ -198,6 +204,10 @@ London knew it had a problem long before 1858. The debt had been building for de
 So here's the strongest version of my position. **If what's downstream can't carry the flow, turning the flow up just puts more sewage in the river.** Hold back on handing your delivery to agents until it can, and in the meantime, point AI at the foundations you're shortest on. Some of the best uses of AI I've seen have been in digging the sewers.
 
 London's answer was Joseph Bazalgette, who built a sewer network sized for twice the city's population and, {% include footnotes/footnote_link.html content="as the story goes, then doubled the pipes on top of that" count=2 %}. It's still in use today. London didn't give up the flush toilet. It built something that could carry it, with room to spare, and then got on with growing.
+
+Put the two maps together and you have my roadmap: what each confidence protects, and how far it lets you go.
+
+![The merged map: quarters for what each confidence protects, and rings for how far it lets you hand work to agents](/images/posts/mind-the-plumbing-merged.svg)
 
 That's what I'd want for any team, whether you've ignored AI so far or jumped in head first. I'm genuinely excited about what AI makes possible, and I want every team I work with to get the most out of it, without burning their runway to find out what it can't do.
 
