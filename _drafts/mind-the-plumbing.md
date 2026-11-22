@@ -32,18 +32,18 @@ AI has made producing that code almost effortless, the way the flush toilet made
 
 Engineering teams always have to trade off expediencey against sustainability and as a result compromise on practices that are somewhat risky and unsafe: tests suites that nobody trusts, a deploy that needs a particular person, pull requests that sit arond for days and weeks, and customers that nobody on the team has ever talked to. At the old volume, we got away with this. The cesspit was nasty, but it held. Turn up the flow, and those compromises don't just become bottlenecks, they overflow.
 
-The wider conversation doesn't help. It has become polarised: on one side, blind optimism, where every problem is a prompt away from solved; on the other, blind pessimism, where it's all hype and slop and best ignored. Each side's excesses seem to push the other further towards its extreme, and there's very little room left in between.
+The wider conversation doesn't help. Many organisations are anxious about AI, and that anxiety has created a market for confidence: frameworks, platforms, transformation programmes, anything that promises to make the fear go away. As [the Cutlfish](https://lnkd.in/p/ery_rx26) put it, *the more anxious the buyer, the more reassuring a confident prescription becomes, and the people acknowledging complexity and trade-offs start to sound less credible than the people promising transformation*.
 
-I'm somewhere in that middle. I'm genuinely excited about what AI makes possible. I'm also watching a lot of waste, and real harm, to individuals as well as to businesses, as companies throw themselves at it without asking what it needs in order to work. <!-- NOTE: consider one concrete example of the harm to individuals (e.g. layoffs justified by AI, burnout, deskilling) --> If we approach AI as what it is, a powerful new tool that has to be learned and fitted into how we work, there's a real opportunity here. If we go all in blindly, many companies are going to burn through huge amounts of runway for little or no return.
+So this post isn't a prescription, it's my own roadmap: what I believe my teams and I need to get right, based on what I've seen work and what I've watched fail. I'm genuinely excited about AI, and I'm also watching real waste and harm as companies reach for whatever sounds most certain. If we approach AI as what it is, a powerful new tool that has to be learned and fitted into how we work, there's a real opportunity here. For us, the opportunity starts with the plumbing. If we go *all-in* blindly, many companies are going to burn through huge amounts of runway for little or no return.
 
-So I'll be blunt about where I stand, because I think both halves matter:
+So I'll be direct about where I stand, because I think both halves matter:
 
-* **Ignoring AI is a professional mistake.** Teams that sit this out will fall behind the teams they compete with, they'll struggle to have the impact they want to have, and they're missing out on what is, honestly, a lot of fun.
+* **Ignoring AI is a professional mistake.** Teams that sit this out will fall behind the teams they compete with, they'll struggle to have the impact they want to have, and they're missing out on what can be, honestly, a lot of fun (assuming you derive enjoyment from professional acheviement and outcomes).
 * **Adopting AI without the foundations to carry it is worse than not adopting it at all.** Every place where a team falls short on the fundamentals is a place where AI will make them pay, and pay dearly.
 
 ## Why I'm excited
 
-Nobody in 1858 was arguing for a return to the chamber pot, and I'm not arguing for a return to hand-writing every line either. Anything we've worked out the mechanics of should be handed to a machine: the pipeline, the deploy, the tests, the boring bits nobody should have to think about. AI pushes that further than anything has before, and I have no aversion to it.
+As far as I know, nobody in 1858 was arguing for a return to the chamber pot, and I'm not arguing for a return to hand-writing every line either. Anything we've worked out the mechanics of should be handed to a machine: the pipeline, the deploy, the tests, the boring bits nobody should have to think about. AI pushes that further than anything has before, and I have no aversion to it.
 
 But for me, AI isn't only automation. Automation is when you've figured out the mechanics of something and teach a machine to do it for you, over and over, so you don't have to think about it anymore. AI overlaps with that heavily, but it's non-deterministic, which means I can never fully trust it as lights-out automation. Not yet, anyway.
 
