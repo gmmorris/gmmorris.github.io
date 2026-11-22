@@ -201,7 +201,7 @@ London's answer was Joseph Bazalgette, who built a sewer network sized for twice
 
 That's what I'd want for any team, whether you've ignored AI so far or jumped in head first. I'm genuinely excited about what AI makes possible, and I want every team I work with to get the most out of it, without burning their runway to find out what it can't do.
 
-But before you turn up the flow, find out where it goes.
+So turn up the flow. Just make sure you know where it goes.
 
 {% capture footnotes %}
 You'll notice I haven't used DORA's old elite/high/medium/low performance tiers. The 2025 report moved away from them in favour of seven team archetypes, each balancing performance, stability and well-being differently, which fits rather well with the idea that there's no single route.
