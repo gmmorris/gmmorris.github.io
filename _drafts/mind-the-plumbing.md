@@ -109,7 +109,7 @@ Access to production, to data and to infrastructure is deliberate. Nobody can SS
 
 **My route:** least privilege by default, no standing access to production, break-glass access that's time-limited and audited, infrastructure as code, and production changes only through the pipeline.
 
-{% capture leads_danger %}**Where it leads:** the controls you put on people become the controls on their agents, at no extra cost. Instead of hoping an agent won't do something dangerous, you've made sure it can't, and that's what lets you give it real reach through the pipeline.{% endcapture %}
+{% capture leads_danger %}**Where it leads:** the controls you put on people become the controls on their agents, at no extra cost. Instead of hoping an agent won't do something dangerous, you've made sure it can't, and that's what lets you stop approving every command it runs and let it get on with the work.{% endcapture %}
 {% include callout.html content=leads_danger %}
 
 ### "I can spin up the whole system in minutes"
