@@ -43,11 +43,11 @@ So I'll be direct about where I stand, because I think both halves matter:
 
 ## Why I'm excited
 
-As far as I know, nobody in 1858 was arguing for a return to the chamber pot, and I'm not arguing for a return to hand-writing every line either. Anything we've worked out the mechanics of should be handed to a machine: the pipeline, the deploy, the tests, the boring bits nobody should have to think about. AI pushes that further than anything has before, and I have no aversion to it.
+As far as I know, nobody in 1858 was arguing for a return to the chamber pot, and I'm not arguing for a return to hand-writing every line either.
 
-But for me, AI isn't only automation. Automation is when you've figured out the mechanics of something and teach a machine to do it for you, over and over, so you don't have to think about it anymore. AI overlaps with that heavily, but it's non-deterministic, which means I can never fully trust it as lights-out automation. Not yet, anyway.
+Lean taught us to see waste: the waiting, the handoffs, the manual steps repeated over and over, the work that adds nothing a customer would pay for. Automation is how we remove much of it. Once we've worked out the mechanics of something, we teach a machine to do it, so nobody has to think about it again: the pipeline, the deploy, the tests, the boring bits. AI pushes that further than anything has before, and I have no aversion to it.
 
-What I *do* get from it is two things.
+But for me, AI isn't only automation. It's non-deterministic, which means I can never fully trust it to run lights-out. Not yet, anyway. What I *do* get from it is two things.
 
 The first is a better way to investigate my own thinking. It's a rubber duck that talks back, in ways that beat the rubber duck. There are pitfalls, and I've [written about one of them]({% post_url 2026-11-08-whose-decision-was-that-anyway %}): we readily adopt an agent's lean as our own. So I try to go in with a view of my own, and make it argue with me rather than for me.
 
@@ -65,7 +65,7 @@ DORA's research on AI tells this story in numbers. The 2024 report found that as
 
 That fits with what DORA has been finding for over a decade: speed and stability aren't a trade-off. {% include footnotes/footnote_link.html content='The teams that deploy most often are the ones with the lowest change failure rates and the fastest recovery' count=1 %}, and it isn't a coincidence. The foundations are what let you go fast.
 
-Lean has a name for what happens when flow outruns capacity: inventory. Work that's been started but can't move on is waste, and it piles up in front of the bottleneck. With agents, the bottleneck has moved. Writing code used to be the slow part. Now it's everything after it, and if those stages were already fragile, they don't just slow down. They overflow.
+The same Lean thinking that tells us to automate waste away also warns us about the worst waste of all. Taiichi Ohno called it overproduction: making more than the next step can use. It's the worst because it creates and hides the others. Work that's been started but can't move on piles up as inventory in front of the bottleneck, waiting, and hiding its defects until someone finally gets to it. With agents, the bottleneck has moved. Writing code used to be the slow part. Now it's everything after it, and if those stages were already fragile, they don't just slow down. They overflow.
 
 ## A map of uncharted ground
 
