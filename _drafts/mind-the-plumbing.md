@@ -165,7 +165,7 @@ An agent can be very good at reading code and telling you what it appears to do.
 
 Anyone on the team can raise a concern, about a change, a decision, a tool or a direction, and it's heard rather than resented. You know you've got it when the most junior person in the room will tell the most senior one "I don't think this is right." Without it, at the new volume, problems hide in plain sight. Questioning an agent's output, or whether AI is helping at all, starts to feel like standing in the way of progress, so people stop doing it.
 
-**My route:** leaders who go first, admitting their own mistakes and thanking the people who point them out; blameless incident reviews; and rituals like [Feedback & Cake]({% post_url 2018-08-04-feedback-and-cake %}) that make giving and receiving feedback normal.
+**My route:** leaders who go first, admitting their own mistakes and thanking the people who point them out; retrospectives and blameless postmortems; and rituals like [Feedback & Cake]({% post_url 2018-08-04-feedback-and-cake %}) that make giving and receiving feedback normal.
 
 {% capture leads_speak %}Problems surface while they're still small. Someone flags the agent change that looks off, the workflow that isn't paying off, or the task that should never have been handed to an agent, without worrying they'll be seen as standing in the way. In a climate this anxious, that honesty is rare, and it's worth more than any tool.{% endcapture %}
 {% include highlight.html label="Where it leads" icon="route" content=leads_speak %}
