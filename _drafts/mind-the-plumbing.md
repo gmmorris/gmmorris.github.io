@@ -191,32 +191,22 @@ So this is how I think about how far to let an agent run. **Give agents as much 
 
 The early signs of that debt are easy to miss. Some engineers are [noticing](https://lnkd.in/p/es9MVCJV) that when an agent hits a bug, it often patches the one case in front of it rather than question the design that caused it. Each patch is a little more sent downstream, and nobody notices the smell until the weather turns.
 
-### Before the summer
-
-London's waste had been running up a debt long before 1858: cholera in 1832, cesspits that leaked gas and exploded. The flush toilets called it in. Worse outbreaks followed, the river the city drank from became a sewer, and then came the Stink.
-
-I see a lot of teams in the years before 1858. They've been carrying debt for a long time, and agents have started calling it in: a review queue that keeps growing, incidents that keep repeating, a codebase that's harder to change every month. The bill doesn't arrive all at once, which makes it easy to ignore, while the feeling of speed arrives on day one. As I've [argued before]({% post_url 2026-11-18-no-spec-survives-contact-with-the-customer %}), rework only *feels* cheap: its real cost turns up later, compounded.
-
-So here's the strongest version of my position. **If what's downstream can't carry the flow, turning the flow up just puts more sewage in the river.** You'd be better off holding back on handing your delivery to agents until it can.
-
-That doesn't mean ignoring AI in the meantime. Point it at the foundations you're shortest on. Use it to write the characterisation tests, to build the pipeline, to untangle the coupling, to set up the measurement that tells you where you actually stand. Some of the best uses of AI I've seen have been in digging the sewers.
-
 ## Where I've got to
 
-The engineer London turned to was Joseph Bazalgette. Over the following years, his teams built some 82 miles of great intercepting sewers to catch the waste before it reached the river, fed by around 1,100 miles of smaller street sewers, and carried it away downstream of the city. The work was largely complete by 1875, and cholera never again took hold in London the way it had.
+London's waste had been running up a debt long before 1858; the flush toilets just called it in. I see a lot of teams in the same place. They've carried debt for years, and agents have started calling it in: a review queue that keeps growing, incidents that keep repeating, a codebase that's harder to change every month. The bill arrives slowly, while the feeling of speed arrives on day one.
 
-Bazalgette designed the system for a population roughly double the one London had at the time, and {% include footnotes/footnote_link.html content="as the story goes, he then doubled the size of the pipes on top of that" count=2 %}: "we're only going to do this once, and there's always the unforeseen." By the time he died, London's population had more than doubled. His sewers are still in use today; the city only recently finished a new "super sewer" beneath the Thames to extend them.
+So here's the strongest version of my position. **If what's downstream can't carry the flow, turning the flow up just puts more sewage in the river.** Hold back on handing your delivery to agents until it can, and in the meantime, point AI at the foundations you're shortest on. Some of the best uses of AI I've seen have been in digging the sewers.
 
-London didn't give up the flush toilet. It built something that could carry it, with room to spare, and then got on with growing.
+London's answer was Joseph Bazalgette, who built a sewer network sized for twice the city's population and, {% include footnotes/footnote_link.html content="as the story goes, then doubled the pipes on top of that" count=2 %}. It's still in use today. London didn't give up the flush toilet. It built something that could carry it, with room to spare, and then got on with growing.
 
-That's what I'd want any team to take from this. Whether you've ignored AI so far or jumped in head first, the foundations on this map are all within reach, and AI can help you build them. I'm genuinely excited about what that makes possible, and I want every team I work with to get the most out of it, without burning their runway to find out what it can't do.
+That's what I'd want for any team, whether you've ignored AI so far or jumped in head first. I'm genuinely excited about what AI makes possible, and I want every team I work with to get the most out of it, without burning their runway to find out what it can't do.
 
 But before you turn up the flow, find out where it goes.
 
 {% capture footnotes %}
 You'll notice I haven't used DORA's old elite/high/medium/low performance tiers. The 2025 report moved away from them in favour of seven team archetypes, each balancing performance, stability and well-being differently, which fits rather well with the idea that there's no single route.
 
-The quote is repeated everywhere, including by the Institution of Civil Engineers, but I couldn't find a primary source for it, so take it as legend rather than record. The part that's well documented is that the system was sized for a far larger population than London had at the time. There's a lovely irony in the story too: most of the people who pushed for the sewers believed disease spread through bad air, the "miasma" theory, rather than through contaminated water, as John Snow had argued. They built the right thing for the wrong reason. Which, I suppose, is another argument for focusing on the outcome rather than the route. <!-- VERIFY: Bazalgette quote provenance; "cholera never again" (1866 East End outbreak hit an area not yet connected) -->
+He's supposed to have said: "we're only going to do this once, and there's always the unforeseen." The quote is repeated everywhere, including by the Institution of Civil Engineers, but I couldn't find a primary source for it, so take it as legend rather than record. The part that's well documented is that the system was sized for a far larger population than London had at the time. There's a lovely irony in the story too: most of the people who pushed for the sewers believed disease spread through bad air, the "miasma" theory, rather than through contaminated water, as John Snow had argued. They built the right thing for the wrong reason. Which, I suppose, is another argument for focusing on the outcome rather than the route.
 {% endcapture %}
 
 {% include footnotes/footnote.html notes=footnotes %}
