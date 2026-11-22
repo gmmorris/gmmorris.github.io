@@ -105,7 +105,7 @@ Something goes wrong in production and nobody panics, because putting it right i
 
 ### "Nothing I do reaches production by accident"
 
-The pipeline is the only way in. Nobody can SSH into a production box on a whim and run a command against the database, and the few routes around the pipeline are logged, limited and time-bound. Without it, at the new volume, every privilege you've been tolerating is one you've handed to your agents. An agent running as you can do anything you can do, at machine speed, in your name. And the safeguard most of us lean on, approving what the agent wants to do, doesn't survive the volume: by the hundredth request of the day, nobody is really reading them anymore.
+The pipeline is the only way in. Nobody can SSH into a production box on a whim and run a command against the database, and the few routes around the pipeline are logged, limited and time-bound. Without it, at the new volume, every privilege you've been tolerating is one you've handed to your agents. An agent running as you can do anything you can do, at machine speed, in your name. And the safeguard most of us lean on — approving what the agent wants to do — doesn't survive the volume: by the hundredth request of the day, nobody is really reading them anymore.
 
 **My route:** least privilege by default, no standing access to production, break-glass access that's time-limited and audited, and infrastructure as code.
 
