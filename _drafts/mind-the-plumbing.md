@@ -89,19 +89,19 @@ The wall should surface the two things that matter most. **Which confidence is t
 
 You can open any part of the codebase, change it, and know within minutes whether you broke something. The signal is a low change failure rate, and a team that doesn't flinch at the parts of the system everyone else avoids.
 
-*At the new volume: a test suite nobody trusts becomes many times more changes nobody can verify.*
+<!-- FORMAT OPTION 1: matching bold labels -->
+**At the new volume:** a test suite nobody trusts becomes many times more changes nobody can verify.
 
-My route has always been TDD and a fast test suite people actually trust. AI is genuinely brilliant at getting you there: wrapping characterisation tests around the legacy code nobody dares touch used to take weeks of archaeology, and with mutation testing to prove those tests actually catch something, AI can do it while you sleep.
+**My route:** TDD and a fast test suite people actually trust. AI is genuinely brilliant at getting you there: wrapping characterisation tests around the legacy code nobody dares touch used to take weeks of archaeology, and with mutation testing to prove those tests actually catch something, AI can do it while you sleep.
 
 **What it unlocks:** agents can work anywhere in the codebase, including the parts everyone avoids, and check their own work against tests you trust. That trust is the point: tests written by the same agent that wrote the code tend to confirm what the code does, not what it should do. Get it right, and you take the first step from reviewing every line an agent writes to trusting the feedback loop it works inside.
 
 ### "If I'm wrong, I can undo it in minutes"
 
-Something goes wrong in production and nobody panics, because putting it right is routine. The signal is a short time to restore service.
+Something goes wrong in production and nobody panics, because putting it right is routine. <!-- FORMAT OPTION 2: warning folded into the opening -->
+The signal is a short time to restore service. Without it, the new volume hurts: more change means more things going wrong, and if recovery is slow and painful, every one of them costs more, and they start to overlap.
 
-*At the new volume: more change means more things going wrong. If recovery is slow and painful, every one of them costs more, and they start to overlap.*
-
-My route: good observability, rollbacks that are boring, and feature flags so that a release and a deploy aren't the same thing.
+**My route:** good observability, rollbacks that are boring, and feature flags so that a release and a deploy aren't the same thing.
 
 **What it unlocks:** agent-written changes can reach production without a person nervously guarding each one. Behind a flag, a bad change becomes a cheap experiment rather than an incident, which is what lets you start giving agents room to try things.
 
@@ -109,11 +109,13 @@ My route: good observability, rollbacks that are boring, and feature flags so th
 
 Changes flow to production in small pieces, many times a day, and nobody thinks it's remarkable. The signals are deployment frequency and lead time.
 
-*At the new volume: a deploy that needs a particular person, or a pull request that waits days for review, becomes the cesspit everything else backs up into.*
+<!-- FORMAT OPTION 3: unlock in a callout -->
+At the new volume, a deploy that needs a particular person, or a pull request that waits days for review, becomes the cesspit everything else backs up into.
 
 My route: trunk-based development, small batches and an automated path to production. This is the confidence I find agents erode first, because they default to big batches: [a big spec]({% post_url 2026-11-18-no-spec-survives-contact-with-the-customer %}), a big plan, a big diff, and a big review.
 
-**What it unlocks:** running several agents in parallel without their work piling up. Small changes are reviewable changes, and when each one flows straight to production, more agents means more value delivered rather than a longer queue.
+{% capture unlock_ship %}**What it unlocks:** running several agents in parallel without their work piling up. Small changes are reviewable changes, and when each one flows straight to production, more agents means more value delivered rather than a longer queue.{% endcapture %}
+{% include callout.html content=unlock_ship %}
 
 ### "We solved the right problem"
 
