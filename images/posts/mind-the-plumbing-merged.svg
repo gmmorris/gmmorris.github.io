@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 1380" font-family="Georgia, 'Source Serif 4', serif" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 1380" width="1700" height="1380" font-family="Georgia, 'Source Serif 4', serif" role="img" aria-labelledby="t d">
 <title id="t">The confidences, and how far they let agents go</title>
 <desc id="d">A circular map. Rings from the centre outward show how much you hand to agents: autocomplete, an agent in the IDE, an agent that runs your tools, agents in the background, agents in the cloud. Four quarters show what each confidence protects: the change, the system, the team and the customer.</desc>
 <rect width="1700" height="1380" fill="#fff"/>
