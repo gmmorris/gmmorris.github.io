@@ -139,9 +139,9 @@ When I pick up a piece of work, I can understand everything it touches: what it 
 {% capture leads_coupling %}Agents get the same benefit: each change fits inside a boundary they can understand in full, and several people's agents can work side by side without stepping on each other. A smaller world is one an agent is less likely to get wrong. And a ubiquitous language means the team, the domain experts and the agents all use the same words for the same things, so less gets lost between them.{% endcapture %}
 {% include highlight.html label="Where it leads" icon="route" content=leads_coupling %}
 
-### "We solved the right problem"
+### "If we're off track, we'll find out fast"
 
-The hardest one to measure, I wish I had a metric for it. You know you've got it when it's routine for the team to hear from the people using what you built, and change course because of what they learned. Without it, agents making it dirt-cheap to build becomes a trap: building the wrong thing feels cheap too, right up until you've built more guesses than epiphanies, and it becomes a liability.
+We'll get things wrong; on a wicked problem, that's unavoidable. What matters is that it never lasts long. You know you've got it when it's routine for the team to hear from the people using what you built, and to change course because of what they learned. Short lead time is part of it, since you can't learn from something nobody has seen, but lead time stops at production. The loop that matters here runs all the way to the customer's reaction, and the closest thing I have to a metric is how long that takes. Without it, agents making building dirt-cheap becomes a trap: building the wrong thing feels cheap too, right up until you've built more guesses than epiphanies, and it becomes a liability.
 
 **My route:** conversations with customers, small steps, experiments that tell us whether a change actually moved anything, and lately, throwaway prototypes built with agents that exist only to drive those conversations.
 
