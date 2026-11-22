@@ -87,59 +87,52 @@ The wall should surface the two things that matter most. **Which confidence is t
 
 ### "I can change this without fear"
 
-You can open any part of the codebase, change it, and know within minutes whether you broke something. The signal is a low change failure rate, and a team that doesn't flinch at the parts of the system everyone else avoids.
-
-<!-- FORMAT OPTION 1: matching bold labels -->
-**At the new volume:** a test suite nobody trusts becomes many times more changes nobody can verify.
+You can open any part of the codebase, change it, and know within minutes whether you broke something. The signal is a low change failure rate, and a team that doesn't flinch at the parts of the system everyone else avoids. Without it, at the new volume, a test suite nobody trusts becomes many times more changes nobody can verify.
 
 **My route:** TDD and a fast test suite people actually trust. AI is genuinely brilliant at getting you there: wrapping characterisation tests around the legacy code nobody dares touch used to take weeks of archaeology, and with mutation testing to prove those tests actually catch something, AI can do it while you sleep.
 
-**What it unlocks:** agents can work anywhere in the codebase, including the parts everyone avoids, and check their own work against tests you trust. That trust is the point: tests written by the same agent that wrote the code tend to confirm what the code does, not what it should do. Get it right, and you take the first step from reviewing every line an agent writes to trusting the feedback loop it works inside.
+{% capture leads_1 %}**Where it leads:** agents can work anywhere in the codebase, including the parts everyone avoids, and check their own work against tests you trust. That trust is the point: tests written by the same agent that wrote the code tend to confirm what the code does, not what it should do. Get it right, and you take the first step from reviewing every line an agent writes to trusting the feedback loop it works inside.{% endcapture %}
+{% include callout.html content=leads_1 %}
 
 ### "If I'm wrong, I can undo it in minutes"
 
-Something goes wrong in production and nobody panics, because putting it right is routine. <!-- FORMAT OPTION 2: warning folded into the opening -->
-The signal is a short time to restore service. Without it, the new volume hurts: more change means more things going wrong, and if recovery is slow and painful, every one of them costs more, and they start to overlap.
+Something goes wrong in production and nobody panics, because putting it right is routine. The signal is a short time to restore service. Without it, the new volume hurts: more change means more things going wrong, and if recovery is slow and painful, every one of them costs more, and they start to overlap.
 
 **My route:** good observability, rollbacks that are boring, and feature flags so that a release and a deploy aren't the same thing.
 
-**What it unlocks:** agent-written changes can reach production without a person nervously guarding each one. Behind a flag, a bad change becomes a cheap experiment rather than an incident, which is what lets you start giving agents room to try things.
+{% capture leads_2 %}**Where it leads:** agent-written changes can reach production without a person nervously guarding each one. Behind a flag, a bad change becomes a cheap experiment rather than an incident, which is what lets you start giving agents room to try things.{% endcapture %}
+{% include callout.html content=leads_2 %}
 
 ### "I can ship this today, and again this afternoon"
 
-Changes flow to production in small pieces, many times a day, and nobody thinks it's remarkable. The signals are deployment frequency and lead time.
+Changes flow to production in small pieces, many times a day, and nobody thinks it's remarkable. The signals are deployment frequency and lead time. Without it, at the new volume, a deploy that needs a particular person, or a pull request that waits days for review, becomes the cesspit everything else backs up into.
 
-<!-- FORMAT OPTION 3: unlock in a callout -->
-At the new volume, a deploy that needs a particular person, or a pull request that waits days for review, becomes the cesspit everything else backs up into.
+**My route:** trunk-based development, small batches and an automated path to production. This is the confidence I find agents erode first, because they default to big batches: [a big spec]({% post_url 2026-11-18-no-spec-survives-contact-with-the-customer %}), a big plan, a big diff, and a big review.
 
-My route: trunk-based development, small batches and an automated path to production. This is the confidence I find agents erode first, because they default to big batches: [a big spec]({% post_url 2026-11-18-no-spec-survives-contact-with-the-customer %}), a big plan, a big diff, and a big review.
-
-{% capture unlock_ship %}**What it unlocks:** running several agents in parallel without their work piling up. Small changes are reviewable changes, and when each one flows straight to production, more agents means more value delivered rather than a longer queue.{% endcapture %}
-{% include callout.html content=unlock_ship %}
+{% capture leads_3 %}**Where it leads:** running several agents in parallel without their work piling up. Small changes are reviewable changes, and when each one flows straight to production, more agents means more value delivered rather than a longer queue.{% endcapture %}
+{% include callout.html content=leads_3 %}
 
 ### "We solved the right problem"
 
-The hardest one to measure, I wish I had a metric for it. You know you've got it when it's routine for the team to hear from the people using what you built, and change course because of what they learned.
+The hardest one to measure, I wish I had a metric for it. You know you've got it when it's routine for the team to hear from the people using what you built, and change course because of what they learned. Without it, cheap building becomes a trap: building the wrong thing feels cheap too, right up until you've built a great deal of it, and it becomes a liability.
 
-*At the new volume: when building is cheap, building the wrong thing feels cheap too, right up until you've built a great deal of it, and soon it becomes a liability.*
+**My route:** conversations with customers, small steps, and lately, throwaway prototypes built with agents that exist only to drive those conversations.
 
-My route: conversations with customers, small steps, and lately, throwaway prototypes built with agents that exist only to drive those conversations.
-
-**What it unlocks:** cheap building turns into cheap learning. Agents can prototype several options in the time it used to take to build one, and the customer conversation decides which one survives. This is where AI stops being a faster way to write code and becomes a faster way to find out what's worth writing.
+{% capture leads_4 %}**Where it leads:** cheap building turns into cheap learning. Agents can prototype several options in the time it used to take to build one, and the customer conversation decides which one survives. This is where AI stops being a faster way to write code and becomes a faster way to find out what's worth writing.{% endcapture %}
+{% include callout.html content=leads_4 %}
 
 ### "We all know why it works this way"
 
-Decisions are made in the open, challenged while they're being made, and understood by more than one person. You know you've got it when anyone on the team can explain why the system is the way it is.
-
-*At the new volume: more decisions than ever are being made in one person's undocumented conversation with a machine, and [nobody else ever sees them]({% post_url 2026-11-08-whose-decision-was-that-anyway %}). Spec-driven development attempts to tackle this, but on its own, at scale, all it becomes is more documentation no one reads.*
+Decisions are made in the open, challenged while they're being made, and understood by more than one person. You know you've got it when anyone on the team can explain why the system is the way it is. Without it, at the new volume, more decisions than ever end up in one person's undocumented conversation with a machine, where [nobody else ever sees them]({% post_url 2026-11-08-whose-decision-was-that-anyway %}). Spec-driven development attempts to tackle this, but on its own, at scale, all it becomes is more documentation no one reads.
 
 I expect this to be the most contentious confidence on the map. Many people seem to believe that in the age of AI we no longer need to know what our software does, or how, because we can always ask. I suspect they've forgotten how it feels when someone from sales asks whether something is possible, or why a customer is seeing what they're seeing, and the best you can say is "I don't know. I'll have to check and get back to you."
 
 An agent can be very good at reading code and telling you what it appears to do. It's far less able to tell you why it's that way, because the why often isn't in the code or the docs at all. It lives in the shape and origin of the data, in how that data is spread across different stores and structures, and in side effects and history nobody wrote down. Assuming you can always ask the AI is, in my opinion, blind faith. It might hold in a two-year-old greenfield startup. In any company with legacy, it's wishful thinking.
 
-My route: pairing, rotating pairs, story reviews before work is picked up and after it's shipped, and [Architecture Decision Records](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) for the decisions that matter.
+**My route:** pairing, rotating pairs, story reviews before work is picked up and after it's shipped, and [Architecture Decision Records](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) for the decisions that matter.
 
-**What it unlocks:** handing agents bigger, more ambiguous tasks, because the team can judge whether the result fits the system, and steer it when it doesn't. And the records that hold the *why* become context your agents can use too.
+{% capture leads_5 %}**Where it leads:** handing agents bigger, more ambiguous tasks, because the team can judge whether the result fits the system, and steer it when it doesn't. And the records that hold the *why* become context your agents can use too.{% endcapture %}
+{% include callout.html content=leads_5 %}
 
 ## Muscle and tendon
 
