@@ -91,9 +91,9 @@ You can open any part of the codebase, change it, and know within minutes whethe
 
 *At the new volume: a test suite nobody trusts becomes many times more changes nobody can verify.*
 
-My route has always been TDD and a fast test suite people actually trust. AI is genuinely brilliant here: wrapping characterisation tests around the legacy code nobody dares touch used to take weeks of archaeology. By leveraging mutation testing, AI can do this while you sleep. Be careful, though: tests written by the same agent that wrote the code tend to confirm what the code does, not what it should do.
+My route has always been TDD and a fast test suite people actually trust. AI is genuinely brilliant at getting you there: wrapping characterisation tests around the legacy code nobody dares touch used to take weeks of archaeology, and with mutation testing to prove those tests actually catch something, AI can do it while you sleep.
 
-**What it unlocks:** agents can work anywhere in the codebase, including the parts everyone avoids, and check their own work against tests you actually trust. That's the first step from reviewing every line an agent writes to trusting the feedback loop it works inside.
+**What it unlocks:** agents can work anywhere in the codebase, including the parts everyone avoids, and check their own work against tests you trust. That trust is the point: tests written by the same agent that wrote the code tend to confirm what the code does, not what it should do. Get it right, and you take the first step from reviewing every line an agent writes to trusting the feedback loop it works inside.
 
 ### "If I'm wrong, I can undo it in minutes"
 
