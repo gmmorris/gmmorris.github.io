@@ -105,9 +105,9 @@ Something goes wrong in production and nobody panics, because putting it right i
 
 ### "Nothing I do reaches production by accident"
 
-Nothing I do can reach production except through the pipeline. Nobody can SSH into a production box on a whim and run a command against the database, and the few routes around the pipeline are logged, limited and time-bound. Without it, at the new volume, every privilege you've been tolerating is one you've handed to your agents. An agent running as you can do anything you can do, at machine speed, in your name. And the safeguard most of us lean on, approving what the agent wants to do, doesn't survive the volume: by the hundredth request of the day, nobody is really reading them anymore.
+The pipeline is the only way in. Nobody can SSH into a production box on a whim and run a command against the database, and the few routes around the pipeline are logged, limited and time-bound. Without it, at the new volume, every privilege you've been tolerating is one you've handed to your agents. An agent running as you can do anything you can do, at machine speed, in your name. And the safeguard most of us lean on, approving what the agent wants to do, doesn't survive the volume: by the hundredth request of the day, nobody is really reading them anymore.
 
-**My route:** least privilege by default, no standing access to production, break-glass access that's time-limited and audited, infrastructure as code, and production changes only through the pipeline.
+**My route:** least privilege by default, no standing access to production, break-glass access that's time-limited and audited, and infrastructure as code.
 
 {% capture leads_danger %}**Where it leads:** the controls you put on people become the controls on their agents, at no extra cost. Instead of hoping an agent won't do something dangerous, you've made sure it can't, and that's what lets you stop approving every command it runs and let it get on with the work.{% endcapture %}
 {% include callout.html content=leads_danger %}
