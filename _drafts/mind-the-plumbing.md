@@ -30,7 +30,7 @@ We've known for decades that **code is a liability, not an asset**. Every line h
 
 AI has made producing that code almost effortless, the way the flush toilet made disposal effortless. That's a genuine improvement, and I'm genuinely excited about it. But all of it still flows downstream: into review, into the test suites, into the deployment pipeline, into production, into the cognitive load of the team who'll have to change it next year, into the battle cards of the sales teams, and in front of the customers who'll have to live with it.
 
-Most teams have always had some practices that were quietly unsafe: tests nobody trusts, a deploy that needs a particular person, pull requests that sit for days, a customer nobody talks to. At the old volume, we got away with them. The cesspit was nasty, but it held. Turn up the flow, and those practices don't just become bottlenecks, they become the point where everything overflows.
+Engineering teams always have to trade off expediencey against sustainability and as a result compromise on practices that are somewhat risky and unsafe: tests suites that nobody trusts, a deploy that needs a particular person, pull requests that sit arond for days and weeks, and customers that nobody on the team has ever talked to. At the old volume, we got away with this. The cesspit was nasty, but it held. Turn up the flow, and those compromises don't just become bottlenecks, they overflow.
 
 The wider conversation doesn't help. It has become polarised: on one side, blind optimism, where every problem is a prompt away from solved; on the other, blind pessimism, where it's all hype and slop and best ignored. Each side's excesses seem to push the other further towards its extreme, and there's very little room left in between.
 
