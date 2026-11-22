@@ -117,7 +117,7 @@ The pipeline is the only way in. Nobody can SSH into a production box on a whim 
 
 ### "I can spin up the whole system in minutes"
 
-Anyone can bring up a realistic copy of the whole system (the services, the infrastructure, and data with the same shape as production) in a container or sandbox, run it end to end, and throw it away when they're done. Without it, at the new volume, agents work blind. An agent that can't see how the system behaves, or what the data actually looks like, doesn't stop and ask: it guesses, fluently, and often wrongly.
+Anyone can bring up a realistic copy of the whole system (the services, the infrastructure, and data with the same shape as production) in a containerised sandbox, run it end to end, and throw it away when they're done. Without it, at the new volume, agents work blind. An agent that can't see how the system behaves, or what the data actually looks like, doesn't stop and ask: it guesses, fluently, and often wrongly.
 
 **My route:** infrastructure as code, every service runnable in an ephemeral environment, on a laptop or in the cloud, and seeded data that reflects the real shape of production without ever being the real thing.
 
@@ -175,9 +175,9 @@ Anyone on the team can raise a concern, about a change, a decision, a tool or a 
 
 ### "We'll be better next week than we were last week"
 
-The team regularly stops to look at how it works, changes something, and checks whether it helped. You know you've got it when this quarter's way of working isn't last quarter's. Without it, at the new volume, the strain lands on the one meeting that could relieve it. Retrospectives get pushed, shortened and skipped, and the team stops improving right when it can least afford to.
+The team regularly stops to examine how it works, experiment, and reflect. You know you've got it when this quarter's way of working isn't last quarter's. Without it, at the new volume, the strain lands on the one meeting that could relieve it. Retrospectives get pushed, shortened and skipped, and the team stops improving right when it can least afford to.
 
-**My route:** retrospectives with real time set aside for them, small experiments with a date to review them, and a few honest measures to keep us grounded: lead time, change failure rate and rework.
+**My route:** retrospectives with real time set aside, small time-boxed experiments with a date to review, and radical candor.
 
 {% capture leads_better %}A team that finds its own route. Agentic tools are changing faster than anyone can map them, this post included. A team that reviews and adapts can try a new agent workflow, see whether it helps, and spread what works, instead of every engineer quietly developing habits on their own.{% endcapture %}
 {% include highlight.html label="Where it leads" icon="route" content=leads_better %}
