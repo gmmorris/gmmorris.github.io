@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1060" font-family="Georgia, 'Source Serif 4', serif" role="img" aria-labelledby="t d">
+<title id="t">The confidences as XP feedback loops</title>
+<desc id="d">Concentric rings for feedback loops of seconds, minutes, hours, days and weeks, with each confidence placed on the loop it keeps healthy. All loops run at once; none comes first.</desc>
+<rect width="1500" height="1060" fill="#fff"/>
+<circle cx="750" cy="540" r="100" fill="none" stroke="#222" stroke-width="1.6"/>
+<circle cx="750" cy="540" r="190" fill="none" stroke="#222" stroke-width="1.1" stroke-dasharray="6 5"/>
+<circle cx="750" cy="540" r="280" fill="none" stroke="#222" stroke-width="1.6"/>
+<circle cx="750" cy="540" r="370" fill="none" stroke="#222" stroke-width="1.1" stroke-dasharray="6 5"/>
+<circle cx="750" cy="540" r="460" fill="none" stroke="#222" stroke-width="1.6"/>
+<circle cx="750" cy="540" r="34" fill="#222"/><text x="750" y="547" text-anchor="middle" font-size="19" fill="#fff" font-style="italic">code</text>
+<text x="750" y="447" text-anchor="middle" font-size="17" letter-spacing="3" fill="#5D738D" stroke="#fff" stroke-width="8" paint-order="stroke" font-family="Helvetica, Arial, sans-serif">SECONDS</text>
+<text x="750" y="357" text-anchor="middle" font-size="17" letter-spacing="3" fill="#5D738D" stroke="#fff" stroke-width="8" paint-order="stroke" font-family="Helvetica, Arial, sans-serif">MINUTES</text>
+<text x="750" y="267" text-anchor="middle" font-size="17" letter-spacing="3" fill="#5D738D" stroke="#fff" stroke-width="8" paint-order="stroke" font-family="Helvetica, Arial, sans-serif">HOURS</text>
+<text x="750" y="177" text-anchor="middle" font-size="17" letter-spacing="3" fill="#5D738D" stroke="#fff" stroke-width="8" paint-order="stroke" font-family="Helvetica, Arial, sans-serif">DAYS</text>
+<text x="750" y="87" text-anchor="middle" font-size="17" letter-spacing="3" fill="#5D738D" stroke="#fff" stroke-width="8" paint-order="stroke" font-family="Helvetica, Arial, sans-serif">WEEKS</text>
+<circle cx="656.0" cy="505.8" r="8" fill="#ba3925" stroke="#fff" stroke-width="3"/>
+<text x="640.0" y="498.8" text-anchor="end" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">We all know why</text>
+<text x="640.0" y="524.8" text-anchor="end" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">it works this way</text>
+<circle cx="844.0" cy="574.2" r="8" fill="#ba3925" stroke="#fff" stroke-width="3"/>
+<text x="860.0" y="567.2" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">I can say when</text>
+<text x="860.0" y="593.2" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">something's wrong</text>
+<circle cx="604.5" cy="662.1" r="8" fill="#ba3925" stroke="#fff" stroke-width="3"/>
+<text x="588.5" y="655.1" text-anchor="end" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">I can change this</text>
+<text x="588.5" y="681.1" text-anchor="end" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">without fear</text>
+<circle cx="899.7" cy="657.0" r="8" fill="#ba3925" stroke="#fff" stroke-width="3"/>
+<text x="915.7" y="650.0" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">I can hold a whole</text>
+<text x="915.7" y="676.0" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">change in my head</text>
+<circle cx="492.3" cy="430.6" r="8" fill="#ba3925" stroke="#fff" stroke-width="3"/>
+<text x="476.3" y="423.6" text-anchor="end" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">Nothing I do reaches</text>
+<text x="476.3" y="449.6" text-anchor="end" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">production by accident</text>
+<circle cx="1013.1" cy="444.2" r="8" fill="#ba3925" stroke="#fff" stroke-width="3"/>
+<text x="1029.1" y="437.2" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">I can spin up the whole</text>
+<text x="1029.1" y="463.2" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">system in minutes</text>
+<circle cx="618.5" cy="787.2" r="8" fill="#ba3925" stroke="#fff" stroke-width="3"/>
+<text x="602.5" y="780.2" text-anchor="end" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">If I'm wrong, I can</text>
+<text x="602.5" y="806.2" text-anchor="end" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">undo it in minutes</text>
+<circle cx="923.7" cy="866.7" r="8" fill="#ba3925" stroke="#fff" stroke-width="3"/>
+<text x="939.7" y="859.7" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">Whatever I finish today</text>
+<text x="939.7" y="885.7" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">can go live today</text>
+<circle cx="373.2" cy="276.2" r="8" fill="#ba3925" stroke="#fff" stroke-width="3"/>
+<text x="357.2" y="269.2" text-anchor="end" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">If we're off track,</text>
+<text x="357.2" y="295.2" text-anchor="end" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">we'll find out fast</text>
+<circle cx="1126.8" cy="276.2" r="8" fill="#ba3925" stroke="#fff" stroke-width="3"/>
+<text x="1142.8" y="269.2" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">We'll be better next week</text>
+<text x="1142.8" y="295.2" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">than we were last week</text>
+<text x="750.0" y="1038" text-anchor="middle" font-size="17" fill="#5D738D" font-style="italic">Every loop runs at once. The faster ones sit inside the slower ones; none of them comes first.</text></svg>
