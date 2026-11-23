@@ -8,13 +8,13 @@
 <circle cx="850" cy="680" r="440" fill="none" stroke="#222" stroke-width="1.1" stroke-dasharray="6 5"/>
 <circle cx="850" cy="680" r="555" fill="none" stroke="#222" stroke-width="1.6"/>
 <line x1="850.0" y1="585.0" x2="850.0" y2="125.0" stroke="#222" stroke-width="1.1"/>
-<text x="1286.3" y="250.7" text-anchor="middle" font-size="20" letter-spacing="3" fill="#ba3925" font-family="Helvetica, Arial, sans-serif" font-weight="600">THE CHANGE</text>
+<text x="1313.2" y="223.8" text-anchor="middle" font-size="20" letter-spacing="3" fill="#ba3925" stroke="#fff" stroke-width="10" paint-order="stroke" font-family="Helvetica, Arial, sans-serif" font-weight="600">THE CHANGE</text>
 <line x1="945.0" y1="680.0" x2="1405.0" y2="680.0" stroke="#222" stroke-width="1.1"/>
-<text x="1286.3" y="1123.3" text-anchor="middle" font-size="20" letter-spacing="3" fill="#ba3925" font-family="Helvetica, Arial, sans-serif" font-weight="600">THE SYSTEM</text>
+<text x="1313.2" y="1150.2" text-anchor="middle" font-size="20" letter-spacing="3" fill="#ba3925" stroke="#fff" stroke-width="10" paint-order="stroke" font-family="Helvetica, Arial, sans-serif" font-weight="600">THE SYSTEM</text>
 <line x1="850.0" y1="775.0" x2="850.0" y2="1235.0" stroke="#222" stroke-width="1.1"/>
-<text x="413.7" y="1123.3" text-anchor="middle" font-size="20" letter-spacing="3" fill="#ba3925" font-family="Helvetica, Arial, sans-serif" font-weight="600">THE TEAM</text>
+<text x="386.8" y="1150.2" text-anchor="middle" font-size="20" letter-spacing="3" fill="#ba3925" stroke="#fff" stroke-width="10" paint-order="stroke" font-family="Helvetica, Arial, sans-serif" font-weight="600">THE TEAM</text>
 <line x1="755.0" y1="680.0" x2="295.0" y2="680.0" stroke="#222" stroke-width="1.1"/>
-<text x="413.7" y="250.7" text-anchor="middle" font-size="20" letter-spacing="3" fill="#ba3925" font-family="Helvetica, Arial, sans-serif" font-weight="600">THE CUSTOMER</text>
+<text x="386.8" y="223.8" text-anchor="middle" font-size="20" letter-spacing="3" fill="#ba3925" stroke="#fff" stroke-width="10" paint-order="stroke" font-family="Helvetica, Arial, sans-serif" font-weight="600">THE CUSTOMER</text>
 <text x="850" y="688" text-anchor="middle" font-size="19" fill="#5D738D" font-style="italic">start here</text>
 <text x="850" y="591" text-anchor="middle" font-size="14" letter-spacing="2" fill="#5D738D" stroke="#fff" stroke-width="9" paint-order="stroke" font-family="Helvetica, Arial, sans-serif">AUTOCOMPLETE</text>
 <text x="850" y="476" text-anchor="middle" font-size="14" letter-spacing="2" fill="#5D738D" stroke="#fff" stroke-width="9" paint-order="stroke" font-family="Helvetica, Arial, sans-serif">AGENT IN THE IDE</text>
@@ -36,9 +36,9 @@
 <circle cx="1056.6" cy="1068.5" r="8" fill="#ba3925" stroke="#fff" stroke-width="3"/>
 <text x="1072.6" y="1061.5" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">Whatever I finish today</text>
 <text x="1072.6" y="1087.5" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">can go live today</text>
-<circle cx="1275.2" cy="1036.7" r="8" fill="#ba3925" stroke="#fff" stroke-width="3"/>
-<text x="1291.2" y="1029.7" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">If I'm wrong, I can</text>
-<text x="1291.2" y="1055.7" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">undo it in minutes</text>
+<circle cx="1353.0" cy="914.6" r="8" fill="#ba3925" stroke="#fff" stroke-width="3"/>
+<text x="1369.0" y="907.6" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">If I'm wrong, I can</text>
+<text x="1369.0" y="933.6" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">undo it in minutes</text>
 <circle cx="668.1" cy="785.0" r="8" fill="#ba3925" stroke="#fff" stroke-width="3"/>
 <text x="652.1" y="778.0" text-anchor="end" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">We all know why</text>
 <text x="652.1" y="804.0" text-anchor="end" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">it works this way</text>
