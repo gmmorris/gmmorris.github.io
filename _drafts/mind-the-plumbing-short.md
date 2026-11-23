@@ -69,92 +69,94 @@ If I were coaching a team, I'd post each of these on a wall and ask everyone to 
 
 ### "I can change this without fear"
 
-You can change any part of the codebase and know within minutes whether you broke something. Without it, an unreliable test suite becomes many times more changes nobody can verify.
+You can open any part of the codebase, change it, and know within minutes whether you broke something. The signal is a low change failure rate, and a team that doesn't flinch at the parts of the system everyone else avoids. Without it, at the new volume, an unreliable test suite becomes many times more changes nobody can verify.
 
-**My route:** TDD and a fast test suite people trust. For legacy code, AI can write the characterisation tests, with mutation testing to prove they catch something.
+**My route:** TDD and a fast test suite people actually trust. Characterisation tests around the legacy code nobody dares touch used to take weeks of archaeology; with mutation testing to prove they catch something, AI can write them while you sleep.
 
-{% capture leads_fear %}Agents can work anywhere in the codebase and check their own work against tests you trust. That trust has to be earned: tests written by the agent that wrote the code tend to confirm what it does, not what it should do.{% endcapture %}
+{% capture leads_fear %}Agents can work anywhere in the codebase, including the parts everyone avoids, and check their own work against tests you trust. That trust has to be earned: tests written by the agent that wrote the code tend to confirm what it does, not what it should do. Get it right, and you move from reviewing every line an agent writes to trusting the feedback loop it works inside.{% endcapture %}
 {% include highlight.html label="Where it leads" icon="route" content=leads_fear %}
 
 ### "If I'm wrong, I can undo it in minutes"
 
-Something goes wrong in production and nobody panics, because putting it right is routine. Without it, more change means more incidents, and they start to overlap.
+Something goes wrong in production and nobody panics, because putting it right is routine. The signal is a short time to restore service. Without it, at the new volume, more change means more incidents, and if recovery is slow and painful, they start to overlap.
 
-**My route:** good observability, boring rollbacks, smoke tests, and feature flags so a release and a deploy aren't the same thing.
+**My route:** good observability, boring rollbacks, smoke tests, and feature flags so that a release and a deploy aren't the same thing.
 
-{% capture leads_undo %}Agent-written changes can reach production without someone nervously guarding each one. Behind a flag, a bad change is a cheap experiment, not an incident.{% endcapture %}
+{% capture leads_undo %}Agent-written changes can reach production without someone nervously guarding each one. Behind a flag, a bad change is a cheap experiment rather than an incident, and that's what lets you give agents room to try things.{% endcapture %}
 {% include highlight.html label="Where it leads" icon="route" content=leads_undo %}
 
 ### "Nothing I do reaches production by accident"
 
-The pipeline is the only way in; nobody can SSH into production on a whim. Without it, an agent running as you can do anything you can do, at machine speed, in your name. And approving each action doesn't survive the volume: by the hundredth request of the day, nobody is really reading them.
+The pipeline is the only way in. Nobody can SSH into production on a whim, and the few routes around the pipeline are logged, limited and time-bound. Without it, every privilege you've been tolerating is one you've handed to your agents: an agent running as you can do anything you can do, at machine speed, in your name. And approving each action doesn't survive the volume; by the hundredth request of the day, nobody is really reading them.
 
-**My route:** least privilege, no standing access to production, audited break-glass access, and infrastructure as code.
+**My route:** least privilege by default, no standing access to production, time-limited and audited break-glass access, and infrastructure as code.
 
-{% capture leads_danger %}The controls on people become the controls on their agents. You've made sure an agent can't do something dangerous, so you can stop approving every command and let it get on with the work.{% endcapture %}
+{% capture leads_danger %}The controls on people become the controls on their agents, at no extra cost. Instead of hoping an agent won't do something dangerous, you've made sure it can't, so you can stop approving every command and let it get on with the work.{% endcapture %}
 {% include highlight.html label="Where it leads" icon="route" content=leads_danger %}
 
 ### "I can spin up the whole system in minutes"
 
-Anyone can bring up a realistic copy of the whole system, data included, in a sandbox, and throw it away afterwards. Without it, agents work blind: an agent that can't see the system doesn't stop and ask, it guesses.
+Anyone can bring up a realistic copy of the whole system (the services, the infrastructure, and data with the shape of production) in a sandbox, run it end to end, and throw it away. Without it, at the new volume, agents work blind: an agent that can't see the system doesn't stop and ask, it guesses, fluently and often wrongly.
 
-**My route:** infrastructure as code, every service runnable in an ephemeral environment, and seeded data with the real shape of production.
+**My route:** infrastructure as code, every service runnable in an ephemeral environment, on a laptop or in the cloud, and seeded data with the real shape of production that's never the real thing.
 
-{% capture leads_env %}Agents fill gaps from evidence rather than hallucinations. And if the system runs anywhere, you can run several agents in cloud sandboxes, in parallel, while engineers get on with something else.{% endcapture %}
+{% capture leads_env %}Agents can trace a change end to end and fill the gaps from evidence rather than hallucinations. And once the system runs anywhere, you can run several agents in cloud sandboxes, in parallel, while engineers get on with something else. Nothing they do there can hurt anyone, so you can let them roam.{% endcapture %}
 {% include highlight.html label="Where it leads" icon="route" content=leads_env %}
 
 ### "Whatever I finish today can go live today"
 
-Small changes flow to production many times a day, and nobody thinks it's remarkable. Without it, a deploy that needs a particular person or a pull request that waits days becomes the cesspit everything backs up into.
+Small changes flow to production many times a day, and nobody thinks it's remarkable. The signals are deployment frequency and lead time. Without it, at the new volume, a deploy that needs a particular person, or a pull request that waits days for review, becomes the cesspit everything else backs up into.
 
-**My route:** paired trunk-based development, small batches and an automated path to production. This is the confidence agents erode first, because [they default to big batches]({% post_url 2026-11-18-no-spec-survives-contact-with-the-customer %}).
+**My route:** paired trunk-based development, small batches and an automated path to production. This is the confidence I find agents erode first, because [they default to big batches]({% post_url 2026-11-18-no-spec-survives-contact-with-the-customer %}): a big spec, a big plan, a big diff and a big review.
 
-{% capture leads_ship %}Several agents in parallel without their work piling up. Small changes are reviewable changes, so more agents means more value rather than a longer queue.{% endcapture %}
+{% capture leads_ship %}Several agents in parallel without their work piling up. Small changes are reviewable changes, so more agents means more value delivered rather than a longer queue.{% endcapture %}
 {% include highlight.html label="Where it leads" icon="route" content=leads_ship %}
 
 ### "I can hold a whole change in my head"
 
-When I pick up a piece of work, I understand everything it touches, because the system has clear boundaries. Without it, every agent change is a change to everything: more context than anyone can hold.
+When I pick up a piece of work, I can understand everything it touches: what it changes, what depends on it and what could break. That takes a system with clear boundaries, where a team can change, test and deploy its part without coordinating with everyone else. Without it, at the new volume, every agent change is a change to everything: more context than anyone can hold, and a blast radius nobody can predict.
 
-**My route:** [Domain-Driven Design](https://martinfowler.com/bliki/DomainDrivenDesign.html): bounded contexts around the business, a ubiquitous language, and explicit contracts between contexts.
+**My route:** [Domain-Driven Design](https://martinfowler.com/bliki/DomainDrivenDesign.html): bounded contexts drawn around the business rather than technical layers, a ubiquitous language shared with domain experts, and explicit, tested contracts between contexts.
 
-{% capture leads_coupling %}Each change fits inside a boundary an agent can understand in full, and several people's agents can work side by side. A shared language means less gets lost between the team, the domain experts and the agents.{% endcapture %}
+{% capture leads_coupling %}Each change fits inside a boundary an agent can understand in full, and several people's agents can work side by side without stepping on each other. A shared language means less gets lost between the team, the domain experts and the agents.{% endcapture %}
 {% include highlight.html label="Where it leads" icon="route" content=leads_coupling %}
 
 ### "If we're off track, we'll find out fast"
 
-On a [wicked problem]({% post_url 2026-11-18-no-spec-survives-contact-with-the-customer %}), we'll get things wrong; what matters is that it never lasts long. Short lead time helps, but the loop that matters runs to the customer's reaction. Without it, agents build the wrong thing as happily as the right one, and you end up owning more guesses than answers.
+We'll get things wrong; [on a wicked problem]({% post_url 2026-11-18-no-spec-survives-contact-with-the-customer %}), that's unavoidable. What matters is that it never lasts long: it's routine to hear from the people using what we built, and to change course. Short lead time helps, but lead time stops at production. The loop that matters runs to the customer's reaction, and how long that takes is the closest thing I have to a metric. Without it, agents build the wrong thing as happily as the right one, only faster, and you end up owning more guesses than answers.
 
-**My route:** conversations with customers, small steps, experiments, and throwaway agent-built prototypes that exist only to drive those conversations.
+**My route:** conversations with customers, small steps, experiments that tell us whether a change moved anything, and throwaway agent-built prototypes that exist only to drive those conversations.
 
-{% capture leads_right %}Cheap building becomes cheap learning. Agents prototype the options, and the customer decides which survives. But the learning can't be handed off: you have to be in the room.{% endcapture %}
+{% capture leads_right %}Cheap building becomes cheap learning. Agents prototype the options, and the customer decides which one survives. This is where AI stops being *just* a faster way to write code and becomes a faster way to find out what's worth owning. But learning is something you do first hand.{% endcapture %}
 {% include highlight.html label="Where it leads" icon="route" content=leads_right %}
 
 ### "We all know why it works this way"
 
-Decisions are made in the open and understood by more than one person. Without it, more decisions than ever end up in [one person's conversation with a machine]({% post_url 2026-11-08-whose-decision-was-that-anyway %}). This will be the contentious one: many believe we can always just ask the AI. But an agent can tell you what code does, not why it's that way, because the why often lives in the data and the history, not the code. In any company with legacy, that's wishful thinking.
+Decisions are made in the open and understood by more than one person: anyone on the team can explain why the system is the way it is. Without it, at the new volume, more decisions end up in one person's undocumented conversation with a machine, where [nobody else sees them]({% post_url 2026-11-08-whose-decision-was-that-anyway %}).
 
-**My route:** pairing, rotating pairs, story reviews, and [Architecture Decision Records](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions).
+This will be the contentious one. Many people believe we no longer need to know how our software works, because we can always ask the AI. I suspect they've forgotten how it feels when Sales, or a customer, asks why they're seeing what they're seeing, and the best you can say is "I'll have to check and get back to you." An agent can tell you what code appears to do, but the *why* often isn't in the code at all. It lives in the shape and origin of the data, and in history nobody wrote down. In a young greenfield startup, you might get away with asking the AI. In any company with legacy, it's wishful thinking.
 
-{% capture leads_why %}Better instructions, from more people. Language is lossy, and the more the person guiding an agent understands, the less gets lost. Shared understanding means anyone can steer an agent well, and the records of the *why* become context for the agents too.{% endcapture %}
+**My route:** pairing, rotating pairs, story reviews before work is picked up and after it ships, and [Architecture Decision Records](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) for the decisions that matter.
+
+{% capture leads_why %}Better instructions, from more people. Language is lossy, and the more the person guiding an agent understands, the less gets lost: the constraints to mention, the unwritten rules about the data, the history behind the odd-looking design. Shared understanding means anyone can steer an agent well, not just the one person who knows where the bodies are buried, and the records of the *why* become context for the agents too.{% endcapture %}
 {% include highlight.html label="Where it leads" icon="route" content=leads_why %}
 
 ### "I can say when something's wrong"
 
-The most junior person in the room will tell the most senior one "I don't think this is right." Without it, questioning an agent's output, or whether AI is helping at all, starts to feel like standing in the way of progress, so people stop.
+Anyone can raise a concern about a change, a decision, a tool or a direction, and it's heard rather than resented. You know you've got it when the most junior person in the room will tell the most senior one "I don't think this is right." Without it, questioning an agent's output, or whether AI is helping at all, starts to feel like standing in the way of progress, so people stop doing it.
 
-**My route:** leaders who go first in admitting mistakes, blameless postmortems, and rituals like [Feedback & Cake]({% post_url 2018-08-04-feedback-and-cake %}).
+**My route:** leaders who go first, admitting their own mistakes and thanking the people who point them out; blameless postmortems; and rituals like [Feedback & Cake]({% post_url 2018-08-04-feedback-and-cake %}) that make feedback normal.
 
-{% capture leads_speak %}Problems surface while they're small: the agent change that looks off, the workflow that isn't paying off. In a climate this anxious, that honesty is rare, and worth more than any tool.{% endcapture %}
+{% capture leads_speak %}Problems surface while they're still small: the agent change that looks off, the workflow that isn't paying off, the task that should never have been handed to an agent. In a climate this anxious, that honesty is rare, and it's worth more than any tool.{% endcapture %}
 {% include highlight.html label="Where it leads" icon="route" content=leads_speak %}
 
 ### "We'll be better next week than we were last week"
 
-The team regularly stops to examine how it works, experiments, and reflects. Without it, the strain lands on the one meeting that could relieve it: retrospectives get pushed and skipped, and the team stops improving when it can least afford to.
+The team regularly stops to examine how it works, experiments, and reflects. You know you've got it when this quarter's way of working isn't last quarter's. Without it, at the new volume, the strain lands on the one meeting that could relieve it: retrospectives get pushed, shortened and skipped, and the team stops improving right when it can least afford to.
 
-**My route:** retrospectives with real time set aside, time-boxed experiments, and radical candor.
+**My route:** retrospectives with real time set aside, time-boxed experiments with a date to review them, and radical candor.
 
-{% capture leads_better %}A team that finds its own route. Agentic tools change faster than anyone can map them, this post included, so a team that adapts can try new agent workflows and spread what works.{% endcapture %}
+{% capture leads_better %}A team that finds its own route. Agentic tools change faster than anyone can map them, this post included. A team that adapts can try a new agent workflow, see whether it helps, and spread what works, instead of every engineer quietly developing habits alone.{% endcapture %}
 {% include highlight.html label="Where it leads" icon="route" content=leads_better %}
 
 ## Muscle and tendon
