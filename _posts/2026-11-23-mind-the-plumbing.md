@@ -5,13 +5,13 @@ subtitle: "My roadmap to getting real outcomes out of AI"
 categories: [Agentic-Extreme-Programming]
 redirect_from:
   - "/agentic extreme programming/2026/11/21/mind-the-plumbing/"
-tags: [extreme programming, lean, DORA, AI, agents]
+tags: [extreme programming, lean, DORA, Agentic Engineering]
 icon: seedling
 description: "The flush toilet was a triumph, and it nearly broke Victorian London. AI is doing the same to our engineering systems. Here's my map of the confidences a team needs before it turns up the flow."
 image-desc: "The Surveyors Beneath the Street"
-image: "/images/banners/cross-section-of-a-london-street.png"
-image-desc-link: "/images/banners/cross-section-of-a-london-street.png"
-social-image: "/images/posts/mind-the-plumbing-social.png"
+image: "/images/banners/engraved-map-of-London.png"
+image-desc-link: "/images/banners/engraved-map-of-London.png"
+social-image: "/images/2026/11/mind-the-plumbing-social.png"
 ---
 At the Great Exhibition of 1851, in the glass halls of the Crystal Palace, a plumber named George Jennings installed something most visitors had never used: public flushing toilets. They cost a penny a go (just shy of 80p today), and more than 800,000 people paid for the privilege. It's where the British got the phrase "to spend a penny", which is the gentlemanly way to say you're dropping a deuce.
 
@@ -70,7 +70,7 @@ So instead of practices, here's my chart so far: the *confidences* I think a tea
 
 ## The confidences
 
-![A map of the confidences: four rings for the change, the system, the team and the customer, with each confidence on the ring it protects](/images/posts/mind-the-plumbing-confidences.svg)
+![A map of the confidences: four rings for the change, the system, the team and the customer, with each confidence on the ring it protects](/images/2026/11/mind-the-plumbing-confidences.svg)
 
 If I were coaching a team, I'd post each of these confidences on a wall and ask everyone to add sticky notes: *what gives you this confidence today?* and *what keeps you from having it?*
 
@@ -176,7 +176,7 @@ After Covid, I went back to climbing at my pre-pandemic level far too soon. My a
 
 Agentic Engineering grows the muscle: output goes up almost immediately. The connective tissue (the test suite, the deployment pipeline, the shared understanding, the conversations with the customer) adapts at its own pace, and only if you train it. And everything that makes agents exciting adds load: bigger tasks, more autonomy, agents running in parallel while you're in a meeting. So this is how I think about how far to let an agent run: **give agents as much autonomy as your foundations can carry, and no more.**
 
-![The confidences placed on five rings of agentic engineering, from autocomplete at the centre to agents in the cloud at the edge, each on the ring where agents start to depend on it](/images/posts/mind-the-plumbing-agentic.svg)
+![The confidences placed on five rings of agentic engineering, from autocomplete at the centre to agents in the cloud at the edge, each on the ring where agents start to depend on it](/images/2026/11/mind-the-plumbing-agentic.svg)
 
 Autonomy beyond what your foundations can carry is borrowing against your runway, and the early signs are easy to miss. Some engineers are [noticing](https://lnkd.in/p/es9MVCJV) that agents patch the bug in front of them rather than question the design that caused it. Each patch sends a little more downstream, and nobody notices the smell until the weather turns.
 
@@ -188,7 +188,7 @@ So here's my strongest position. **If what's downstream can't carry the flow, tu
 
 London's answer was Joseph Bazalgette, who built a sewer network sized for twice the city's population. It's still in use today. London didn't give up the flush toilet. It built something that could carry it, with room to spare. Put the two maps together, and that's my roadmap:
 
-![The merged map: quarters for what each confidence protects, and rings for how far it lets you hand work to agents](/images/posts/mind-the-plumbing-merged.svg)
+![The merged map: quarters for what each confidence protects, and rings for how far it lets you hand work to agents](/images/2026/11/mind-the-plumbing-merged.svg)
 
 I'm genuinely excited about what AI makes possible, and I want every team I work with to get the most out of it, without burning their runway to find out what it can't do.
 

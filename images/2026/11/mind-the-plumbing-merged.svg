@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 1380" width="1700" height="1380" font-family="Georgia, 'Source Serif 4', serif" role="img" aria-labelledby="t d">
+<title id="t">The confidences, and how far they let agents go</title>
+<desc id="d">A circular map. Rings from the centre outward show how much you hand to agents: autocomplete, an agent in the IDE, an agent that runs your tools, agents in the background, agents in the cloud. Four quarters show what each confidence protects: the change, the system, the team and the customer.</desc>
+<rect width="1700" height="1380" fill="#fff"/>
+<circle cx="850" cy="680" r="95" fill="none" stroke="#222" stroke-width="1.6"/>
+<circle cx="850" cy="680" r="210" fill="none" stroke="#222" stroke-width="1.1" stroke-dasharray="6 5"/>
+<circle cx="850" cy="680" r="325" fill="none" stroke="#222" stroke-width="1.6"/>
+<circle cx="850" cy="680" r="440" fill="none" stroke="#222" stroke-width="1.1" stroke-dasharray="6 5"/>
+<circle cx="850" cy="680" r="555" fill="none" stroke="#222" stroke-width="1.6"/>
+<line x1="850.0" y1="585.0" x2="850.0" y2="125.0" stroke="#222" stroke-width="1.1"/>
+<text x="1286.3" y="250.7" text-anchor="middle" font-size="20" letter-spacing="3" fill="#ba3925" font-family="Helvetica, Arial, sans-serif" font-weight="600">THE CHANGE</text>
+<line x1="945.0" y1="680.0" x2="1405.0" y2="680.0" stroke="#222" stroke-width="1.1"/>
+<text x="1286.3" y="1123.3" text-anchor="middle" font-size="20" letter-spacing="3" fill="#ba3925" font-family="Helvetica, Arial, sans-serif" font-weight="600">THE SYSTEM</text>
+<line x1="850.0" y1="775.0" x2="850.0" y2="1235.0" stroke="#222" stroke-width="1.1"/>
+<text x="413.7" y="1123.3" text-anchor="middle" font-size="20" letter-spacing="3" fill="#ba3925" font-family="Helvetica, Arial, sans-serif" font-weight="600">THE TEAM</text>
+<line x1="755.0" y1="680.0" x2="295.0" y2="680.0" stroke="#222" stroke-width="1.1"/>
+<text x="413.7" y="250.7" text-anchor="middle" font-size="20" letter-spacing="3" fill="#ba3925" font-family="Helvetica, Arial, sans-serif" font-weight="600">THE CUSTOMER</text>
+<text x="850" y="688" text-anchor="middle" font-size="19" fill="#5D738D" font-style="italic">start here</text>
+<text x="850" y="591" text-anchor="middle" font-size="14" letter-spacing="2" fill="#5D738D" stroke="#fff" stroke-width="9" paint-order="stroke" font-family="Helvetica, Arial, sans-serif">AUTOCOMPLETE</text>
+<text x="850" y="476" text-anchor="middle" font-size="14" letter-spacing="2" fill="#5D738D" stroke="#fff" stroke-width="9" paint-order="stroke" font-family="Helvetica, Arial, sans-serif">AGENT IN THE IDE</text>
+<text x="850" y="361" text-anchor="middle" font-size="14" letter-spacing="2" fill="#5D738D" stroke="#fff" stroke-width="9" paint-order="stroke" font-family="Helvetica, Arial, sans-serif">AGENT RUNS YOUR TOOLS</text>
+<text x="850" y="246" text-anchor="middle" font-size="14" letter-spacing="2" fill="#5D738D" stroke="#fff" stroke-width="9" paint-order="stroke" font-family="Helvetica, Arial, sans-serif">AGENTS IN THE BACKGROUND</text>
+<text x="850" y="131" text-anchor="middle" font-size="14" letter-spacing="2" fill="#5D738D" stroke="#fff" stroke-width="9" paint-order="stroke" font-family="Helvetica, Arial, sans-serif">AGENTS IN THE CLOUD</text>
+<circle cx="961.3" cy="501.9" r="8" fill="#ba3925" stroke="#fff" stroke-width="3"/>
+<text x="977.3" y="494.9" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">I can hold a whole</text>
+<text x="977.3" y="520.9" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">change in my head</text>
+<circle cx="1151.3" cy="558.3" r="8" fill="#ba3925" stroke="#fff" stroke-width="3"/>
+<text x="1167.3" y="551.3" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">I can change this</text>
+<text x="1167.3" y="577.3" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">without fear</text>
+<circle cx="1036.4" cy="946.2" r="8" fill="#ba3925" stroke="#fff" stroke-width="3"/>
+<text x="1052.4" y="939.2" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">Nothing I do reaches</text>
+<text x="1052.4" y="965.2" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">production by accident</text>
+<circle cx="1268.5" cy="816.0" r="8" fill="#ba3925" stroke="#fff" stroke-width="3"/>
+<text x="1284.5" y="809.0" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">I can spin up the whole</text>
+<text x="1284.5" y="835.0" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">system in minutes</text>
+<circle cx="1056.6" cy="1068.5" r="8" fill="#ba3925" stroke="#fff" stroke-width="3"/>
+<text x="1072.6" y="1061.5" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">Whatever I finish today</text>
+<text x="1072.6" y="1087.5" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">can go live today</text>
+<circle cx="1275.2" cy="1036.7" r="8" fill="#ba3925" stroke="#fff" stroke-width="3"/>
+<text x="1291.2" y="1029.7" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">If I'm wrong, I can</text>
+<text x="1291.2" y="1055.7" text-anchor="start" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">undo it in minutes</text>
+<circle cx="668.1" cy="785.0" r="8" fill="#ba3925" stroke="#fff" stroke-width="3"/>
+<text x="652.1" y="778.0" text-anchor="end" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">We all know why</text>
+<text x="652.1" y="804.0" text-anchor="end" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">it works this way</text>
+<circle cx="761.3" cy="870.3" r="8" fill="#ba3925" stroke="#fff" stroke-width="3"/>
+<text x="745.3" y="863.3" text-anchor="end" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">I can say when</text>
+<text x="745.3" y="889.3" text-anchor="end" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">something's wrong</text>
+<circle cx="512.9" cy="962.8" r="8" fill="#ba3925" stroke="#fff" stroke-width="3"/>
+<text x="496.9" y="955.8" text-anchor="end" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">We'll be better next week</text>
+<text x="496.9" y="981.8" text-anchor="end" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">than we were last week</text>
+<circle cx="395.4" cy="361.7" r="8" fill="#ba3925" stroke="#fff" stroke-width="3"/>
+<text x="379.4" y="354.7" text-anchor="end" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">If we're off track,</text>
+<text x="379.4" y="380.7" text-anchor="end" font-size="21" fill="#222" stroke="#fff" stroke-width="11" paint-order="stroke" stroke-linejoin="round">we'll find out fast</text>
+<text x="850.0" y="1358" text-anchor="middle" font-size="17" fill="#5D738D" font-style="italic">Each quarter is what a confidence protects; each ring is how far it lets you hand work to agents. None of them comes first.</text></svg>
