@@ -27,7 +27,7 @@ The flush toilet wasn't the problem. It was a triumph of innovation, and nobody 
 
 Yes, I'm about to compare AI-generated code to sewage. Bear with me; it comes from a positive place.
 
-We've understood for decades that **code is a liability, not an asset**. Every line has to be tested, deployed, run, understood and maintained by someone, for as long as it lives. The value is in what it does for the people using it, and a surplus of code isn't, in itself, a net positive.
+We've known for decades that **code is a liability, not an asset**. Every line has to be tested, deployed, run, understood and maintained by someone, for as long as it lives. The value is in what it does for the people using it, and a surplus of code isn't, in itself, a net positive.
 
 AI has made producing code almost effortless, the way the flush toilet made disposal effortless. That's a genuine improvement. But all of it still flows downstream: into review, the test suites, the pipeline, production, the cognitive load of whoever changes it next year, the commercial teams' battle cards, and in front of the customers who have to live with it.
 
