@@ -184,7 +184,7 @@ Autonomy beyond what your foundations can carry is borrowing against your runway
 
 ## Where I've got to
 
-London knew it had a problem long before 1858. The debt had been accruing for decaes, the flush toilets just called it in. I see a lot of teams in the same place, with agents calling in theirs: a review queue that keeps growing, incidents that keep repeating, a codebase that's harder to change every month. Speed feels free on day one. It never is.
+London knew it had a problem long before 1858. The debt had been accruing for decades, the flush toilets just called it in. I see a lot of teams in the same place, with agents calling in theirs: a review queue that keeps growing, incidents that keep repeating, a codebase that's harder to change every month. Speed feels free on day one. It never is.
 
 So here's my strongest position. **If what's downstream can't carry the flow, turning the flow up just puts more sewage in the river.** Hold back on handing your delivery to agents until it can, and meanwhile, point AI at the foundations you're shortest on. Some of the best uses of AI I've seen have been in digging the sewers.
 
