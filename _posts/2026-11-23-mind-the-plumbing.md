@@ -33,9 +33,7 @@ AI has made producing code almost effortless, the way the flush toilet made disp
 
 Engineering teams constantly trade expediency against sustainability, and the compromises leave behind practices that are risky and unsafe: test suites nobody trusts, deploys that need a particular person, pull requests that sit for days, customers nobody on the team has ever spoken to. At the old volume, we got away with it. The cesspit was nasty, but it held. Turn up the flow, and those compromises don't just become bottlenecks: they overflow.
 
-The wider conversation doesn't help. Many organisations are anxious about AI, and that anxiety has created a market for confidence. As [John Cutler](https://lnkd.in/p/ery_rx26) put it, *the more anxious the buyer, the more reassuring a confident prescription becomes, and the people acknowledging complexity and trade-offs start to sound less credible than the people promising transformation*. I've seen this first-hand: more than one person has read my caution as opposition to Agentic Engineering, which couldn't be further from the truth.
-
-I'm excited about AI, and that's exactly why I take its trade-offs seriously. I'm watching real waste and harm as companies reach for whatever sounds most certain, and I don't want to add false confidence of my own. There's no one-size-fits-all roadmap; this is mine, based on what I've seen work and what I've watched fail. For us, the opportunity starts with the plumbing. Go all-in without it, and we'll burn through our runway for little or no return. To be direct about where I stand:
+I've written about rebalancing in favour of sustainability before, and more than one person has read my caution as opposition to Agentic Engineering, which couldn't be further from the truth. I'm excited about AI, and that's exactly why I take its trade-offs seriously. So, to be direct about where I stand:
 
 * **Ignoring Agentic Engineering is a professional mistake.** Teams that sit this out will fall behind, struggle to have the impact they want, and miss out on what can be, honestly, a lot of fun.
 * **Adopting Agentic Engineering without the foundations to carry it is worse than not adopting it at all.** Every place where a team falls short on the fundamentals is a place where AI will make them pay, and pay dearly.
@@ -58,7 +56,7 @@ The field is moving so fast that any research is out of date almost as soon as i
 
 AI speeds up delivery, and that speed exposes whatever is weak downstream. Lean has a name for what happens when one step outruns the rest: [overproduction](https://artoflean.com/reference/overproduction/), which Taiichi Ohno called the worst waste of all, because it creates and hides the others. Work that stalls piles up as inventory at a bottleneck, waiting, and hiding its defects until someone finally gets to it, by which point the author has moved on to other things, forcing an expensive context switch. Agents speed up just one part of delivery, producing code, and everything downstream has to absorb the extra volume. But software delivery is a loop, not a line. What flows downstream comes back around as the code we have to understand, the bugs we have to fix and the feedback that tells us what to build next.
 
-Victorian London learned the same lesson: the river it was pouring its waste into was the one it drank from. So the real question isn't how fast your agents can write code. It's whether the whole loop can carry what they produce.
+Victorian London learned the same lesson: the river it was pouring its waste into was the one it drank from. So the real question isn't how fast your agents can write code. It's whether the whole loop can carry what they produce. The opportunity starts with the plumbing. Go all-in without it, and we'll burn through our runway for little or no return.
 
 ## A map across uncharted ground
 
@@ -68,7 +66,9 @@ The first is that we don't all think alike. A practice that transforms how one p
 
 The second is that, with Agentic Engineering, we're on uncharted ground. I'd be suspicious of anyone who claims there's a single route across it, me included.
 
-So instead of practices, here's my chart so far: the *confidences* I think a team needs to get real value out of AI. For each one, I'll share how my team and I got there, but that's *my* route, not *the* route. If your team reaches the same confidence another way, you've arrived.
+That suspicion matters more than usual right now. Many organisations are anxious about AI, and that anxiety has created a market for confidence. As [John Cutler](https://lnkd.in/p/ery_rx26) put it, *the more anxious the buyer, the more reassuring a confident prescription becomes, and the people acknowledging complexity and trade-offs start to sound less credible than the people promising transformation*. I'm watching real waste and harm as companies reach for whatever sounds most certain, and I don't want to add false confidence of my own. There's no one-size-fits-all roadmap; this is mine, based on what I've seen work and what I've watched fail.
+
+So instead of a list of prescribed practices, here's my chart of the *confidences* I think a team needs to get real value out of AI. For each one, I'll share how my team and I got there, but that's *our* route, not *the* route. If your team reaches the same confidence another way, you've arrived.
 
 ## The confidences
 
