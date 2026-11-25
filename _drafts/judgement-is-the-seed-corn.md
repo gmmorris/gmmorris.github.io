@@ -10,12 +10,14 @@ description: "Agents don't get tired, but the people whose judgement keeps them 
 
 <!--
 STATUS: first prose draft. Everything marked AUTHOR needs your voice or your experience.
-Research notes that the prose doesn't use yet are kept at the bottom of the file, in a comment.
+Full research notes: _research/judgement-is-the-seed-corn.md. Short reminders are kept at the bottom of this file, in a comment.
 -->
 
 In 1983, a psychologist at University College London named Lisanne Bainbridge published a short paper with a wry title: [*Ironies of Automation*](https://en.wikipedia.org/wiki/Ironies_of_Automation). She'd been studying the people who ran industrial plants (chemical works, power stations, the control rooms where a handful of operators watched over processes that mostly ran themselves), and she'd noticed that the more a system was automated, the stranger the operator's job became.
 
 The designers automated everything they knew how to automate, and left the operator whatever was left: watching, and stepping in when something went wrong. But watching is the one thing people are worst at. Bainbridge cited decades of vigilance research showing that even a highly motivated person can't keep effective attention on a display where very little happens for much more than about half an hour. And stepping in takes skill, which fades when it isn't used. The operator who rarely touches the controls gets worse at touching them, right when the system hands them the hardest problems it has.
+
+<!-- AUTHOR: candidate addition. Hannah Fry's example of self-driving cars handing control back to the driver as they near an emergency they can't handle: control passes from the automation to the person at the exact moment they're least ready for it. A modern, everyday version of Bainbridge's point. Source to confirm (probably Hello World, 2018); see the research file. -->
 
 Then came the irony that has stayed with me. The automated plants of her day were being supervised by people who'd spent years running things by hand. {% include footnotes/footnote_link.html content='They were riding on skills the next generation of operators would never have the chance to learn.' count=1 %} The automation worked because of the people it was quietly making obsolete.
 
